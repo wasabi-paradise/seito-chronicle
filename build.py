@@ -7,7 +7,7 @@ data/*.json と src/template.html から dist/ を作る（Python 3 の標準ラ
 - dist/sitemap.xml  : サイトマップ
 - public/ の中身（_headers・robots.txt・404.html・og/ の画像）をそのまま dist/ にコピー
 
-公開URLは環境変数 SITE_URL で変えられる（既定は https://seito-chronicle.pages.dev）。
+公開URLは環境変数 SITE_URL で変えられる（既定は https://seito-chronicle.kimizuka-006.workers.dev）。
 """
 import html
 import json
@@ -16,7 +16,7 @@ import pathlib
 import shutil
 
 root = pathlib.Path(__file__).parent
-SITE_URL = os.environ.get("SITE_URL", "https://seito-chronicle.pages.dev").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://seito-chronicle.kimizuka-006.workers.dev").rstrip("/")
 dist = root / "dist"
 
 
