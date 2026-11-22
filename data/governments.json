@@ -1,0 +1,2086 @@
+{
+ "sources": {
+  "nippon": {
+   "title": "【日本の政治】歴代内閣総理大臣（1982年、中曽根内閣以降）連立の構成（nippon.com）",
+   "url": "https://www.nippon.com/ja/features/h00005/",
+   "kind": "報道"
+  },
+  "ndl_katayama": {
+   "title": "社会党内閣成立（国立国会図書館「史料にみる日本の近代」）",
+   "url": "https://www.ndl.go.jp/modern/cha5/description09.html",
+   "kind": "公的機関"
+  },
+  "jimin_hist": {
+   "title": "自由民主党 党の歴史 保守合同前史（1945〜1954）",
+   "url": "https://www.jimin.jp/aboutus/history/1945-1954.html",
+   "kind": "政党の公式資料"
+  },
+  "sakigake_t2": {
+   "title": "第2次高市内閣発足、全閣僚再任 巨大与党、審議充実に課題（秋田魁新報 2026年2月18日）",
+   "url": "https://www.sakigake.jp/news/article/20260218CO0081/",
+   "kind": "報道"
+  },
+  "k43": {
+   "title": "第43代 東久邇宮稔彦王（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/043.html",
+   "kind": "公的機関"
+  },
+  "k44": {
+   "title": "第44代 幣原喜重郎（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/044.html",
+   "kind": "公的機関"
+  },
+  "k45": {
+   "title": "第45代 吉田茂（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/045.html",
+   "kind": "公的機関"
+  },
+  "k46": {
+   "title": "第46代 片山哲（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/046.html",
+   "kind": "公的機関"
+  },
+  "k47": {
+   "title": "第47代 芦田均（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/047.html",
+   "kind": "公的機関"
+  },
+  "k48": {
+   "title": "第48代 吉田茂（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/048.html",
+   "kind": "公的機関"
+  },
+  "k49": {
+   "title": "第49代 吉田茂（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/049.html",
+   "kind": "公的機関"
+  },
+  "k52": {
+   "title": "第52代 鳩山一郎（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/052.html",
+   "kind": "公的機関"
+  },
+  "k55": {
+   "title": "第55代 石橋湛山（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/055.html",
+   "kind": "公的機関"
+  },
+  "k56": {
+   "title": "第56代 岸信介（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/056.html",
+   "kind": "公的機関"
+  },
+  "k58": {
+   "title": "第58代 池田勇人（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/058.html",
+   "kind": "公的機関"
+  },
+  "k61": {
+   "title": "第61代 佐藤栄作（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/061.html",
+   "kind": "公的機関"
+  },
+  "k64": {
+   "title": "第64代 田中角栄（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/064.html",
+   "kind": "公的機関"
+  },
+  "k66": {
+   "title": "第66代 三木武夫（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/066.html",
+   "kind": "公的機関"
+  },
+  "k67": {
+   "title": "第67代 福田赳夫（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/067.html",
+   "kind": "公的機関"
+  },
+  "k68": {
+   "title": "第68代 大平正芳（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/068.html",
+   "kind": "公的機関"
+  },
+  "k70": {
+   "title": "第70代 鈴木善幸（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/070.html",
+   "kind": "公的機関"
+  },
+  "k71": {
+   "title": "第71代 中曽根康弘（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/071.html",
+   "kind": "公的機関"
+  },
+  "k74": {
+   "title": "第74代 竹下登（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/074.html",
+   "kind": "公的機関"
+  },
+  "k75": {
+   "title": "第75代 宇野宗佑（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/075.html",
+   "kind": "公的機関"
+  },
+  "k76": {
+   "title": "第76代 海部俊樹（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/076.html",
+   "kind": "公的機関"
+  },
+  "k78": {
+   "title": "第78代 宮澤喜一（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/078.html",
+   "kind": "公的機関"
+  },
+  "k79": {
+   "title": "第79代 細川護熙（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/079.html",
+   "kind": "公的機関",
+   "short": "官邸 歴代内閣"
+  },
+  "k80": {
+   "title": "第80代 羽田孜（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/080.html",
+   "kind": "公的機関"
+  },
+  "k81": {
+   "title": "第81代 村山富市（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/081.html",
+   "kind": "公的機関"
+  },
+  "k82": {
+   "title": "第82代 橋本龍太郎（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/082.html",
+   "kind": "公的機関"
+  },
+  "k84": {
+   "title": "第84代 小渕恵三（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/084.html",
+   "kind": "公的機関"
+  },
+  "k85": {
+   "title": "第85代 森喜朗（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/085.html",
+   "kind": "公的機関"
+  },
+  "k87": {
+   "title": "第87代 小泉純一郎（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/087.html",
+   "kind": "公的機関"
+  },
+  "k90": {
+   "title": "第90代 安倍晋三（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/090.html",
+   "kind": "公的機関"
+  },
+  "k91": {
+   "title": "第91代 福田康夫（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/091.html",
+   "kind": "公的機関"
+  },
+  "k92": {
+   "title": "第92代 麻生太郎（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/092.html",
+   "kind": "公的機関"
+  },
+  "k93": {
+   "title": "第93代 鳩山由紀夫（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/093.html",
+   "kind": "公的機関"
+  },
+  "k94": {
+   "title": "第94代 菅直人（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/094.html",
+   "kind": "公的機関"
+  },
+  "k95": {
+   "title": "第95代 野田佳彦（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/095.html",
+   "kind": "公的機関"
+  },
+  "k96": {
+   "title": "第96代 安倍晋三（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/096.html",
+   "kind": "公的機関"
+  },
+  "k99": {
+   "title": "第99代 菅義偉（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/099.html",
+   "kind": "公的機関"
+  },
+  "k100": {
+   "title": "第100代 岸田文雄（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/100.html",
+   "kind": "公的機関"
+  },
+  "k102": {
+   "title": "第102代 石破茂（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/102.html",
+   "kind": "公的機関"
+  },
+  "k104": {
+   "title": "第104代 高市早苗（首相官邸 歴代内閣）",
+   "url": "https://www.kantei.go.jp/jp/rekidainaikaku/104.html",
+   "kind": "公的機関",
+   "short": "官邸 歴代内閣"
+  },
+  "ndl_ref2014": {
+   "title": "「戦後主要政党の変遷と国会内勢力の推移」（国立国会図書館『レファレンス』2014年6月号）",
+   "url": "https://dl.ndl.go.jp/view/download/digidepo_8689381_po_076103.pdf?contentNo=1",
+   "kind": "公的機関",
+   "short": "国会図書館 レファレンス"
+  },
+  "ndl_modern5_5": {
+   "title": "総選挙（国立国会図書館「史料にみる日本の近代」5-5）",
+   "url": "https://www.ndl.go.jp/modern/cha5/description05.html",
+   "kind": "公的機関"
+  },
+  "shugiin_saishuppatsu": {
+   "title": "衆議院憲政記念館「戦後日本の再出発特別展」",
+   "url": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/kensei/kenseiH25tokubetsu1.htm",
+   "kind": "公的機関"
+  },
+  "ohara533": {
+   "title": "「片山・芦田内閣前後」ほか（『大原社会問題研究所雑誌』No.533、2003年、国立国会図書館デジタルコレクション）",
+   "url": "https://dl.ndl.go.jp/view/prepareDownload?itemId=info%3Andljp%2Fpid%2F9971741&contentNo=1",
+   "kind": "学術論文"
+  },
+  "ndl_modern6_5": {
+   "title": "吉田退陣（国立国会図書館「史料にみる日本の近代」6-5）",
+   "url": "https://www.ndl.go.jp/modern/cha6/description05.html",
+   "kind": "公的機関"
+  },
+  "ndl_ashida_diary": {
+   "title": "芦田均：昭和22年3月22日の日記より（国立国会図書館「日記の世界」）※1947年3月31日の民主党結成",
+   "url": "https://www.ndl.go.jp/nikki/citeid/ashida_19470322/",
+   "kind": "公的機関"
+  },
+  "jh16": {
+   "title": "自由民主党 党の歴史「河野洋平総裁時代」",
+   "url": "https://www.jimin.jp/aboutus/history/16.html",
+   "kind": "政党の公式資料"
+  },
+  "jh17": {
+   "title": "自由民主党 党の歴史「橋本龍太郎総裁時代」",
+   "url": "https://www.jimin.jp/aboutus/history/17.html",
+   "kind": "政党の公式資料"
+  },
+  "jh18": {
+   "title": "自由民主党 党の歴史「小渕恵三総裁時代」",
+   "url": "https://www.jimin.jp/aboutus/history/18.html",
+   "kind": "政党の公式資料"
+  },
+  "jh19": {
+   "title": "自由民主党 党の歴史「森喜朗総裁時代」",
+   "url": "https://www.jimin.jp/aboutus/history/19.html",
+   "kind": "政党の公式資料"
+  },
+  "jh20": {
+   "title": "自由民主党 党の歴史「小泉純一郎総裁時代」",
+   "url": "https://www.jimin.jp/aboutus/history/20.html",
+   "kind": "政党の公式資料"
+  },
+  "jh21": {
+   "title": "自由民主党 党の歴史「安倍晋三総裁時代（第1次）」",
+   "url": "https://www.jimin.jp/aboutus/history/21.html",
+   "kind": "政党の公式資料"
+  },
+  "jh24": {
+   "title": "自由民主党 党の歴史「谷垣禎一総裁時代」",
+   "url": "https://www.jimin.jp/aboutus/history/24.html",
+   "kind": "政党の公式資料"
+  },
+  "komei20251010": {
+   "title": "公明、連立政権に区切り（公明新聞 2025年10月11日、党所属議員のサイトに転載）※「26年間の自公連立」",
+   "url": "https://www.komei.or.jp/km/tanaka-masaru-hiroshima/2025/10/11/055031/",
+   "kind": "政党の機関紙",
+   "short": "公明新聞 2025-10-11"
+  },
+  "kokkai20110915": {
+   "title": "第178回国会 衆議院本会議 第3号 会議録（2011年9月15日）野田内閣総理大臣の答弁",
+   "url": "https://kokkai.ndl.go.jp/txt/117805254X00320110915/10",
+   "kind": "国会会議録"
+  },
+  "kokkai20111028": {
+   "title": "第179回国会 衆議院本会議 第3号 会議録（2011年10月28日）野田内閣総理大臣の所信表明演説",
+   "url": "https://kokkai.ndl.go.jp/txt/117905254X00320111028/7",
+   "kind": "国会会議録"
+  },
+  "renritsu2025": {
+   "title": "自由民主党・日本維新の会 連立政権合意書（2025年10月20日、日本経済新聞 掲載PDF）",
+   "url": "https://partsa.nikkei.com/parts/ds/pdf/20251020/20251020.pdf",
+   "kind": "政党間の合意文書",
+   "short": "自維 連立合意書"
+  },
+  "kokkai20251126": {
+   "title": "第219回国会 参議院憲法審査会 第1号 会議録（2025年11月26日）※「閣外にいる日本維新の会」",
+   "url": "https://kokkai.ndl.go.jp/txt/121914183X00120251126/26",
+   "kind": "国会会議録",
+   "short": "参憲法審 2025-11-26"
+  },
+  "kokkai20261014": {
+   "title": "第222回国会 衆議院予算委員会 第3号 会議録（2026年10月14日）高市内閣総理大臣の答弁 ※改造で維新から入閣",
+   "url": "https://kokkai.ndl.go.jp/txt/122205261X00320261014/61",
+   "kind": "国会会議録"
+  },
+  "kokkai19930618a": {
+   "title": "第126回国会 衆議院本会議 第34号 会議録（1993年6月18日）山花貞夫議員の宮澤内閣不信任決議案の趣旨弁明",
+   "url": "https://kokkai.ndl.go.jp/txt/112605254X03419930618/6",
+   "kind": "国会会議録",
+   "short": "衆本会議 1993-06-18 趣旨弁明"
+  },
+  "kokkai19930618b": {
+   "title": "同 関谷勝嗣議員（自由民主党）の反対討論",
+   "url": "https://kokkai.ndl.go.jp/txt/112605254X03419930618/8",
+   "kind": "国会会議録",
+   "short": "衆本会議 1993-06-18 反対討論"
+  },
+  "kokkai19930618c": {
+   "title": "同 採決（投票総数475、可とする者255、否とする者220）",
+   "url": "https://kokkai.ndl.go.jp/txt/112605254X03419930618/25",
+   "kind": "国会会議録",
+   "short": "衆本会議 1993-06-18 採決・名簿"
+  },
+  "kokkai19940527": {
+   "title": "第129回国会 衆議院予算委員会 第11号 会議録（1994年5月27日）羽田内閣総理大臣の発言",
+   "url": "https://kokkai.ndl.go.jp/txt/112905261X01119940527/11",
+   "kind": "国会会議録",
+   "short": "衆予算委 1994-05-27"
+  },
+  "kokkai19940531": {
+   "title": "第129回国会 衆議院予算委員会 第13号 会議録（1994年5月31日）羽田内閣総理大臣の発言",
+   "url": "https://kokkai.ndl.go.jp/txt/112905261X01319940531/138",
+   "kind": "国会会議録",
+   "short": "衆予算委 1994-05-31"
+  },
+  "jh15": {
+   "title": "自由民主党 党の歴史「宮澤喜一総裁時代」",
+   "url": "https://www.jimin.jp/aboutus/history/15.html",
+   "kind": "政党の公式資料",
+   "short": "自民党 党史"
+  },
+  "habara2007": {
+   "title": "羽原清雅「小選挙区制導入をめぐる政治状況――その決定に「理」は尽くされたか」（『帝京社会学』第20号、2007年）",
+   "url": "https://appsv.main.teikyo-u.ac.jp/tosho/khabara20.pdf",
+   "kind": "学術論文",
+   "short": "羽原 2007 論文"
+  },
+  "shimizu2014": {
+   "title": "「細川連立政権の政治過程」政策過程日表（慶應義塾大学 清水唯一朗研究室、2014年）※草野厚『連立政権』による",
+   "url": "https://web.sfc.keio.ac.jp/~yuichiro/hosokawa-nippyo.pdf",
+   "kind": "学術資料（大学の研究室）",
+   "short": "清水研 年表"
+  },
+  "komei20251011": {
+   "title": "自民との連立政権に区切り 斉藤代表に聞く（公明新聞）",
+   "url": "https://www.komei.or.jp/komeinews/p457920/",
+   "kind": "政党の機関紙",
+   "short": "公明新聞 斉藤代表"
+  },
+  "jimin20251010": {
+   "title": "高市総裁ぶら下がり会見（自由民主党 2025年10月10日）",
+   "url": "https://www.jimin.jp/news/press/211576.html",
+   "kind": "政党の公式発表",
+   "short": "自民党 会見 2025-10-10"
+  },
+  "jimin20251010b": {
+   "title": "自公連立政権は解消へ 高市総裁「大変残念に思う」（自由民主党 2025年10月10日）",
+   "url": "https://www.jimin.jp/news/information/211572.html",
+   "kind": "政党の公式発表",
+   "short": "自民党 発表 2025-10-10"
+  },
+  "jimin20251021": {
+   "title": "高市早苗第104代総理を選出（自由民主党）※10月4日の総裁選出後に公明党と連立協議",
+   "url": "https://www.jimin.jp/news/information/211635.html",
+   "kind": "政党の公式発表",
+   "short": "自民党 発表 2025-10"
+  },
+  "kantei20250907": {
+   "title": "石破内閣総理大臣記者会見（首相官邸 2025年9月7日）",
+   "url": "https://www.kantei.go.jp/jp/103/statement/2025/0907kaiken.html",
+   "kind": "政府資料",
+   "short": "官邸 会見 2025-09-07"
+  },
+  "kokkai19930823": {
+   "title": "第127回国会 衆議院本会議 第4号 会議録（1993年8月23日）細川内閣総理大臣の所信表明演説",
+   "url": "https://kokkai.ndl.go.jp/txt/112705254X00419930823/3",
+   "kind": "国会会議録",
+   "short": "衆本会議 1993-08-23"
+  },
+  "kokkai20090721": {
+   "title": "第171回国会 衆議院本会議 第47号 会議録（2009年7月21日）衆議院解散の詔書",
+   "url": "https://kokkai.ndl.go.jp/txt/117105254X04720090721/2",
+   "kind": "国会会議録",
+   "short": "衆本会議 2009-07-21 解散"
+  },
+  "soumu_r3k": {
+   "title": "令和3年10月31日執行 衆議院議員総選挙・最高裁判所裁判官国民審査結果調（総務省自治行政局選挙部）党派別当選人数の推移",
+   "url": "https://www.soumu.go.jp/main_content/000930924.pdf",
+   "kind": "政府資料",
+   "short": "総務省 結果調"
+  },
+  "mhlw_renritsu2009": {
+   "title": "三党連立政権合意書（抄）（平成21年9月9日）（厚生労働省 審議会資料、2009年12月16日）",
+   "url": "https://www.mhlw.go.jp/shingi/2009/12/dl/s1216-11g_0003.pdf",
+   "kind": "政府資料",
+   "short": "三党合意書（厚労省資料）"
+  },
+  "kokkai20091026": {
+   "title": "第173回国会 衆議院本会議 第1号 会議録（2009年10月26日）鳩山首相の所信表明演説",
+   "url": "https://kokkai.ndl.go.jp/txt/117305254X00120091026/11",
+   "kind": "国会会議録",
+   "short": "衆本会議 2009-10-26 所信表明"
+  },
+  "kokkai20091028": {
+   "title": "第173回国会 衆議院本会議 第2号 会議録（2009年10月28日）谷垣禎一議員（自民党総裁）の代表質問",
+   "url": "https://kokkai.ndl.go.jp/txt/117305254X00220091028/3",
+   "kind": "国会会議録",
+   "short": "衆本会議 2009-10-28 谷垣"
+  },
+  "yamada2011": {
+   "title": "山田真裕「2009年総選挙における政権交代とスゥィング・ヴォーティング」（『選挙研究』26巻2号、日本選挙学会、2011年）",
+   "url": "https://www.jstage.jst.go.jp/article/jaes/26/2/26_5/_article/-char/ja/",
+   "kind": "学術論文",
+   "short": "山田 2011 論文"
+  }
+ },
+ "governments": [
+  {
+   "pm": "東久邇宮稔彦",
+   "cabinets": "東久邇宮内閣",
+   "start": "1945-08-17",
+   "pmParty": [],
+   "phases": [
+    {
+     "from": "1945-08-17",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": "政党内閣ではない。",
+   "sources": [
+    "k43"
+   ],
+   "nonparty": true,
+   "end": "1945-10-09",
+   "short": "東久邇",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "政党内閣ではない"
+   }
+  },
+  {
+   "pm": "幣原喜重郎",
+   "cabinets": "幣原内閣",
+   "start": "1945-10-09",
+   "pmParty": [],
+   "phases": [
+    {
+     "from": "1945-10-09",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": "政党を基盤としない内閣。",
+   "sources": [
+    "k44"
+   ],
+   "nonparty": true,
+   "end": "1946-05-22",
+   "short": "幣原",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "政党内閣ではない"
+   }
+  },
+  {
+   "pm": "吉田茂",
+   "cabinets": "第1次吉田内閣",
+   "start": "1946-05-22",
+   "pmParty": [
+    "jiyu45"
+   ],
+   "phases": [
+    {
+     "from": "1946-05-22",
+     "partners": [
+      "shinpo"
+     ],
+     "outside": []
+    },
+    {
+     "from": "1947-03-31",
+     "partners": [
+      "minshu47"
+     ],
+     "outside": [],
+     "note": "進歩党が民主党に"
+    }
+   ],
+   "others": null,
+   "note": "日本自由党と日本進歩党の連立（進歩党は1947年3月に民主党へ）。",
+   "sources": [
+    "k45",
+    "jimin_hist",
+    "ndl_modern5_5",
+    "ndl_ashida_diary"
+   ],
+   "nonparty": false,
+   "end": "1947-05-24",
+   "short": "吉田",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "日本自由党と日本進歩党の連立（国立国会図書館「史料にみる日本の近代」）。進歩党は1947年3月31日に民主党へ"
+   }
+  },
+  {
+   "pm": "片山哲",
+   "cabinets": "片山内閣",
+   "start": "1947-05-24",
+   "pmParty": [
+    "shakai45"
+   ],
+   "phases": [
+    {
+     "from": "1947-05-24",
+     "partners": [
+      "minshu47",
+      "kokkyo"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": "社会党・民主党・国民協同党の3党連立。",
+   "sources": [
+    "k46",
+    "ndl_katayama",
+    "shugiin_saishuppatsu"
+   ],
+   "nonparty": false,
+   "end": "1948-03-10",
+   "short": "片山",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "社会党・民主党・国民協同党の3党連立（国立国会図書館、衆議院憲政記念館）"
+   }
+  },
+  {
+   "pm": "芦田均",
+   "cabinets": "芦田内閣",
+   "start": "1948-03-10",
+   "pmParty": [
+    "minshu47"
+   ],
+   "phases": [
+    {
+     "from": "1948-03-10",
+     "partners": [
+      "shakai45",
+      "kokkyo"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": "片山内閣と同じ3党の連立。",
+   "sources": [
+    "k47",
+    "ohara533",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1948-10-15",
+   "short": "芦田",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "民主党・社会党・国民協同党の3党連立（『大原社会問題研究所雑誌』の記述、国立国会図書館『レファレンス』の一覧）"
+   }
+  },
+  {
+   "pm": "吉田茂",
+   "cabinets": "第2〜5次吉田内閣",
+   "start": "1948-10-15",
+   "pmParty": [
+    "minjiyu",
+    "jiyu50"
+   ],
+   "phases": [
+    {
+     "from": "1948-10-15",
+     "partners": [],
+     "outside": []
+    },
+    {
+     "from": "1949-02-16",
+     "partners": [
+      "minshu47"
+     ],
+     "outside": [],
+     "note": "第3次内閣で民主党の連立派と連立"
+    },
+    {
+     "from": "1950-03-01",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": "民主自由党（1950年から自由党）の内閣。第3次内閣では民主党の連立派が参加し、1950年に合流。",
+   "sources": [
+    "k48",
+    "k49",
+    "jimin_hist",
+    "ndl_ref2014",
+    "ohara533"
+   ],
+   "nonparty": false,
+   "end": "1954-12-10",
+   "short": "吉田",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "第2次は民主自由党の単独内閣。1949年2月の第3次内閣で民主党連立派と連立し、1950年3月の自由党結成後は単独（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "鳩山一郎",
+   "cabinets": "第1〜3次鳩山内閣",
+   "start": "1954-12-10",
+   "pmParty": [
+    "nihonminshu",
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1954-12-10",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": "日本民主党の内閣。1955年11月の保守合同で自民党の内閣に（第3次）。",
+   "sources": [
+    "k52",
+    "jimin_hist",
+    "ndl_modern6_5",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1956-12-23",
+   "short": "鳩山",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "日本民主党の単独内閣として成立（国立国会図書館「史料にみる日本の近代」）"
+   }
+  },
+  {
+   "pm": "石橋湛山",
+   "cabinets": "石橋内閣",
+   "start": "1956-12-23",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1956-12-23",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k55",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1957-02-25",
+   "short": "石橋",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣。1950年から1983年の第2次中曽根内閣まで連立政権はない（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "岸信介",
+   "cabinets": "第1・2次岸内閣",
+   "start": "1957-02-25",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1957-02-25",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k56",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1960-07-19",
+   "short": "岸",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣。1950年から1983年の第2次中曽根内閣まで連立政権はない（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "池田勇人",
+   "cabinets": "第1〜3次池田内閣",
+   "start": "1960-07-19",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1960-07-19",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k58",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1964-11-09",
+   "short": "池田",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣。1950年から1983年の第2次中曽根内閣まで連立政権はない（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "佐藤栄作",
+   "cabinets": "第1〜3次佐藤内閣",
+   "start": "1964-11-09",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1964-11-09",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k61",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1972-07-07",
+   "short": "佐藤",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣。1950年から1983年の第2次中曽根内閣まで連立政権はない（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "田中角栄",
+   "cabinets": "第1・2次田中内閣",
+   "start": "1972-07-07",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1972-07-07",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k64",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1974-12-09",
+   "short": "田中",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣。1950年から1983年の第2次中曽根内閣まで連立政権はない（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "三木武夫",
+   "cabinets": "三木内閣",
+   "start": "1974-12-09",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1974-12-09",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k66",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1976-12-24",
+   "short": "三木",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣。1950年から1983年の第2次中曽根内閣まで連立政権はない（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "福田赳夫",
+   "cabinets": "福田内閣",
+   "start": "1976-12-24",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1976-12-24",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k67",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1978-12-07",
+   "short": "福田",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣。1950年から1983年の第2次中曽根内閣まで連立政権はない（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "大平正芳",
+   "cabinets": "第1・2次大平内閣",
+   "start": "1978-12-07",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1978-12-07",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k68",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1980-07-17",
+   "short": "大平",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣。1950年から1983年の第2次中曽根内閣まで連立政権はない（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "鈴木善幸",
+   "cabinets": "鈴木内閣",
+   "start": "1980-07-17",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1980-07-17",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k70",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1982-11-27",
+   "short": "鈴木",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣。1950年から1983年の第2次中曽根内閣まで連立政権はない（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "中曽根康弘",
+   "cabinets": "第1〜3次中曽根内閣",
+   "start": "1982-11-27",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1982-11-27",
+     "partners": [],
+     "outside": []
+    },
+    {
+     "from": "1983-12-27",
+     "partners": [
+      "shinjiyu"
+     ],
+     "outside": [],
+     "note": "第2次内閣で新自由クラブと連立"
+    },
+    {
+     "from": "1986-07-22",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k71",
+    "nippon",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1987-11-06",
+   "short": "中曽根",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "第2次内閣の新自由クラブとの連立が、1950年以来の連立政権（国立国会図書館『レファレンス』）"
+   }
+  },
+  {
+   "pm": "竹下登",
+   "cabinets": "竹下内閣",
+   "start": "1987-11-06",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1987-11-06",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k74",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1989-06-03",
+   "short": "竹下",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣（1986年に新自由クラブが解党して自民党に合流してから、1993年の細川内閣まで連立政権はない）。国立国会図書館『レファレンス』と自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "宇野宗佑",
+   "cabinets": "宇野内閣",
+   "start": "1989-06-03",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1989-06-03",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k75",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1989-08-10",
+   "short": "宇野",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣（1986年に新自由クラブが解党して自民党に合流してから、1993年の細川内閣まで連立政権はない）。国立国会図書館『レファレンス』と自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "海部俊樹",
+   "cabinets": "第1・2次海部内閣",
+   "start": "1989-08-10",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1989-08-10",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k76",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1991-11-05",
+   "short": "海部",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣（1986年に新自由クラブが解党して自民党に合流してから、1993年の細川内閣まで連立政権はない）。国立国会図書館『レファレンス』と自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "宮澤喜一",
+   "cabinets": "宮澤内閣",
+   "start": "1991-11-05",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1991-11-05",
+     "partners": [],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k78",
+    "ndl_ref2014"
+   ],
+   "nonparty": false,
+   "end": "1993-08-09",
+   "short": "宮澤",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党の単独内閣（1986年に新自由クラブが解党して自民党に合流してから、1993年の細川内閣まで連立政権はない）。国立国会図書館『レファレンス』と自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "細川護熙",
+   "cabinets": "細川内閣",
+   "start": "1993-08-09",
+   "pmParty": [
+    "nihonshinto"
+   ],
+   "phases": [
+    {
+     "from": "1993-08-09",
+     "partners": [
+      "shakai55",
+      "shinsei",
+      "komei64",
+      "minsha",
+      "sakigake"
+     ],
+     "outside": []
+    }
+   ],
+   "others": "社会民主連合、民主改革連合（参院会派）",
+   "note": "8党派による連立。",
+   "sources": [
+    "k79",
+    "nippon",
+    "ndl_ref2014",
+    "jh16"
+   ],
+   "nonparty": false,
+   "end": "1994-04-28",
+   "short": "細川",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "非自民の8党派（社会党・新生党・公明党・日本新党・民社党・新党さきがけ・社会民主連合・民主改革連合）の連立。国立国会図書館『レファレンス』と自民党の党史で照合"
+   },
+   "events": [
+    {
+     "title": "宮澤内閣不信任決議案の可決から、非自民の連立政権へ（1993年）",
+     "summary": {
+      "text": "1993年6月18日、政治改革法案の扱いをめぐって野党が提出した宮澤内閣不信任決議案が、自民党羽田派などの賛成で可決された。宮澤首相は衆議院を解散し、7月の総選挙で自民党は過半数に届かなかった。8月9日、非自民の8党派による細川内閣が発足した。",
+      "sources": [
+       "habara2007",
+       "kokkai19930618c",
+       "jh15",
+       "k79"
+      ]
+     },
+     "facts": [
+      {
+       "date": "1993-06-18",
+       "text": "衆議院で宮澤内閣不信任決議案が可決（投票総数475、賛成255、反対220）。賛成者の名簿には羽田孜・小沢一郎の各議員が、反対者の名簿には武村正義・鳩山由紀夫の各議員が載っている。",
+       "sources": [
+        "kokkai19930618c",
+        "habara2007"
+       ]
+      },
+      {
+       "date": "1993-06-18",
+       "text": "宮澤首相が衆議院を解散。同日夜、武村正義氏らが自民党を離党し、新党さきがけの結党を表明（6月21日結党）。",
+       "sources": [
+        "jh15",
+        "shimizu2014"
+       ]
+      },
+      {
+       "date": "1993-07-18",
+       "text": "総選挙で自民党は過半数に届かず、その後、宮澤首相が退陣を表明。",
+       "sources": [
+        "jh15"
+       ]
+      },
+      {
+       "date": "1993-08-09",
+       "text": "非自民の8党派による細川内閣が発足。自民党は結党以来初めて野党となった。",
+       "sources": [
+        "k79",
+        "ndl_ref2014",
+        "jh15"
+       ]
+      }
+     ],
+     "sides": [
+      {
+       "who": "不信任案を提出した野党（社会党など）",
+       "text": "提出理由の説明で「不信任の第一の理由は、本院の政治改革等特別委員会における百七時間を費やした審議とその経過を無視し、政治改革の実現を放棄したことにあります。」「第二の理由は、国民と国会への公約をほごにした責任です。」と述べた（山花貞夫議員、1993年6月18日）。",
+       "sources": [
+        "kokkai19930618a"
+       ]
+      },
+      {
+       "who": "賛成に回った自民党の羽田派など",
+       "text": "論文によれば、採決では「各野党と自民党羽田派 34、他派閥 5 が賛成、16 人が欠席」した。羽田孜氏は、約1年後の首相在任中（1994年5月）の国会で、自民党を離れた理由について「私は自民党を離党するときは、別に利を求めたのじゃありません。」「今ここで行動しないと全体がもう閉塞状況に陥ってしまうという中で飛び出た人間です。」と述べている。",
+       "sources": [
+        "habara2007",
+        "kokkai19940531",
+        "kokkai19940527"
+       ]
+      },
+      {
+       "who": "反対した自民党",
+       "text": "反対討論で、不信任案は「政治改革のともしびを消すばかりでなく、」「国政の停滞をもたらし、国民生活に決して利益をもたらさない」と述べた（関谷勝嗣議員、1993年6月18日）。",
+       "sources": [
+        "kokkai19930618b"
+       ]
+      },
+      {
+       "who": "宮澤首相",
+       "text": "解散の理由を首相本人が述べた記録は、国会会議録では確認できなかった。自民党の党史は、宮澤首相が「党内情勢を考慮し、通常国会の閉幕が近づいた六月中旬、政治改革法案の成立を次期国会に先送りする意向を固めます」と記している。",
+       "sources": [
+        "jh15"
+       ]
+      },
+      {
+       "who": "新党さきがけ（武村正義氏ら）",
+       "text": "採決では武村氏は反対票を投じ、同日夜に離党した（会議録の採決記録・年表）。離党の理由を本人が述べた記録は、国会会議録では確認できなかった。",
+       "sources": [
+        "kokkai19930618c",
+        "shimizu2014"
+       ]
+      },
+      {
+       "who": "新しく政権を担った側（細川首相）",
+       "text": "所信表明演説で、総選挙で示された「政治改革実現のための千載一遇のチャンスを逃すことなく、「本年中に政治改革を断行する」」とし、外交・防衛などの基本政策は「原則として今までの国の政策を継承することを確認いたしました」と述べた（1993年8月23日）。",
+       "sources": [
+        "kokkai19930823"
+       ]
+      }
+     ],
+     "background": [],
+     "note": "自民党の党史は武村氏のグループも不信任案に賛成票を投じたと記しているが、会議録の採決記録では武村正義氏は反対（否）の名簿に載っている。"
+    }
+   ]
+  },
+  {
+   "pm": "羽田孜",
+   "cabinets": "羽田内閣",
+   "start": "1994-04-28",
+   "pmParty": [
+    "shinsei"
+   ],
+   "phases": [
+    {
+     "from": "1994-04-28",
+     "partners": [
+      "komei64",
+      "nihonshinto",
+      "minsha"
+     ],
+     "outside": [
+      "sakigake"
+     ]
+    }
+   ],
+   "others": "自由党（1994年）、民主改革連合（閣僚なし）。閣外協力に新党みらい",
+   "note": "社会党が連立を離脱。さきがけは閣外協力。",
+   "sources": [
+    "k80",
+    "nippon",
+    "ndl_ref2014",
+    "jh16"
+   ],
+   "nonparty": false,
+   "end": "1994-06-30",
+   "short": "羽田",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "新生党・公明党・日本新党・民社党・自由党（1994年）・民主改革連合（閣僚なし）の少数与党。新党さきがけと新党みらいは閣外協力。社会党は発足直前に連立を離脱。国立国会図書館『レファレンス』と自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "村山富市",
+   "cabinets": "村山内閣",
+   "start": "1994-06-30",
+   "pmParty": [
+    "shakai55"
+   ],
+   "phases": [
+    {
+     "from": "1994-06-30",
+     "partners": [
+      "jimin",
+      "sakigake"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": "自民・社会・さきがけの連立。",
+   "sources": [
+    "k81",
+    "nippon",
+    "jh16"
+   ],
+   "nonparty": false,
+   "end": "1996-01-11",
+   "short": "村山",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党・社会党・新党さきがけの連立（自社さ）。自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "橋本龍太郎",
+   "cabinets": "第1・2次橋本内閣",
+   "start": "1996-01-11",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1996-01-11",
+     "partners": [
+      "shakai55",
+      "shamin",
+      "sakigake"
+     ],
+     "outside": []
+    },
+    {
+     "from": "1996-11-07",
+     "partners": [],
+     "outside": [
+      "shamin",
+      "sakigake"
+     ],
+     "note": "第2次内閣から社民・さきがけは閣外協力"
+    },
+    {
+     "from": "1998-06-01",
+     "partners": [],
+     "outside": [],
+     "note": "社民・さきがけが閣外協力を解消"
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k82",
+    "nippon",
+    "ndl_ref2014",
+    "jh17"
+   ],
+   "nonparty": false,
+   "end": "1998-07-30",
+   "short": "橋本",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自社さ連立で発足。1996年11月7日の第2次内閣から社民党・さきがけは閣外協力、1998年6月1日に閣外協力を解消（国立国会図書館『レファレンス』、自民党の党史。党史は5月30日に離脱と記載）"
+   }
+  },
+  {
+   "pm": "小渕恵三",
+   "cabinets": "小渕内閣",
+   "start": "1998-07-30",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "1998-07-30",
+     "partners": [],
+     "outside": []
+    },
+    {
+     "from": "1999-01-14",
+     "partners": [
+      "jiyu98"
+     ],
+     "outside": [],
+     "note": "自由党と連立"
+    },
+    {
+     "from": "1999-10-05",
+     "partners": [
+      "jiyu98",
+      "komei98"
+     ],
+     "outside": [],
+     "note": "公明党が連立に参加"
+    },
+    {
+     "from": "2000-04-01",
+     "partners": [
+      "komei98"
+     ],
+     "outside": [],
+     "note": "自由党が連立を離脱"
+    },
+    {
+     "from": "2000-04-03",
+     "partners": [
+      "komei98",
+      "hoshuto"
+     ],
+     "outside": [],
+     "note": "自由党から分かれた保守党が結成され、連立に加わる"
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k84",
+    "nippon",
+    "jh18"
+   ],
+   "nonparty": false,
+   "end": "2000-04-05",
+   "short": "小渕",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "1999年1月14日に自由党と連立、10月5日に公明党が加わり自自公、2000年4月1日に自由党との連立を解消し、自由党から分かれた保守党（4月3日結成）が連立に加わる。自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "森喜朗",
+   "cabinets": "第1・2次森内閣",
+   "start": "2000-04-05",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2000-04-05",
+     "partners": [
+      "komei98",
+      "hoshuto"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k85",
+    "nippon",
+    "jh19"
+   ],
+   "nonparty": false,
+   "end": "2001-04-26",
+   "short": "森",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党・公明党・保守党の連立。自民党の党史で照合（保守新党は2002年12月の結党後）"
+   }
+  },
+  {
+   "pm": "小泉純一郎",
+   "cabinets": "第1〜3次小泉内閣",
+   "start": "2001-04-26",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2001-04-26",
+     "partners": [
+      "komei98",
+      "hoshuto"
+     ],
+     "outside": []
+    },
+    {
+     "from": "2002-12-25",
+     "partners": [
+      "komei98",
+      "hoshushinto"
+     ],
+     "outside": [],
+     "note": "保守党が保守新党に"
+    },
+    {
+     "from": "2003-11-21",
+     "partners": [
+      "komei98"
+     ],
+     "outside": [],
+     "note": "保守新党が自民党に合流し、自公連立に"
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k87",
+    "nippon",
+    "ndl_ref2014",
+    "jh20"
+   ],
+   "nonparty": false,
+   "end": "2006-09-26",
+   "short": "小泉",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自公保連立（2002年12月に保守党が解散し保守新党に）。2003年11月の衆院選後、保守新党が自民党に合流して自公連立に。国立国会図書館『レファレンス』と自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "安倍晋三",
+   "cabinets": "第1次安倍内閣",
+   "start": "2006-09-26",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2006-09-26",
+     "partners": [
+      "komei98"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k90",
+    "nippon",
+    "jh21"
+   ],
+   "nonparty": false,
+   "end": "2007-09-26",
+   "short": "安倍",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党・公明党の連立。自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "福田康夫",
+   "cabinets": "福田内閣",
+   "start": "2007-09-26",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2007-09-26",
+     "partners": [
+      "komei98"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k91",
+    "nippon",
+    "komei20251010"
+   ],
+   "nonparty": false,
+   "end": "2008-09-24",
+   "short": "福田",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党・公明党の連立。自民党の党史・公明新聞で照合"
+   }
+  },
+  {
+   "pm": "麻生太郎",
+   "cabinets": "麻生内閣",
+   "start": "2008-09-24",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2008-09-24",
+     "partners": [
+      "komei98"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k92",
+    "nippon",
+    "jh21",
+    "komei20251010"
+   ],
+   "nonparty": false,
+   "end": "2009-09-16",
+   "short": "麻生",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党・公明党の連立。自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "鳩山由紀夫",
+   "cabinets": "鳩山内閣",
+   "start": "2009-09-16",
+   "pmParty": [
+    "minshu98"
+   ],
+   "phases": [
+    {
+     "from": "2009-09-16",
+     "partners": [
+      "shamin",
+      "kokuminshinto"
+     ],
+     "outside": []
+    },
+    {
+     "from": "2010-05-30",
+     "partners": [
+      "kokuminshinto"
+     ],
+     "outside": [],
+     "note": "社民党が連立を離脱"
+    }
+   ],
+   "others": null,
+   "note": "民主・社民・国民新党の連立。",
+   "sources": [
+    "k93",
+    "nippon",
+    "ndl_ref2014",
+    "jh24"
+   ],
+   "nonparty": false,
+   "end": "2010-06-08",
+   "short": "鳩山",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "民主党・社民党・国民新党の3党連立。2010年5月30日に社民党が連立離脱（国立国会図書館『レファレンス』、自民党の党史）"
+   },
+   "events": [
+    {
+     "title": "第45回総選挙と民主党中心の連立政権の発足（2009年）",
+     "summary": {
+      "text": "2009年7月21日に衆議院が解散され、8月30日の第45回総選挙で民主党が308議席、自民党が119議席を得た。民主党・社会民主党・国民新党は9月9日に連立政権の合意書を交わし、9月16日に鳩山内閣が発足した。",
+      "sources": [
+       "kokkai20090721",
+       "soumu_r3k",
+       "mhlw_renritsu2009",
+       "k93"
+      ]
+     },
+     "facts": [
+      {
+       "date": "2009-07-21",
+       "text": "衆議院本会議で、「日本国憲法第七条により、衆議院を解散する。」との詔書が朗読され、衆議院が解散（麻生内閣）。",
+       "sources": [
+        "kokkai20090721"
+       ]
+      },
+      {
+       "date": "2009-08-30",
+       "text": "第45回総選挙。当選人数は民主党308（小選挙区221・比例87）、自民党119（小選挙区64・比例55）、公明党21、共産党9、社民党7、みんなの党5、国民新党3など（定数480）。",
+       "sources": [
+        "soumu_r3k"
+       ]
+      },
+      {
+       "date": "2009-09-09",
+       "text": "民主党・社会民主党・国民新党が三党連立政権合意書を交わす。合意書は冒頭で「第45回衆議院総選挙で国民が示した政権交代の審判を受け、新しい連立政権を樹立することとし」と述べている。",
+       "sources": [
+        "mhlw_renritsu2009"
+       ]
+      },
+      {
+       "date": "2009-09-16",
+       "text": "鳩山由紀夫内閣が発足（民主党・社民党・国民新党の連立）。",
+       "sources": [
+        "k93"
+       ]
+      }
+     ],
+     "sides": [
+      {
+       "who": "政権についた民主党（鳩山首相）",
+       "text": "所信表明演説で「総選挙において、国民の皆様は政権交代を選択されました」と述べ、「今の日本の政治を何とかしてくれないと困るという国民の声が、この政権交代をもたらしたのだと私は認識しております」と述べた。",
+       "sources": [
+        "kokkai20091026"
+       ]
+      },
+      {
+       "who": "連立を組んだ3党（合意書）",
+       "text": "三党連立政権合意書で「三党連立政権は、政権交代という民意に従い、国民の負託に応えることを確認する」とした。",
+       "sources": [
+        "mhlw_renritsu2009"
+       ]
+      },
+      {
+       "who": "野党になった自民党（谷垣総裁）",
+       "text": "総選挙後の代表質問で「さきの総選挙によって私たち自由民主党は大幅に議席を失い、野党になりました」と述べ、「我が党は、五五年体制のもと、常に与党であるという慢心があり、それゆえに政権運営に、どこかにそのおごりがあらわれていたのかもしれません」と述べた。",
+       "sources": [
+        "kokkai20091028"
+       ]
+      },
+      {
+       "who": "麻生首相（解散時の首相）",
+       "text": "選挙結果について麻生首相本人が述べた記録は、国会会議録では見つからなかった（官邸の当時のページは取得できなかった）。",
+       "sources": []
+      }
+     ],
+     "background": [
+      {
+       "text": "山田真裕（2011）は、2005年に自民党、2009年に民主党へ投票先を変えた有権者を調査データ（JES4）で分析し、「麻生内閣への失望と新しい政権への期待，特に民主党の政権担当能力に対する評価の改善」がこの変化をもたらしたとしている。",
+       "sources": [
+        "yamada2011"
+       ]
+      }
+     ],
+     "note": "有権者がなぜ投票先を変えたかについて、このサイトは判断していません。研究者の分析は、その資料が示す範囲で載せています。"
+    }
+   ]
+  },
+  {
+   "pm": "菅直人",
+   "cabinets": "菅内閣",
+   "start": "2010-06-08",
+   "pmParty": [
+    "minshu98"
+   ],
+   "phases": [
+    {
+     "from": "2010-06-08",
+     "partners": [
+      "kokuminshinto"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k94",
+    "nippon",
+    "jh24"
+   ],
+   "nonparty": false,
+   "end": "2011-09-02",
+   "short": "菅",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "民主党・国民新党の連立。自民党の党史で照合"
+   }
+  },
+  {
+   "pm": "野田佳彦",
+   "cabinets": "野田内閣",
+   "start": "2011-09-02",
+   "pmParty": [
+    "minshu98"
+   ],
+   "phases": [
+    {
+     "from": "2011-09-02",
+     "partners": [
+      "kokuminshinto"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k95",
+    "kokkai20110915",
+    "kokkai20111028",
+    "nippon"
+   ],
+   "nonparty": false,
+   "end": "2012-12-26",
+   "short": "野田",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "首相が国会で「連立与党である国民新党」と述べている（2011年9月15日の衆院本会議答弁、10月28日の所信表明演説の会議録）"
+   }
+  },
+  {
+   "pm": "安倍晋三",
+   "cabinets": "第2〜4次安倍内閣",
+   "start": "2012-12-26",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2012-12-26",
+     "partners": [
+      "komei98"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k96",
+    "nippon",
+    "komei20251010"
+   ],
+   "nonparty": false,
+   "end": "2020-09-16",
+   "short": "安倍",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党・公明党の連立（公明党の発表では、自公連立は1999年から2025年10月までの26年間、野党時代を含む）"
+   }
+  },
+  {
+   "pm": "菅義偉",
+   "cabinets": "菅内閣",
+   "start": "2020-09-16",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2020-09-16",
+     "partners": [
+      "komei98"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k99",
+    "nippon",
+    "komei20251010"
+   ],
+   "nonparty": false,
+   "end": "2021-10-04",
+   "short": "菅",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党・公明党の連立（公明党の発表では、自公連立は1999年から2025年10月までの26年間、野党時代を含む）"
+   }
+  },
+  {
+   "pm": "岸田文雄",
+   "cabinets": "第1・2次岸田内閣",
+   "start": "2021-10-04",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2021-10-04",
+     "partners": [
+      "komei98"
+     ],
+     "outside": []
+    }
+   ],
+   "others": null,
+   "note": null,
+   "sources": [
+    "k100",
+    "nippon",
+    "komei20251010"
+   ],
+   "nonparty": false,
+   "end": "2024-10-01",
+   "short": "岸田",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党・公明党の連立（公明党の発表では、自公連立は1999年から2025年10月までの26年間、野党時代を含む）"
+   }
+  },
+  {
+   "pm": "石破茂",
+   "cabinets": "第1・2次石破内閣",
+   "start": "2024-10-01",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2024-10-01",
+     "partners": [
+      "komei98"
+     ],
+     "outside": []
+    },
+    {
+     "from": "2025-10-10",
+     "partners": [],
+     "outside": [],
+     "note": "公明党が連立を離脱"
+    }
+   ],
+   "others": null,
+   "sources": [
+    "k102",
+    "nippon",
+    "komei20251010"
+   ],
+   "nonparty": false,
+   "end": "2025-10-21",
+   "short": "石破",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "自民党・公明党の連立。2025年10月10日に公明党が連立を離脱（公明新聞）"
+   },
+   "events": [
+    {
+     "title": "公明党の連立離脱（2025年10月）",
+     "summary": {
+      "text": "2025年9月7日、石破首相が自民党総裁を辞任すると表明した。10月4日に高市早苗氏が総裁に選ばれ公明党と連立協議を始めたが、10月10日、「政治とカネ」の問題への対応をめぐって公明党が連立離脱を伝えた。自民党は10月20日に日本維新の会と連立政権合意を結び、21日に高市内閣が発足した。",
+      "sources": [
+       "kantei20250907",
+       "jimin20251021",
+       "komei20251011",
+       "renritsu2025",
+       "k104"
+      ]
+     },
+     "facts": [
+      {
+       "date": "2025-09-07",
+       "text": "石破首相が記者会見で自民党総裁の職を辞すると表明。",
+       "sources": [
+        "kantei20250907"
+       ]
+      },
+      {
+       "date": "2025-10-04",
+       "text": "自民党総裁に高市早苗氏が選ばれ、公明党との連立協議を始める。",
+       "sources": [
+        "jimin20251021",
+        "komei20251011"
+       ]
+      },
+      {
+       "date": "2025-10-10",
+       "text": "自民・公明の党首会談で、公明党が連立政権からの離脱を伝える。",
+       "sources": [
+        "jimin20251010",
+        "komei20251011"
+       ]
+      },
+      {
+       "date": "2025-10-20",
+       "text": "自民党と日本維新の会が連立政権合意書を交わし、21日に高市内閣が発足（維新は当初、閣僚を出さない閣外協力）。",
+       "sources": [
+        "renritsu2025",
+        "k104",
+        "kokkai20251126"
+       ]
+      }
+     ],
+     "sides": [
+      {
+       "who": "離脱した公明党",
+       "text": "党の機関紙で、自民党に求めていた「政治とカネ」を巡る問題への対応について「明確かつ具体的な協力が得られなかったため、自公連立政権はいったん白紙として、これまでの関係に区切りを付けることを決めました」と説明。企業・団体献金の受け手を党本部と都道府県組織に絞る規制強化を求めたが、自民党の回答は「これから検討する」というものだったとしている。",
+       "sources": [
+        "komei20251011",
+        "komei20251010"
+       ]
+      },
+      {
+       "who": "自民党（高市総裁）",
+       "text": "党の発表によれば、高市総裁は「公明党から政治資金規正法改正の公明党案についてその場で賛否を示すよう求められた。わが党での手続きを経ずにこの場で総裁、幹事長が決めることはできないと説明した」と述べた。会見では「先方からは、『それは、具体的な回答ではない』ということで、一方的に連立政権からの離脱を伝えられました」と述べている。",
+       "sources": [
+        "jimin20251010b",
+        "jimin20251010"
+       ]
+      },
+      {
+       "who": "石破首相（退陣の理由）",
+       "text": "退陣を表明した会見で「選挙結果に対する責任は総裁たる私にある」と述べ、「米国関税措置に関する交渉に一つの区切りがついた今こそが、その「然るべきタイミング」であると、このように考え、後進に道を譲る決断をいたしました」と説明した。",
+       "sources": [
+        "kantei20250907"
+       ]
+      }
+     ],
+     "background": [],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "pm": "高市早苗",
+   "cabinets": "第1・2次高市内閣",
+   "start": "2025-10-21",
+   "pmParty": [
+    "jimin"
+   ],
+   "phases": [
+    {
+     "from": "2025-10-21",
+     "partners": [],
+     "outside": [
+      "ishin16"
+     ],
+     "note": "日本維新の会と連立合意。維新は当初、閣僚を出さない閣外協力"
+    },
+    {
+     "from": "2026-09-17",
+     "partners": [
+      "ishin16"
+     ],
+     "outside": [],
+     "note": "第2次改造内閣で維新から閣僚を起用"
+    }
+   ],
+   "others": null,
+   "note": "自民・維新の連立。",
+   "sources": [
+    "k104",
+    "renritsu2025",
+    "kokkai20251126",
+    "kokkai20261014",
+    "sakigake_t2"
+   ],
+   "nonparty": false,
+   "end": null,
+   "short": "高市",
+   "datesVerified": true,
+   "partiesVerified": true,
+   "partiesCheck": {
+    "on": "2026-11-21",
+    "text": "連立政権合意書（2025年10月20日）で連立を確認。発足当初に維新が閣外だったことは国会の発言（2025年11月26日 参院憲法審査会ほか）、改造での入閣は首相の国会答弁（2026年10月14日 衆院予算委員会「新たな段階に連立が進んだ」）で確認"
+   }
+  }
+ ],
+ "datesCheck": {
+  "on": "2026-11-21",
+  "text": "首相の在任期間（就任日・退任日）は、首相官邸「歴代内閣」の各ページの在職期間と照合済み。与党・連立の構成は、全内閣を国立国会図書館の資料・自民党の党史・政党間の合意文書・国会会議録などと照合済み。"
+ }
+}
