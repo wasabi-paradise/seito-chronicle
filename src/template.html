@@ -169,8 +169,8 @@ svg .bar.sel rect:first-of-type { stroke: var(--ink); stroke-width: 2; }
 .gstrip.partner { fill-opacity: .45; }
 .gstrip.outside { stroke: var(--ink); stroke-width: 2.5; stroke-dasharray: 3 2; fill: none; }
 .seg.mobile-only { display: none; }
-.pm-time { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; }
-.pm-eseg { max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+.pm-time { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; min-width: 0; max-width: 100%; }
+.pm-eseg { max-width: 100%; min-width: 0; flex: 0 1 auto; overflow-x: auto; scrollbar-width: none; }
 .pm-eseg::-webkit-scrollbar { display: none; }
 .pm-eseg button { padding: 6px 10px; min-height: 36px; font-size: 12.5px; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .pm-dash { color: var(--muted); font-size: 12px; padding: 0 2px; line-height: 1.2; }
@@ -224,7 +224,9 @@ svg.focus .gseg:not(.sel) { opacity: .45; }
 .prow .pbar b.partner { opacity: .45; }
 .prow .pbar b.outside { background: none; border-top: 2px dotted var(--ink); height: 0; }
 
-.panel { padding: 16px; display: grid; gap: 12px; position: sticky; top: 12px; }
+.panel { padding: 16px; display: grid; gap: 12px; position: sticky; top: 12px; min-width: 0; }
+.panel > *, .panel-body > * { min-width: 0; }
+.panel-body { overflow-wrap: anywhere; }
 .panel h2 { font-size: 22px; }
 .chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
 .period { font-variant-numeric: tabular-nums; font-size: 14px; }
@@ -286,6 +288,7 @@ a, .linkbtn { color: var(--accent); text-decoration-color: color-mix(in srgb, va
 .pseats { width: auto; font-size: 13px; }
 .pseats td { padding: 2px 10px 2px 0; }
 .pseats td { white-space: nowrap; }
+.pseats td:last-child { white-space: normal; word-break: keep-all; font-size: 12px; line-height: 1.35; padding-right: 0; }
 .recsub { font-size: 15px; margin: 18px 0 4px; padding-top: 10px; border-top: 1px solid var(--line); }
 .pseatsold summary { cursor: pointer; font-size: 13px; color: var(--muted); padding: 4px 0; }
 .pseatswrap { overflow-x: auto; }
@@ -303,6 +306,7 @@ td.kind { white-space: nowrap; }
 .kind-pill { font-size: 12px; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; }
 footer { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
 footer p { margin: 0; max-width: 60em; }
+footer .gloss { max-width: 60em; }
 .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); }
 .tab { border: 1px solid transparent; border-bottom: none; border-radius: 8px 8px 0 0; background: none; font-size: 15px; padding: 8px 16px; color: var(--muted); margin-bottom: -1px; }
 .tab[aria-pressed="true"] { background: var(--surface); border-color: var(--line); color: var(--ink); font-weight: 700; }
@@ -316,6 +320,7 @@ table.matrix { min-width: 760px; width: max-content; }
 .matrix th.party { white-space: nowrap; font-size: 14px; color: var(--ink); font-weight: 700; }
 .matrix th .sub { display: block; font-weight: 400; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .matrix td { min-width: 150px; width: 150px; padding: 6px; vertical-align: top; }
+.matrix td:last-child { padding-right: 10px; }
 .matrix th.party, .matrix thead th:first-child { position: sticky; left: 0; z-index: 2; background: var(--surface); box-shadow: 1px 0 0 var(--line), 6px 0 8px -4px rgba(0,0,0,.18); }
 .cell .as { font-size: 11px; color: var(--muted); }
 .mrow .as { font-size: 11px; color: var(--muted); }
@@ -434,6 +439,7 @@ details.fold > summary h2 { font-size: 16px; }
 [hidden] { display: none !important; }
 .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.seg.pm-eseg { overflow-x: auto; overflow-y: hidden; }
 .seg button { border: none; border-radius: 0; background: none; padding: 8px 14px; min-height: 40px; }
 .seg button + button { border-left: 1px solid var(--line); }
 .seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
@@ -1191,7 +1197,7 @@ function partySeatsTable(id, house) {
   if (!list.length) return "";
   const max = Math.max(...list.map(x => x.r.seats), 1), c = pc(P[id]), up = house === "up";
   const srcs = [...new Set(list.flatMap(x => x.e.sources))];
-  const ROW = ({ e, r }) => `<tr><td><button type="button" class="linkbtn" data-goseki="${e.n}" data-house="${house}">${seLabel(e)}</button></td><td class="pending">${seYear(e)}</td><td class="n"><strong>${r.seats}</strong>${r.by ? `<span class="pending">（＋${r.by}）</span>` : ""}</td><td><span class="mb" style="width:${Math.max(2, r.seats / max * 60)}px;background:${c}"></span></td><td class="pending">${up ? `${e.tier[0]}${r.a}・${e.tier[1]}${r.b}` : r.smd != null ? `小選挙区${r.smd}・比例${r.pr}` : ""}</td></tr>`;
+  const ROW = ({ e, r }) => `<tr><td><button type="button" class="linkbtn" data-goseki="${e.n}" data-house="${house}">${seLabel(e)}</button></td><td class="pending">${seYear(e)}</td><td class="n"><strong>${r.seats}</strong>${r.by ? `<span class="pending">（＋${r.by}）</span>` : ""}</td><td><span class="mb" style="width:${Math.max(2, r.seats / max * 44)}px;background:${c}"></span></td><td class="pending">${up ? `${e.tier[0]}${r.a}・<wbr>${e.tier[1]}${r.b}` : r.smd != null ? `小選挙区${r.smd}・<wbr>比例${r.pr}` : ""}</td></tr>`;
   const K = 10, older = list.length > K ? list.slice(0, list.length - K) : [], recent = list.slice(older.length);
   return `<div><h3>${HNAME[house]}の当選人数${up ? "（改選分）" : ""}</h3><div class="pseatswrap"><table class="pseats"><tbody>${recent.map(ROW).join("")}</tbody></table></div>${older.length ? `<details class="pseatsold"><summary>それ以前の${older.length}回（${seYear(older[0].e)}〜${seYear(older[older.length - 1].e)}）</summary><div class="pseatswrap"><table class="pseats"><tbody>${older.map(ROW).join("")}</tbody></table></div></details>` : ""}
     <p class="pending" style="font-size:12px">${up ? "改選分の当選人数（参議院全体の議席ではない）。（＋）は同時に行われた補欠選挙の当選人。" : "総選挙での当選人数（当選後の入党・離党は含まない）。"}結果調の表記：${[...new Set(list.map(x => x.r.label))].map(esc).join("・")}。出典：${srcA(srcs)}</p></div>`;
