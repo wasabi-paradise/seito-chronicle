@@ -1,9 +1,0 @@
-// Cloudflare Workers（静的アセット）の設定。ビルドコマンド python3 build.py が作る dist/ をそのまま公開する
-{
-  "name": "seito-chronicle",
-  "compatibility_date": "2026-11-01",
-  "assets": {
-    "directory": "./dist",
-    "not_found_handling": "404-page"
-  }
-}
