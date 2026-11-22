@@ -1,0 +1,56 @@
+{
+ "n": 36,
+ "date": "1980-06-22",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 284
+  },
+  {
+   "label": "自ク",
+   "party": "shinjiyu",
+   "seats": 12
+  },
+  {
+   "label": "社会",
+   "party": "shakai55",
+   "seats": 107
+  },
+  {
+   "label": "社民連",
+   "seats": 3
+  },
+  {
+   "label": "民社",
+   "party": "minsha",
+   "seats": 32
+  },
+  {
+   "label": "公明",
+   "party": "komei64",
+   "seats": 33
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 29
+  },
+  {
+   "label": "労働",
+   "seats": 0
+  },
+  {
+   "label": "諸派",
+   "seats": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 11
+  }
+ ],
+ "total": 511
+}

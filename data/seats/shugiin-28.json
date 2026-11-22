@@ -1,0 +1,33 @@
+{
+ "n": 28,
+ "date": "1958-05-22",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 287
+  },
+  {
+   "label": "社会",
+   "party": "shakai55",
+   "seats": 166
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 1
+  },
+  {
+   "label": "諸派",
+   "seats": 1
+  },
+  {
+   "label": "無所属",
+   "seats": 12
+  }
+ ],
+ "total": 467
+}

@@ -1,0 +1,659 @@
+[
+ {
+  "id": "kyodo1",
+  "name": "日本協同党",
+  "lane": 0,
+  "family": "hoshu",
+  "start": "1945-12-18",
+  "end": "1946-05-24",
+  "note": "",
+  "sources": [
+   {
+    "title": "「日本協同党」（世界大百科事典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%97%A5%E6%9C%AC%E5%8D%94%E5%90%8C%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "「協同民主党」（日本大百科全書・世界大百科事典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E5%8D%94%E5%90%8C%E6%B0%91%E4%B8%BB%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1945年12月18日（世界大百科事典）、1946年5月24日の協同民主党への移行（日本大百科全書）を確認。"
+  }
+ },
+ {
+  "id": "kyodo2",
+  "name": "協同民主党",
+  "lane": 0,
+  "family": "hoshu",
+  "start": "1946-05-24",
+  "end": "1947-03-08",
+  "note": "",
+  "sources": [
+   {
+    "title": "「協同民主党」（日本大百科全書・世界大百科事典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E5%8D%94%E5%90%8C%E6%B0%91%E4%B8%BB%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "「国民協同党」（日本大百科全書、コトバンク）",
+    "url": "https://kotobank.jp/word/%E5%9B%BD%E6%B0%91%E5%8D%94%E5%90%8C%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1946年5月24日（日本大百科全書）。国民協同党への合同は1947年3月8日（世界大百科事典）で、日本大百科全書は「1947年3月」。"
+  }
+ },
+ {
+  "id": "kokkyo",
+  "name": "国民協同党",
+  "lane": 0,
+  "family": "hoshu",
+  "start": "1947-03-08",
+  "end": "1950-04-28",
+  "note": "",
+  "sources": [
+   {
+    "title": "「国民協同党」（日本大百科全書、コトバンク）",
+    "url": "https://kotobank.jp/word/%E5%9B%BD%E6%B0%91%E5%8D%94%E5%90%8C%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "「国民民主党」（日本大百科全書・ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E5%9B%BD%E6%B0%91%E6%B0%91%E4%B8%BB%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1947年3月（事典）、国民民主党への合同1950年4月28日（日本大百科全書）を確認。"
+  }
+ },
+ {
+  "id": "shinjiyu",
+  "name": "新自由クラブ",
+  "lane": 0,
+  "family": "hoshu",
+  "start": "1976-06-25",
+  "end": "1986-08-15",
+  "note": "1976年6月25日、河野洋平ら6議員が自民党を離党して結成。1986年8月11日に自民党への復党申し入れの方針を決め、8月15日の全国代議員大会で正式に解党（国立国会図書館の資料による）。",
+  "sources": [
+   {
+    "title": "新自由クラブ関係文書（国立国会図書館 憲政資料室）※1976年6月25日結成、1986年8月15日解党",
+    "url": "https://rnavi.ndl.go.jp/kensei/jp/shinnjiyuukurabu.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "「新自由クラブ」（ブリタニカ・日本大百科全書、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%96%B0%E8%87%AA%E7%94%B1%E3%81%8F%E3%82%89%E3%81%B6-3154984",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1976年6月25日・解党1986年8月15日を国立国会図書館の資料とブリタニカで確認。"
+  }
+ },
+ {
+  "id": "hoshuto",
+  "name": "保守党",
+  "lane": 0,
+  "family": "hoshu",
+  "start": "2000-04-03",
+  "end": "2002-12-25",
+  "note": "",
+  "sources": [
+   {
+    "title": "「保守党」（日本大百科全書・ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E4%BF%9D%E5%AE%88%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "「戦後主要政党の変遷と国会内勢力の推移」（国立国会図書館『レファレンス』2014年6月号）",
+    "url": "https://dl.ndl.go.jp/view/download/digidepo_8689381_po_076103.pdf?contentNo=1",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成2000年4月3日を確認。保守新党への移行は事典では2002年12月25日。国立国会図書館の資料では保守党の解散が12月23日、保守新党の設立が12月26日（届出上の日付と考えられる）。"
+  }
+ },
+ {
+  "id": "hoshushinto",
+  "name": "保守新党",
+  "lane": 0,
+  "family": "hoshu",
+  "start": "2002-12-25",
+  "end": "2003-11-21",
+  "note": "",
+  "sources": [
+   {
+    "title": "「保守新党」（日本大百科全書・ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E4%BF%9D%E5%AE%88%E6%96%B0%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "「戦後主要政党の変遷と国会内勢力の推移」（国立国会図書館『レファレンス』2014年6月号）",
+    "url": "https://dl.ndl.go.jp/view/download/digidepo_8689381_po_076103.pdf?contentNo=1",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成2002年12月25日（事典。国立国会図書館の資料では12月26日設立）、自民党への合流2003年11月21日を確認。"
+  }
+ },
+ {
+  "id": "shinpo",
+  "name": "日本進歩党",
+  "lane": 1,
+  "family": "hoshu",
+  "start": "1945-11-16",
+  "end": "1947-03-31",
+  "note": "",
+  "sources": [
+   {
+    "title": "政党の復活（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha5/description04.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "芦田均：昭和22年3月22日の日記より（国立国会図書館「日記の世界」）",
+    "url": "https://www.ndl.go.jp/nikki/citeid/ashida_19470322/",
+    "kind": "公的機関"
+   },
+   {
+    "title": "「民主党」（ブリタニカ・デジタル大辞泉、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%B0%91%E4%B8%BB%E5%85%9A-182034",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1945年11月16日（国立国会図書館）、民主党への移行1947年3月31日（芦田日記・ブリタニカ）を確認。"
+  }
+ },
+ {
+  "id": "minshu47",
+  "name": "民主党",
+  "lane": 1,
+  "family": "hoshu",
+  "start": "1947-03-31",
+  "end": "1950-04-28",
+  "note": "1947年に結成された民主党（1996年・1998年の民主党とは別）。",
+  "sources": [
+   {
+    "title": "芦田均：昭和22年3月22日の日記より（国立国会図書館「日記の世界」）",
+    "url": "https://www.ndl.go.jp/nikki/citeid/ashida_19470322/",
+    "kind": "公的機関"
+   },
+   {
+    "title": "「民主党」（ブリタニカ・デジタル大辞泉、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%B0%91%E4%B8%BB%E5%85%9A-182034",
+    "kind": "事典"
+   },
+   {
+    "title": "「戦後主要政党の変遷と国会内勢力の推移」（国立国会図書館『レファレンス』2014年6月号）",
+    "url": "https://dl.ndl.go.jp/view/download/digidepo_8689381_po_076103.pdf?contentNo=1",
+    "kind": "公的機関"
+   },
+   {
+    "title": "「国民民主党」（日本大百科全書・ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E5%9B%BD%E6%B0%91%E6%B0%91%E4%B8%BB%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1947年3月31日、連立派の民主自由党への合流1950年2月〜3月、残りが国民民主党となった1950年4月28日を確認。"
+  }
+ },
+ {
+  "id": "kokumin50",
+  "name": "国民民主党",
+  "lane": 1,
+  "family": "hoshu",
+  "start": "1950-04-28",
+  "end": "1952-02-08",
+  "precision": "day",
+  "note": "1950年に結成された国民民主党（2018年以降の国民民主党とは別）。",
+  "sources": [
+   {
+    "title": "「国民民主党」（日本大百科全書・ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E5%9B%BD%E6%B0%91%E6%B0%91%E4%B8%BB%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "改進党の結成（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description02.html",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1950年4月28日（日本大百科全書）、改進党への移行1952年2月8日（国立国会図書館・ブリタニカ）を確認。"
+  }
+ },
+ {
+  "id": "kaishin",
+  "name": "改進党",
+  "lane": 1,
+  "family": "hoshu",
+  "start": "1952-02-08",
+  "end": "1954-11-24",
+  "note": "",
+  "sources": [
+   {
+    "title": "改進党の結成（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description02.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "日本民主党の結成（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description04.html",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1952年2月8日、日本民主党への移行1954年11月24日を国立国会図書館の資料で確認。"
+  }
+ },
+ {
+  "id": "nihonminshu",
+  "name": "日本民主党",
+  "lane": 1,
+  "family": "hoshu",
+  "start": "1954-11-24",
+  "end": "1955-11-15",
+  "note": "",
+  "sources": [
+   {
+    "title": "日本民主党の結成（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description04.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "保守合同（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description07.html",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1954年11月24日、保守合同1955年11月15日を国立国会図書館の資料で確認。"
+  }
+ },
+ {
+  "id": "nihonshinto",
+  "name": "日本新党",
+  "lane": 1,
+  "family": "shinto",
+  "start": "1992-05-22",
+  "end": "1994-12",
+  "note": "",
+  "sources": [
+   {
+    "title": "「日本新党」（山川日本史小辞典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%97%A5%E6%9C%AC%E6%96%B0%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1992年5月22日（山川日本史小辞典）を確認。解党は事典に「1994年12月」とあり日は確認できないため月までの表示。"
+  }
+ },
+ {
+  "id": "jiyu45",
+  "name": "日本自由党",
+  "lane": 2,
+  "family": "hoshu",
+  "start": "1945-11-09",
+  "end": "1948-03-15",
+  "note": "",
+  "sources": [
+   {
+    "title": "政党の復活（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha5/description04.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "「民主自由党」（ブリタニカ・日本大百科全書、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%B0%91%E4%B8%BB%E8%87%AA%E7%94%B1%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1945年11月9日（国立国会図書館）、民主自由党への移行1948年3月15日（事典）を確認。"
+  }
+ },
+ {
+  "id": "minjiyu",
+  "name": "民主自由党",
+  "lane": 2,
+  "family": "hoshu",
+  "start": "1948-03-15",
+  "end": "1950-03-01",
+  "note": "",
+  "sources": [
+   {
+    "title": "「民主自由党」（ブリタニカ・日本大百科全書、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%B0%91%E4%B8%BB%E8%87%AA%E7%94%B1%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "「戦後主要政党の変遷と国会内勢力の推移」（国立国会図書館『レファレンス』2014年6月号）",
+    "url": "https://dl.ndl.go.jp/view/download/digidepo_8689381_po_076103.pdf?contentNo=1",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1948年3月15日、自由党への改称1950年3月1日（事典・国立国会図書館）を確認。"
+  }
+ },
+ {
+  "id": "jiyu50",
+  "name": "自由党",
+  "lane": 2,
+  "family": "hoshu",
+  "start": "1950-03-01",
+  "end": "1955-11-15",
+  "note": "民主自由党が民主党連立派と合同し、1950年3月1日に自由党に改称（国立国会図書館の資料による）。1998年・2016年の自由党とは別。",
+  "sources": [
+   {
+    "title": "「自由党」（日本大百科全書・ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E8%87%AA%E7%94%B1%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "「戦後主要政党の変遷と国会内勢力の推移」（国立国会図書館『レファレンス』2014年6月号）",
+    "url": "https://dl.ndl.go.jp/view/download/digidepo_8689381_po_076103.pdf?contentNo=1",
+    "kind": "公的機関"
+   },
+   {
+    "title": "保守合同（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description07.html",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "改称1950年3月1日、保守合同1955年11月15日を確認。"
+  }
+ },
+ {
+  "id": "shinsei",
+  "name": "新生党",
+  "lane": 2,
+  "family": "shinto",
+  "start": "1993-06-23",
+  "end": "1994-12-09",
+  "note": "",
+  "sources": [
+   {
+    "title": "「新生党」（日本大百科全書・ブリタニカ・山川日本史小辞典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%96%B0%E7%94%9F%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1993年6月23日（日本大百科全書・山川）、解党1994年12月9日（ブリタニカ）を確認。"
+  }
+ },
+ {
+  "id": "jimin",
+  "name": "自由民主党",
+  "lane": 3,
+  "family": "hoshu",
+  "start": "1955-11-15",
+  "end": null,
+  "note": "日本民主党と自由党の保守合同で結成（国立国会図書館の資料による）。",
+  "sources": [
+   {
+    "title": "保守合同（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description07.html",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1955年11月15日を国立国会図書館の資料で確認。"
+  }
+ },
+ {
+  "id": "sakigake",
+  "name": "新党さきがけ",
+  "lane": 4,
+  "family": "shinto",
+  "start": "1993-06-21",
+  "end": "1998-10",
+  "note": "1998年10月に「さきがけ」へ改称。以降は本図では省略。",
+  "sources": [
+   {
+    "title": "「新党さきがけ」（日本大百科全書・山川日本史小辞典・ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%96%B0%E5%85%9A%E3%81%95%E3%81%8D%E3%81%8C%E3%81%91",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成は日本大百科全書・山川日本史小辞典で1993年6月21日（ブリタニカは22日）。「さきがけ」への改称1998年10月を確認。"
+  }
+ },
+ {
+  "id": "seikatsu1",
+  "name": "国民の生活が第一",
+  "lane": 4,
+  "family": "minshu",
+  "start": "2012-07-11",
+  "end": "2012-11",
+  "note": "2012年7月11日に設立。代表は小沢一郎（政治山による）。",
+  "sources": [
+   {
+    "title": "特集：総選挙2012 新党をめぐる動き（政治山）",
+    "url": "https://seijiyama.jp/special/shuinsen2012/article4.html",
+    "kind": "報道"
+   },
+   {
+    "title": "第三極の新党（imidas 時事用語事典、集英社）",
+    "url": "https://imidas.jp/genre/detail/C-103-0605.html",
+    "kind": "事典"
+   },
+   {
+    "title": "「日本未来の党」（事典各種、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%97%A5%E6%9C%AC%E6%9C%AA%E6%9D%A5%E3%81%AE%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成2012年7月11日を確認。日本未来の党への合流は11月で、日付はimidasが27日（立ち上げ）としており28日とする記述と分かれるため月までの表示。"
+  }
+ },
+ {
+  "id": "mirai",
+  "name": "日本未来の党",
+  "lane": 4,
+  "family": "minshu",
+  "start": "2012-11",
+  "end": "2012-12-27",
+  "note": "",
+  "sources": [
+   {
+    "title": "第三極の新党（imidas 時事用語事典、集英社）",
+    "url": "https://imidas.jp/genre/detail/C-103-0605.html",
+    "kind": "事典"
+   },
+   {
+    "title": "「日本未来の党」（事典各種、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%97%A5%E6%9C%AC%E6%9C%AA%E6%9D%A5%E3%81%AE%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "新党の結成日一覧を含む記事（選挙ドットコム）",
+    "url": "https://go2senkyo.com/articles/?p=89515",
+    "kind": "報道"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成2012年11月（27日・28日で記述が分かれるため月まで）。生活の党への改称は選挙ドットコムで12月27日、imidasは12月28日の分党・改称としている。"
+  }
+ },
+ {
+  "id": "seikatsu2",
+  "name": "生活の党",
+  "lane": 4,
+  "family": "minshu",
+  "start": "2012-12-27",
+  "end": "2014-12-26",
+  "note": "日本未来の党が党名を変更。",
+  "sources": [
+   {
+    "title": "新党の結成日一覧を含む記事（選挙ドットコム）",
+    "url": "https://go2senkyo.com/articles/?p=89515",
+    "kind": "報道"
+   },
+   {
+    "title": "「生活の党」（デジタル大辞泉・ブリタニカ・マイペディア、コトバンク）",
+    "url": "https://kotobank.jp/word/%E7%94%9F%E6%B4%BB%E3%81%AE%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "みんなの党・生活の党などの変遷（選挙ドットコム）",
+    "url": "https://go2senkyo.com/articles/?p=35542",
+    "kind": "報道"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "改称2012年12月27日、「生活の党と山本太郎となかまたち」への改称2014年12月26日（選挙ドットコム。事典は2014年12月）を確認。"
+  }
+ },
+ {
+  "id": "seikatsu3",
+  "name": "生活の党と山本太郎となかまたち",
+  "short": "生活の党と山本太郎と…",
+  "lane": 4,
+  "family": "minshu",
+  "start": "2014-12-26",
+  "end": "2016-10",
+  "note": "生活の党が党名を変更。",
+  "sources": [
+   {
+    "title": "新党の結成日一覧を含む記事（選挙ドットコム）",
+    "url": "https://go2senkyo.com/articles/?p=89515",
+    "kind": "報道"
+   },
+   {
+    "title": "「生活の党」（デジタル大辞泉・ブリタニカ・マイペディア、コトバンク）",
+    "url": "https://kotobank.jp/word/%E7%94%9F%E6%B4%BB%E3%81%AE%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "改称2014年12月26日を確認。「自由党」への改称は事典に2016年10月とあり日は確認できないため月までの表示。"
+  }
+ },
+ {
+  "id": "jiyu16",
+  "name": "自由党",
+  "lane": 4,
+  "family": "minshu",
+  "start": "2016-10",
+  "end": "2019-04",
+  "note": "生活の党と山本太郎となかまたちが党名を変更（2016年の自由党。1950年・1998年の自由党とは別）。",
+  "sources": [
+   {
+    "title": "「生活の党」（デジタル大辞泉・ブリタニカ・マイペディア、コトバンク）",
+    "url": "https://kotobank.jp/word/%E7%94%9F%E6%B4%BB%E3%81%AE%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "「自由党」（日本大百科全書・ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E8%87%AA%E7%94%B1%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "改称2016年10月、国民民主党への合流2019年4月を事典で確認（日は確認できないため月までの表示）。"
+  }
+ },
+ {
+  "id": "shinshin",
+  "name": "新進党",
+  "lane": 5,
+  "family": "shinto",
+  "start": "1994-12-10",
+  "end": "1997-12-31",
+  "note": "1997年12月27日に解党を決め、12月31日に解党。",
+  "sources": [
+   {
+    "title": "「新進党」（ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%96%B0%E9%80%B2%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "公明党の歩み（公明党）",
+    "url": "https://www.komei.or.jp/about/history/",
+    "kind": "政党の公式資料"
+   },
+   {
+    "title": "新進党の解党（選挙ドットコム）※1997年12月27日",
+    "url": "https://go2senkyo.com/articles/?p=104884",
+    "kind": "報道"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1994年12月10日を確認。終わりはブリタニカの解党日1997年12月31日。党の解党決定・宣言は12月27日（公明党の歩み・選挙ドットコム）。"
+  }
+ },
+ {
+  "id": "jiyu98",
+  "name": "自由党",
+  "lane": 5,
+  "family": "shinto",
+  "start": "1998-01",
+  "end": "2003-09",
+  "note": "1998年に結成された自由党（1950年・2016年の自由党とは別）。",
+  "sources": [
+   {
+    "title": "「自由党」（日本大百科全書・ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E8%87%AA%E7%94%B1%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "新党の結成日一覧を含む記事（選挙ドットコム）",
+    "url": "https://go2senkyo.com/articles/?p=89515",
+    "kind": "報道"
+   },
+   {
+    "title": "民主党の足跡（nippon.com）",
+    "url": "https://www.nippon.com/ja/features/h00012/",
+    "kind": "報道"
+   },
+   {
+    "title": "民主党（imidas 時事用語事典、集英社）",
+    "url": "https://imidas.jp/genre/detail/C-103-0016.html",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1998年1月（日本大百科全書は1月6日、選挙ドットコムは届出上の1月1日）。民主党との合併は2003年9月（imidasによれば合併大会は10月5日）のため月までの表示。"
+  }
+ }
+]

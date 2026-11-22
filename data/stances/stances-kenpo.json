@@ -1,0 +1,822 @@
+[
+ {
+  "party": "jimin",
+  "theme": "kenpo",
+  "election": "s2016",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "jimin2016bank"
+  ],
+  "verified": true,
+  "wording": "「衆議院・参議院の憲法審査会における議論を進め、各党との連携を図り、あわせて国民の合意形成に努め、憲法改正を目指します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenpo",
+  "election": "s2016",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「平和主義を脅かす憲法９条の改正に反対します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenpo",
+  "election": "s2016",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「平和主義を脅かす憲法９条の改正に反対します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenpo",
+  "election": "s2016",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "kyosan2016pol"
+  ],
+  "verified": true,
+  "wording": "「日本国憲法の前文を含む全条項を守り、平和的民主的条項の完全実施をすすめます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenpo",
+  "election": "s2016",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "ishin2016web",
+   "ishin2016kenpo"
+  ],
+  "verified": true,
+  "asName": "おおさか維新の会",
+  "wording": "「戦後70年を経て、時代に合った憲法に手直ししていくことは当然。」「国会の発議に向けて、各党との協議を行い、国民に理解を訴えていく。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenpo",
+  "election": "s2017",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "jimin2017pdf"
+  ],
+  "verified": true,
+  "wording": "「現行憲法の『国民主権』、『基本的人権の尊重』、『平和主義』の３つの基本原理は堅持しつつ、憲法改正を目指します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenpo",
+  "election": "s2017",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "g2s2017_kibo"
+  ],
+  "verified": true,
+  "asName": "希望の党",
+  "wording": "アンケート「憲法を改正するべきだ」に「賛成」、「憲法9条を改正し、自衛隊の存在を明記すべきだ」に「やや賛成」。「自衛隊の存在を含め、時代に合った憲法のあり方を議論します。」",
+  "verifiedOn": "2026-11-22",
+  "note": "改正そのものには「賛成」だが、内容は「議論します」とし、9条への自衛隊明記は「国民の理解が得られるかどうか見極めた上で判断」としているため「議論を進める」に分類"
+ },
+ {
+  "party": "komei",
+  "theme": "kenpo",
+  "election": "s2017",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "g2s2017_komei",
+   "komei2017pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「憲法を改正するべきだ」に「やや賛成」。「憲法規定に不備があるためそれを解決できないのであれば、そのために新たな条文を付け加えること(加憲)によって改正することを考えています。」"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenpo",
+  "election": "s2017",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "kyosan2017pdf"
+  ],
+  "verified": true,
+  "wording": "「安倍政権による憲法9条改定に反対します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenpo",
+  "election": "s2017",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "ishin2017pdf"
+  ],
+  "verified": true,
+  "wording": "「国際情勢の変化に対応し、国民の生命・財産を守るための9条改正」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenpo",
+  "election": "s2017",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2017_rikken"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "verifiedOn": "2026-11-22",
+  "wording": "アンケート「憲法を改正するべきだ」に「反対／やや反対」、「憲法9条を改正し、自衛隊の存在を明記すべきだ」に「反対」。「安保法制を前提とした憲法9条の改悪には反対です。」",
+  "note": "立憲主義を深めるための憲法議論（解散権の制約・知る権利など）は進めるとしている"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenpo",
+  "election": "s2017",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2017_shamin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「憲法を改正するべきだ」に「反対」、「憲法9条を改正し、自衛隊の存在を明記すべきだ」に「反対」。"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenpo",
+  "election": "s2019",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "jimin2019pamph"
+  ],
+  "verified": true,
+  "wording": "「わが党は改正の条文イメージとして、①自衛隊の明記、②緊急事態対応、③合区解消・地方公共団体、④教育充実の 4 項目を提示しています。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenpo",
+  "election": "s2019",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "kokumin2019pamph"
+  ],
+  "verified": true,
+  "asName": "国民民主党（旧）",
+  "wording": "「現行憲法の基本的理念と立憲主義を維持しつつ、未来志向の憲法を議論します。」「国が自衛権を行使できる限界を曖昧にしたまま、憲法9条に自衛隊を明記すべきではありません。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenpo",
+  "election": "s2019",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "kyosan2019koho"
+  ],
+  "verified": true,
+  "wording": "「安倍9条改憲をストップ。安保法制は廃止する。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenpo",
+  "election": "s2019",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "ishin2019pdf"
+  ],
+  "verified": true,
+  "wording": "（6．憲法改正の章）「憲法裁判所の設置」など",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenpo",
+  "election": "s2019",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "shamin2019koho"
+  ],
+  "verified": true,
+  "wording": "「平和憲法の改悪に向けた暴走」「憲法を活かす政治」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenpo",
+  "election": "s2021",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "jimin2021pdf"
+  ],
+  "verified": true,
+  "wording": "「初めての憲法改正への取組みを、更に強化します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenpo",
+  "election": "s2021",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "kyosan2021koho"
+  ],
+  "verified": true,
+  "wording": "「自民党の９条改憲は許さず」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenpo",
+  "election": "s2021",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "ishin2021pdf"
+  ],
+  "verified": true,
+  "wording": "「憲法改正 〜決定できる統治機構の本格的再構築〜」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenpo",
+  "election": "s2022",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "jimin2022pdf"
+  ],
+  "verified": true,
+  "wording": "「初めての憲法改正への取組みを、さらに強化します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenpo",
+  "election": "s2022",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "ishin2022pdf"
+  ],
+  "verified": true,
+  "wording": "「憲法改正に正面から挑み、時代に適した『今の憲法』へ」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenpo",
+  "election": "s2022",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "kyosan2022koho"
+  ],
+  "verified": true,
+  "wording": "「憲法9条をまもりましょう。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenpo",
+  "election": "s2022",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "shamin2022koho"
+  ],
+  "verified": true,
+  "wording": "「憲法9条を守り、平和な沖縄を実現」「憲法をくらしに活かす政治を実現します！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenpo",
+  "election": "s2022",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "rikken2022koho",
+   "g2s2022_rikken"
+  ],
+  "verified": true,
+  "wording": "「平和憲法を守る」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenpo",
+  "election": "s2022",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "g2s2022_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきだ」に「中立」。「①自衛権の行使の範囲、②自衛隊の保持・統制に関するルール、③…憲法9条2項との関係の3つの論点から具体的な議論を進めます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenpo",
+  "election": "s2022",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2022_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきだ」に「反対」。「9条は日本社会に定着しており、自衛隊明記の部分も含め、改正の必要はないと考えます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "kenpo",
+  "election": "s2022",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "g2s2022_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきだ」に「賛成」。「自民党案の憲法改正には反対する。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "kenpo",
+  "election": "s2024",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "g2s_komei"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「中立」。「憲法9条1項、2項は、今後とも堅持します。」「憲法審査会を中心に、丁寧かつ積極的な論議を積み重ね、国民の理解を得ながら、憲法改正の議論を進めるべきと考えます。」",
+  "verifiedOn": "2026-11-22",
+  "note": "公約（日経掲載PDF）には記載なし"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenpo",
+  "election": "s2024",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "rikken2024pdf",
+   "g2s_rikken"
+  ],
+  "verified": true,
+  "wording": "「現行の9条を残した上で自衛隊を明記する自民党案では…平和主義を空文化させるものであり、反対します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenpo",
+  "election": "s2024",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "g2s_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「中立」。「…3つの論点から具体的な議論を進めます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenpo",
+  "election": "s2024",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "reiwa2024koho",
+   "g2s_reiwa"
+  ],
+  "verified": true,
+  "wording": "「緊急事態条項などの憲法改正にも反対。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenpo",
+  "election": "s2024",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「反対」。「憲法9条は、第二次世界大戦の悲惨な経験のなかで生まれました。」",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公報の記載は「憲法を活かす政治」。9条明記への反対はアンケートの回答による"
+ },
+ {
+  "party": "sansei",
+  "theme": "kenpo",
+  "election": "s2024",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "g2s_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「賛成」。「…憲法9条に自衛隊の存在を明記することについては、日本の防衛体制をより強固なものにすることを目指す上で必要と考える。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約には「自民党の憲法改正案に反対し」とあるが、改憲そのものへの反対ではない。党は独自の憲法（創憲）を掲げ、9条明記への「賛成」はアンケートの回答による"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenpo",
+  "election": "s2024",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "jimin2024pdf",
+   "g2s2024_jimin"
+  ],
+  "verified": true,
+  "wording": "「憲法改正原案の国会提案・発議を行い、国民投票を実施し、『日本国憲法』の改正を早期に実現します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenpo",
+  "election": "s2024",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "ishin2024pamph",
+   "ishin2024core"
+  ],
+  "verified": true,
+  "wording": "「教育無償化や自衛隊の明記、緊急事態条項の創設など具体的な改正条文案を示し」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenpo",
+  "election": "s2024",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "kyosan2024pdf",
+   "g2s2024_kyosan"
+  ],
+  "verified": true,
+  "wording": "「憲法9条を守り抜き、改憲策動に断固反対します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenpo",
+  "election": "s2025",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "jimin2025pdf"
+  ],
+  "verified": true,
+  "wording": "「憲法改正を通じて、『国のかたち』を国民の手で創り上げます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "kenpo",
+  "election": "s2025",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "komei2025pdf",
+   "g2s2025_komei"
+  ],
+  "verified": true,
+  "wording": "「憲法９条１項、２項は、今後とも堅持します。」「必要な規定を付け加えること（加憲）は検討されるべきです。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenpo",
+  "election": "s2025",
+  "position": "oppose",
+  "temp": 1,
+  "sources": [
+   "rikken2025pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「自民党の9条改正案は平和主義を空文化させるもので、反対します」",
+  "tempBasis": "パンフレット本編にはなく、詳細版の最終章",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenpo",
+  "election": "s2025",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "ishin2025core"
+  ],
+  "verified": true,
+  "wording": "「憲法第９条については…第２項については削除を含む見直しを行い」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenpo",
+  "election": "s2025",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "kyosan2025pdf"
+  ],
+  "verified": true,
+  "wording": "「憲法9条を守り抜き、改憲策動に断固反対します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenpo",
+  "election": "s2025",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2025_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「反対」。「憲法9条を変えることは反対です。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "kenpo",
+  "election": "s2025",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "g2s2025_sansei",
+   "sansei2025koho"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「賛成」。「参政党は、国民自らが憲法を創る「創憲」を目指しており、その草案にも「自衛軍」を持つという条文が含まれている。」",
+  "note": "党は「改憲」ではなく「創憲」（新しい憲法の制定）と位置づける。選挙公報に9条の記載はなく、9条明記への「賛成」は党のアンケート回答による"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenpo",
+  "election": "s2025",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2025_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「反対」。「憲法を改正する必要はなく、活かすことが重要です。」",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公報は「希望は憲法」など。9条明記への反対はアンケートの回答による"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenpo",
+  "election": "s2025",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "g2s2025_kokumin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「中立」。「憲法 9 条については、…3 つの論点から具体的な議論を進めます。」"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenpo",
+  "election": "s2026",
+  "position": "promote",
+  "temp": 2,
+  "sources": [
+   "jimin2026ch5"
+  ],
+  "verified": true,
+  "commit": "aim",
+  "wording": "「4項目を中心とした憲法改正の実現に向け、『国民への丁寧な説明』を積極的に展開します」",
+  "tempBasis": "政権公約の第5章（全5章の最後）の筆頭項目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenpo",
+  "election": "s2026",
+  "position": "promote",
+  "temp": 2,
+  "sources": [
+   "ishin2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「憲法改正の国会発議を実現させる。」",
+  "tempBasis": "第2の柱「政治を動かす」に記載。連立合意にも憲法9条の改正",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "chudo",
+  "theme": "kenpo",
+  "election": "s2026",
+  "position": "discuss",
+  "temp": 2,
+  "sources": [
+   "chudo2026pdf"
+  ],
+  "verified": true,
+  "commit": "consider",
+  "wording": "「責任ある憲法改正論議を深化」",
+  "tempBasis": "第4の柱の名前と重点項目4に記載",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenpo",
+  "election": "s2026",
+  "position": "oppose",
+  "temp": 2,
+  "sources": [
+   "kyosan2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「憲法9条を守り抜き、改憲策動を許しません」",
+  "tempBasis": "総選挙政策の第二の柱",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenpo",
+  "election": "s2026",
+  "sources": [
+   "kokumin2026pol",
+   "g2s2026_kokumin"
+  ],
+  "verified": true,
+  "position": "promote",
+  "temp": 2,
+  "commit": "aim",
+  "wording": "「緊急事態においても絶対に制限してはならない人権保障の明記や国会機能を維持するための憲法改正」",
+  "tempBasis": "第5柱「正直な政治をつらぬく」の6番目",
+  "verifiedOn": "2026-11-21",
+  "note": "公約は緊急事態条項の創設などの改憲を明記。9条は「3つの論点から議論を進める」とし、9条明記への「賛成」は党のアンケート回答による"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenpo",
+  "election": "s2026",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2026_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「反対」。「憲法9条を変えることは反対です。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "kenpo",
+  "election": "s2026",
+  "position": "promote",
+  "temp": null,
+  "sources": [
+   "g2s2026_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「賛成」。「参政党は、国民自らが憲法を創る「創憲」を推進しており、党の創案にも「自衛軍」を規定する条文を含めている。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenpo",
+  "election": "s2026",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2026_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきですか？」に「反対」。「見直しはすべきでない。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約の記載は「憲法9条に基づく平和外交を推進し、違憲の安保法制・集団的自衛権を廃止」。改憲への反対はアンケートの回答による"
+ },
+ {
+  "party": "komei",
+  "theme": "kenpo",
+  "election": "s2022",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "g2s2022_komei"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきだ」に「中立」。「…自衛隊の存在を憲法上明記すべきとの意見もありますので、引き続き検討を進めていきます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "kenpo",
+  "election": "s2021",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "g2s2021_komei"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきだ」は選択なし。「憲法9条1項、2項は、今後とも堅持します。」「引き続き慎重に議論します」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenpo",
+  "election": "s2021",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2021_rikken"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきだ」に「反対」。「自衛隊の権限が法律に委ねられ、憲法上は、いわゆるフルスペックの集団的自衛権行使が可能となりかねず、…」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenpo",
+  "election": "s2021",
+  "position": "discuss",
+  "temp": null,
+  "sources": [
+   "kokumin2021pdf",
+   "g2s2021_kokumin"
+  ],
+  "verified": true,
+  "wording": "「憲法が定める基本原理「人権尊重・国民主権・平和主義」をこれからも守り続けるために、引き続き、憲法の規範力を高めるための議論を進めます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenpo",
+  "election": "s2021",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2021_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきだ」に「反対」。「推進派は「自衛隊の存在を明記するだけで何も変わらない」というがそれは疑わしい。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenpo",
+  "election": "s2021",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2021_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「憲法9条に自衛隊の存在を明記すべきだ」に「反対」。「安倍元首相の2020年改憲案は、…憲法第9条を死文化させるものです。」",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公報の記載は「憲法を活かす政治」。9条明記への反対はアンケートの回答による"
+ }
+]

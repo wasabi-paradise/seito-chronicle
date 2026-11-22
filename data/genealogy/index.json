@@ -1,0 +1,503 @@
+{
+ "asOf": "2026-11-22",
+ "families": {
+  "hoshu": {
+   "name": "保守系（自民党とその前身、自民党から分かれた党）",
+   "color": "#d0414c"
+  },
+  "shinto": {
+   "name": "1990年代以降の新党",
+   "color": "#8f8878"
+  },
+  "minshu": {
+   "name": "民主党系",
+   "color": "#2f5fb3"
+  },
+  "ishin": {
+   "name": "維新系・みんなの党系",
+   "color": "#3a9d5d"
+  },
+  "komei": {
+   "name": "公明党系",
+   "color": "#8a7cc8"
+  },
+  "shakai": {
+   "name": "社会党系",
+   "color": "#9a5b7a"
+  },
+  "kyosan": {
+   "name": "共産党",
+   "color": "#7e2330"
+  },
+  "shinko": {
+   "name": "2019年以降の新興政党",
+   "color": "#7a8794"
+  }
+ },
+ "parties": {
+  "$parts": [
+   "parties-01.json",
+   "parties-02.json",
+   "parties-03.json"
+  ]
+ },
+ "links": [
+  {
+   "from": "kyodo1",
+   "to": "kyodo2",
+   "type": "rename",
+   "date": "1946-05-24"
+  },
+  {
+   "from": "kyodo2",
+   "to": "kokkyo",
+   "type": "merge",
+   "date": "1947-03-08"
+  },
+  {
+   "from": "kokkyo",
+   "to": "kokumin50",
+   "type": "merge",
+   "date": "1950-04-28"
+  },
+  {
+   "from": "shinpo",
+   "to": "minshu47",
+   "type": "merge",
+   "date": "1947-03-31"
+  },
+  {
+   "from": "minshu47",
+   "to": "minjiyu",
+   "type": "split",
+   "date": "1948-03-15"
+  },
+  {
+   "from": "minshu47",
+   "to": "jiyu50",
+   "type": "split",
+   "date": "1950-03-01",
+   "note": "連立派"
+  },
+  {
+   "from": "minshu47",
+   "to": "kokumin50",
+   "type": "merge",
+   "date": "1950-04-28"
+  },
+  {
+   "from": "kokumin50",
+   "to": "kaishin",
+   "type": "merge",
+   "date": "1952-02-08"
+  },
+  {
+   "from": "kaishin",
+   "to": "nihonminshu",
+   "type": "merge",
+   "date": "1954-11-24"
+  },
+  {
+   "from": "jiyu50",
+   "to": "nihonminshu",
+   "type": "split",
+   "date": "1954-11-24"
+  },
+  {
+   "from": "jiyu45",
+   "to": "minjiyu",
+   "type": "merge",
+   "date": "1948-03-15"
+  },
+  {
+   "from": "minjiyu",
+   "to": "jiyu50",
+   "type": "merge",
+   "date": "1950-03-01"
+  },
+  {
+   "from": "nihonminshu",
+   "to": "jimin",
+   "type": "merge",
+   "date": "1955-11-15",
+   "note": "保守合同"
+  },
+  {
+   "from": "jiyu50",
+   "to": "jimin",
+   "type": "merge",
+   "date": "1955-11-15",
+   "note": "保守合同"
+  },
+  {
+   "from": "jimin",
+   "to": "shinjiyu",
+   "type": "split",
+   "date": "1976-06-25"
+  },
+  {
+   "from": "shinjiyu",
+   "to": "jimin",
+   "type": "merge",
+   "date": "1986-08-15",
+   "note": "解党し自民党に復党"
+  },
+  {
+   "from": "jimin",
+   "to": "sakigake",
+   "type": "split",
+   "date": "1993-06-21"
+  },
+  {
+   "from": "jimin",
+   "to": "shinsei",
+   "type": "split",
+   "date": "1993-06-23"
+  },
+  {
+   "from": "shinsei",
+   "to": "shinshin",
+   "type": "merge",
+   "date": "1994-12-10"
+  },
+  {
+   "from": "nihonshinto",
+   "to": "shinshin",
+   "type": "merge",
+   "date": "1994-12-10"
+  },
+  {
+   "from": "minsha",
+   "to": "shinshin",
+   "type": "merge",
+   "date": "1994-12-10"
+  },
+  {
+   "from": "komeishinto",
+   "to": "shinshin",
+   "type": "merge",
+   "date": "1994-12-10"
+  },
+  {
+   "from": "komei64",
+   "to": "komeishinto",
+   "type": "split",
+   "date": "1994-12-05"
+  },
+  {
+   "from": "komei64",
+   "to": "komei94",
+   "type": "split",
+   "date": "1994-12-05"
+  },
+  {
+   "from": "shinshin",
+   "to": "jiyu98",
+   "type": "split",
+   "date": "1998-01"
+  },
+  {
+   "from": "shinshin",
+   "to": "shintoheiwa",
+   "type": "split",
+   "date": "1998-01-04"
+  },
+  {
+   "from": "shinshin",
+   "to": "minseito",
+   "type": "split",
+   "date": "1998-01"
+  },
+  {
+   "from": "shinshin",
+   "to": "yuai",
+   "type": "split",
+   "date": "1998-01"
+  },
+  {
+   "from": "shintoheiwa",
+   "to": "komei98",
+   "type": "merge",
+   "date": "1998-11-07"
+  },
+  {
+   "from": "komei94",
+   "to": "komei98",
+   "type": "merge",
+   "date": "1998-11-07"
+  },
+  {
+   "from": "shakai55",
+   "to": "shamin",
+   "type": "rename",
+   "date": "1996-01-19"
+  },
+  {
+   "from": "shamin",
+   "to": "minshu96",
+   "type": "transfer",
+   "date": "1996-09-28"
+  },
+  {
+   "from": "sakigake",
+   "to": "minshu96",
+   "type": "transfer",
+   "date": "1996-09-28"
+  },
+  {
+   "from": "minshu96",
+   "to": "minshu98",
+   "type": "merge",
+   "date": "1998-04-27"
+  },
+  {
+   "from": "minseito",
+   "to": "minshu98",
+   "type": "merge",
+   "date": "1998-04-27"
+  },
+  {
+   "from": "yuai",
+   "to": "minshu98",
+   "type": "merge",
+   "date": "1998-04-27"
+  },
+  {
+   "from": "jiyu98",
+   "to": "hoshuto",
+   "type": "split",
+   "date": "2000-04-03"
+  },
+  {
+   "from": "hoshuto",
+   "to": "hoshushinto",
+   "type": "rename",
+   "date": "2002-12-25"
+  },
+  {
+   "from": "hoshushinto",
+   "to": "jimin",
+   "type": "merge",
+   "date": "2003-11-21"
+  },
+  {
+   "from": "jiyu98",
+   "to": "minshu98",
+   "type": "merge",
+   "date": "2003-09",
+   "note": "合併"
+  },
+  {
+   "from": "minshu98",
+   "to": "seikatsu1",
+   "type": "split",
+   "date": "2012-07-11"
+  },
+  {
+   "from": "seikatsu1",
+   "to": "mirai",
+   "type": "merge",
+   "date": "2012-11"
+  },
+  {
+   "from": "mirai",
+   "to": "seikatsu2",
+   "type": "rename",
+   "date": "2012-12-27"
+  },
+  {
+   "from": "seikatsu2",
+   "to": "seikatsu3",
+   "type": "rename",
+   "date": "2014-12-26"
+  },
+  {
+   "from": "seikatsu3",
+   "to": "jiyu16",
+   "type": "rename",
+   "date": "2016-10"
+  },
+  {
+   "from": "jiyu16",
+   "to": "kokumin18",
+   "type": "merge",
+   "date": "2019-04"
+  },
+  {
+   "from": "jiyu16",
+   "to": "reiwa",
+   "type": "split",
+   "date": "2019-04-01"
+  },
+  {
+   "from": "minna",
+   "to": "yui",
+   "type": "split",
+   "date": "2013-12"
+  },
+  {
+   "from": "yui",
+   "to": "ishinnotou",
+   "type": "merge",
+   "date": "2014-09-21"
+  },
+  {
+   "from": "ishin12",
+   "to": "ishinnotou",
+   "type": "merge",
+   "date": "2014-09-21"
+  },
+  {
+   "from": "ishinnotou",
+   "to": "osaka",
+   "type": "split",
+   "date": "2015-11-02"
+  },
+  {
+   "from": "osaka",
+   "to": "ishin16",
+   "type": "rename",
+   "date": "2016-08-23"
+  },
+  {
+   "from": "ishinnotou",
+   "to": "minshin",
+   "type": "merge",
+   "date": "2016-03-27"
+  },
+  {
+   "from": "minshu98",
+   "to": "minshin",
+   "type": "merge",
+   "date": "2016-03-27"
+  },
+  {
+   "from": "minshin",
+   "to": "kibou",
+   "type": "transfer",
+   "date": "2017-09"
+  },
+  {
+   "from": "minshin",
+   "to": "rikken17",
+   "type": "split",
+   "date": "2017-10-03"
+  },
+  {
+   "from": "minshin",
+   "to": "kokumin18",
+   "type": "merge",
+   "date": "2018-05-07"
+  },
+  {
+   "from": "kibou",
+   "to": "kokumin18",
+   "type": "merge",
+   "date": "2018-05-07"
+  },
+  {
+   "from": "rikken17",
+   "to": "rikken20",
+   "type": "merge",
+   "date": "2020-09-15"
+  },
+  {
+   "from": "kokumin18",
+   "to": "rikken20",
+   "type": "merge",
+   "date": "2020-09-15"
+  },
+  {
+   "from": "kokumin18",
+   "to": "kokumin20",
+   "type": "split",
+   "date": "2020-09"
+  },
+  {
+   "from": "rikken20",
+   "to": "chudo",
+   "type": "transfer",
+   "date": "2026-01-16",
+   "note": "衆院議員が移籍"
+  },
+  {
+   "from": "komei98",
+   "to": "chudo",
+   "type": "transfer",
+   "date": "2026-01-16",
+   "note": "衆院議員が移籍"
+  },
+  {
+   "from": "chudo",
+   "to": "minkai",
+   "type": "split",
+   "date": "2026-09-17",
+   "note": "立憲民主党出身議員"
+  },
+  {
+   "from": "chudo",
+   "to": "komei98",
+   "type": "transfer",
+   "date": "2026-09-24",
+   "note": "公明党出身議員が復党"
+  },
+  {
+   "from": "shakai45",
+   "to": "uha",
+   "type": "split",
+   "date": "1951-10"
+  },
+  {
+   "from": "shakai45",
+   "to": "saha",
+   "type": "split",
+   "date": "1951-10"
+  },
+  {
+   "from": "uha",
+   "to": "shakai55",
+   "type": "merge",
+   "date": "1955-10-13",
+   "note": "再統一"
+  },
+  {
+   "from": "saha",
+   "to": "shakai55",
+   "type": "merge",
+   "date": "1955-10-13",
+   "note": "再統一"
+  },
+  {
+   "from": "shakai55",
+   "to": "minsha",
+   "type": "split",
+   "date": "1960-01-24"
+  },
+  {
+   "from": "kometsu",
+   "to": "komei64",
+   "type": "rename",
+   "date": "1964-11-17"
+  },
+  {
+   "from": "reiwa",
+   "to": "inochi",
+   "type": "rename",
+   "date": "2026-08-06"
+  },
+  {
+   "from": "jimin",
+   "to": "kokuminshinto",
+   "type": "split",
+   "date": "2005-08-17"
+  }
+ ],
+ "colorNote": {
+  "text": "党の色は、各党が選挙のポスターやのぼり旗などで使うイメージカラーに寄せたもので、党が公式に指定した色とは限りません。似た色の党は濃さを変えて見分けられるようにしています。公明党は報道で色が挙げられていないため、区別のための色です。",
+  "source": {
+   "title": "定着するか、政党カラー グッズで支持者と一体感（共同通信／秋田魁新報 2026年2月4日）",
+   "url": "https://www.sakigake.jp/news/article/20260204CO0016/"
+  }
+ },
+ "datesCheckNote": "結成・解党などの日付は、国の機関（国立国会図書館・総務省）、政党の公式資料、報道、出版社が編集した事典（コトバンク・imidas）で確認。Wikipediaは使っていません。日が確認できないものは月までの表示です。"
+}

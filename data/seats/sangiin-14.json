@@ -1,0 +1,88 @@
+{
+ "n": 14,
+ "date": "1986-07-06",
+ "tier": [
+  "比例代表",
+  "選挙区"
+ ],
+ "seatsA": 50,
+ "seatsB": 76,
+ "total": 126,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "seats": 72,
+   "a": 22,
+   "b": 50,
+   "party": "jimin"
+  },
+  {
+   "label": "自ク",
+   "seats": 1,
+   "a": 1,
+   "b": 0,
+   "party": "shinjiyu"
+  },
+  {
+   "label": "社会",
+   "seats": 20,
+   "a": 9,
+   "b": 11,
+   "party": "shakai55"
+  },
+  {
+   "label": "民社",
+   "seats": 5,
+   "a": 3,
+   "b": 2,
+   "party": "minsha"
+  },
+  {
+   "label": "公明",
+   "seats": 10,
+   "a": 7,
+   "b": 3,
+   "party": "komei64"
+  },
+  {
+   "label": "共産",
+   "seats": 9,
+   "a": 5,
+   "b": 4,
+   "party": "kyosan"
+  },
+  {
+   "label": "二院ク",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "税金",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "サラ新",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "諸派",
+   "seats": 0,
+   "a": 0,
+   "b": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 6,
+   "a": 0,
+   "b": 6
+  }
+ ]
+}

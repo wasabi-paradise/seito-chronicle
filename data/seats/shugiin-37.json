@@ -1,0 +1,52 @@
+{
+ "n": 37,
+ "date": "1983-12-18",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 250
+  },
+  {
+   "label": "自ク",
+   "party": "shinjiyu",
+   "seats": 8
+  },
+  {
+   "label": "社会",
+   "party": "shakai55",
+   "seats": 112
+  },
+  {
+   "label": "社民連",
+   "seats": 3
+  },
+  {
+   "label": "民社",
+   "party": "minsha",
+   "seats": 38
+  },
+  {
+   "label": "公明",
+   "party": "komei64",
+   "seats": 58
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 26
+  },
+  {
+   "label": "諸派",
+   "seats": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 16
+  }
+ ],
+ "total": 511
+}

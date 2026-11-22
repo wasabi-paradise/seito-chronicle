@@ -1,0 +1,622 @@
+[
+ {
+  "party": "jimin",
+  "theme": "gaikokujin",
+  "election": "s2019",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "jimin2019bank"
+  ],
+  "verified": true,
+  "wording": "「新たな在留資格「特定技能」の枠組みも活用した…外国人材の円滑な受入れを支援します。」",
+  "note": "公約は特定技能の活用による「外国人材の円滑な受入れ」と共生社会の実現。受け入れを前提にした制度整備が中心のため、2016・2017年（「外国人労働者が適切に働ける制度を整備」）と同じ「厳格・適正な管理」に分類",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "gaikokujin",
+  "election": "s2019",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "komei2019pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「外国人が安心して暮らせる多文化共生社会の構築」「外国人が置かれている状況、能力に応じて日本語教育を受ける機会が確保されるよう日本語教育の機会を拡充します。」",
+  "note": "公約の文言（共生と日本語教育）に合わせて区分を修正（以前は「厳格・適正な管理」）"
+ },
+ {
+  "party": "rikken",
+  "theme": "gaikokujin",
+  "election": "s2019",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "rikken2019v2"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "「外国人労働者の権利擁護や日本語教育の拡充などで、多文化共生社会を実現します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "gaikokujin",
+  "election": "s2019",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "kokumin2019pamph"
+  ],
+  "verified": true,
+  "asName": "国民民主党（旧）",
+  "wording": "「外国人の受け入れは、その能力が存分に発揮され、日本国民との協働・共生が地域社会や生活の現場においても推進されることが大前提です。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "gaikokujin",
+  "election": "s2019",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "kyosan2019pol"
+  ],
+  "verified": true,
+  "wording": "「人権侵害の温床となっている技能実習生制度は廃止します。」「外国人労働者を雇用の調整弁にする改定入管法を抜本改正します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "gaikokujin",
+  "election": "s2019",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "shamin2019web",
+   "shamin2019detail"
+  ],
+  "verified": true,
+  "wording": "「外国人労働者を地域社会を構成する一員として正面から迎え入れる制度とします。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "gaikokujin",
+  "election": "s2021",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "kyosan2021pol",
+   "kyosan2021gai"
+  ],
+  "verified": true,
+  "wording": "「技能実習制度は廃止します。外国人を雇用の調整弁にする改定入管法を抜本改正し、家族の帯同をはじめ人権を守ります。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "gaikokujin",
+  "election": "s2022",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "rikken2022pol"
+  ],
+  "verified": true,
+  "wording": "「「多文化共生社会の形成」を目指す「多文化共生社会基本法」を制定します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "gaikokujin",
+  "election": "s2024",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "ishin2024pdf",
+   "ishin2024core"
+  ],
+  "verified": true,
+  "wording": "「専門的・技術的分野の外国人については…積極的な受入れを図る一方」「外国資本や外国人による農地・森林・水源地などの土地取得の制限」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "gaikokujin",
+  "election": "s2025",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "jimin2025pdf"
+  ],
+  "verified": true,
+  "wording": "「円滑かつ厳格な出入国在留管理と、それに必要な体制整備を進めます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "gaikokujin",
+  "election": "s2025",
+  "position": "coexist",
+  "temp": 2,
+  "sources": [
+   "rikken2025pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「多文化共生社会基本法、難民等保護法・入管法等改正法を制定します」",
+  "tempBasis": "本編のジェンダー平等・共生社会・人権の章",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "gaikokujin",
+  "election": "s2025",
+  "position": "restrict",
+  "temp": null,
+  "sources": [
+   "ishin2025core"
+  ],
+  "verified": true,
+  "wording": "「外国人比率の上昇抑制や受け入れ総量規制を含む人口戦略を策定し」「外国人・外国資本による土地取得に事前許可制と利用規制を導入」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約原文の受け入れ総量規制に合わせて区分を修正（以前は「厳格・適正な管理」）"
+ },
+ {
+  "party": "sansei",
+  "theme": "gaikokujin",
+  "election": "s2025",
+  "position": "restrict",
+  "temp": null,
+  "sources": [
+   "g2s2025_sansei",
+   "sansei2025koho"
+  ],
+  "verified": true,
+  "wording": "アンケート「外国人労働者の受け入れを制限すべきですか？」に「賛成」。「無制限な受け入れではなく、国益を重視した持続可能で安全な社会を目指す管理型政策への転換を図る。」",
+  "verifiedOn": "2026-11-22",
+  "note": "党のアンケート回答で確認。回答は受け入れの制限に「賛成」で、外国人総合政策庁の新設も掲げる"
+ },
+ {
+  "party": "komei",
+  "theme": "gaikokujin",
+  "election": "s2025",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "g2s2025_komei"
+  ],
+  "verified": true,
+  "wording": "アンケート「外国人労働者の受け入れを制限すべきですか？」に「中立」。「一定の範囲において、外国人労働者の受入れを行っていくことが必要だと考えます。」",
+  "verifiedOn": "2026-11-22",
+  "note": "公約（日経掲載PDF）には記載なし。回答は、受け入れを前提に、入管法などに基づく受け入れと違反者への厳正な対応、日本語教育などを挙げている"
+ },
+ {
+  "party": "shamin",
+  "theme": "gaikokujin",
+  "election": "s2025",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "shamin2025koho",
+   "g2s2025_shamin"
+  ],
+  "verified": true,
+  "wording": "「ジェンダー平等・多文化共生社会、選択的夫婦別姓の実現！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "gaikokujin",
+  "election": "s2026",
+  "position": "manage",
+  "temp": 2,
+  "sources": [
+   "g2s2026_jimin"
+  ],
+  "verified": true,
+  "commit": "aim",
+  "wording": "アンケート「外国人や外国資本による土地取得規制を強化すべきですか？」に「賛成」。「土地関連制度については、徹底した実態把握や安全保障上の懸念を生じさせない仕組みを確立する必要があります。」",
+  "tempBasis": "在留管理の強化を明記",
+  "verifiedOn": "2026-11-21",
+  "note": "公約（政策BANK）の外国人政策の部分は文字として読み取れず、党のアンケート回答で照合"
+ },
+ {
+  "party": "chudo",
+  "theme": "gaikokujin",
+  "election": "s2026",
+  "position": "coexist",
+  "temp": 2,
+  "sources": [
+   "chudo2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「多文化共生社会基本法…を制定します」",
+  "tempBasis": "第3の柱の個別政策",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "gaikokujin",
+  "election": "s2026",
+  "position": "restrict",
+  "temp": 2,
+  "sources": [
+   "ishin2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「外国人の移住に関する司令塔機能を設置。」「量的マネジメントを導入」",
+  "tempBasis": "第3の柱と連立合意に記載",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "gaikokujin",
+  "election": "s2026",
+  "position": "restrict",
+  "temp": 3,
+  "sources": [
+   "sansei2026"
+  ],
+  "verified": true,
+  "tempBasis": "第1の柱の2番目の項目",
+  "commit": "definite",
+  "wording": "「安易な移民依存に委ねません」「受け入れ総量と運用を厳格化」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "gaikokujin",
+  "election": "s2026",
+  "position": "coexist",
+  "temp": 1,
+  "sources": [
+   "kyosan2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「暮らしの困難や政治への閉そく感を外国人への敵意に向けさせ、…社会に差別と分断を広げることは、民主主義と人権を著しく踏みにじる行為であり、決して許されません。」",
+  "tempBasis": "総選挙政策の第三の柱。重点政策に独立した項目はない",
+  "verifiedOn": "2026-11-22",
+  "note": "公約（日経掲載）の外国人についての記述は差別への反対が中心で、政策一覧には「外国人の人権と入管、難民」の項目がある"
+ },
+ {
+  "party": "reiwa",
+  "theme": "gaikokujin",
+  "election": "s2026",
+  "position": "coexist",
+  "temp": 1,
+  "sources": [
+   "reiwaBasic2502",
+   "reiwaPolicy",
+   "g2s2026_reiwa"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「外国人差別をなくし、共生社会の礎となる、外国人の権利を守る法制度を整えます。」",
+  "tempBasis": "多文化共生の項目",
+  "verifiedOn": "2026-11-22",
+  "note": "選挙公約の文書は確認できず、党のアンケート（外国人や外国資本による土地取得規制の強化に「中立」）でも区分を決められないため、選挙時点で党が公開していた基本政策（2025年2月版）で照合"
+ },
+ {
+  "party": "kokumin",
+  "theme": "gaikokujin",
+  "election": "s2026",
+  "position": "manage",
+  "temp": 2,
+  "sources": [
+   "kokumin2026pol"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「防衛施設周辺以外も対象とした『外国人土地取得規制法』の制定」",
+  "tempBasis": "第4柱の4番目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "gaikokujin",
+  "election": "s2022",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "jcp2022gai"
+  ],
+  "verified": true,
+  "wording": "「日本共産党は、日本国憲法に立脚して、外国人の人権を守り、地域社会で共生していける入管法への抜本的な改正を求めます。」「外国人技能実習制度は廃止します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "gaikokujin",
+  "election": "s2024",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "jimin2024pdf"
+  ],
+  "verified": true,
+  "wording": "「円滑かつ厳格な出入国在留管理を推進し、国民が安心できる共生社会を実現します」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約の記述は出入国在留管理と共生社会の一文"
+ },
+ {
+  "party": "rikken",
+  "theme": "gaikokujin",
+  "election": "s2024",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "rikken2024pdf"
+  ],
+  "verified": true,
+  "wording": "「国民と在留外国人が相互に尊重しつつ支え合う多文化共生社会を実現します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "gaikokujin",
+  "election": "s2024",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "kyosan2024pdf"
+  ],
+  "verified": true,
+  "wording": "「外国人労働者に、日本人と同等の労働者としての権利保障を確立します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "gaikokujin",
+  "election": "s2025",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "kokumin2025pdf"
+  ],
+  "verified": true,
+  "wording": "「外国人土地取得規制」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約の外国人に関する記述は土地取得規制。テーマの基準どおり「厳格・適正な管理」に分類"
+ },
+ {
+  "party": "kyosan",
+  "theme": "gaikokujin",
+  "election": "s2025",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "kyosan2025pdf"
+  ],
+  "verified": true,
+  "wording": "「外国人労働者に、日本人と同等の労働者としての権利保障を確立します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "gaikokujin",
+  "election": "s2025",
+  "position": "restrict",
+  "temp": null,
+  "sources": [
+   "g2s2025_reiwa",
+   "reiwaBasic2502"
+  ],
+  "verified": true,
+  "wording": "アンケート「外国人労働者の受け入れを制限すべきですか？」に「賛成」。「私たちは、人口減少や労働力不足を理由とした外国人労働者の受け入れには反対です。」",
+  "verifiedOn": "2026-11-22",
+  "note": "選挙公約の文書は確認できず、根拠資料の順番（公約原文→党のアンケート回答→党の基本政策）に沿ってアンケート回答で分類（以前は基本政策による「多文化共生・権利保障を重視」）。党の基本政策（2025年2月版）には「外国人差別をなくし、共生社会の礎となる、外国人の権利を守る法制度を整えます」とある"
+ },
+ {
+  "party": "sansei",
+  "theme": "gaikokujin",
+  "election": "s2024",
+  "position": "restrict",
+  "temp": null,
+  "sources": [
+   "sansei2024pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「目先の人材不足を補うための行き過ぎた外国人労働者流入を抑える」「過度な移民受け入れに歯止めをかける」"
+ },
+ {
+  "party": "rikken",
+  "theme": "gaikokujin",
+  "election": "s2021",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "rikken2021pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「入国管理・難民認定制度を改善・透明化するとともに、多文化共生の取り組みを進めます」"
+ },
+ {
+  "party": "kokumin",
+  "theme": "gaikokujin",
+  "election": "s2021",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "kokumin2021pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「外国人の受け入れは…日本国民との協働・共生が地域社会や生活の現場においても推進されることが大前提です」"
+ },
+ {
+  "party": "reiwa",
+  "theme": "gaikokujin",
+  "election": "s2021",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "reiwa2021pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「『外国人技能実習制度』は速やかに廃止します」",
+  "note": "公約の記載は技能実習制度の廃止のみ。権利保障を重視する立場として分類"
+ },
+ {
+  "party": "jimin",
+  "theme": "gaikokujin",
+  "election": "s2022",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "jimin2022pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「外国人の受入れ環境整備や、適正な出入国在留管理を徹底し、多文化共生社会を実現します」"
+ },
+ {
+  "party": "reiwa",
+  "theme": "gaikokujin",
+  "election": "s2019",
+  "position": "none",
+  "temp": null,
+  "sources": [
+   "reiwa2019koho"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "（選挙公報で「入管法」を見直し・廃止の対象として列挙）",
+  "note": "選挙公報は入管法などを見直し・廃止の対象として名前を挙げるのみで、受け入れについての方向は読み取れないため「公約で言及なし」に分類（以前は「多文化共生」）"
+ },
+ {
+  "party": "jimin",
+  "theme": "gaikokujin",
+  "election": "s2017",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "jimin2017pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「外国人労働者が適切に働ける制度を整備します。」",
+  "note": "公約の記述は外国人労働者の制度整備の一文のみ"
+ },
+ {
+  "party": "komei",
+  "theme": "gaikokujin",
+  "election": "s2017",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "komei2017pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「認定難民及び人道的配慮等で保護された外国人への日本語支援等、公的支援を強化します。」",
+  "note": "中心は難民などへの公的支援の強化。難民認定制度の適正化もあわせて掲げている"
+ },
+ {
+  "party": "rikken",
+  "theme": "gaikokujin",
+  "election": "s2016",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "minshin2016pol"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「必要な海外からの人材は、計画的に認めていきます。」",
+  "asName": "民進党",
+  "note": "民進党の政策集（雇用の項）の一文のみ。立憲民主党の結党（2017年10月）前のため、前身の民進党の記述を示している"
+ },
+ {
+  "party": "kokumin",
+  "theme": "gaikokujin",
+  "election": "s2016",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "minshin2016pol"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「必要な海外からの人材は、計画的に認めていきます。」",
+  "asName": "民進党",
+  "note": "民進党の政策集（雇用の項）の一文のみ。国民民主党の結党（2018年5月）前のため、前身の民進党の記述を示している"
+ },
+ {
+  "party": "ishin",
+  "theme": "gaikokujin",
+  "election": "s2019",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "ishin2019pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「マイナンバーカードによる外国人労働者の在留管理」"
+ },
+ {
+  "party": "jimin",
+  "theme": "gaikokujin",
+  "election": "s2016",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "jimin2016bank"
+  ],
+  "verified": true,
+  "wording": "「外国人労働者が適切に働ける制度を整備します。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約の記述は外国人労働者が適切に働ける制度の整備の一文のみ"
+ },
+ {
+  "party": "komei",
+  "theme": "gaikokujin",
+  "election": "s2021",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "komei2021pdf"
+  ],
+  "verified": true,
+  "wording": "「外国人の方が適切な情報に到達できるよう、多言語対応を促進する」（目次に「外国人が安心して暮らせる多文化共生社会」）",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "gaikokujin",
+  "election": "s2022",
+  "position": "coexist",
+  "temp": null,
+  "sources": [
+   "komei2022pdf"
+  ],
+  "verified": true,
+  "wording": "「わが国における避難民等の受け入れや保護が迅速かつ円滑に進むよう新たな仕組みづくりに取り組みます。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約の記述は避難民の受け入れ・保護と、外国人児童生徒の学びの確保のみ"
+ },
+ {
+  "party": "ishin",
+  "theme": "gaikokujin",
+  "election": "s2022",
+  "position": "manage",
+  "temp": null,
+  "sources": [
+   "ishin2022pdf"
+  ],
+  "verified": true,
+  "wording": "「防衛施設周辺や国境離島の土地等が外国人・外国企業に購入され、我が国の安全保障を脅かす事態が生じていることに鑑み、国家安全保障上重要な土地等の取引等については厳格に規制を強化します。」",
+  "verifiedOn": "2026-11-21",
+  "note": "外国人に関する記述は、安全保障上重要な土地の取得規制のみ。受け入れそのものへの言及はない（土地取得規制は基準どおり「厳格・適正な管理」）"
+ }
+]

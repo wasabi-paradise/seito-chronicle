@@ -1,0 +1,262 @@
+{
+ "ishin2019koho": {
+  "title": "日本維新の会 選挙公報（2019年参院選 比例代表、茨城県選挙管理委員会 掲載の音声読み上げ用データ）",
+  "url": "https://www.pref.ibaraki.jp/somu/shichoson/senkyo/senkan/2019sangi/documents/ishin-kouhou-onsei.pdf",
+  "kind": "選挙公報"
+ },
+ "reiwa2019koho": {
+  "title": "れいわ新選組 選挙公報（2019年参院選 比例代表、茨城県選挙管理委員会 掲載の音声読み上げ用データ）",
+  "url": "https://www.pref.ibaraki.jp/somu/shichoson/senkyo/senkan/2019sangi/documents/reiwa-kouhou-onsei.pdf",
+  "kind": "選挙公報"
+ },
+ "shamin2019koho": {
+  "title": "社会民主党 選挙公報（2019年参院選 比例代表、茨城県選挙管理委員会 掲載の音声読み上げ用データ）",
+  "url": "https://www.pref.ibaraki.jp/somu/shichoson/senkyo/senkan/2019sangi/documents/syamin-kouhou-onsei.pdf",
+  "kind": "選挙公報"
+ },
+ "jimin2017pdf": {
+  "title": "自由民主党 衆議院選挙公約2017（政権公約・政策BANK）",
+  "url": "https://storage2.jimin.jp/pdf/manifest/20171010_manifest.pdf",
+  "kind": "政党の公約原文"
+ },
+ "jimin2016web": {
+  "title": "自由民主党 参議院選挙公約2016（党公式サイト）",
+  "url": "https://www.jimin.jp/election/results/sen_san24/political_promise/index.html",
+  "kind": "政党の公約原文"
+ },
+ "kyosan2016pol": {
+  "title": "日本共産党 2016参議院選挙政策「力あわせ、未来ひらく」",
+  "url": "https://www.jcp.or.jp/web_policy/2016/06/2016-sanin-seisaku.html",
+  "kind": "政党の公約原文"
+ },
+ "komei2017pdf": {
+  "title": "公明党 衆院選2017 マニフェスト",
+  "url": "https://www.komei.or.jp/campaign/shuin2017/manifesto/manifesto2017.pdf",
+  "kind": "政党の公約原文"
+ },
+ "minshin2016pdf": {
+  "title": "民進党 重点政策「国民との約束」（2016年参院選、2016年6月15日発行）",
+  "url": "https://www.minshin.or.jp/download/29196.pdf",
+  "kind": "政党の公約原文"
+ },
+ "minshin2016pol": {
+  "title": "民進党政策集2016",
+  "url": "https://www.minshin.or.jp/download/31045.pdf",
+  "kind": "政党の公約原文"
+ },
+ "ishin2017pdf": {
+  "title": "日本維新の会 2017維新八策（衆院選マニフェスト）",
+  "url": "https://o-ishin.jp/news/2017/images/Manifesto_WEB_low_1001_confidential.pdf",
+  "kind": "政党の公約原文"
+ },
+ "ishin2019pdf": {
+  "title": "日本維新の会 第25回参議院議員通常選挙マニフェスト（詳細版）",
+  "url": "https://o-ishin.jp/news/2019/images/6860febe42b42f0a5eb56dd331612ad8ea34820a.pdf",
+  "kind": "政党の公約原文"
+ },
+ "kyosan2017pdf": {
+  "title": "日本共産党 2017総選挙政策",
+  "url": "http://www.jcp.or.jp/web_download/201710-senkyo_A4_seisaku.pdf",
+  "kind": "政党の公約原文"
+ },
+ "jimin2019bank": {
+  "title": "自由民主党 令和元年 政策BANK（2019年参院選公約）",
+  "url": "https://storage2.jimin.jp/pdf/pamphlet/20190607_bank.pdf",
+  "kind": "政党の公約原文"
+ },
+ "jimin2019pamph": {
+  "title": "自由民主党 令和元年 政策パンフレット（2019年参院選公約）",
+  "url": "https://storage2.jimin.jp/pdf/pamphlet/20190607_pamphlet.pdf",
+  "kind": "政党の公約原文"
+ },
+ "jimin2019jfile": {
+  "title": "自由民主党 総合政策集2019 J-ファイル",
+  "url": "https://storage2.jimin.jp/pdf/pamphlet/20190618_j-file_pamphlet.pdf",
+  "kind": "政党の公約原文"
+ },
+ "komei2019pdf": {
+  "title": "公明党 2019参院選 重点政策",
+  "url": "https://www.komei.or.jp/campaign/sanin2019/_assets/pdf/manifesto2019l.pdf",
+  "kind": "政党の公約原文"
+ },
+ "kokumin2019pamph": {
+  "title": "国民民主党 政策パンフレット「新しい答え2019」",
+  "url": "https://www.dpfp.or.jp/download/44644.pdf",
+  "kind": "政党の公約原文"
+ },
+ "rikken2019v1": {
+  "title": "立憲民主党（旧）立憲ビジョン2019「暮らしから始まる経済成長へ」",
+  "url": "https://archive2017.cdp-japan.jp/policies/vision/1",
+  "kind": "政党の公約原文"
+ },
+ "rikken2019v2": {
+  "title": "立憲民主党（旧）立憲ビジョン2019「個人の可能性が芽吹く社会へ」",
+  "url": "https://archive2017.cdp-japan.jp/policies/vision/2",
+  "kind": "政党の公約原文"
+ },
+ "rikken2019v3": {
+  "title": "立憲民主党（旧）立憲ビジョン2019「原発ゼロを実現し新エネ・環境立国へ」",
+  "url": "https://archive2017.cdp-japan.jp/policies/vision/3",
+  "kind": "政党の公約原文"
+ },
+ "rikken2019v4": {
+  "title": "立憲民主党（旧）立憲ビジョン2019「透明性の高い「まっとうな政治」へ」",
+  "url": "https://archive2017.cdp-japan.jp/policies/vision/4",
+  "kind": "政党の公約原文"
+ },
+ "rikken2019v5": {
+  "title": "立憲民主党（旧）立憲ビジョン2019「平和を守る現実的な外交へ」",
+  "url": "https://archive2017.cdp-japan.jp/policies/vision/5",
+  "kind": "政党の公約原文"
+ },
+ "shamin2019web": {
+  "title": "社民党 2019年参議院選挙 公約",
+  "url": "http://www5.sdp.or.jp/election_sangiin_2019",
+  "kind": "政党の公約原文"
+ },
+ "shamin2019detail": {
+  "title": "社民党 2019年参議院選挙 公約詳細",
+  "url": "http://www5.sdp.or.jp/election_sangiin_2019_detail",
+  "kind": "政党の公約原文"
+ },
+ "kyosan2019pol": {
+  "title": "日本共産党「希望と安心の日本を――参院選にあたっての日本共産党の公約」（しんぶん赤旗 2019年6月22日）",
+  "url": "https://www.jcp.or.jp/akahata/aik19/2019-06-22/2019062204_01_0.html",
+  "kind": "政党の機関紙"
+ },
+ "jimin2016bank": {
+  "title": "自由民主党 参議院選挙公約2016 政策BANK（党公式サイト）",
+  "url": "https://www.jimin.jp/election/results/sen_san24/political_promise/bank/",
+  "kind": "政党の公約原文"
+ },
+ "ishin2016web": {
+  "title": "おおさか維新の会 2016参院選マニフェスト「古い政治を壊す。新しい政治を創る。」（党の特設サイト）",
+  "url": "https://o-ishin.jp/sangiin2016/",
+  "kind": "政党の公約原文"
+ },
+ "ishin2016kenpo": {
+  "title": "おおさか維新の会 談話「憲法記念日を迎えるにあたり」（2016年5月2日）",
+  "url": "https://o-ishin.jp/news/2016/images/8968c8b37597a68516c369e8ddb58def98def0b6.pdf",
+  "kind": "政党の公式発表"
+ },
+ "komei2021pdf": {
+  "title": "公明党 2021衆院選 政策集（日本経済新聞 掲載PDF）",
+  "url": "https://partsa.nikkei.com/parts/ds/shuin2021/pdf/koumei.pdf",
+  "kind": "政党の公約原文"
+ },
+ "kyosan2021pol": {
+  "title": "日本共産党 2021年総選挙政策「なにより、いのち。ぶれずに、つらぬく」",
+  "url": "https://www.jcp.or.jp/web_policy/2021/10/2021-sosenkyo-seisaku.html",
+  "kind": "政党の公約原文"
+ },
+ "kyosan2021kenkin": {
+  "title": "日本共産党 2021年総選挙 各分野の政策 51「民意の届く」選挙制度改革・「政治とカネ」",
+  "url": "https://www.jcp.or.jp/web_policy/2021/10/2021s-bunya-051.html",
+  "kind": "政党の公約原文"
+ },
+ "kyosan2021gai": {
+  "title": "日本共産党 2021年総選挙 各分野の政策 69 外国人問題",
+  "url": "https://www.jcp.or.jp/web_policy/2021/10/2021s-bunya-069.html",
+  "kind": "政党の公約原文"
+ },
+ "komei2022pdf": {
+  "title": "公明党 2022参院選 政策集（日本経済新聞 掲載PDF）",
+  "url": "https://partsa.nikkei.com/parts/ds/sanin2022/pdf/koumei.pdf",
+  "kind": "政党の公約原文"
+ },
+ "rikken2022pol": {
+  "title": "立憲民主党 政策集2022",
+  "url": "https://cdp-japan.jp/assets/pdf/visions/2022/policies2022.pdf",
+  "kind": "政党の公約原文"
+ },
+ "kyosan2022kenkin": {
+  "title": "日本共産党 2022参院選 各分野の政策 51「民意の届く」選挙制度改革・「政治とカネ」",
+  "url": "https://www.jcp.or.jp/web_policy/2022/06/202207-bunya51.html",
+  "kind": "政党の公約原文"
+ },
+ "reiwa2026koho": {
+  "title": "れいわ新選組 選挙公報（2026年衆院選 比例代表、香川県選挙管理委員会 掲載の音声読み上げ用データ）",
+  "url": "https://www.pref.kagawa.lg.jp/documents/59201/08syugi_hirei_onsei05reiwa.pdf",
+  "kind": "選挙公報"
+ },
+ "reiwaBasic2502": {
+  "title": "れいわ新選組 基本政策（2025年2月掲載版。2025年参院選・2026年衆院選の時点で党が公開していた基本政策で、選挙公約そのものではない）",
+  "url": "https://reiwa-shinsengumi.com/wp-content/uploads/2025/02/れいわ新選組基本政策.pdf",
+  "kind": "政党の公式資料"
+ },
+ "g2s2026_jimin": {
+  "title": "政党政策アンケート：自由民主党【衆院選2026】（選挙ドットコム）※党が回答",
+  "url": "https://go2senkyo.com/articles/2026/02/07/129138.html",
+  "kind": "政党の回答"
+ },
+ "g2s2025_jimin": {
+  "title": "【参院選2025】政党政策アンケート：自由民主党（選挙ドットコム）※党が回答",
+  "url": "https://go2senkyo.com/articles/2025/07/16/117389.html",
+  "kind": "政党の回答"
+ },
+ "g2s2025_kokumin": {
+  "title": "【参院選2025】政党政策アンケート：国民民主党（選挙ドットコム）※党が回答",
+  "url": "https://go2senkyo.com/articles/2025/07/16/117455.html",
+  "kind": "政党の回答"
+ },
+ "g2s2017_komei": {
+  "title": "【公明党】キャッチコピーは「教育負担の軽減へ」。53人を擁立（選挙ドットコム 2017年10月14日）※政策アンケートに党が回答",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32665.html",
+  "kind": "政党の回答"
+ },
+ "g2s2017_rikken": {
+  "title": "【立憲民主党】キャッチコピーは「まっとうな政治。」 78人を擁立（選挙ドットコム 2017年10月14日）※政策アンケートに党が回答",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32675.html",
+  "kind": "政党の回答"
+ },
+ "g2s2017_shamin": {
+  "title": "【社民党】キャッチコピー「憲法を活かす政治」。 21人を擁立（選挙ドットコム 2017年10月14日）※政策アンケートに党が回答",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32682.html",
+  "kind": "政党の回答"
+ },
+ "g2s2017_kibo": {
+  "title": "【希望の党】キャッチコピーは「日本に希望を。」 235人を擁立（選挙ドットコム 2017年10月14日）※政策アンケートに党が回答",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32672.html",
+  "kind": "政党の回答"
+ },
+ "g2s2017_rikken_kyoiku": {
+  "title": "【衆議院選挙2017】各党政策比較「幼児教育の無償化」への賛否（選挙ドットコム）※党が回答",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32647.html",
+  "kind": "政党の回答"
+ },
+ "g2s2017_shohizei": {
+  "title": "【衆議院選挙2017】各党政策比較「消費税10%への引き上げ」への賛否（選挙ドットコム）※党が回答",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32625.html",
+  "kind": "政党の回答"
+ },
+ "g2s2017_genpatsu": {
+  "title": "【衆議院選挙2017】各党政策比較「2030年までの原発ゼロ」への賛否（選挙ドットコム）※党が回答",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32642.html",
+  "kind": "政党の回答"
+ },
+ "jimin2026pamph": {
+  "title": "自由民主党 政権公約2026 パンフレット",
+  "url": "https://storage2.jimin.jp/pdf/pamphlet/202601_manifest.pdf",
+  "kind": "政党の公約原文"
+ },
+ "g2s2017_jimin": {
+  "title": "【衆議院選挙2017】自民党（選挙ドットコム）※党が回答した政策アンケートを含む",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32662.html",
+  "kind": "政党の回答"
+ },
+ "g2s2017_kyosan": {
+  "title": "【衆議院選挙2017】共産党（選挙ドットコム）※党が回答した政策アンケートを含む",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32668.html",
+  "kind": "政党の回答"
+ },
+ "g2s2017_ishin": {
+  "title": "【衆議院選挙2017】日本維新の会（選挙ドットコム）※党が回答した政策アンケートを含む",
+  "url": "https://go2senkyo.com/articles/2017/10/14/32679.html",
+  "kind": "政党の回答"
+ },
+ "jcp2022anpo": {
+  "title": "日本共産党 2022参院選 各分野の政策 73、安保・基地・自衛隊",
+  "url": "https://www.jcp.or.jp/web_policy/2022/06/202207-bunya73.html",
+  "kind": "政党の公約原文"
+ }
+}

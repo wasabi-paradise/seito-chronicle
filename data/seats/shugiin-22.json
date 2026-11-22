@@ -1,0 +1,44 @@
+{
+ "n": 22,
+ "date": "1946-04-10",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "進歩",
+   "party": "shinpo",
+   "seats": 94
+  },
+  {
+   "label": "自由",
+   "party": "jiyu45",
+   "seats": 140
+  },
+  {
+   "label": "社会",
+   "party": "shakai45",
+   "seats": 92
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 5
+  },
+  {
+   "label": "協同",
+   "party": "kyodo1",
+   "seats": 14
+  },
+  {
+   "label": "諸派",
+   "seats": 38
+  },
+  {
+   "label": "無所属",
+   "seats": 81
+  }
+ ],
+ "note": "当選人数が定数に満たないのは、東京2区と福井で当選人数が定数に満たなかったため（結果調の注）。この回は大選挙区・制限連記制。",
+ "total": 464
+}

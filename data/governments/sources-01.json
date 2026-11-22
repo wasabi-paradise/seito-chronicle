@@ -1,0 +1,443 @@
+{
+ "nippon": {
+  "title": "【日本の政治】歴代内閣総理大臣（1982年、中曽根内閣以降）連立の構成（nippon.com）",
+  "url": "https://www.nippon.com/ja/features/h00005/",
+  "kind": "報道"
+ },
+ "ndl_katayama": {
+  "title": "社会党内閣成立（国立国会図書館「史料にみる日本の近代」）",
+  "url": "https://www.ndl.go.jp/modern/cha5/description09.html",
+  "kind": "公的機関"
+ },
+ "jimin_hist": {
+  "title": "自由民主党 党の歴史 保守合同前史（1945〜1954）",
+  "url": "https://www.jimin.jp/aboutus/history/1945-1954.html",
+  "kind": "政党の公式資料"
+ },
+ "sakigake_t2": {
+  "title": "第2次高市内閣発足、全閣僚再任 巨大与党、審議充実に課題（秋田魁新報 2026年2月18日）",
+  "url": "https://www.sakigake.jp/news/article/20260218CO0081/",
+  "kind": "報道"
+ },
+ "k43": {
+  "title": "第43代 東久邇宮稔彦王（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/043.html",
+  "kind": "公的機関"
+ },
+ "k44": {
+  "title": "第44代 幣原喜重郎（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/044.html",
+  "kind": "公的機関"
+ },
+ "k45": {
+  "title": "第45代 吉田茂（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/045.html",
+  "kind": "公的機関"
+ },
+ "k46": {
+  "title": "第46代 片山哲（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/046.html",
+  "kind": "公的機関"
+ },
+ "k47": {
+  "title": "第47代 芦田均（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/047.html",
+  "kind": "公的機関"
+ },
+ "k48": {
+  "title": "第48代 吉田茂（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/048.html",
+  "kind": "公的機関"
+ },
+ "k49": {
+  "title": "第49代 吉田茂（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/049.html",
+  "kind": "公的機関"
+ },
+ "k52": {
+  "title": "第52代 鳩山一郎（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/052.html",
+  "kind": "公的機関"
+ },
+ "k55": {
+  "title": "第55代 石橋湛山（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/055.html",
+  "kind": "公的機関"
+ },
+ "k56": {
+  "title": "第56代 岸信介（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/056.html",
+  "kind": "公的機関"
+ },
+ "k58": {
+  "title": "第58代 池田勇人（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/058.html",
+  "kind": "公的機関"
+ },
+ "k61": {
+  "title": "第61代 佐藤栄作（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/061.html",
+  "kind": "公的機関"
+ },
+ "k64": {
+  "title": "第64代 田中角栄（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/064.html",
+  "kind": "公的機関"
+ },
+ "k66": {
+  "title": "第66代 三木武夫（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/066.html",
+  "kind": "公的機関"
+ },
+ "k67": {
+  "title": "第67代 福田赳夫（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/067.html",
+  "kind": "公的機関"
+ },
+ "k68": {
+  "title": "第68代 大平正芳（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/068.html",
+  "kind": "公的機関"
+ },
+ "k70": {
+  "title": "第70代 鈴木善幸（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/070.html",
+  "kind": "公的機関"
+ },
+ "k71": {
+  "title": "第71代 中曽根康弘（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/071.html",
+  "kind": "公的機関"
+ },
+ "k74": {
+  "title": "第74代 竹下登（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/074.html",
+  "kind": "公的機関"
+ },
+ "k75": {
+  "title": "第75代 宇野宗佑（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/075.html",
+  "kind": "公的機関"
+ },
+ "k76": {
+  "title": "第76代 海部俊樹（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/076.html",
+  "kind": "公的機関"
+ },
+ "k78": {
+  "title": "第78代 宮澤喜一（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/078.html",
+  "kind": "公的機関"
+ },
+ "k79": {
+  "title": "第79代 細川護熙（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/079.html",
+  "kind": "公的機関",
+  "short": "官邸 歴代内閣"
+ },
+ "k80": {
+  "title": "第80代 羽田孜（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/080.html",
+  "kind": "公的機関"
+ },
+ "k81": {
+  "title": "第81代 村山富市（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/081.html",
+  "kind": "公的機関"
+ },
+ "k82": {
+  "title": "第82代 橋本龍太郎（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/082.html",
+  "kind": "公的機関"
+ },
+ "k84": {
+  "title": "第84代 小渕恵三（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/084.html",
+  "kind": "公的機関"
+ },
+ "k85": {
+  "title": "第85代 森喜朗（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/085.html",
+  "kind": "公的機関"
+ },
+ "k87": {
+  "title": "第87代 小泉純一郎（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/087.html",
+  "kind": "公的機関"
+ },
+ "k90": {
+  "title": "第90代 安倍晋三（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/090.html",
+  "kind": "公的機関"
+ },
+ "k91": {
+  "title": "第91代 福田康夫（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/091.html",
+  "kind": "公的機関"
+ },
+ "k92": {
+  "title": "第92代 麻生太郎（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/092.html",
+  "kind": "公的機関"
+ },
+ "k93": {
+  "title": "第93代 鳩山由紀夫（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/093.html",
+  "kind": "公的機関"
+ },
+ "k94": {
+  "title": "第94代 菅直人（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/094.html",
+  "kind": "公的機関"
+ },
+ "k95": {
+  "title": "第95代 野田佳彦（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/095.html",
+  "kind": "公的機関"
+ },
+ "k96": {
+  "title": "第96代 安倍晋三（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/096.html",
+  "kind": "公的機関"
+ },
+ "k99": {
+  "title": "第99代 菅義偉（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/099.html",
+  "kind": "公的機関"
+ },
+ "k100": {
+  "title": "第100代 岸田文雄（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/100.html",
+  "kind": "公的機関"
+ },
+ "k102": {
+  "title": "第102代 石破茂（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/102.html",
+  "kind": "公的機関"
+ },
+ "k104": {
+  "title": "第104代 高市早苗（首相官邸 歴代内閣）",
+  "url": "https://www.kantei.go.jp/jp/rekidainaikaku/104.html",
+  "kind": "公的機関",
+  "short": "官邸 歴代内閣"
+ },
+ "ndl_ref2014": {
+  "title": "「戦後主要政党の変遷と国会内勢力の推移」（国立国会図書館『レファレンス』2014年6月号）",
+  "url": "https://dl.ndl.go.jp/view/download/digidepo_8689381_po_076103.pdf?contentNo=1",
+  "kind": "公的機関",
+  "short": "国会図書館 レファレンス"
+ },
+ "ndl_modern5_5": {
+  "title": "総選挙（国立国会図書館「史料にみる日本の近代」5-5）",
+  "url": "https://www.ndl.go.jp/modern/cha5/description05.html",
+  "kind": "公的機関"
+ },
+ "shugiin_saishuppatsu": {
+  "title": "衆議院憲政記念館「戦後日本の再出発特別展」",
+  "url": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/kensei/kenseiH25tokubetsu1.htm",
+  "kind": "公的機関"
+ },
+ "ohara533": {
+  "title": "「片山・芦田内閣前後」ほか（『大原社会問題研究所雑誌』No.533、2003年、国立国会図書館デジタルコレクション）",
+  "url": "https://dl.ndl.go.jp/view/prepareDownload?itemId=info%3Andljp%2Fpid%2F9971741&contentNo=1",
+  "kind": "学術論文"
+ },
+ "ndl_modern6_5": {
+  "title": "吉田退陣（国立国会図書館「史料にみる日本の近代」6-5）",
+  "url": "https://www.ndl.go.jp/modern/cha6/description05.html",
+  "kind": "公的機関"
+ },
+ "ndl_ashida_diary": {
+  "title": "芦田均：昭和22年3月22日の日記より（国立国会図書館「日記の世界」）※1947年3月31日の民主党結成",
+  "url": "https://www.ndl.go.jp/nikki/citeid/ashida_19470322/",
+  "kind": "公的機関"
+ },
+ "jh16": {
+  "title": "自由民主党 党の歴史「河野洋平総裁時代」",
+  "url": "https://www.jimin.jp/aboutus/history/16.html",
+  "kind": "政党の公式資料"
+ },
+ "jh17": {
+  "title": "自由民主党 党の歴史「橋本龍太郎総裁時代」",
+  "url": "https://www.jimin.jp/aboutus/history/17.html",
+  "kind": "政党の公式資料"
+ },
+ "jh18": {
+  "title": "自由民主党 党の歴史「小渕恵三総裁時代」",
+  "url": "https://www.jimin.jp/aboutus/history/18.html",
+  "kind": "政党の公式資料"
+ },
+ "jh19": {
+  "title": "自由民主党 党の歴史「森喜朗総裁時代」",
+  "url": "https://www.jimin.jp/aboutus/history/19.html",
+  "kind": "政党の公式資料"
+ },
+ "jh20": {
+  "title": "自由民主党 党の歴史「小泉純一郎総裁時代」",
+  "url": "https://www.jimin.jp/aboutus/history/20.html",
+  "kind": "政党の公式資料"
+ },
+ "jh21": {
+  "title": "自由民主党 党の歴史「安倍晋三総裁時代（第1次）」",
+  "url": "https://www.jimin.jp/aboutus/history/21.html",
+  "kind": "政党の公式資料"
+ },
+ "jh24": {
+  "title": "自由民主党 党の歴史「谷垣禎一総裁時代」",
+  "url": "https://www.jimin.jp/aboutus/history/24.html",
+  "kind": "政党の公式資料"
+ },
+ "komei20251010": {
+  "title": "公明、連立政権に区切り（公明新聞 2025年10月11日、党所属議員のサイトに転載）※「26年間の自公連立」",
+  "url": "https://www.komei.or.jp/km/tanaka-masaru-hiroshima/2025/10/11/055031/",
+  "kind": "政党の機関紙",
+  "short": "公明新聞 2025-10-11"
+ },
+ "kokkai20110915": {
+  "title": "第178回国会 衆議院本会議 第3号 会議録（2011年9月15日）野田内閣総理大臣の答弁",
+  "url": "https://kokkai.ndl.go.jp/txt/117805254X00320110915/10",
+  "kind": "国会会議録"
+ },
+ "kokkai20111028": {
+  "title": "第179回国会 衆議院本会議 第3号 会議録（2011年10月28日）野田内閣総理大臣の所信表明演説",
+  "url": "https://kokkai.ndl.go.jp/txt/117905254X00320111028/7",
+  "kind": "国会会議録"
+ },
+ "renritsu2025": {
+  "title": "自由民主党・日本維新の会 連立政権合意書（2025年10月20日、日本経済新聞 掲載PDF）",
+  "url": "https://partsa.nikkei.com/parts/ds/pdf/20251020/20251020.pdf",
+  "kind": "政党間の合意文書",
+  "short": "自維 連立合意書"
+ },
+ "kokkai20251126": {
+  "title": "第219回国会 参議院憲法審査会 第1号 会議録（2025年11月26日）※「閣外にいる日本維新の会」",
+  "url": "https://kokkai.ndl.go.jp/txt/121914183X00120251126/26",
+  "kind": "国会会議録",
+  "short": "参憲法審 2025-11-26"
+ },
+ "kokkai20261014": {
+  "title": "第222回国会 衆議院予算委員会 第3号 会議録（2026年10月14日）高市内閣総理大臣の答弁 ※改造で維新から入閣",
+  "url": "https://kokkai.ndl.go.jp/txt/122205261X00320261014/61",
+  "kind": "国会会議録"
+ },
+ "kokkai19930618a": {
+  "title": "第126回国会 衆議院本会議 第34号 会議録（1993年6月18日）山花貞夫議員の宮澤内閣不信任決議案の趣旨弁明",
+  "url": "https://kokkai.ndl.go.jp/txt/112605254X03419930618/6",
+  "kind": "国会会議録",
+  "short": "衆本会議 1993-06-18 趣旨弁明"
+ },
+ "kokkai19930618b": {
+  "title": "同 関谷勝嗣議員（自由民主党）の反対討論",
+  "url": "https://kokkai.ndl.go.jp/txt/112605254X03419930618/8",
+  "kind": "国会会議録",
+  "short": "衆本会議 1993-06-18 反対討論"
+ },
+ "kokkai19930618c": {
+  "title": "同 採決（投票総数475、可とする者255、否とする者220）",
+  "url": "https://kokkai.ndl.go.jp/txt/112605254X03419930618/25",
+  "kind": "国会会議録",
+  "short": "衆本会議 1993-06-18 採決・名簿"
+ },
+ "kokkai19940527": {
+  "title": "第129回国会 衆議院予算委員会 第11号 会議録（1994年5月27日）羽田内閣総理大臣の発言",
+  "url": "https://kokkai.ndl.go.jp/txt/112905261X01119940527/11",
+  "kind": "国会会議録",
+  "short": "衆予算委 1994-05-27"
+ },
+ "kokkai19940531": {
+  "title": "第129回国会 衆議院予算委員会 第13号 会議録（1994年5月31日）羽田内閣総理大臣の発言",
+  "url": "https://kokkai.ndl.go.jp/txt/112905261X01319940531/138",
+  "kind": "国会会議録",
+  "short": "衆予算委 1994-05-31"
+ },
+ "jh15": {
+  "title": "自由民主党 党の歴史「宮澤喜一総裁時代」",
+  "url": "https://www.jimin.jp/aboutus/history/15.html",
+  "kind": "政党の公式資料",
+  "short": "自民党 党史"
+ },
+ "habara2007": {
+  "title": "羽原清雅「小選挙区制導入をめぐる政治状況――その決定に「理」は尽くされたか」（『帝京社会学』第20号、2007年）",
+  "url": "https://appsv.main.teikyo-u.ac.jp/tosho/khabara20.pdf",
+  "kind": "学術論文",
+  "short": "羽原 2007 論文"
+ },
+ "shimizu2014": {
+  "title": "「細川連立政権の政治過程」政策過程日表（慶應義塾大学 清水唯一朗研究室、2014年）※草野厚『連立政権』による",
+  "url": "https://web.sfc.keio.ac.jp/~yuichiro/hosokawa-nippyo.pdf",
+  "kind": "学術資料（大学の研究室）",
+  "short": "清水研 年表"
+ },
+ "komei20251011": {
+  "title": "自民との連立政権に区切り 斉藤代表に聞く（公明新聞）",
+  "url": "https://www.komei.or.jp/komeinews/p457920/",
+  "kind": "政党の機関紙",
+  "short": "公明新聞 斉藤代表"
+ },
+ "jimin20251010": {
+  "title": "高市総裁ぶら下がり会見（自由民主党 2025年10月10日）",
+  "url": "https://www.jimin.jp/news/press/211576.html",
+  "kind": "政党の公式発表",
+  "short": "自民党 会見 2025-10-10"
+ },
+ "jimin20251010b": {
+  "title": "自公連立政権は解消へ 高市総裁「大変残念に思う」（自由民主党 2025年10月10日）",
+  "url": "https://www.jimin.jp/news/information/211572.html",
+  "kind": "政党の公式発表",
+  "short": "自民党 発表 2025-10-10"
+ },
+ "jimin20251021": {
+  "title": "高市早苗第104代総理を選出（自由民主党）※10月4日の総裁選出後に公明党と連立協議",
+  "url": "https://www.jimin.jp/news/information/211635.html",
+  "kind": "政党の公式発表",
+  "short": "自民党 発表 2025-10"
+ },
+ "kantei20250907": {
+  "title": "石破内閣総理大臣記者会見（首相官邸 2025年9月7日）",
+  "url": "https://www.kantei.go.jp/jp/103/statement/2025/0907kaiken.html",
+  "kind": "政府資料",
+  "short": "官邸 会見 2025-09-07"
+ },
+ "kokkai19930823": {
+  "title": "第127回国会 衆議院本会議 第4号 会議録（1993年8月23日）細川内閣総理大臣の所信表明演説",
+  "url": "https://kokkai.ndl.go.jp/txt/112705254X00419930823/3",
+  "kind": "国会会議録",
+  "short": "衆本会議 1993-08-23"
+ },
+ "kokkai20090721": {
+  "title": "第171回国会 衆議院本会議 第47号 会議録（2009年7月21日）衆議院解散の詔書",
+  "url": "https://kokkai.ndl.go.jp/txt/117105254X04720090721/2",
+  "kind": "国会会議録",
+  "short": "衆本会議 2009-07-21 解散"
+ },
+ "soumu_r3k": {
+  "title": "令和3年10月31日執行 衆議院議員総選挙・最高裁判所裁判官国民審査結果調（総務省自治行政局選挙部）党派別当選人数の推移",
+  "url": "https://www.soumu.go.jp/main_content/000930924.pdf",
+  "kind": "政府資料",
+  "short": "総務省 結果調"
+ },
+ "mhlw_renritsu2009": {
+  "title": "三党連立政権合意書（抄）（平成21年9月9日）（厚生労働省 審議会資料、2009年12月16日）",
+  "url": "https://www.mhlw.go.jp/shingi/2009/12/dl/s1216-11g_0003.pdf",
+  "kind": "政府資料",
+  "short": "三党合意書（厚労省資料）"
+ },
+ "kokkai20091026": {
+  "title": "第173回国会 衆議院本会議 第1号 会議録（2009年10月26日）鳩山首相の所信表明演説",
+  "url": "https://kokkai.ndl.go.jp/txt/117305254X00120091026/11",
+  "kind": "国会会議録",
+  "short": "衆本会議 2009-10-26 所信表明"
+ },
+ "kokkai20091028": {
+  "title": "第173回国会 衆議院本会議 第2号 会議録（2009年10月28日）谷垣禎一議員（自民党総裁）の代表質問",
+  "url": "https://kokkai.ndl.go.jp/txt/117305254X00220091028/3",
+  "kind": "国会会議録",
+  "short": "衆本会議 2009-10-28 谷垣"
+ },
+ "yamada2011": {
+  "title": "山田真裕「2009年総選挙における政権交代とスゥィング・ヴォーティング」（『選挙研究』26巻2号、日本選挙学会、2011年）",
+  "url": "https://www.jstage.jst.go.jp/article/jaes/26/2/26_5/_article/-char/ja/",
+  "kind": "学術論文",
+  "short": "山田 2011 論文"
+ }
+}

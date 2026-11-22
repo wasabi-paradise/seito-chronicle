@@ -1,0 +1,353 @@
+[
+ {
+  "id": "minsha",
+  "name": "民主社会党／民社党",
+  "short": "民社党",
+  "lane": 14,
+  "family": "shakai",
+  "start": "1960-01-24",
+  "end": "1994-12-09",
+  "note": "1960年1月24日に民主社会党として結成（国立国会図書館の資料による）。",
+  "sources": [
+   {
+    "title": "民主社会党の結成（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description12.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "「民社党」（世界大百科事典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%B0%91%E7%A4%BE%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1960年1月24日（国立国会図書館）、解党1994年12月9日（世界大百科事典）を確認。"
+  }
+ },
+ {
+  "id": "shakai45",
+  "name": "日本社会党",
+  "lane": 15,
+  "family": "shakai",
+  "start": "1945-11-02",
+  "end": "1951-10",
+  "note": "",
+  "sources": [
+   {
+    "title": "「日本社会党」（日本大百科全書・世界大百科事典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A-110180",
+    "kind": "事典"
+   },
+   {
+    "title": "政党の復活（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha5/description04.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "日本社会党国民運動局旧蔵資料（国立国会図書館 憲政資料室）※1951年10月左右分裂",
+    "url": "https://rnavi.ndl.go.jp/kensei/jp/nihonshakaitokokuminundokyoku.html",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成1945年11月2日を確認。左右分裂は1951年10月（日は確認できないため月までの表示）。"
+  }
+ },
+ {
+  "id": "saha",
+  "name": "左派社会党",
+  "lane": 15,
+  "family": "shakai",
+  "start": "1951-10",
+  "end": "1955-10-13",
+  "note": "講和条約と日米安保条約をめぐり、1951年10月に社会党が分裂（国立国会図書館の資料による）。左派は講和・安保両条約に反対した（『大原社会問題研究所雑誌』による）。",
+  "sources": [
+   {
+    "title": "日本社会党国民運動局旧蔵資料（国立国会図書館 憲政資料室）※1951年10月左右分裂",
+    "url": "https://rnavi.ndl.go.jp/kensei/jp/nihonshakaitokokuminundokyoku.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "「日本社会党」（日本大百科全書・世界大百科事典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A-110180",
+    "kind": "事典"
+   },
+   {
+    "title": "社会党の統一（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description06.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "「片山・芦田内閣前後」ほか（『大原社会問題研究所雑誌』No.533、2003年、国立国会図書館デジタルコレクション）※1951年10月の分裂時の左右両派の主張",
+    "url": "https://dl.ndl.go.jp/view/prepareDownload?itemId=info%3Andljp%2Fpid%2F9971741&contentNo=1",
+    "kind": "学術論文"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "分裂は1951年10月の臨時大会で日は確認できないため月までの表示。再統一1955年10月13日を確認。"
+  }
+ },
+ {
+  "id": "shakai55",
+  "name": "日本社会党",
+  "lane": 15,
+  "family": "shakai",
+  "start": "1955-10-13",
+  "end": "1996-01-19",
+  "note": "1955年10月13日の第12回日本社会党大会で左右両派が再び合同（国立国会図書館の資料による）。",
+  "sources": [
+   {
+    "title": "社会党の統一（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha6/description06.html",
+    "kind": "公的機関"
+   },
+   {
+    "title": "「日本社会党」（日本大百科全書・世界大百科事典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A-110180",
+    "kind": "事典"
+   },
+   {
+    "title": "「社会民主党」（日本大百科全書、コトバンク）",
+    "url": "https://kotobank.jp/word/%E7%A4%BE%E4%BC%9A%E6%B0%91%E4%B8%BB%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "再統一1955年10月13日、社会民主党への改称1996年1月19日を確認。"
+  }
+ },
+ {
+  "id": "shamin",
+  "name": "社会民主党",
+  "lane": 15,
+  "family": "shakai",
+  "start": "1996-01-19",
+  "end": null,
+  "note": "日本社会党が党名を変更。",
+  "color": "#4d7d99",
+  "sources": [
+   {
+    "title": "「社会民主党」（日本大百科全書、コトバンク）",
+    "url": "https://kotobank.jp/word/%E7%A4%BE%E4%BC%9A%E6%B0%91%E4%B8%BB%E5%85%9A",
+    "kind": "事典"
+   },
+   {
+    "title": "「日本社会党」（日本大百科全書・世界大百科事典、コトバンク）",
+    "url": "https://kotobank.jp/word/%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A-110180",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "改称1996年1月19日を確認。"
+  }
+ },
+ {
+  "id": "reiwa",
+  "name": "れいわ新選組",
+  "lane": 16,
+  "family": "shinko",
+  "start": "2019-04-01",
+  "end": "2026-08-06",
+  "note": "2019年4月1日に総務省へ届出（選挙ドットコムによる）。",
+  "color": "#e05a9c",
+  "sources": [
+   {
+    "title": "れいわ新選組の解説（選挙ドットコム）※2019年4月1日 総務省に届出",
+    "url": "https://go2senkyo.com/articles/?p=43284",
+    "kind": "報道"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "2019年4月1日の届出を確認。"
+  }
+ },
+ {
+  "id": "inochi",
+  "name": "いのちの党",
+  "lane": 16,
+  "family": "shinko",
+  "start": "2026-08-06",
+  "end": null,
+  "note": "れいわ新選組が党名を変更（略称「いのち」）。山本太郎の代表辞任・政界引退を受けたもので、消費税廃止などの政策は引き継ぐとしている（ABEMA TIMES・熊本日日新聞による）。",
+  "sources": [
+   {
+    "title": "れいわ新選組「いのちの党」へ党名変更 略称は「いのち」（ABEMA TIMES）",
+    "url": "https://times.abema.tv/articles/-/10265790",
+    "kind": "報道"
+   },
+   {
+    "title": "れいわ「いのちの党」に 党名変更、イメージ刷新へ（熊本日日新聞）",
+    "url": "https://kumanichi.com/articles/2022801",
+    "kind": "報道"
+   }
+  ],
+  "color": "#e05a9c",
+  "datesCheck": {
+   "level": "full",
+   "text": "改称2026年8月6日を報道で確認。"
+  }
+ },
+ {
+  "id": "kyosan",
+  "name": "日本共産党",
+  "lane": 17,
+  "family": "kyosan",
+  "start": "1945-12",
+  "end": null,
+  "note": "戦後は1945年12月の第4回党大会で再建（国立国会図書館の資料による）。",
+  "sources": [
+   {
+    "title": "政党の復活（国立国会図書館「史料にみる日本の近代」）",
+    "url": "https://www.ndl.go.jp/modern/cha5/description04.html",
+    "kind": "公的機関"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "戦後の再建（1945年12月の第4回党大会）を国立国会図書館の資料で確認。"
+  },
+  "startType": "rebuild"
+ },
+ {
+  "id": "sanseito",
+  "name": "参政党",
+  "lane": 18,
+  "family": "shinko",
+  "start": "2020-04",
+  "end": null,
+  "note": "",
+  "color": "#ee6c1f",
+  "sources": [
+   {
+    "title": "参政党の結党（ニューズウィーク日本版）※「20年4月」",
+    "url": "https://www.newsweekjapan.jp/articles/-/19761?page=4",
+    "kind": "報道"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結党は2020年4月（報道）で日は確認できないため月までの表示。"
+  }
+ },
+ {
+  "id": "kokuminshinto",
+  "name": "国民新党",
+  "lane": 0,
+  "family": "hoshu",
+  "start": "2005-08-17",
+  "end": "2013-03-22",
+  "note": "2013年3月22日に解散（総務省の公表）。自民党は党としての合流を断った（自民党の会見による）。",
+  "sources": [
+   {
+    "title": "政治資金規正法に基づく政治団体の解散の届出等があった旨の公表（総務省 平成25年4月22日）※国民新党の解散年月日 平成25年3月22日",
+    "url": "https://www.soumu.go.jp/main_content/000220384.pdf",
+    "kind": "公的機関"
+   },
+   {
+    "title": "国民新党の自見庄三郎代表との会談をうけて石破茂幹事長ぶら下がり会見（自由民主党 2013年3月8日）※自民党は合流を正式に断った",
+    "url": "https://www.jimin.jp/news/press/129127.html",
+    "kind": "政党の公式資料"
+   },
+   {
+    "title": "「国民新党」（ブリタニカ、コトバンク）",
+    "url": "https://kotobank.jp/word/%E5%9B%BD%E6%B0%91%E6%96%B0%E5%85%9A",
+    "kind": "事典"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結成2005年8月17日（ブリタニカ）、解散2013年3月22日（総務省）を確認。"
+  }
+ },
+ {
+  "id": "hoshuto23",
+  "name": "日本保守党",
+  "lane": 19,
+  "family": "shinko",
+  "start": "2023-10-17",
+  "end": null,
+  "note": "2023年9月1日に政治団体として設立し、10月17日に結党を宣言（党の発表）。2024年10月27日に政党となった（総務省の公表）。",
+  "sources": [
+   {
+    "title": "「日本保守党」結党と、地域政党「減税日本」との特別友党関係締結について（日本保守党、2023年10月17日）",
+    "url": "https://hoshuto.jp/contents/wp-content/uploads/2023/10/press-release-20231017.pdf",
+    "kind": "政党の公式発表"
+   },
+   {
+    "title": "政治資金規正法に基づく政治団体の届出（総務省、2024年11月5日）※政党となった年月日 令和6年10月27日",
+    "url": "https://www.soumu.go.jp/main_content/000975748.pdf",
+    "kind": "政府資料"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "結党宣言2023年10月17日（党の発表）、政党となった日2024年10月27日（総務省）を確認。"
+  }
+ },
+ {
+  "id": "mirai25",
+  "name": "チームみらい",
+  "lane": 20,
+  "family": "shinko",
+  "start": "2025-05-08",
+  "end": null,
+  "note": "安野貴博が2025年5月8日に会見し、政治団体「チームみらい」の設立を発表（北海道新聞・ITmediaによる）。2025年7月20日に政党となった（総務省の公表）。",
+  "sources": [
+   {
+    "title": "安野貴博氏、参院選出馬へ 政治団体設立、候補者も擁立（北海道新聞、2025年5月8日）",
+    "url": "https://www.hokkaido-np.co.jp/article/1156903/",
+    "kind": "報道"
+   },
+   {
+    "title": "AIエンジニアの安野貴博氏、新党「チームみらい」立ち上げ その狙いは? 会見で語ったこと（ITmedia AI+）",
+    "url": "https://www.itmedia.co.jp/aiplus/articles/2505/08/news146.html",
+    "kind": "報道"
+   },
+   {
+    "title": "政治資金規正法に基づく政治団体の届出（総務省、2025年8月1日）※政党となった年月日 令和7年7月20日",
+    "url": "https://www.soumu.go.jp/main_content/001090353.pdf",
+    "kind": "政府資料"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "設立の発表2025年5月8日（報道）、政党となった日2025年7月20日（総務省）を確認。"
+  }
+ },
+ {
+  "id": "genzeiyuukoku",
+  "name": "減税日本・ゆうこく連合",
+  "lane": 21,
+  "family": "shinko",
+  "start": "2026-01-25",
+  "end": null,
+  "note": "原口一博・河村たかしの両前衆院議員が2026年1月24日に結成を表明し、25日に政党として届け出た（総務省の公表、共同通信による）。原口の政治団体「ゆうこく連合」と、河村の地域政党「減税日本」が組んだもの（共同通信による）。",
+  "sources": [
+   {
+    "title": "政治資金規正法に基づく政治団体の届出（総務省、2026年1月25日）",
+    "url": "https://www.soumu.go.jp/main_content/001052401.pdf",
+    "kind": "政府資料"
+   },
+   {
+    "title": "原口一博氏、新党結成を表明 党名「減税日本・ゆうこく連合」（共同通信、熊本日日新聞掲載）",
+    "url": "https://kumanichi.com/articles/1949990",
+    "kind": "報道"
+   },
+   {
+    "title": "減税・ゆうこく連合結成 総務省が新党届け出発表（共同通信、熊本日日新聞掲載）",
+    "url": "https://kumanichi.com/articles/1950284",
+    "kind": "報道"
+   }
+  ],
+  "datesCheck": {
+   "level": "full",
+   "text": "届出2026年1月25日（総務省）を確認。"
+  }
+ }
+]

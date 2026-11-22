@@ -1,0 +1,87 @@
+{
+ "n": 15,
+ "date": "1989-07-23",
+ "tier": [
+  "比例代表",
+  "選挙区"
+ ],
+ "seatsA": 50,
+ "seatsB": 76,
+ "total": 126,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "seats": 36,
+   "a": 15,
+   "b": 21,
+   "party": "jimin"
+  },
+  {
+   "label": "社会",
+   "seats": 46,
+   "a": 20,
+   "b": 26,
+   "party": "shakai55"
+  },
+  {
+   "label": "民社",
+   "seats": 3,
+   "a": 2,
+   "b": 1,
+   "party": "minsha"
+  },
+  {
+   "label": "公明",
+   "seats": 10,
+   "a": 6,
+   "b": 4,
+   "party": "komei64"
+  },
+  {
+   "label": "共産",
+   "seats": 5,
+   "a": 4,
+   "b": 1,
+   "party": "kyosan"
+  },
+  {
+   "label": "二院ク",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "税金",
+   "seats": 2,
+   "a": 1,
+   "b": 1
+  },
+  {
+   "label": "スポーツ",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "連合の会",
+   "seats": 11,
+   "a": 0,
+   "b": 11
+  },
+  {
+   "label": "諸派",
+   "seats": 1,
+   "a": 0,
+   "b": 1
+  },
+  {
+   "label": "無所属",
+   "seats": 10,
+   "a": 0,
+   "b": 10
+  }
+ ]
+}

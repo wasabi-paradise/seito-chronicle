@@ -1,0 +1,47 @@
+{
+ "n": 24,
+ "date": "1949-01-23",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "民主",
+   "party": "minshu47",
+   "seats": 69
+  },
+  {
+   "label": "民自",
+   "party": "minjiyu",
+   "seats": 264
+  },
+  {
+   "label": "社会",
+   "party": "shakai45",
+   "seats": 48
+  },
+  {
+   "label": "労農",
+   "seats": 7
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 35
+  },
+  {
+   "label": "国協",
+   "party": "kokkyo",
+   "seats": 14
+  },
+  {
+   "label": "諸派",
+   "seats": 17
+  },
+  {
+   "label": "無所属",
+   "seats": 12
+  }
+ ],
+ "total": 466
+}

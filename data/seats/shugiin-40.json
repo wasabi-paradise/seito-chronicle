@@ -1,0 +1,127 @@
+{
+ "n": 40,
+ "date": "1993-07-18",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 223
+  },
+  {
+   "label": "社会",
+   "party": "shakai55",
+   "seats": 70
+  },
+  {
+   "label": "社民連",
+   "seats": 4
+  },
+  {
+   "label": "民社",
+   "party": "minsha",
+   "seats": 15
+  },
+  {
+   "label": "新生",
+   "party": "shinsei",
+   "seats": 55
+  },
+  {
+   "label": "公明",
+   "party": "komei64",
+   "seats": 51
+  },
+  {
+   "label": "日本新党",
+   "party": "nihonshinto",
+   "seats": 35
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 15
+  },
+  {
+   "label": "さきがけ",
+   "party": "sakigake",
+   "seats": 13
+  },
+  {
+   "label": "諸派",
+   "seats": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 30
+  }
+ ],
+ "total": 511,
+ "context": {
+  "issues": [],
+  "research": [
+   {
+    "who": "山田真裕（1997）",
+    "text": "1976年の新自由クラブと1993年の3つの新党の台頭を調査データで比較し、要旨で「The success of these parties was due to citizens looking for political reform.」（これらの党の成功は、政治改革を求める市民によるものだった）と述べている。（英文要旨。和訳はこのサイトによる）",
+    "sources": [
+     "yamada1997"
+    ]
+   },
+   {
+    "who": "蒲島郁夫・石生義人・森裕城（1997）",
+    "text": "要旨で、1990年に自民党に投票した人は「If they voted in districts with a new party candidate, they were less likely to vote for the LDP.」（新党の候補者がいる選挙区では、自民党に投票する傾向が低かった）と述べている。（英文要旨。和訳はこのサイトによる）",
+    "sources": [
+     "kabashima1997"
+    ]
+   },
+   {
+    "who": "三宅一郎（1994）",
+    "text": "全国パネル調査を分析した論文の要旨で「While the voters of Shinsei and Sakigake mainly came from former LDP voters (60%) and very few from Japan Socialist Party (JSP), 45% of the NNP voters came from LDP and 20% of NNP came from JSP.」（新生党とさきがけの投票者は主に以前の自民党投票者（60%）から来ており、社会党からはごく少なかった。日本新党の投票者の45%は自民党から、20%は社会党から来ていた）と述べている。（英文要旨。和訳はこのサイトによる）",
+    "sources": [
+     "miyake1994"
+    ]
+   }
+  ],
+  "parties": [
+   {
+    "who": "選挙後の首相（日本新党代表）細川護熙",
+    "text": "所信表明演説で「今回の総選挙の結果は、多くの国民が保革対立の政治に決別し、現実的な政策選択が可能な政治体制の実現を期待されたものと受けとめております」と述べた。",
+    "sources": [
+     "k19930823"
+    ]
+   },
+   {
+    "who": "野党第一党（自由民主党総裁）河野洋平",
+    "text": "代表質問で「本院において過半数の議席を獲得することができず、政権の座を失いました。これはひとえに、頻発した政治の不祥事と、これに対し抜本的な解決をなし得なかったことに対する国民の皆さんの政治不信の高まりによるものだと思います」と述べた。",
+    "sources": [
+     "k19930825"
+    ]
+   }
+  ],
+  "background": [
+   {
+    "date": "1993-06-18",
+    "text": "社会党などが宮澤内閣不信任決議案を提出。提出理由の説明で「不信任の第一の理由は、本院の政治改革等特別委員会における百七時間を費やした審議とその経過を無視し、政治改革の実現を放棄したことにあります。」と述べた（山花貞夫議員）。",
+    "sources": [
+     "k19930618a"
+    ]
+   },
+   {
+    "date": "1993-06-18",
+    "text": "同じ本会議で、自由民主党を代表して反対討論を行った関谷勝嗣議員は「法案の提出者でないにもかかわらず、法案審議に最大限の協力を惜しまなかった宮澤内閣に、その責めを帰するべきものではありません」と述べた。",
+    "sources": [
+     "k19930618b"
+    ]
+   },
+   {
+    "date": "1993-06-18",
+    "text": "不信任決議案が可決（投票総数475、可とする者255、否とする者220）。宮澤首相は衆議院を解散した。",
+    "sources": [
+     "k19930618c"
+    ]
+   }
+  ]
+ }
+}

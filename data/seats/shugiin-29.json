@@ -1,0 +1,38 @@
+{
+ "n": 29,
+ "date": "1960-11-20",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 296
+  },
+  {
+   "label": "社会",
+   "party": "shakai55",
+   "seats": 145
+  },
+  {
+   "label": "民社",
+   "party": "minsha",
+   "seats": 17
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 3
+  },
+  {
+   "label": "諸派",
+   "seats": 1
+  },
+  {
+   "label": "無所属",
+   "seats": 5
+  }
+ ],
+ "total": 467
+}

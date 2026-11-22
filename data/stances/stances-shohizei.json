@@ -1,0 +1,881 @@
+[
+ {
+  "party": "jimin",
+  "theme": "shohizei",
+  "election": "s2016",
+  "position": "raise",
+  "temp": null,
+  "sources": [
+   "jimin2016web"
+  ],
+  "verified": true,
+  "wording": "「消費税率10%への引上げは延期し、2019年10月に実施します」",
+  "verifiedOn": "2026-11-22",
+  "note": "延期後の実施時期（2019年10月）を明記して実施を掲げているため、テーマの基準に沿って「10%への引き上げを実施」"
+ },
+ {
+  "party": "rikken",
+  "theme": "shohizei",
+  "election": "s2016",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「2019年4月まで２年延期します。」",
+  "verifiedOn": "2026-11-22",
+  "note": "引用の文言は延期の期間（2019年4月まで）を示すもので、引き上げの実施を掲げる文言ではないため、テーマの基準に沿って「引き上げに反対・延期・凍結」（民進党の公約）"
+ },
+ {
+  "party": "kokumin",
+  "theme": "shohizei",
+  "election": "s2016",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「2019年4月まで２年延期します。」",
+  "verifiedOn": "2026-11-22",
+  "note": "引用の文言は延期の期間（2019年4月まで）を示すもので、引き上げの実施を掲げる文言ではないため、テーマの基準に沿って「引き上げに反対・延期・凍結」（民進党の公約）"
+ },
+ {
+  "party": "kyosan",
+  "theme": "shohizei",
+  "election": "s2016",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "kyosan2016pol"
+  ],
+  "verified": true,
+  "wording": "「消費税１０％への増税は、『先送り』実施でなく、きっぱり断念すべきです」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "shohizei",
+  "election": "s2016",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "ishin2016web"
+  ],
+  "verified": true,
+  "asName": "おおさか維新の会",
+  "wording": "「景気の現状に鑑み、来年4月の消費税増税は凍結」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "shohizei",
+  "election": "s2017",
+  "position": "raise",
+  "temp": null,
+  "sources": [
+   "jimin2017pdf"
+  ],
+  "verified": true,
+  "wording": "「2019年10月に消費税率を10％へ引き上げます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "shohizei",
+  "election": "s2017",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "g2s2017_kibo"
+  ],
+  "verified": true,
+  "asName": "希望の党",
+  "wording": "アンケート「2019年10月に消費税を10％に引き上げるべきだ」に「反対」。「2019年10月に予定されている10%への消費税引上げは凍結します。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "shohizei",
+  "election": "s2017",
+  "position": "raise",
+  "temp": null,
+  "sources": [
+   "komei2017pdf"
+  ],
+  "verified": true,
+  "wording": "「2019年10月に予定されている消費税率10％への引き上げと同時に飲食料品等に対する『軽減税率』制度を確実に実施します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "shohizei",
+  "election": "s2017",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "kyosan2017pdf"
+  ],
+  "verified": true,
+  "wording": "「消費税10％増税を中止させます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "shohizei",
+  "election": "s2017",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "ishin2017pdf"
+  ],
+  "verified": true,
+  "wording": "「消費増税 凍結！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "shohizei",
+  "election": "s2017",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "g2s2017_shohizei",
+   "g2s2017_rikken"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "アンケート「2019年10月に消費税を10％に引き上げるべきだ」に「反対」。「現下の経済状況では、直ちに消費税１０％へ引き上げることには」",
+  "verifiedOn": "2026-11-22",
+  "note": "回答文は「直ちに消費税10％へ引き上げることには」で始まる一文（以降は省略）"
+ },
+ {
+  "party": "shamin",
+  "theme": "shohizei",
+  "election": "s2017",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "g2s2017_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「2019年10月に消費税を10％に引き上げるべきだ」に「反対」。「逆進性があり、国民生活や景気の悪化を招く消費増税には賛成できない。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "jimin",
+  "theme": "shohizei",
+  "election": "s2019",
+  "position": "raise",
+  "temp": null,
+  "sources": [
+   "jimin2019bank"
+  ],
+  "verified": true,
+  "wording": "「本年10月に消費税率を10％に引き上げます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "shohizei",
+  "election": "s2019",
+  "position": "raise",
+  "temp": null,
+  "sources": [
+   "komei2019koho"
+  ],
+  "verified": true,
+  "wording": "「消費税率を10％に引き上げ、年金、医療、介護、子育て支援に活用。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "shohizei",
+  "election": "s2019",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "rikken2019koho"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "「消費税10%への引き上げを凍結します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "shohizei",
+  "election": "s2019",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "kokumin2019pamph"
+  ],
+  "verified": true,
+  "asName": "国民民主党（旧）",
+  "wording": "「今回の消費税引き上げには反対します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "shohizei",
+  "election": "s2019",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "kyosan2019koho"
+  ],
+  "verified": true,
+  "wording": "「消費税10％中止」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "shohizei",
+  "election": "s2019",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "ishin2019pdf"
+  ],
+  "verified": true,
+  "wording": "「消費増税凍結。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "shohizei",
+  "election": "s2019",
+  "position": "freeze",
+  "temp": null,
+  "sources": [
+   "shamin2019koho"
+  ],
+  "verified": true,
+  "wording": "「消費税10%中止へ」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "shohizei",
+  "election": "s2019",
+  "position": "abolish",
+  "temp": null,
+  "sources": [
+   "reiwa2019koho"
+  ],
+  "verified": true,
+  "wording": "「消費税廃止と法人税の累進化（中小零細事業者の大減税）」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "shohizei",
+  "election": "s2021",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "rikken2021pdf"
+  ],
+  "verified": true,
+  "wording": "「税率5％への時限的な消費税減税を目指します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "shohizei",
+  "election": "s2021",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "kyosan2021koho"
+  ],
+  "verified": true,
+  "wording": "「消費税5％に減税。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "shohizei",
+  "election": "s2021",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "kokumin2021pdf"
+  ],
+  "verified": true,
+  "wording": "「コロナ禍の影響が収束し、経済が回復するまでの間、消費税減税（10％↓5％）を行います」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "shohizei",
+  "election": "s2021",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "g2s2021_jimin"
+  ],
+  "verified": true,
+  "wording": "アンケート「消費税を時限的に5%に引き下げるべきだ」に「反対」。「消費税は国民が広く享受する社会保障の財源に充てられており、…税率の維持が必要です。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約（日経掲載PDF）には消費税の記載なし。アンケートの回答による"
+ },
+ {
+  "party": "komei",
+  "theme": "shohizei",
+  "election": "s2021",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "g2s2021_komei"
+  ],
+  "verified": true,
+  "wording": "アンケート「消費税を時限的に5%に引き下げるべきだ」に「反対」。「消費税は社会保障の安定財源だ。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "shohizei",
+  "election": "s2021",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "ishin2021pdf",
+   "g2s2021_ishin"
+  ],
+  "verified": true,
+  "wording": "「消費税 減税（2年間の5%、恒常的に8％へ）」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "shohizei",
+  "election": "s2021",
+  "position": "abolish",
+  "temp": null,
+  "sources": [
+   "reiwa2021pdf",
+   "g2s2021_reiwa"
+  ],
+  "verified": true,
+  "wording": "「消費税を廃止することは生活保障に直結します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "shohizei",
+  "election": "s2021",
+  "position": "zero_temp",
+  "temp": null,
+  "sources": [
+   "shamin2021koho",
+   "g2s2021_shamin"
+  ],
+  "verified": true,
+  "wording": "「消費税3年間ゼロで生活再建、財源は大企業の内部留保へ課税」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約は「消費税3年間ゼロ」で、3年間に限った時限措置。恒久的な廃止ではないため「全品目を期間限定でゼロ」に分類（以前は「廃止・税率ゼロ」）"
+ },
+ {
+  "party": "rikken",
+  "theme": "shohizei",
+  "election": "s2022",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "rikken2022koho"
+  ],
+  "verified": true,
+  "wording": "「消費税は時限的に5%に減税」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "shohizei",
+  "election": "s2022",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "kyosan2022koho"
+  ],
+  "verified": true,
+  "wording": "「消費税は5％に減税」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "shohizei",
+  "election": "s2022",
+  "position": "abolish",
+  "temp": null,
+  "sources": [
+   "reiwa2022pdf"
+  ],
+  "verified": true,
+  "wording": "「消費税は廃止です」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "shohizei",
+  "election": "s2022",
+  "position": "zero_temp",
+  "temp": null,
+  "sources": [
+   "shamin2022koho"
+  ],
+  "verified": true,
+  "wording": "「消費税率３年間ゼロに！」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約は「消費税率３年間ゼロに！」で、3年間に限った時限措置。恒久的な廃止ではないため「全品目を期間限定でゼロ」に分類（以前は「廃止・税率ゼロ」）"
+ },
+ {
+  "party": "jimin",
+  "theme": "shohizei",
+  "election": "s2022",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "g2s2022_jimin"
+  ],
+  "verified": true,
+  "wording": "アンケート「消費税を10％から5％に減税するべきだ」に「反対」。「消費税は暮らしと安心を支える社会保障の安定財源として現在の税率を維持すべきと考えます。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約（日経掲載PDF）には消費税の記載なし。アンケートの回答による"
+ },
+ {
+  "party": "komei",
+  "theme": "shohizei",
+  "election": "s2022",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "g2s2022_komei"
+  ],
+  "verified": true,
+  "wording": "アンケート「消費税を10％から5％に減税するべきだ」に「反対」。「消費税は社会保障の安定財源です。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約（日経掲載PDF）には消費税の記載なし。アンケートの回答による"
+ },
+ {
+  "party": "ishin",
+  "theme": "shohizei",
+  "election": "s2022",
+  "position": "food_cut",
+  "temp": null,
+  "sources": [
+   "ishin2022pdf",
+   "g2s2022_ishin"
+  ],
+  "verified": true,
+  "wording": "「消費税の軽減税率を現行の8％から段階的に3％（状況により0％）に引き下げ」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約原文に合わせて区分を修正（以前は「一律に引き下げ」）"
+ },
+ {
+  "party": "kokumin",
+  "theme": "shohizei",
+  "election": "s2022",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "g2s2022_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「消費税を10％から5％に減税するべきだ」に「賛成」。「…賃金上昇率が物価＋2％に達するまでの間、消費税減税（10％→５％）を行います。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "shohizei",
+  "election": "s2022",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "g2s2022_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「消費税を10％から5％に減税するべきだ」に「賛成」。「今の経済状況では少しでも税金を減らして、国民の使えるお金を増やし、内需を拡大すべき」",
+  "verifiedOn": "2026-11-21",
+  "note": "減税の幅は設問の5%による"
+ },
+ {
+  "party": "jimin",
+  "theme": "shohizei",
+  "election": "s2024",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "jimin2024pdf",
+   "g2s2024_jimin"
+  ],
+  "verified": true,
+  "wording": "（公約に記載なし）アンケート回答「その税率引下げや廃止を行うことは適当ではないと考えます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "shohizei",
+  "election": "s2024",
+  "position": "none",
+  "temp": 0,
+  "tempBasis": "公約に消費税の記載がないとの整理",
+  "sources": [
+   "komei2024pdf"
+  ],
+  "verified": true,
+  "wording": "（公約に税率の記載なし）",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "shohizei",
+  "election": "s2024",
+  "position": "none",
+  "temp": null,
+  "sources": [
+   "rikken2024pdf"
+  ],
+  "verified": true,
+  "wording": "「消費税の逆進性対策については、軽減税率制度に代えて、中低所得者が負担する消費税の一部を税額控除し」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "shohizei",
+  "election": "s2024",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "ishin2024pdf"
+  ],
+  "verified": true,
+  "wording": "「経済活性化施策として消費税を８%とし、軽減税率制度を廃止します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "shohizei",
+  "election": "s2024",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "kokumin2024koho"
+  ],
+  "verified": true,
+  "wording": "「消費税を5%に減税」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "shohizei",
+  "election": "s2024",
+  "position": "cut_all",
+  "temp": 2,
+  "sources": [
+   "kyosan2024pdf"
+  ],
+  "verified": true,
+  "wording": "「消費税の廃止をめざし、当面緊急に税率を5%に引き下げます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "shohizei",
+  "election": "s2024",
+  "position": "abolish",
+  "temp": null,
+  "sources": [
+   "reiwa2024koho"
+  ],
+  "verified": true,
+  "wording": "「消費税は廃止！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "shohizei",
+  "election": "s2024",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "sansei2024pdf",
+   "g2s_sansei"
+  ],
+  "verified": true,
+  "wording": "「消費税減税と社会保障の最適化により国民負担率に 35% 上限のキャップをはめる」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約の「消費税減税」は品目を限っていないため「一律に引き下げ」に分類。税率の記載はない"
+ },
+ {
+  "party": "shamin",
+  "theme": "shohizei",
+  "election": "s2024",
+  "position": "zero_temp",
+  "temp": null,
+  "sources": [
+   "shamin2024koho",
+   "g2s_shamin"
+  ],
+  "verified": true,
+  "wording": "「消費税3年間ゼロ！」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約は「消費税3年間ゼロ！」で、3年間に限った時限措置。恒久的な廃止ではないため「全品目を期間限定でゼロ」に分類（以前は「廃止・税率ゼロ」）"
+ },
+ {
+  "party": "jimin",
+  "theme": "shohizei",
+  "election": "s2025",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "jimin2025pdf",
+   "jimin2025tax",
+   "g2s2025_jimin"
+  ],
+  "verified": true,
+  "wording": "アンケート「食料品にかかる消費税を0％にすべきですか？」に「反対」。党の発表「わが党は財政に責任を持つ政党として、赤字国債に頼った公約は掲げません。」",
+  "verifiedOn": "2026-11-22",
+  "note": "公約に消費税の記載はない。減税を掲げず、食料品の税率ゼロに「反対」と回答していることから「引き下げない」に分類"
+ },
+ {
+  "party": "komei",
+  "theme": "shohizei",
+  "election": "s2025",
+  "position": "food_cut",
+  "temp": 1,
+  "tempBasis": "給付が中心で、軽減税率は「検討」の扱い",
+  "sources": [
+   "komei2025pdf",
+   "g2s2025_komei"
+  ],
+  "verified": true,
+  "commit": "consider",
+  "wording": "「軽減税率について、財源を確保しながら、福祉的な観点から税率を深掘りし、恒久的な措置にしていくことが必要と考えます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "shohizei",
+  "election": "s2025",
+  "position": "food_zero_temp",
+  "temp": 3,
+  "tempBasis": "パンフレットの冒頭の重点①",
+  "sources": [
+   "rikken2025pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「2026年4月から食料品に係る消費税を現在の8%から0%に下げます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "shohizei",
+  "election": "s2025",
+  "position": "food_zero_temp",
+  "temp": null,
+  "sources": [
+   "ishin2025core"
+  ],
+  "verified": true,
+  "wording": "「食品について、消費税を２年間ゼロ（免税）とする措置を講じます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "shohizei",
+  "election": "s2025",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "kokumin2025pdf"
+  ],
+  "verified": true,
+  "wording": "「消費税は一律５％」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "shohizei",
+  "election": "s2025",
+  "position": "cut_all",
+  "temp": null,
+  "sources": [
+   "kyosan2025pdf"
+  ],
+  "verified": true,
+  "wording": "「消費税の廃止をめざし、5％に緊急減税します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "shohizei",
+  "election": "s2025",
+  "position": "abolish",
+  "temp": null,
+  "sources": [
+   "reiwa2025koho"
+  ],
+  "verified": true,
+  "wording": "「消費税は廃止、インボイス制度も廃止します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "shohizei",
+  "election": "s2025",
+  "position": "food_zero_perm",
+  "temp": null,
+  "sources": [
+   "g2s2025_shamin",
+   "shamin2025koho"
+  ],
+  "verified": true,
+  "wording": "アンケート「食料品にかかる消費税を0％にすべきですか？」に「賛成」。「これは時限的でなく、恒常的にずーと食料品は消費税をゼロに、ただちにします。」",
+  "verifiedOn": "2026-11-22",
+  "note": "「3年間ゼロ」は、トランプ関税で雇用に深刻な影響が出た場合に全品目の消費税を3年間ゼロにするという別の措置"
+ },
+ {
+  "party": "jimin",
+  "theme": "shohizei",
+  "election": "s2026",
+  "position": "food_zero_temp",
+  "temp": 2,
+  "tempBasis": "物価高対策の項目の一つとして記載（冒頭の重点ではない）",
+  "sources": [
+   "jimin2026bank",
+   "jimin0730"
+  ],
+  "verified": true,
+  "commit": "consider",
+  "wording": "「飲食料品は、２年間に限り消費税の対象としないことについて…実現に向けた検討を加速します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "chudo",
+  "theme": "shohizei",
+  "election": "s2026",
+  "position": "food_zero_perm",
+  "temp": 3,
+  "sources": [
+   "chudo2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「恒久的な『食料品消費税ゼロ』を実現する」",
+  "tempBasis": "第2の柱の冒頭の重点項目1",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "shohizei",
+  "election": "s2026",
+  "position": "food_zero_temp",
+  "temp": 3,
+  "sources": [
+   "ishin2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「食料品消費税を2年間ゼロへ。」",
+  "tempBasis": "第1の柱「経済を動かす」と、連立合意の1番目に記載",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "shohizei",
+  "election": "s2026",
+  "position": "cut_all",
+  "temp": 3,
+  "sources": [
+   "kokumin2026pol",
+   "kokumin2026koho"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「消費税を一律５％に減税(賃金上昇率が物価＋2％に安定するまで)」",
+  "tempBasis": "5本柱の第1柱「手取りを増やす」の2番目、選挙公報の最初の柱",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "shohizei",
+  "election": "s2026",
+  "position": "cut_all",
+  "temp": 3,
+  "sources": [
+   "kyosan2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「ただちに5％に減税、インボイス廃止を実行します」",
+  "tempBasis": "総選挙政策の第一の柱と重点政策の1番目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "shohizei",
+  "election": "s2026",
+  "position": "abolish",
+  "temp": 3,
+  "sources": [
+   "reiwa2026koho",
+   "reiwaPolicy"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「消費税はさっさと廃止で 景気をアゲる!」",
+  "tempBasis": "税制の項目の冒頭",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "shohizei",
+  "election": "s2026",
+  "position": "abolish",
+  "temp": 3,
+  "tempBasis": "第1の柱の最初の項目「まず減税」",
+  "sources": [
+   "sansei2026"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「消費税廃止・インボイス制度廃止」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "shohizei",
+  "election": "s2026",
+  "position": "abolish",
+  "temp": 3,
+  "sources": [
+   "shamin2026"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「消費税率をゼロに引き下げ」",
+  "tempBasis": "公約の最初の項目",
+  "verifiedOn": "2026-11-21",
+  "note": "公約の「消費税率をゼロに引き下げ」に期間の記載がないため、恒久的なゼロとして分類"
+ },
+ {
+  "party": "sansei",
+  "theme": "shohizei",
+  "election": "s2025",
+  "position": "abolish",
+  "temp": null,
+  "sources": [
+   "g2s2025_sansei"
+  ],
+  "verified": true,
+  "wording": "「①消費税の段階的廃止や社会保険料減税などで国民負担率を35%未満に引き下げて今の国民の生活を助け」（物価高対策の現金給付の設問への回答）",
+  "verifiedOn": "2026-11-22",
+  "note": "党のアンケート回答で「消費税の段階的廃止」を掲げているため「廃止・税率ゼロ」。同じアンケートの食料品の消費税ゼロの設問には「反対」と答え、「食料品のみの減税には反対。一律で下げるべき」としている。"
+ }
+]

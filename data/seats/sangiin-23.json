@@ -1,0 +1,211 @@
+{
+ "n": 23,
+ "date": "2013-07-21",
+ "tier": [
+  "比例代表",
+  "選挙区"
+ ],
+ "seatsA": 48,
+ "seatsB": 73,
+ "total": 121,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "seats": 65,
+   "a": 18,
+   "b": 47,
+   "party": "jimin"
+  },
+  {
+   "label": "民主",
+   "seats": 17,
+   "a": 7,
+   "b": 10,
+   "party": "minshu98"
+  },
+  {
+   "label": "社民",
+   "seats": 1,
+   "a": 1,
+   "b": 0,
+   "party": "shamin"
+  },
+  {
+   "label": "維新",
+   "seats": 8,
+   "a": 6,
+   "b": 2,
+   "party": "ishin12"
+  },
+  {
+   "label": "公明",
+   "seats": 11,
+   "a": 7,
+   "b": 4,
+   "party": "komei98"
+  },
+  {
+   "label": "共産",
+   "seats": 8,
+   "a": 5,
+   "b": 3,
+   "party": "kyosan"
+  },
+  {
+   "label": "みんな",
+   "seats": 8,
+   "a": 4,
+   "b": 4,
+   "party": "minna"
+  },
+  {
+   "label": "諸派",
+   "seats": 1,
+   "a": 0,
+   "b": 1
+  },
+  {
+   "label": "無所属",
+   "seats": 2,
+   "a": 0,
+   "b": 2
+  }
+ ],
+ "house": {
+  "asOf": "2013-07-21",
+  "source": "soumu_s_h25",
+  "where": "PDFの38ページ",
+  "basis": "非改選議員数は、平成22年7月11日（第22回通常選挙の執行日）現在の数（結果調の注）。",
+  "total": 242,
+  "rows": [
+   {
+    "label": "自由民主党",
+    "party": "jimin",
+    "nowA": 18,
+    "nowB": 47,
+    "nonA": 12,
+    "nonB": 39,
+    "total": 116
+   },
+   {
+    "label": "民主党",
+    "party": "minshu98",
+    "nowA": 7,
+    "nowB": 10,
+    "nonA": 16,
+    "nonB": 28,
+    "total": 61
+   },
+   {
+    "label": "公明党",
+    "party": "komei98",
+    "nowA": 7,
+    "nowB": 4,
+    "nonA": 6,
+    "nonB": 3,
+    "total": 20
+   },
+   {
+    "label": "みんなの党",
+    "party": "minna",
+    "nowA": 4,
+    "nowB": 4,
+    "nonA": 7,
+    "nonB": 3,
+    "total": 18
+   },
+   {
+    "label": "日本共産党",
+    "party": "kyosan",
+    "nowA": 5,
+    "nowB": 3,
+    "nonA": 3,
+    "nonB": 0,
+    "total": 11
+   },
+   {
+    "label": "日本維新の会",
+    "party": "ishin12",
+    "nowA": 6,
+    "nowB": 2,
+    "nonA": 0,
+    "nonB": 0,
+    "total": 8
+   },
+   {
+    "label": "社会民主党",
+    "party": "shamin",
+    "nowA": 1,
+    "nowB": 0,
+    "nonA": 2,
+    "nonB": 0,
+    "total": 3
+   },
+   {
+    "label": "新党改革",
+    "nowA": 0,
+    "nowB": 0,
+    "nonA": 1,
+    "nonB": 0,
+    "total": 1
+   },
+   {
+    "label": "たちあがれ日本",
+    "nowA": 0,
+    "nowB": 0,
+    "nonA": 1,
+    "nonB": 0,
+    "total": 1
+   },
+   {
+    "label": "諸派",
+    "nowA": 0,
+    "nowB": 1,
+    "nonA": 0,
+    "nonB": 0,
+    "total": 1
+   },
+   {
+    "label": "無所属",
+    "nowA": 0,
+    "nowB": 2,
+    "nonA": 0,
+    "nonB": 0,
+    "total": 2
+   }
+  ]
+ },
+ "context": {
+  "background": [],
+  "issues": [],
+  "research": [
+   {
+    "who": "上ノ原秀晃（2014）",
+    "text": "候補者のツイッター投稿を分析した論文の要旨で「2013年の参議院選挙は，初めての「ネット選挙」であった」とし、「多くの投稿が告知や報告に関わるものであり，政策関連の投稿は少ないことは分かった」としている。",
+    "sources": [
+     "uenohara2014"
+    ]
+   }
+  ],
+  "surveyNote": "明るい選挙推進協会の調査報告（第23回参議院議員通常選挙全国意識調査）は、回答分布のページが画像のため、まだ文字に起こしていません。",
+  "parties": [
+   {
+    "who": "首相（自由民主党総裁）安倍晋三",
+    "text": "選挙後最初の所信表明演説で「この選挙により国会のねじれが解消されたことは、困難を乗り越えていけと、背中を力強く押していただいたものと認識しています」と述べた。",
+    "sources": [
+     "k20131015"
+    ]
+   },
+   {
+    "who": "野党第一党（民主党代表）海江田万里",
+    "text": "代表質問（2013年10月16日）には、選挙結果について述べた部分は見当たらなかった（このサイトによる確認）。",
+    "sources": [
+     "k20131016"
+    ]
+   }
+  ]
+ }
+}

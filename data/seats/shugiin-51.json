@@ -1,0 +1,122 @@
+{
+ "n": 51,
+ "date": "2026-02-08",
+ "sources": [
+  "soumu_r8"
+ ],
+ "rows": [
+  {
+   "label": "自由民主党",
+   "party": "jimin",
+   "seats": 315,
+   "smd": 248,
+   "pr": 67
+  },
+  {
+   "label": "中道改革連合",
+   "party": "chudo",
+   "seats": 49,
+   "smd": 7,
+   "pr": 42
+  },
+  {
+   "label": "日本維新の会",
+   "party": "ishin16",
+   "seats": 36,
+   "smd": 20,
+   "pr": 16
+  },
+  {
+   "label": "国民民主党",
+   "party": "kokumin20",
+   "seats": 28,
+   "smd": 8,
+   "pr": 20
+  },
+  {
+   "label": "参政党",
+   "party": "sanseito",
+   "seats": 15,
+   "smd": 0,
+   "pr": 15
+  },
+  {
+   "label": "日本共産党",
+   "party": "kyosan",
+   "seats": 4,
+   "smd": 0,
+   "pr": 4
+  },
+  {
+   "label": "れいわ新選組",
+   "party": "reiwa",
+   "seats": 1,
+   "smd": 0,
+   "pr": 1
+  },
+  {
+   "label": "減税日本・ゆうこく連合",
+   "seats": 1,
+   "smd": 1,
+   "pr": 0,
+   "party": "genzeiyuukoku"
+  },
+  {
+   "label": "チームみらい",
+   "seats": 11,
+   "smd": 0,
+   "pr": 11,
+   "party": "mirai25"
+  },
+  {
+   "label": "無所属",
+   "seats": 5,
+   "smd": 5,
+   "pr": 0
+  }
+ ],
+ "total": 465,
+ "context": {
+  "background": [
+   {
+    "date": "2025-10-21",
+    "text": "高市内閣が発足。",
+    "sources": [
+     "kantei_k104"
+    ]
+   },
+   {
+    "date": "2026-01-22",
+    "text": "中道改革連合が結党大会を開いた（報道による）。",
+    "sources": [
+     "nikkeiChudo"
+    ]
+   },
+   {
+    "date": "2026-01-23",
+    "text": "衆議院が解散された。",
+    "sources": [
+     "k20260123"
+    ]
+   }
+  ],
+  "issues": [],
+  "research": [],
+  "parties": [
+   {
+    "who": "首相（自由民主党総裁）高市早苗",
+    "text": "選挙後最初の施政方針演説で「重要な政策転換を、何としてもやり抜いていけ。国民の皆様から、力強く背中を押していただけたと考えています」と述べた。",
+    "sources": [
+     "k20260220"
+    ]
+   },
+   {
+    "who": "野党第一党（中道改革連合代表）小川淳也",
+    "text": "代表質問（2026年2月24日）には、選挙結果について述べた部分は見当たらなかった（このサイトによる確認）。",
+    "sources": [
+     "k20260224"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "n": 3,
+ "date": "1953-04-24",
+ "tier": [
+  "全国区",
+  "地方区"
+ ],
+ "seatsA": 53,
+ "seatsB": 75,
+ "total": 128,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "吉自",
+   "seats": 46,
+   "a": 16,
+   "b": 30,
+   "party": "jiyu50"
+  },
+  {
+   "label": "鳩自",
+   "seats": 0,
+   "a": 0,
+   "b": 0
+  },
+  {
+   "label": "改進",
+   "seats": 8,
+   "a": 3,
+   "b": 5,
+   "party": "kaishin"
+  },
+  {
+   "label": "右社",
+   "seats": 10,
+   "a": 3,
+   "b": 7,
+   "party": "uha"
+  },
+  {
+   "label": "左社",
+   "seats": 18,
+   "a": 8,
+   "b": 10,
+   "party": "saha"
+  },
+  {
+   "label": "共産",
+   "seats": 0,
+   "a": 0,
+   "b": 0,
+   "party": "kyosan"
+  },
+  {
+   "label": "緑風",
+   "seats": 16,
+   "a": 8,
+   "b": 8
+  },
+  {
+   "label": "諸派",
+   "seats": 1,
+   "a": 0,
+   "b": 1
+  },
+  {
+   "label": "無所属",
+   "seats": 29,
+   "a": 15,
+   "b": 14
+  }
+ ]
+}

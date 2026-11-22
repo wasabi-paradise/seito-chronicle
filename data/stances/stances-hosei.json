@@ -1,0 +1,381 @@
+[
+ {
+  "party": "jimin",
+  "theme": "hosei",
+  "election": "s2016",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "jimin2016bank"
+  ],
+  "verified": true,
+  "wording": "「平和安全法制の施行に伴い、あらゆる事態に切れ目のない対応が可能な態勢を構築する」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kyosan",
+  "theme": "hosei",
+  "election": "s2016",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "kyosan2016pol"
+  ],
+  "verified": true,
+  "wording": "「憲法違反の安保法制＝戦争法を廃止し、立憲主義を取り戻します」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "jimin",
+  "theme": "hosei",
+  "election": "s2017",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "jimin2017pdf",
+   "g2s2017_jimin"
+  ],
+  "verified": true,
+  "wording": "「平和安全法制により、あらゆる事態への切れ目のない対応や邦人救出等の新任務が可能となったことを受け、態勢構築や能力向上を加速する」",
+  "verifiedOn": "2026-11-22",
+  "note": "党のアンケートでも「安全保障関連法を廃止すべきだ」に「反対」と回答。"
+ },
+ {
+  "party": "komei",
+  "theme": "hosei",
+  "election": "s2017",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "g2s2017_komei"
+  ],
+  "verified": true,
+  "wording": "「大事なことは、わが国の平和と安全を確保するため、平和安全法制の適切な運用と実績の積み重ね、国民の理解を得ていくことだと考えます」",
+  "verifiedOn": "2026-11-22",
+  "note": "党のアンケートで「安全保障関連法を廃止すべきだ」に「反対」と回答。"
+ },
+ {
+  "party": "kokumin",
+  "theme": "hosei",
+  "election": "s2017",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "g2s2017_kibo"
+  ],
+  "verified": true,
+  "wording": "「現行の安全保障法制は憲法に則り適切に運用します」",
+  "verifiedOn": "2026-11-22",
+  "asName": "希望の党",
+  "note": "党のアンケートで「安全保障関連法を廃止すべきだ」に「反対」と回答。"
+ },
+ {
+  "party": "rikken",
+  "theme": "hosei",
+  "election": "s2017",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "g2s2017_rikken"
+  ],
+  "verified": true,
+  "wording": "「安全保障関連法を廃止すべきだ：やや賛成」",
+  "verifiedOn": "2026-11-22",
+  "asName": "立憲民主党（旧）",
+  "note": "党のアンケートの回答。回答の説明で「２０１５年に強行採決された違憲の安保法制」としている。"
+ },
+ {
+  "party": "kyosan",
+  "theme": "hosei",
+  "election": "s2017",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "g2s2017_kyosan"
+  ],
+  "verified": true,
+  "wording": "「安全保障関連法を廃止すべきだ：賛成」",
+  "verifiedOn": "2026-11-22",
+  "note": "党のアンケートの回答。"
+ },
+ {
+  "party": "shamin",
+  "theme": "hosei",
+  "election": "s2017",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "g2s2017_shamin"
+  ],
+  "verified": true,
+  "wording": "「安全保障関連法を廃止すべきだ：賛成」",
+  "verifiedOn": "2026-11-22",
+  "note": "党のアンケートの回答。"
+ },
+ {
+  "party": "ishin",
+  "theme": "hosei",
+  "election": "s2017",
+  "position": "neutral",
+  "temp": null,
+  "sources": [
+   "g2s2017_ishin"
+  ],
+  "verified": true,
+  "wording": "「安全保障関連法を廃止すべきだ：どちらとも言えない」",
+  "verifiedOn": "2026-11-22",
+  "note": "党のアンケートの回答。"
+ },
+ {
+  "party": "jimin",
+  "theme": "hosei",
+  "election": "s2019",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "jimin2019bank"
+  ],
+  "verified": true,
+  "wording": "「平和安全法制により可能となった、あらゆる事態への切れ目のない対応や邦人救出等の任務に関し、態勢構築や能力向上を着実に進めます」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "rikken",
+  "theme": "hosei",
+  "election": "s2021",
+  "position": "partial",
+  "temp": null,
+  "sources": [
+   "rikken2021pdf"
+  ],
+  "verified": true,
+  "wording": "「安保法制や共謀罪の違憲部分を廃止します」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "hosei",
+  "election": "s2021",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "komei2021pdf"
+  ],
+  "verified": true,
+  "wording": "「日米防衛協力のための指針及び平和安全法制に基づく適正な運用を積み重ねながら、日米同盟の抑止力・対処力を一層向上させ」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kyosan",
+  "theme": "hosei",
+  "election": "s2021",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "kyosan2021pol"
+  ],
+  "verified": true,
+  "wording": "「自衛隊を海外で戦争させる安保法制を廃止します」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "hosei",
+  "election": "s2022",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "komei2022pdf"
+  ],
+  "verified": true,
+  "wording": "「平和安全法制に基づく適正な運用を積み重ね、日米同盟の抑止力・対処力の一層の向上を図ります」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "rikken",
+  "theme": "hosei",
+  "election": "s2024",
+  "position": "partial",
+  "temp": null,
+  "sources": [
+   "rikken2024pdf"
+  ],
+  "verified": true,
+  "wording": "「現行の安保法制については、立憲主義および憲法の平和主義に基づき、違憲部分を廃止する等、必要な措置を講じ」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "hosei",
+  "election": "s2024",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "komei2024pdf"
+  ],
+  "verified": true,
+  "wording": "「平和安全法制に基づく適正な運用を積み重ね、日米同盟の抑止力・対処力の一層の向上を図ります」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kyosan",
+  "theme": "hosei",
+  "election": "s2024",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "kyosan2024pdf"
+  ],
+  "verified": true,
+  "wording": "「集団的自衛権行使容認の閣議決定と安保法制を廃止します」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "rikken",
+  "theme": "hosei",
+  "election": "s2025",
+  "position": "partial",
+  "temp": null,
+  "sources": [
+   "rikken2025pdf"
+  ],
+  "verified": true,
+  "wording": "「現行の安保法制については、立憲主義および憲法の平和主義に基づき、違憲部分を廃止する等、必要な措置を講じ」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "hosei",
+  "election": "s2025",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "komei2025pdf"
+  ],
+  "verified": true,
+  "wording": "「９年前に施行された平和安全法制は、９条の下での自衛の措置の限界（新３要件）を明確にしました。この法整備により、わが国防衛のための日米防衛協力が大きく進展し、抑止力が強化されました」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kyosan",
+  "theme": "hosei",
+  "election": "s2025",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "kyosan2025pdf"
+  ],
+  "verified": true,
+  "wording": "「集団的自衛権行使容認の閣議決定と安保法制を廃止します」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "hosei",
+  "election": "s2019",
+  "position": "keep",
+  "temp": null,
+  "sources": [
+   "komei2019pdf"
+  ],
+  "verified": true,
+  "wording": "「引き続き、平和安全法制に基づく適正な運用を積み重ねながら、日米同盟の強化を図りつつ」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kyosan",
+  "theme": "hosei",
+  "election": "s2019",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "kyosan2019pol"
+  ],
+  "verified": true,
+  "wording": "「（２）安保法制＝戦争法の廃止、大軍拡から軍縮への転換を」",
+  "verifiedOn": "2026-11-22",
+  "note": "党の機関紙に掲載された参院選公約。"
+ },
+ {
+  "party": "kyosan",
+  "theme": "hosei",
+  "election": "s2022",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "jcp2022anpo"
+  ],
+  "verified": true,
+  "wording": "「安保法制＝戦争法を廃止し、「戦争する国」づくりをストップ」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kyosan",
+  "theme": "hosei",
+  "election": "s2026",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "kyosan2026pdf"
+  ],
+  "verified": true,
+  "wording": "「集団的自衛権行使容認の閣議決定と安保法制を廃止します」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "chudo",
+  "theme": "hosei",
+  "election": "s2026",
+  "position": "const",
+  "temp": null,
+  "sources": [
+   "chudo2026pdf"
+  ],
+  "verified": true,
+  "wording": "「平和安全法制が定める存立危機事態における自国防衛のための自衛権行使は合憲」",
+  "verifiedOn": "2026-11-22",
+  "note": "法制の規定に基づく自衛権行使を「合憲」と述べているが、法制の維持・見直し・廃止などの扱いは明記していない。原文には「自国防衛のための」という限定がある。"
+ },
+ {
+  "party": "reiwa",
+  "theme": "hosei",
+  "election": "s2025",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "reiwaBasic2502"
+  ],
+  "verified": true,
+  "wording": "「日本国憲法上、行使することができない集団的自衛権の行使を盛り込んだ2015年の安保法制による一連の法改正は違憲であり、白紙撤回する」",
+  "verifiedOn": "2026-11-22",
+  "note": "党の基本政策（2025年2月）による。選挙公報には言及なし。"
+ },
+ {
+  "party": "reiwa",
+  "theme": "hosei",
+  "election": "s2026",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "reiwaBasic2502",
+   "reiwaPolicy"
+  ],
+  "verified": true,
+  "wording": "「日本国憲法上、行使することができない集団的自衛権の行使を盛り込んだ2015年の安保法制による一連の法改正は違憲であり、白紙撤回する」",
+  "verifiedOn": "2026-11-22",
+  "note": "党の基本政策（2025年2月、党サイトの基本政策ページにも同じ文言）による。"
+ },
+ {
+  "party": "shamin",
+  "theme": "hosei",
+  "election": "s2026",
+  "position": "repeal",
+  "temp": null,
+  "sources": [
+   "shamin2026"
+  ],
+  "verified": true,
+  "wording": "「憲法9条に基づく平和外交を推進し、違憲の安保法制・集団的自衛権を廃止」",
+  "verifiedOn": "2026-11-22"
+ }
+]

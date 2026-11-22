@@ -1,0 +1,58 @@
+[
+ {
+  "party": "shamin",
+  "election": "s2016",
+  "theme": "genpatsu",
+  "asName": null,
+  "reason": "党の公約・公式資料・アンケート回答で、このテーマの立場を確認できなかった"
+ },
+ {
+  "party": "komei",
+  "election": "s2016",
+  "theme": "genpatsu",
+  "asName": null,
+  "reason": "党の公約・公式資料・アンケート回答で、このテーマの立場を確認できなかった"
+ },
+ {
+  "party": "ishin",
+  "election": "s2016",
+  "theme": "genpatsu",
+  "asName": "おおさか維新の会",
+  "reason": "党の特設サイトの記載は「原発再稼働責任法案」という法案名のみで、立場を決める記述がない"
+ },
+ {
+  "party": "komei",
+  "election": "s2025",
+  "theme": "genpatsu",
+  "asName": null,
+  "reason": "公約に記載がなく、アンケートは増設に「反対」だが、回答文は「特定の電源や燃料源に過度に依存しないようバランスのとれた電源構成を目指す」とし、次世代革新炉への建て替えにも触れており、区分を決める記述がない"
+ },
+ {
+  "party": "ishin",
+  "election": "s2017",
+  "theme": "genpatsu",
+  "asName": null,
+  "reason": "公約の記載は「脱原発依存体制の構築」のみで、再稼働や原発ゼロについての記述がなく、区分を決められない"
+ },
+ {
+  "party": "ishin",
+  "election": "s2019",
+  "theme": "genpatsu",
+  "asName": null,
+  "reason": "公約の記載は「脱原発依存体制の構築」のみで、再稼働や原発ゼロについての記述がなく、区分を決められない"
+ },
+ {
+  "party": "ishin",
+  "election": "s2021",
+  "theme": "genpatsu",
+  "asName": null,
+  "reason": "アンケートは「中立」で、回答文は法律を制定したうえで「結論を出す」とし、区分を決める記述がない"
+ },
+ {
+  "party": "sansei",
+  "election": "s2022",
+  "theme": "genpatsu",
+  "asName": null,
+  "reason": "アンケートは「中立」で、回答文は再稼働に賛同できない理由と電力不足への懸念を併記しており、区分を決める記述がない"
+ }
+]

@@ -1,0 +1,57 @@
+{
+ "n": 1,
+ "date": "1947-04-20",
+ "tier": [
+  "全国区",
+  "地方区"
+ ],
+ "seatsA": 100,
+ "seatsB": 150,
+ "total": 250,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "自由",
+   "seats": 38,
+   "a": 8,
+   "b": 30,
+   "party": "jiyu45"
+  },
+  {
+   "label": "民主",
+   "seats": 28,
+   "a": 6,
+   "b": 22,
+   "party": "minshu47"
+  },
+  {
+   "label": "社会",
+   "seats": 47,
+   "a": 17,
+   "b": 30,
+   "party": "shakai45"
+  },
+  {
+   "label": "共産",
+   "seats": 4,
+   "a": 3,
+   "b": 1,
+   "party": "kyosan"
+  },
+  {
+   "label": "諸派",
+   "seats": 22,
+   "a": 9,
+   "b": 13
+  },
+  {
+   "label": "無所属",
+   "seats": 111,
+   "a": 57,
+   "b": 54
+  }
+ ],
+ "note": "全国区の民主党には進歩党を含む（結果調の注）。"
+}

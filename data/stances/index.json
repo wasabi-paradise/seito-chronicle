@@ -1,0 +1,251 @@
+{
+ "asOf": "2026-11-22",
+ "temperatureScale": [
+  {
+   "v": 3,
+   "label": "最重点",
+   "desc": "公約の柱・冒頭に掲げている"
+  },
+  {
+   "v": 2,
+   "label": "具体的に記載",
+   "desc": "選挙公約の本文に具体的な内容がある"
+  },
+  {
+   "v": 1,
+   "label": "触れる程度",
+   "desc": "選挙公約の本体では扱いが小さい、または政策集などでの説明にとどまる"
+  },
+  {
+   "v": 0,
+   "label": "記載なし",
+   "desc": "選挙公約に記載がない"
+  }
+ ],
+ "elections": [
+  {
+   "id": "s2016",
+   "name": "2016年参院選",
+   "full": "第24回参議院議員通常選挙",
+   "date": "2016-07-10"
+  },
+  {
+   "id": "s2017",
+   "name": "2017年衆院選",
+   "full": "第48回衆議院議員総選挙",
+   "date": "2017-10-22"
+  },
+  {
+   "id": "s2019",
+   "name": "2019年参院選",
+   "full": "第25回参議院議員通常選挙",
+   "date": "2019-07-21"
+  },
+  {
+   "id": "s2021",
+   "name": "2021年衆院選",
+   "full": "第49回衆議院議員総選挙",
+   "date": "2021-10-31"
+  },
+  {
+   "id": "s2022",
+   "name": "2022年参院選",
+   "full": "第26回参議院議員通常選挙",
+   "date": "2022-07-10"
+  },
+  {
+   "id": "s2024",
+   "name": "2024年衆院選",
+   "full": "第50回衆議院議員総選挙",
+   "date": "2024-10-27"
+  },
+  {
+   "id": "s2025",
+   "name": "2025年参院選",
+   "full": "第27回参議院議員通常選挙",
+   "date": "2025-07-20"
+  },
+  {
+   "id": "s2026",
+   "name": "2026年衆院選",
+   "full": "第51回衆議院議員総選挙",
+   "date": "2026-02-08"
+  }
+ ],
+ "parties": [
+  {
+   "id": "jimin",
+   "name": "自由民主党",
+   "short": "自民",
+   "genealogy": "jimin",
+   "active": true,
+   "lineage": [
+    "jimin"
+   ]
+  },
+  {
+   "id": "komei",
+   "name": "公明党",
+   "short": "公明",
+   "genealogy": "komei98",
+   "mergedInto": {
+    "s2026": "chudo"
+   },
+   "active": true,
+   "lineage": [
+    "komei98"
+   ]
+  },
+  {
+   "id": "rikken",
+   "name": "立憲民主党",
+   "short": "立憲",
+   "genealogy": "rikken20",
+   "mergedInto": {
+    "s2026": "chudo"
+   },
+   "active": true,
+   "lineage": [
+    "rikken20",
+    "rikken17",
+    "minshin",
+    "minshu98"
+   ]
+  },
+  {
+   "id": "chudo",
+   "name": "中道改革連合",
+   "short": "中道",
+   "genealogy": "chudo",
+   "from": "s2026",
+   "active": false,
+   "lineage": [
+    "chudo"
+   ]
+  },
+  {
+   "id": "ishin",
+   "name": "日本維新の会",
+   "short": "維新",
+   "genealogy": "ishin16",
+   "active": true,
+   "lineage": [
+    "ishin16",
+    "osaka"
+   ]
+  },
+  {
+   "id": "kokumin",
+   "name": "国民民主党",
+   "short": "国民",
+   "genealogy": "kokumin20",
+   "active": true,
+   "lineage": [
+    "kokumin20",
+    "kokumin18",
+    "kibou",
+    "minshin",
+    "minshu98"
+   ]
+  },
+  {
+   "id": "kyosan",
+   "name": "日本共産党",
+   "short": "共産",
+   "genealogy": "kyosan",
+   "active": true,
+   "lineage": [
+    "kyosan"
+   ]
+  },
+  {
+   "id": "reiwa",
+   "name": "れいわ新選組（現 いのちの党）",
+   "short": "れいわ",
+   "genealogy": "reiwa",
+   "active": true,
+   "from": "s2019",
+   "lineage": [
+    "reiwa",
+    "inochi"
+   ]
+  },
+  {
+   "id": "sansei",
+   "name": "参政党",
+   "short": "参政",
+   "genealogy": "sanseito",
+   "active": true,
+   "from": "s2022",
+   "lineage": [
+    "sanseito"
+   ]
+  },
+  {
+   "id": "shamin",
+   "name": "社会民主党",
+   "short": "社民",
+   "genealogy": "shamin",
+   "active": true,
+   "lineage": [
+    "shamin",
+    "shakai55"
+   ]
+  }
+ ],
+ "sources": {
+  "$parts": [
+   "sources-01.json",
+   "sources-02.json"
+  ]
+ },
+ "themes": {
+  "$parts": [
+   "themes-01.json"
+  ]
+ },
+ "plannedThemes": [],
+ "stances": {
+  "$parts": [
+   "stances-shohizei.json",
+   "stances-genpatsu.json",
+   "stances-kenpo.json",
+   "stances-anpo.json",
+   "stances-bessei.json",
+   "stances-kenkin.json",
+   "stances-kosodate.json",
+   "stances-gaikokujin.json",
+   "stances-hosei.json"
+  ]
+ },
+ "commitScale": [
+  {
+   "id": "definite",
+   "label": "明言",
+   "desc": "「実現します」「禁止します」「〜する」など、実施を言い切っている"
+  },
+  {
+   "id": "aim",
+   "label": "目標",
+   "desc": "「目指します」「推進」「取り組みます」など、目標として掲げている"
+  },
+  {
+   "id": "consider",
+   "label": "検討",
+   "desc": "「検討します」「検討を加速」「議論を深める」など、検討・議論の段階にとどめている"
+  }
+ ],
+ "nodata": {
+  "$parts": [
+   "nodata-shohizei.json",
+   "nodata-genpatsu.json",
+   "nodata-kenpo.json",
+   "nodata-anpo.json",
+   "nodata-kosodate.json",
+   "nodata-bessei.json",
+   "nodata-kenkin.json",
+   "nodata-gaikokujin.json",
+   "nodata-hosei.json"
+  ]
+ }
+}

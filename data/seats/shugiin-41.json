@@ -1,0 +1,123 @@
+{
+ "n": 41,
+ "date": "1996-10-20",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 239,
+   "smd": 169,
+   "pr": 70
+  },
+  {
+   "label": "社民",
+   "party": "shamin",
+   "seats": 15,
+   "smd": 4,
+   "pr": 11
+  },
+  {
+   "label": "新進",
+   "party": "shinshin",
+   "seats": 156,
+   "smd": 96,
+   "pr": 60
+  },
+  {
+   "label": "民主",
+   "party": "minshu96",
+   "seats": 52,
+   "smd": 17,
+   "pr": 35
+  },
+  {
+   "label": "民改連",
+   "seats": 1,
+   "smd": 1,
+   "pr": 0
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 26,
+   "smd": 2,
+   "pr": 24
+  },
+  {
+   "label": "さきがけ",
+   "party": "sakigake",
+   "seats": 2,
+   "smd": 2,
+   "pr": 0
+  },
+  {
+   "label": "諸派",
+   "seats": 0,
+   "smd": 0,
+   "pr": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 9,
+   "smd": 9,
+   "pr": 0
+  }
+ ],
+ "total": 500,
+ "context": {
+  "background": [
+   {
+    "date": "1996-09-28",
+    "text": "民主党（1996年）が結成（事典・報道による）。",
+    "sources": [
+     "g_imidas_minshu",
+     "g_nippon_minshu"
+    ]
+   },
+   {
+    "date": "1996-09-27",
+    "text": "衆議院が解散された。",
+    "sources": [
+     "k19960927"
+    ]
+   }
+  ],
+  "issues": [
+   {
+    "who": "堤英敬（1998）",
+    "text": "候補者の選挙公約を分析した論文の英文要旨で「the policies mentioned by many candidates were administrative reform, promoting welfare, saving protecting agriculture and objection to rising consumer tax and so on.」（多くの候補者が挙げた政策は、行政改革、福祉の推進、農業の保護、消費税引き上げへの反対などだった）と述べている。（英文要旨。和訳はこのサイトによる）",
+    "sources": [
+     "tsutsumi1998"
+    ]
+   }
+  ],
+  "research": [
+   {
+    "who": "山田真裕（2002）",
+    "text": "明るい選挙推進協会の調査データで1996年と2000年の総選挙の棄権を比べ、「96年選挙では行政改革問題が有権者を動員する効果を持っていたと思われる」としている。",
+    "sources": [
+     "yamada2002"
+    ]
+   }
+  ],
+  "parties": [
+   {
+    "who": "首相（自由民主党総裁）橋本龍太郎",
+    "text": "選挙後最初の所信表明演説（1996年11月29日）には、選挙結果について述べた部分は見当たらなかった（このサイトによる確認）。",
+    "sources": [
+     "k19961129"
+    ]
+   },
+   {
+    "who": "野党第一党（新進党）西岡武夫議員",
+    "text": "代表質問で「残念ながら我が党は第二党に終わりましたが、第一党となった自民党も過半数を待ちれず、少数単独政権として第二次橋本内閣がスタートしたのであります」と述べた（「待ちれず」は会議録の表記のまま）。",
+    "sources": [
+     "k19961202"
+    ]
+   }
+  ]
+ }
+}

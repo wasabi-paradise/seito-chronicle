@@ -1,0 +1,37 @@
+[
+ {
+  "party": "rikken",
+  "election": "s2017",
+  "theme": "kenkin",
+  "asName": "立憲民主党（旧）",
+  "reason": "党の公約・公式資料・アンケート回答で、このテーマの立場を確認できなかった"
+ },
+ {
+  "party": "kokumin",
+  "election": "s2017",
+  "theme": "kenkin",
+  "asName": "希望の党",
+  "reason": "党の公約・公式資料・アンケート回答で、このテーマの立場を確認できなかった"
+ },
+ {
+  "party": "komei",
+  "election": "s2021",
+  "theme": "kenkin",
+  "asName": null,
+  "reason": "アンケートは禁止に「やや賛成」だが、回答文は「今後は…検討していきたい」で、方針（禁止・規制強化・公開）を決める記述がない"
+ },
+ {
+  "party": "komei",
+  "election": "s2024",
+  "theme": "kenkin",
+  "asName": null,
+  "reason": "公約に記載がなく、アンケートは禁止に「やや賛成」だが、回答文は過去の実績と「政治資金の透明性を高め…る事が重要」で、方針を決める記述がない"
+ },
+ {
+  "party": "ishin",
+  "election": "s2026",
+  "theme": "kenkin",
+  "asName": null,
+  "reason": "公約は「企業団体献金の見直しに向け、政治資金の収入に関する法案を提出」のみで、禁止か規制強化かを示していない"
+ }
+]

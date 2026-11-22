@@ -1,0 +1,817 @@
+[
+ {
+  "party": "jimin",
+  "theme": "kosodate",
+  "election": "s2016",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "jimin2016web",
+   "jimin2016bank"
+  ],
+  "verified": true,
+  "wording": "「幼児教育の無償化を一層進めます。」「待機児童の解消を目指し、保育の受け皿を50万人分増やします。」「給付型奨学金の創設に向けて具体的な検討を進めます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kosodate",
+  "election": "s2016",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "verifiedOn": "2026-11-21",
+  "wording": "「教育の無償化を一歩一歩実現し」「旧民主党政権で実現した高校無償化を、保育園・幼稚園から大学まで広げ」「返済のいらない給付型奨学金を創設します。」",
+  "note": "民進党の公約。「教育の無償化を一歩一歩実現し」「保育園・幼稚園から大学まで広げ」とする段階的な目標のため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kosodate",
+  "election": "s2016",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "verifiedOn": "2026-11-21",
+  "wording": "「教育の無償化を一歩一歩実現し」「旧民主党政権で実現した高校無償化を、保育園・幼稚園から大学まで広げ」「返済のいらない給付型奨学金を創設します。」",
+  "note": "民進党の公約。「教育の無償化を一歩一歩実現し」「保育園・幼稚園から大学まで広げ」とする段階的な目標のため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kosodate",
+  "election": "s2016",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kyosan2016pol"
+  ],
+  "verified": true,
+  "wording": "「３０万人分（約３０００カ所）の認可保育所を緊急に増設します」「大学授業料を毎年引き下げ、１０年間で半額にします」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kosodate",
+  "election": "s2016",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "ishin2016web",
+   "ishin2016kenpo"
+  ],
+  "verified": true,
+  "asName": "おおさか維新の会",
+  "wording": "「憲法で教育を無償化。国に予算措置と立法を義務付け」「保育園・幼稚園から大学まで教育の無償化」（憲法改正案）",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kosodate",
+  "election": "s2017",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "jimin2017pdf"
+  ],
+  "verified": true,
+  "wording": "「2020年度までに、３歳から５歳までのすべての子供たち…の費用を無償化します」「真に支援が必要な所得の低い家庭の子供たちに限って、高等教育の無償化を図ります」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kosodate",
+  "election": "s2017",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "g2s2017_kibo"
+  ],
+  "verified": true,
+  "asName": "希望の党",
+  "wording": "アンケート「幼児教育を無償化すべきだ」に「賛成」。「保育園・幼稚園の無料化と、返済不要の奨学金を増やします。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "kosodate",
+  "election": "s2017",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "komei2017pdf"
+  ],
+  "verified": true,
+  "wording": "「2019年までにすべての幼児（0-5歳児）を対象とした幼児教育の無償化の実現をめざします」「2019年までに私立高校授業料の実質無償化をめざします」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kosodate",
+  "election": "s2017",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kyosan2017pdf"
+  ],
+  "verified": true,
+  "wording": "「高等教育の無償化をめざし、当面10年間かけて国公私立の学費を半額にします。」「幼児教育・保育の無償化を、待機児童解消とともに進めます。」",
+  "verifiedOn": "2026-11-21",
+  "note": "「高等教育の無償化をめざし、当面10年間かけて国公私立の学費を半額に」。無償化は目標で、当面の内容は学費半額のため「大きく拡大」に分類（2021年以降と同じ基準）"
+ },
+ {
+  "party": "ishin",
+  "theme": "kosodate",
+  "election": "s2017",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "ishin2017pdf"
+  ],
+  "verified": true,
+  "wording": "「機会平等社会を実現するための教育完全無償化」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kosodate",
+  "election": "s2017",
+  "position": "build",
+  "temp": null,
+  "sources": [
+   "g2s2017_rikken_kyoiku"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "アンケート「幼児教育を無償化すべきだ」に「やや賛成」。「…待機児童問題の解消を図りつつ、就学前教育・保育の負担軽減について検討していきます。」",
+  "verifiedOn": "2026-11-22",
+  "note": "確認できた党の回答は負担軽減の「検討」までのため「今の制度を着実に拡充」に分類（以前は「大きく拡大」）"
+ },
+ {
+  "party": "shamin",
+  "theme": "kosodate",
+  "election": "s2017",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "g2s2017_shamin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「幼児教育を無償化すべきだ」に「賛成」。「保育も教育も原則無償とすべきだ。」",
+  "note": "アンケートでは「保育も教育も原則無償とすべきだ」と回答。大学の学費は将来の無償化をめざして段階的に引き下げるとしているため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "jimin",
+  "theme": "kosodate",
+  "election": "s2019",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "jimin2019pamph"
+  ],
+  "verified": true,
+  "wording": "「来年 4 月から、真に経済的支援が必要な子供たちの高等教育無償化、私立高校の実質無償化を実現します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "kosodate",
+  "election": "s2019",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "komei2019koho"
+  ],
+  "verified": true,
+  "wording": "「『子育て安心』社会に向け、“3つの教育無償化”を実現へ」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kosodate",
+  "election": "s2019",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "rikken2019v1"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "「公立小中学校の給食を無償化します。」「国公立大学の授業料を半額程度に引き下げ、私学助成金を増やします。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kosodate",
+  "election": "s2019",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kokumin2019koho"
+  ],
+  "verified": true,
+  "asName": "国民民主党（旧）",
+  "wording": "「児童手当増額！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kosodate",
+  "election": "s2019",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "ishin2019koho"
+  ],
+  "verified": true,
+  "wording": "「教育完全無償化」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kosodate",
+  "election": "s2019",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "shamin2019web",
+   "shamin2019detail"
+  ],
+  "verified": true,
+  "wording": "「高校授業料は私立高校も含め直ちに無償化します。」（大学の学費は）「将来的に無償化をめざし、段階的に引き下げます。」",
+  "verifiedOn": "2026-11-21",
+  "note": "高校授業料は直ちに無償化。大学の学費は「将来的に無償化をめざし、段階的に引き下げ」とする目標のため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "komei",
+  "theme": "kosodate",
+  "election": "s2021",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "komei2021koho"
+  ],
+  "verified": true,
+  "wording": "「０歳～高校３年生まで、全ての子どもたちに『未来応援給付』（１人一律10万円相当の支援）を実施します」",
+  "verifiedOn": "2026-11-21",
+  "note": "10万円相当の「未来応援給付」は1回限りの給付。大学等の無償化は年収590万円未満の世帯までを段階的にめざす目標"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kosodate",
+  "election": "s2021",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kokumin2021pdf"
+  ],
+  "verified": true,
+  "wording": "「幼稚園・保育園から高校までの教育無償化をはじめ、教育や科学技術分野の予算を『教育国債』で確保します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kosodate",
+  "election": "s2021",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "g2s2021_ishin"
+  ],
+  "verified": true,
+  "wording": "アンケート「教育の完全無償化を目指すべきだ」に「賛成」。「…義務教育の他、幼児教育、高校、大学など、教育の全過程について完全無償化を憲法上の原則として定め、」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kosodate",
+  "election": "s2021",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kyosan2021koho"
+  ],
+  "verified": true,
+  "wording": "「学費半減。返済不要の給付型奨学金の拡充。」「認可保育所を30万人分増設。」",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公報は学費半減。2024年と同じ基準で「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "rikken",
+  "theme": "kosodate",
+  "election": "s2021",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "rikken2021pdf"
+  ],
+  "verified": true,
+  "wording": "「子ども・子育て予算を倍増します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kosodate",
+  "election": "s2021",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "reiwa2021pdf"
+  ],
+  "verified": true,
+  "wording": "「すべての子どもに毎月3万円を給付します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kosodate",
+  "election": "s2022",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "jimin2022pdf"
+  ],
+  "verified": true,
+  "wording": "「大胆な児童手当や育休給付の拡充、保育等子育て支援、放課後児童クラブの拡充」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kosodate",
+  "election": "s2022",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "rikken2022koho"
+  ],
+  "verified": true,
+  "wording": "「大学等授業料の無償化」「学校給食の無償化」「高3までのすべての子どもに児童手当15,000円」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "kosodate",
+  "election": "s2022",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "komei2022pdf"
+  ],
+  "verified": true,
+  "wording": "「『子育て応援トータルプラン』を策定し、結婚、妊娠・出産から、幼児～高等教育までの無償化や経済的支援を段階的に充実します。」",
+  "verifiedOn": "2026-11-21",
+  "note": "「幼児～高等教育までの無償化や経済的支援を段階的に充実」とする目標で、対象と時期は示されていないため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "ishin",
+  "theme": "kosodate",
+  "election": "s2022",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "ishin2022pdf"
+  ],
+  "verified": true,
+  "wording": "「義務教育の他、幼児教育、高校、大学など、教育の全過程について完全無償化を憲法上の原則として定め、」「出産にかかる費用の完全無償化を実現します。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kosodate",
+  "election": "s2022",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kyosan2022koho"
+  ],
+  "verified": true,
+  "wording": "「学費半減」「給食費ゼロ」",
+  "verifiedOn": "2026-11-21",
+  "note": "以前は「将来的な無償化」から「大学までの無償化」としていたが、選挙公報は学費半減。2024年と同じ基準で「大きく拡大」に修正"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kosodate",
+  "election": "s2022",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kokumin2022koho"
+  ],
+  "verified": true,
+  "wording": "「教育無償化の実現」「子育て・教育支援策の所得制限撤廃」「『教育国債』の創設」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kosodate",
+  "election": "s2022",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "reiwa2022pdf"
+  ],
+  "verified": true,
+  "wording": "「大学院まで教育無償・奨学金チャラ」「すべての子どもに毎月3万円を給付し、子育てを支援します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kosodate",
+  "election": "s2022",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "g2s2022_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「高等教育を無償化にするべきだ」に「賛成」。「日本の大学学費負担は、世界的に見ても突出して高額です。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kosodate",
+  "election": "s2024",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "jimin2024pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「高等教育の無償化を大胆に進めます」「児童手当の抜本的拡充」",
+  "note": "公約は「高等教育の無償化を大胆に進めます」。時期や対象を示した無償化ではなく、実際の制度（2025年度〜）も多子世帯などに限ったものであるため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "komei",
+  "theme": "kosodate",
+  "election": "s2024",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "komei2024pdf"
+  ],
+  "verified": true,
+  "wording": "「高等学校等の授業料については所得制限を撤廃し、国公私立を問わず実質無償化します」「2030年代の大学等の無償化をめざし」",
+  "verifiedOn": "2026-11-21",
+  "note": "高校授業料は所得制限を撤廃して実質無償化。大学等の無償化は「2030年代」の目標のため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kosodate",
+  "election": "s2024",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kokumin2024koho"
+  ],
+  "verified": true,
+  "wording": "「高校までの教育無償化」「給食費と修学旅行費を無償化」「所得制限撤廃」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kosodate",
+  "election": "s2024",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "rikken2024pdf"
+  ],
+  "verified": true,
+  "wording": "「国公立大学の授業料を無償化し」「1人当たり月1万5千円、年18万円の児童手当を支給します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kosodate",
+  "election": "s2024",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "ishin2024pamph"
+  ],
+  "verified": true,
+  "wording": "「幼児教育・高等教育において所得制限のない完全無償化を実現します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kosodate",
+  "election": "s2024",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kyosan2024pdf"
+  ],
+  "verified": true,
+  "wording": "「学費値上げを中止し、値下げに踏み出します」「学校給食費を無償化します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kosodate",
+  "election": "s2024",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "reiwa2024koho"
+  ],
+  "verified": true,
+  "wording": "「子ども手当一律3万円／月、子どもの医療費・教育費無償化。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kosodate",
+  "election": "s2025",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "jimin2025pdf"
+  ],
+  "verified": true,
+  "wording": "「『こども誰でも通園制度』の本格実施」「高校授業料の実質無償化をはじめとする教育費の負担軽減」",
+  "verifiedOn": "2026-11-22",
+  "note": "「高校授業料の実質無償化」を掲げており、テーマの基準（高校の無償化は「大きく拡大」）に沿って分類（以前は「今の制度を着実に拡充」）"
+ },
+ {
+  "party": "komei",
+  "theme": "kosodate",
+  "election": "s2025",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "komei2025pdf"
+  ],
+  "verified": true,
+  "wording": "「妊娠・出産に係る基礎的な費用を無償化する」「小中学校の学校給食の無償化」「高校授業料の無償化」「大学生等の授業料無償化」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約に「大学生等の授業料無償化」と明記（2024年の「2030年代の目標」から書き方が変わった）"
+ },
+ {
+  "party": "rikken",
+  "theme": "kosodate",
+  "election": "s2025",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "rikken2025pdf"
+  ],
+  "verified": true,
+  "wording": "「18歳までの全ての子どもの児童手当を月1万5千円（年18万円）に増額します」「国公立大学の授業料無償化」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kosodate",
+  "election": "s2025",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "ishin2025core"
+  ],
+  "verified": true,
+  "wording": "「未就学児も所得制限のない完全無償化を目指します」「大学・大学院は改革と合わせて、教育の全課程の無償化を目指します」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約は「未就学児も所得制限のない完全無償化を目指します」「大学・大学院は改革と合わせて、教育の全課程の無償化を目指します」。いずれも目標の書き方のため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kosodate",
+  "election": "s2025",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kokumin2025pdf"
+  ],
+  "verified": true,
+  "wording": "「『教育国債』発行により公費投入増」「年少扶養控除復活」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kosodate",
+  "election": "s2025",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kyosan2025pdf"
+  ],
+  "verified": true,
+  "wording": "「授業料半減・入学金ゼロを実現（専門学校含む）し、無償化をめざします」",
+  "verifiedOn": "2026-11-21",
+  "note": "「授業料半減・入学金ゼロを実現し、無償化をめざします」。無償化は目標のため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kosodate",
+  "election": "s2025",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "reiwaBasic2502"
+  ],
+  "verified": true,
+  "wording": "「すべての子どもに所得制限なしで毎月 3 万円を給付する」「幼児から大学院生まで、保育・教育は完全無償化する」",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公約の文書は確認できず、選挙時点で党が公開していた基本政策（2025年2月版）で照合"
+ },
+ {
+  "party": "sansei",
+  "theme": "kosodate",
+  "election": "s2025",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "sansei2025koho"
+  ],
+  "verified": true,
+  "wording": "「0～15歳に月10万円の教育給付金を支給する」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kosodate",
+  "election": "s2025",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "g2s2025_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「大学の授業料を無償化すべきですか？」に「賛成」。「大学までの高等教育の教育費無償化を実現します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kosodate",
+  "election": "s2026",
+  "position": "build",
+  "temp": null,
+  "sources": [
+   "jimin2026bank"
+  ],
+  "verified": true,
+  "wording": "「『こども誰でも通園制度』の本格実施」「正常分娩費用に妊婦の自己負担が生じないよう、妊婦の経済的負担の軽減を進めます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "chudo",
+  "theme": "kosodate",
+  "election": "s2026",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "chudo2026pdf"
+  ],
+  "verified": true,
+  "wording": "「０～２歳も含め就学前教育・保育の無償化を推進します」「18歳までの全ての子どもの児童手当を月1万5千円（年18万円）に増額することや…などを検討します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kosodate",
+  "election": "s2026",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "ishin2026pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-22",
+  "note": "日経掲載の公約で確認できたのは「高校無償化・小学校給食無償化に向けた制度設計」まで。大学までの無償化の記述は、この公約では確認できない",
+  "wording": "「高校無償化・小学校給食無償化に向けた制度設計」"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kosodate",
+  "election": "s2026",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kokumin2026pol"
+  ],
+  "verified": true,
+  "wording": "「教育国債（5兆円/年）」「給食費・教材費・修学旅行費等を含む高校までの教育費完全無償化」「16歳未満の子どもがいる親の年少扶養控除の復活」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kosodate",
+  "election": "s2026",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kyosan2026pdf"
+  ],
+  "verified": true,
+  "wording": "「大学などの学費値上げは中止し、半額に引き下げ、入学金は廃止します」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約は学費半額。2024年と同じ基準で「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kosodate",
+  "election": "s2026",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "reiwaBasic2502"
+  ],
+  "verified": true,
+  "wording": "「すべての子どもに所得制限なしで毎月 3 万円を給付する」「幼児から大学院生まで、保育・教育は完全無償化する」",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公約の文書は確認できず、選挙時点で党が公開していた基本政策（2025年2月版）で照合"
+ },
+ {
+  "party": "sansei",
+  "theme": "kosodate",
+  "election": "s2026",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "sansei2026"
+  ],
+  "verified": true,
+  "wording": "「0～15歳の子ども一人につき月10万円の教育給付金を支給し」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kosodate",
+  "election": "s2026",
+  "position": "full",
+  "temp": null,
+  "sources": [
+   "shamin2026"
+  ],
+  "verified": true,
+  "wording": "「大学までの教育無償化を実現、奨学金は給付型（返済不要）を原則に。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kosodate",
+  "election": "s2021",
+  "position": "build",
+  "temp": null,
+  "sources": [
+   "jimin2021pdf",
+   "g2s2021_jimin"
+  ],
+  "verified": true,
+  "wording": "「待機児童の減少」「病児保育の拡充」「児童手当の強化」",
+  "verifiedOn": "2026-11-22",
+  "note": "アンケートの回答（教育の完全無償化は「中立」）と公約による"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kosodate",
+  "election": "s2019",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "kyosan2019koho"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「大学・専門学校の授業料をまず半額に、段階的に無償化へ。」「小中の学校給食費・保育の無償化。」",
+  "note": "「授業料をまず半額に、段階的に無償化へ」。無償化は段階的な目標のため「大きく拡大」に分類（以前は「大学までの無償化」）"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kosodate",
+  "election": "s2019",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "reiwa2019koho"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「奨学金に苦しむ５５５万人をチャラにします。」",
+  "note": "選挙公報で確認できたのは奨学金の返済免除と保育士の公務員化。教育無償化の範囲は未確認"
+ },
+ {
+  "party": "sansei",
+  "theme": "kosodate",
+  "election": "s2022",
+  "position": "expand",
+  "temp": null,
+  "sources": [
+   "g2s2022_sansei"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「高等教育を無償化にするべきだ」に「賛成」。「高等教育を受ける枠を絞って、すべて無償にすべき」",
+  "note": "アンケートで「高等教育を受ける枠を絞って、すべて無償にすべき」と回答。対象を絞った無償化のため「大きく拡大」に分類。公約の文書（日経掲載PDF）は読み込めず未確認"
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "party": "komei",
+  "election": "s2016",
+  "theme": "anpo",
+  "asName": null,
+  "reason": "党の公約・公式資料・アンケート回答で、このテーマの立場を確認できなかった"
+ },
+ {
+  "party": "shamin",
+  "election": "s2016",
+  "theme": "anpo",
+  "asName": null,
+  "reason": "党の公約・公式資料・アンケート回答で、このテーマの立場を確認できなかった"
+ },
+ {
+  "party": "reiwa",
+  "election": "s2019",
+  "theme": "anpo",
+  "asName": null,
+  "reason": "選挙公報の記載は「辺野古新基地建設中止」のみで、防衛力・防衛費についての記述がない"
+ },
+ {
+  "party": "shamin",
+  "election": "s2021",
+  "theme": "anpo",
+  "asName": null,
+  "reason": "選挙公報の記載は「安保法制の廃止」のみで、防衛力・防衛費についての記述がない。アンケートの設問は敵基地攻撃能力で、防衛費の水準についてではない"
+ },
+ {
+  "party": "reiwa",
+  "election": "s2021",
+  "theme": "anpo",
+  "asName": null,
+  "reason": "アンケートの設問は敵基地攻撃能力の保有で、防衛費の水準についての記述がない"
+ },
+ {
+  "party": "shamin",
+  "election": "s2017",
+  "theme": "anpo",
+  "asName": null,
+  "reason": "アンケートは安全保障関連法の廃止に「賛成」、回答文は自衛隊を必要最小限の組織とすべきとするもので、防衛費の増額・削減についての記述がない"
+ }
+]

@@ -1,0 +1,55 @@
+{
+ "n": 4,
+ "date": "1956-07-08",
+ "tier": [
+  "全国区",
+  "地方区"
+ ],
+ "seatsA": 52,
+ "seatsB": 75,
+ "total": 127,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "seats": 61,
+   "a": 19,
+   "b": 42,
+   "party": "jimin"
+  },
+  {
+   "label": "社会",
+   "seats": 49,
+   "a": 21,
+   "b": 28,
+   "party": "shakai55"
+  },
+  {
+   "label": "共産",
+   "seats": 2,
+   "a": 1,
+   "b": 1,
+   "party": "kyosan"
+  },
+  {
+   "label": "緑風",
+   "seats": 5,
+   "a": 5,
+   "b": 0
+  },
+  {
+   "label": "諸派",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 9,
+   "a": 5,
+   "b": 4
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "n": 2,
+ "date": "1950-06-04",
+ "tier": [
+  "全国区",
+  "地方区"
+ ],
+ "seatsA": 56,
+ "seatsB": 76,
+ "total": 132,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "自由",
+   "seats": 52,
+   "a": 18,
+   "b": 34,
+   "party": "jiyu50"
+  },
+  {
+   "label": "国民民主",
+   "seats": 9,
+   "a": 1,
+   "b": 8,
+   "party": "kokumin50"
+  },
+  {
+   "label": "社会",
+   "seats": 36,
+   "a": 15,
+   "b": 21,
+   "party": "shakai45"
+  },
+  {
+   "label": "共産",
+   "seats": 2,
+   "a": 2,
+   "b": 0,
+   "party": "kyosan"
+  },
+  {
+   "label": "緑風",
+   "seats": 9,
+   "a": 6,
+   "b": 3
+  },
+  {
+   "label": "諸派",
+   "seats": 5,
+   "a": 2,
+   "b": 3
+  },
+  {
+   "label": "無所属",
+   "seats": 19,
+   "a": 12,
+   "b": 7
+  }
+ ]
+}

@@ -1,0 +1,802 @@
+[
+ {
+  "party": "jimin",
+  "theme": "anpo",
+  "election": "s2016",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "jimin2016bank"
+  ],
+  "verified": true,
+  "wording": "「自衛隊の人員・装備の増強など防衛力の質と量を拡充・強化し、統合機動防衛力の構築を目指します。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約に「抜本的」の語はないが、「自衛隊の人員・装備の増強」「防衛力の質と量を拡充・強化」と増強を明記しているため「抜本的に強化・増額」に分類"
+ },
+ {
+  "party": "rikken",
+  "theme": "anpo",
+  "election": "s2016",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「昨年成立した安保法制の白紙撤回を求めます。」「専守防衛を前提にした自衛力の整備」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "anpo",
+  "election": "s2016",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「昨年成立した安保法制の白紙撤回を求めます。」「専守防衛を前提にした自衛力の整備」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "anpo",
+  "election": "s2016",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "kyosan2016pol"
+  ],
+  "verified": true,
+  "wording": "「安保法制＝戦争法を廃止します」「大軍拡から軍縮へと転換します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "anpo",
+  "election": "s2016",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "ishin2016web"
+  ],
+  "verified": true,
+  "asName": "おおさか維新の会",
+  "wording": "「日米チームワークの防衛力を強める一方、地球の裏側まで行かないバランス感覚が必要。」「集団的自衛権行使の要件を厳格化。日本周辺の同盟国軍に限定」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "jimin",
+  "theme": "anpo",
+  "election": "s2017",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "jimin2017pdf"
+  ],
+  "verified": true,
+  "wording": "「自衛隊の人員・装備の増強など防衛力の質と量を抜本的に拡充・強化する」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約原文（防衛力を抜本的に拡充・強化）に合わせて区分を修正（以前は「必要な防衛力を整備」）"
+ },
+ {
+  "party": "kokumin",
+  "theme": "anpo",
+  "election": "s2017",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "g2s2017_kibo"
+  ],
+  "verified": true,
+  "asName": "希望の党",
+  "wording": "アンケート「安全保障関連法を廃止すべきだ」に「反対」。「現行の安全保障法制は憲法に則り適切に運用します。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "anpo",
+  "election": "s2017",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "komei2017pdf"
+  ],
+  "verified": true,
+  "wording": "「平和安全法制の適正な運用を積み重ね、法の趣旨を踏まえた実績の蓄積をめざします」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "anpo",
+  "election": "s2017",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "kyosan2017pdf"
+  ],
+  "verified": true,
+  "wording": "「憲法違反の安保法制＝戦争法は、きっぱり廃止しなければなりません。」「…軍事費を削減します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "anpo",
+  "election": "s2017",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "ishin2017pdf"
+  ],
+  "verified": true,
+  "wording": "「防衛費GDP1％枠を撤廃。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約原文（防衛費のGDP比1%枠の撤廃）に合わせ、2021年と同じ基準で区分を修正（以前は「必要な防衛力を整備」）"
+ },
+ {
+  "party": "rikken",
+  "theme": "anpo",
+  "election": "s2017",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "g2s2017_rikken"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "アンケート「安全保障関連法を廃止すべきだ」に「やや賛成」。「専守防衛を徹底する観点から領域警備法の制定と憲法の枠内での周辺事態法の強化を目指します。」",
+  "verifiedOn": "2026-11-22",
+  "note": "防衛費の水準への言及はない"
+ },
+ {
+  "party": "rikken",
+  "theme": "anpo",
+  "election": "s2019",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "rikken2019v5"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "「立憲主義を逸脱する安保法制は廃止します。」「専守防衛の範囲を超えない、抑制的かつ効果的な防衛力整備を行います。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "anpo",
+  "election": "s2019",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "kyosan2019koho"
+  ],
+  "verified": true,
+  "wording": "「日米安保条約をなくし、対等・平等の友好条約を結ぶ。」「F35戦闘機の〝爆買い〟やめ、イージス・アショアの配備撤回。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "anpo",
+  "election": "s2019",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "ishin2019pdf"
+  ],
+  "verified": true,
+  "wording": "「防衛費のGDP1％枠の撤廃」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約原文（防衛費のGDP比1%枠の撤廃）に合わせ、2021年と同じ基準で区分を修正（以前は「必要な防衛力を整備」）"
+ },
+ {
+  "party": "shamin",
+  "theme": "anpo",
+  "election": "s2019",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "shamin2019web"
+  ],
+  "verified": true,
+  "wording": "「『戦争法』を廃止します。」「膨張する防衛費などの歳出を見直し、財源を確保します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "anpo",
+  "election": "s2021",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "jimin2021pdf"
+  ],
+  "verified": true,
+  "wording": "「わが国自身の防衛力を抜本的に強化します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "anpo",
+  "election": "s2021",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "g2s2021_komei"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「敵基地攻撃能力を保有すべきだ」は選択なし。「先制攻撃には反対。」「憲法の趣旨である専守防衛に則ったミサイル防衛のあり方や、わが国の防衛体制、抑止力などについて議論を深めていく必要がある。」",
+  "note": "防衛費の設問はなし。区分はアンケートの回答による"
+ },
+ {
+  "party": "rikken",
+  "theme": "anpo",
+  "election": "s2021",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "rikken2021pdf"
+  ],
+  "verified": true,
+  "wording": "「専守防衛に徹しつつ、領土・領海・領空を守ります」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "anpo",
+  "election": "s2021",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "kyosan2021pol"
+  ],
+  "verified": true,
+  "wording": "「Ｆ３５など米国製兵器の「爆買い」や「空母化」などの大軍拡をやめ、軍縮へ転換します。」「自衛隊を海外で戦争させる安保法制を廃止します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "anpo",
+  "election": "s2021",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "g2s2021_kokumin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「敵基地攻撃能力を保有すべきだ」は選択なし。「『自分の国は自分で守る』との理念に基づき、自立的な安全保障体制をめざします。」「日米同盟を堅持・強化します。」",
+  "note": "防衛費の設問はなく、増額への言及もない。区分はアンケートの回答による"
+ },
+ {
+  "party": "ishin",
+  "theme": "anpo",
+  "election": "s2021",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "g2s2021_ishin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-22",
+  "wording": "アンケート「敵基地攻撃能力を保有すべきだ」に「中立」。「敵基地を無力化する『領域内阻止能力』を持つことには賛成。」",
+  "note": "公約（日経掲載）に防衛の記載なし。回答に防衛力の増強・防衛費の増額の明記がないため、基準に沿って分類（以前は「抜本的に強化・増額」）"
+ },
+ {
+  "party": "jimin",
+  "theme": "anpo",
+  "election": "s2022",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "jimin2022pdf"
+  ],
+  "verified": true,
+  "wording": "「来年度から５年以内に、防衛力の抜本的強化に必要な予算水準の達成を目指します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "anpo",
+  "election": "s2022",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "ishin2022pdf"
+  ],
+  "verified": true,
+  "wording": "「防衛費のGDP比1％枠を撤廃し、まずはGDP比2％を一つの目安として増額することを目指し」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "anpo",
+  "election": "s2022",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "rikken2022koho"
+  ],
+  "verified": true,
+  "wording": "「日米の役割分担を前提とした防衛体制を整備」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "anpo",
+  "election": "s2022",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "komei2022koho"
+  ],
+  "verified": true,
+  "wording": "「平和安全法制により強化された日米同盟を基軸に、抑止力・対処力を向上」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "anpo",
+  "election": "s2022",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "kyosan2022koho"
+  ],
+  "verified": true,
+  "wording": "「軍事費2倍にキッパリ反対」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "anpo",
+  "election": "s2022",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "g2s2022_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「防衛費を対GDP比で2％まで増額すべきですか？」に「反対」。「ロシアのウクライナ侵攻に便乗して、防衛費を増額する動きが高まっています。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "anpo",
+  "election": "s2022",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "g2s2022_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「防衛費を対GDP比で2％まで増額すべきですか？」に「賛成」。「ただし、アメリカの高い武器を買わされるだけであれば反対。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "anpo",
+  "election": "s2024",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "komei2024pdf",
+   "g2s_komei"
+  ],
+  "verified": true,
+  "wording": "「専守防衛の下、防衛力を着実に整備・強化します。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "rikken",
+  "theme": "anpo",
+  "election": "s2024",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "rikken2024pdf",
+   "g2s_rikken"
+  ],
+  "verified": true,
+  "wording": "「急増した防衛予算を精査し、防衛増税は行いません」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "anpo",
+  "election": "s2024",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "g2s_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「防衛費増額に伴う増税を行うべきですか？」に「反対」。「防衛費のGDP比2％への倍増方針には反対です。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "anpo",
+  "election": "s2024",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "shamin2024koho",
+   "g2s_shamin"
+  ],
+  "verified": true,
+  "wording": "「軍事費増税NO！」「軍拡NO！！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "anpo",
+  "election": "s2024",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "g2s_sansei"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-22",
+  "wording": "アンケート「防衛費増額に伴う増税を行うべきですか？」に「反対」。「国債発行は…経済成長を阻害せずに必要な防衛力を確保できる手段である。」",
+  "note": "公約（日経掲載）に防衛の記載なし。回答は増税への賛否で、防衛費の増額の明記がないため、基準に沿って分類（以前は「抜本的に強化・増額」）"
+ },
+ {
+  "party": "jimin",
+  "theme": "anpo",
+  "election": "s2024",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "jimin2024pdf",
+   "g2s2024_jimin"
+  ],
+  "verified": true,
+  "wording": "「安保三文書に基づき、防衛力を抜本的に強化します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "anpo",
+  "election": "s2024",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "ishin2024pamph",
+   "ishin2024core"
+  ],
+  "verified": true,
+  "wording": "「防衛費は国民の負担増に頼ることなく適切な水準（GDP 比率 2％）まで増額し、」「国民の生命と財産を真に守れる「積極防衛能力」の整備を図ります。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kokumin",
+  "theme": "anpo",
+  "election": "s2024",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "g2s_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「防衛費増額に伴う増税を行うべきですか？」に「反対」。「…「自分の国は自分で守る」との理念に基づき、適切な安全保障体制の確立と運用が必要です。」",
+  "verifiedOn": "2026-11-22",
+  "note": "選挙公報に防衛の記載なし。アンケートの回答にも防衛力の増強・防衛費の増額の明記がないため、基準に沿って「防衛力を整備・強化（増強・増額の明記なし）」に分類（以前は「抜本的に強化・増額」。2022・2025・2026年は増額を明記）"
+ },
+ {
+  "party": "kyosan",
+  "theme": "anpo",
+  "election": "s2024",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "kyosan2024pdf",
+   "g2s2024_kyosan"
+  ],
+  "verified": true,
+  "wording": "「大軍拡計画の中止など歳出の抜本的見直しによって確保します。」「「安保3文書」にもとづく「戦争国家」づくりをストップさせます。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "jimin",
+  "theme": "anpo",
+  "election": "s2025",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "jimin2025pdf"
+  ],
+  "verified": true,
+  "wording": "「防衛力を抜本的に強化し、国民の命と領土を断固守り抜きます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "anpo",
+  "election": "s2025",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "komei2025pdf",
+   "g2s2025_komei"
+  ],
+  "verified": true,
+  "wording": "「防衛力の整備を進め、日米同盟による抑止力のさらなる強化を図ってまいります」",
+  "verifiedOn": "2026-11-21",
+  "note": "防衛費の額は公約に記載なし。「積み上げて決める」はアンケートの回答による"
+ },
+ {
+  "party": "rikken",
+  "theme": "anpo",
+  "election": "s2025",
+  "position": "strengthen",
+  "temp": 2,
+  "sources": [
+   "rikken2025pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「防衛増税は行いません」「防衛力を抜本的に強化します」",
+  "tempBasis": "本編の外交・安保章",
+  "verifiedOn": "2026-11-21",
+  "note": "公約原文に合わせて区分を修正（以前は「必要な防衛力を整備」）"
+ },
+ {
+  "party": "ishin",
+  "theme": "anpo",
+  "election": "s2025",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "ishin2025core"
+  ],
+  "verified": true,
+  "wording": "「防衛費は国民の負担増に頼らず GDP 比 2％まで増額し」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "anpo",
+  "election": "s2025",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "kyosan2025pdf"
+  ],
+  "verified": true,
+  "wording": "「大軍拡を中止して軍事費を大幅に削減するなどの歳出の抜本的見直しによって確保します。」「軍拡増税を中止し、米軍への思いやり予算をなくします。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "reiwa",
+  "theme": "anpo",
+  "election": "s2025",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "g2s2025_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「日本の防衛費を増額すべきですか？」に「反対」。「NATO諸国に対して米国が防衛費を一律GDP比５％に引き上げるよう圧力をかけ、…日本は反対すべきです。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "anpo",
+  "election": "s2025",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "shamin2025koho"
+  ],
+  "verified": true,
+  "wording": "「軍事予算は削減。辺野古新基地反対！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "anpo",
+  "election": "s2025",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "g2s2025_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「日本の防衛費を増額すべきですか？」に「中立」。「現在のGDP2%はNATO諸国平均と同等であり、まずは2%の枠の中で待遇改善や防衛装備の増強を進める。」",
+  "verifiedOn": "2026-11-22",
+  "note": "アンケートは増額に「中立」だが、回答文に「防衛装備の増強を進める」とあるため、テーマの基準（人員・装備の増強を明記）に沿って「抜本的に強化・増額」に分類（以前は「増強・増額の明記なし」）"
+ },
+ {
+  "party": "jimin",
+  "theme": "anpo",
+  "election": "s2026",
+  "position": "necessary",
+  "temp": 2,
+  "sources": [
+   "jimin2026bank",
+   "jimin2026pamph"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「わが国の防衛力を強化し、」「本年中に国家安全保障戦略を含む「三文書」を改定し、新たな時代に対応した防衛体制を構築します。」",
+  "tempBasis": "安全保障の柱に記載。防衛費の水準は記載なし",
+  "verifiedOn": "2026-11-22",
+  "note": "公約（政権公約・政策BANK）には「防衛力を強化」「三文書を改定」とあるが、防衛力の抜本的強化・増強や防衛費の増額の明記はないため、基準に沿って分類（以前は「抜本的に強化・増額」）。「抜本的に強化」は防衛産業の基盤とインテリジェンス機能についての記述"
+ },
+ {
+  "party": "chudo",
+  "theme": "anpo",
+  "election": "s2026",
+  "position": "necessary",
+  "temp": 2,
+  "sources": [
+   "chudo2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「必要な防衛力を整備するため…防衛調達の適正化を徹底します」",
+  "tempBasis": "第4の柱の重点項目2",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "anpo",
+  "election": "s2026",
+  "position": "strengthen",
+  "temp": 2,
+  "sources": [
+   "ishin2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「反撃目的の長距離ミサイル展開・」「潜水艦保有の推進をし、」「戦争抑止力を強化する。」",
+  "tempBasis": "第3の柱「日本を動かす」に記載。長射程ミサイル・次世代潜水艦の保有推進",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kyosan",
+  "theme": "anpo",
+  "election": "s2026",
+  "position": "reduce",
+  "temp": 3,
+  "sources": [
+   "kyosan2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「軍事費の大増額に反対し…GDP比3.5％…を許しません」",
+  "tempBasis": "総選挙政策の第二の柱の主題で、重点政策の2番目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "anpo",
+  "election": "s2026",
+  "position": "reduce",
+  "temp": 2,
+  "sources": [
+   "shamin2026"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「防衛費引き下げで財源確保」「安保3文書…を廃棄し」",
+  "tempBasis": "経済・財源の2番目と、安全保障・外交の項目（最多の10件）",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "anpo",
+  "election": "s2026",
+  "sources": [
+   "g2s2026_kokumin",
+   "kokumin2026pol"
+  ],
+  "verified": true,
+  "position": "strengthen",
+  "temp": 2,
+  "commit": "definite",
+  "wording": "アンケート「日本の防衛費をGDP比2%よりさらに増額すべきですか？」に「中立」。「専守防衛に徹しつつ防衛力を強化するため、必要な防衛費を増額します。」",
+  "tempBasis": "第4柱の柱名「自分の国は自分で守る」",
+  "verifiedOn": "2026-11-22",
+  "note": "GDP比2%を超える増額には「中立」だが、防衛費の増額は明記している"
+ },
+ {
+  "party": "reiwa",
+  "theme": "anpo",
+  "election": "s2026",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "g2s2026_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「日本の防衛費をGDP比2%よりさらに増額すべきですか？」に「反対」。「…日本は応じるべきではありません。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "anpo",
+  "election": "s2026",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "g2s2026_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「日本の防衛費をGDP比2%よりさらに増額すべきですか？」に「中立」。「…まずはGDP2％枠の中で、待遇改善や装備の増強を進めるべきと考える。」",
+  "verifiedOn": "2026-11-22",
+  "note": "アンケートは増額に「中立」だが、回答文に「装備の増強を進める」とあるため、テーマの基準（人員・装備の増強を明記）に沿って「抜本的に強化・増額」に分類（以前は「増強・増額の明記なし」）"
+ },
+ {
+  "party": "jimin",
+  "theme": "anpo",
+  "election": "s2019",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "jimin2019bank"
+  ],
+  "verified": true,
+  "wording": "「人員・装備の増強など防衛力の質と量を抜本的に拡充・強化します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "anpo",
+  "election": "s2019",
+  "position": "necessary",
+  "temp": null,
+  "sources": [
+   "kokumin2019pamph"
+  ],
+  "verified": true,
+  "wording": "「日米同盟を基軸にして専守防衛に徹し、効率的で効果的な防衛力を維持・整備します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "anpo",
+  "election": "s2022",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "g2s2022_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「防衛費を対GDP比で2％まで増額すべきですか」に「やや賛成」。「…専守防衛に徹しつつ、領土と主権を維持するために自衛隊の予算を不断に見直し、必要な防衛費を増やします。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約（選挙公報）は「自分の国は自分で守る」の見出しのみで、区分はアンケート回答（GDP比2%に「やや賛成」）による"
+ },
+ {
+  "party": "reiwa",
+  "theme": "anpo",
+  "election": "s2022",
+  "position": "reduce",
+  "temp": null,
+  "sources": [
+   "g2s2022_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「防衛費を対GDP比で2％まで増額すべきですか？」に「反対」。「ＧＤＰ比２％に防衛費を引き上げれば、防衛費10兆円以上になります。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "anpo",
+  "election": "s2025",
+  "position": "strengthen",
+  "temp": null,
+  "sources": [
+   "g2s2025_kokumin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「日本の防衛費を増額すべきですか？」に「やや賛成」。「『自分の国は自分で守る』ことを安全保障政策の基本に据え、…継戦能力の確保や抗堪性の強化を抜本的に見直して整備する」"
+ }
+]

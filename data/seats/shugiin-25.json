@@ -1,0 +1,47 @@
+{
+ "n": 25,
+ "date": "1952-10-01",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "改進",
+   "party": "kaishin",
+   "seats": 85
+  },
+  {
+   "label": "自由",
+   "party": "jiyu50",
+   "seats": 240
+  },
+  {
+   "label": "左社",
+   "party": "saha",
+   "seats": 54
+  },
+  {
+   "label": "右社",
+   "party": "uha",
+   "seats": 57
+  },
+  {
+   "label": "労農",
+   "seats": 4
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 0
+  },
+  {
+   "label": "諸派",
+   "seats": 7
+  },
+  {
+   "label": "無所属",
+   "seats": 19
+  }
+ ],
+ "total": 466
+}

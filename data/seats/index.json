@@ -1,0 +1,78 @@
+{
+ "sources": {
+  "$parts": [
+   "sources-01.json",
+   "sources-02.json",
+   "sources-03.json"
+  ]
+ },
+ "note": "総選挙で当選した人数です。当選後の入党・離党、追加公認、補欠選挙、会派の組み替えは含みません。党名の略称は総務省の結果調の表記のままです。",
+ "elections": {
+  "$items": [
+   "shugiin-22.json",
+   "shugiin-23.json",
+   "shugiin-24.json",
+   "shugiin-25.json",
+   "shugiin-26.json",
+   "shugiin-27.json",
+   "shugiin-28.json",
+   "shugiin-29.json",
+   "shugiin-30.json",
+   "shugiin-31.json",
+   "shugiin-32.json",
+   "shugiin-33.json",
+   "shugiin-34.json",
+   "shugiin-35.json",
+   "shugiin-36.json",
+   "shugiin-37.json",
+   "shugiin-38.json",
+   "shugiin-39.json",
+   "shugiin-40.json",
+   "shugiin-41.json",
+   "shugiin-42.json",
+   "shugiin-43.json",
+   "shugiin-44.json",
+   "shugiin-45.json",
+   "shugiin-46.json",
+   "shugiin-47.json",
+   "shugiin-48.json",
+   "shugiin-49.json",
+   "shugiin-50.json",
+   "shugiin-51.json"
+  ]
+ },
+ "upper": {
+  "note": "参院選（通常選挙）で当選した人数です。参議院は3年ごとに半数ずつ選ぶため、ここに出るのは改選分だけで、参議院全体の議席（非改選を含む）ではありません。当選後の入党・離党、会派の組み替えは含みません。党名の略称は総務省の結果調の表記のままです。",
+  "elections": {
+   "$items": [
+    "sangiin-01.json",
+    "sangiin-02.json",
+    "sangiin-03.json",
+    "sangiin-04.json",
+    "sangiin-05.json",
+    "sangiin-06.json",
+    "sangiin-07.json",
+    "sangiin-08.json",
+    "sangiin-09.json",
+    "sangiin-10.json",
+    "sangiin-11.json",
+    "sangiin-12.json",
+    "sangiin-13.json",
+    "sangiin-14.json",
+    "sangiin-15.json",
+    "sangiin-16.json",
+    "sangiin-17.json",
+    "sangiin-18.json",
+    "sangiin-19.json",
+    "sangiin-20.json",
+    "sangiin-21.json",
+    "sangiin-22.json",
+    "sangiin-23.json",
+    "sangiin-24.json",
+    "sangiin-25.json",
+    "sangiin-26.json",
+    "sangiin-27.json"
+   ]
+  }
+ }
+}

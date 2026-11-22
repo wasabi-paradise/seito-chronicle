@@ -1,0 +1,43 @@
+{
+ "n": 32,
+ "date": "1969-12-27",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 288
+  },
+  {
+   "label": "社会",
+   "party": "shakai55",
+   "seats": 90
+  },
+  {
+   "label": "民社",
+   "party": "minsha",
+   "seats": 31
+  },
+  {
+   "label": "公明",
+   "party": "komei64",
+   "seats": 47
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 14
+  },
+  {
+   "label": "諸派",
+   "seats": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 16
+  }
+ ],
+ "total": 486
+}

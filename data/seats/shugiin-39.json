@@ -1,0 +1,51 @@
+{
+ "n": 39,
+ "date": "1990-02-18",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 275
+  },
+  {
+   "label": "社会",
+   "party": "shakai55",
+   "seats": 136
+  },
+  {
+   "label": "社民連",
+   "seats": 4
+  },
+  {
+   "label": "民社",
+   "party": "minsha",
+   "seats": 14
+  },
+  {
+   "label": "公明",
+   "party": "komei64",
+   "seats": 45
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 16
+  },
+  {
+   "label": "進歩",
+   "seats": 1
+  },
+  {
+   "label": "諸派",
+   "seats": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 21
+  }
+ ],
+ "total": 512
+}

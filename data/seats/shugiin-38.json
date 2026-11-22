@@ -1,0 +1,52 @@
+{
+ "n": 38,
+ "date": "1986-07-06",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 300
+  },
+  {
+   "label": "自ク",
+   "party": "shinjiyu",
+   "seats": 6
+  },
+  {
+   "label": "社会",
+   "party": "shakai55",
+   "seats": 85
+  },
+  {
+   "label": "社民連",
+   "seats": 4
+  },
+  {
+   "label": "民社",
+   "party": "minsha",
+   "seats": 26
+  },
+  {
+   "label": "公明",
+   "party": "komei64",
+   "seats": 56
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 26
+  },
+  {
+   "label": "諸派",
+   "seats": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 9
+  }
+ ],
+ "total": 512
+}

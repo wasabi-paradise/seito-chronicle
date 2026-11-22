@@ -1,0 +1,88 @@
+{
+ "n": 11,
+ "date": "1977-07-10",
+ "tier": [
+  "全国区",
+  "地方区"
+ ],
+ "seatsA": 50,
+ "seatsB": 76,
+ "total": 126,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "seats": 63,
+   "a": 18,
+   "b": 45,
+   "party": "jimin"
+  },
+  {
+   "label": "自ク",
+   "seats": 3,
+   "a": 1,
+   "b": 2,
+   "party": "shinjiyu"
+  },
+  {
+   "label": "社市",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "社会",
+   "seats": 27,
+   "a": 10,
+   "b": 17,
+   "party": "shakai55"
+  },
+  {
+   "label": "民社",
+   "seats": 6,
+   "a": 4,
+   "b": 2,
+   "party": "minsha"
+  },
+  {
+   "label": "公明",
+   "seats": 14,
+   "a": 9,
+   "b": 5,
+   "party": "komei64"
+  },
+  {
+   "label": "共産",
+   "seats": 5,
+   "a": 3,
+   "b": 2,
+   "party": "kyosan"
+  },
+  {
+   "label": "革自",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "日女",
+   "seats": 0,
+   "a": 0,
+   "b": 0
+  },
+  {
+   "label": "諸派",
+   "seats": 1,
+   "a": 0,
+   "b": 1
+  },
+  {
+   "label": "無所属",
+   "seats": 5,
+   "a": 3,
+   "b": 2
+  }
+ ]
+}

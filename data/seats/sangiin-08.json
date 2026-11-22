@@ -1,0 +1,63 @@
+{
+ "n": 8,
+ "date": "1968-07-07",
+ "tier": [
+  "全国区",
+  "地方区"
+ ],
+ "seatsA": 51,
+ "seatsB": 75,
+ "total": 126,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "seats": 69,
+   "a": 21,
+   "b": 48,
+   "party": "jimin"
+  },
+  {
+   "label": "社会",
+   "seats": 28,
+   "a": 12,
+   "b": 16,
+   "party": "shakai55"
+  },
+  {
+   "label": "民社",
+   "seats": 7,
+   "a": 4,
+   "b": 3,
+   "party": "minsha"
+  },
+  {
+   "label": "公明",
+   "seats": 13,
+   "a": 9,
+   "b": 4,
+   "party": "komei64"
+  },
+  {
+   "label": "共産",
+   "seats": 4,
+   "a": 3,
+   "b": 1,
+   "party": "kyosan"
+  },
+  {
+   "label": "諸派",
+   "seats": 0,
+   "a": 0,
+   "b": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 5,
+   "a": 2,
+   "b": 3
+  }
+ ]
+}

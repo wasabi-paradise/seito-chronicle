@@ -1,0 +1,96 @@
+{
+ "asOf": "2026-11-22",
+ "outcomes": [
+  {
+   "id": "realized",
+   "label": "実現",
+   "desc": "公約の内容がおおむねそのまま実施された"
+  },
+  {
+   "id": "modified",
+   "label": "形を変えて実現",
+   "desc": "金額・範囲・時期などを変えて実施された、または一部だけ実施された"
+  },
+  {
+   "id": "postponed",
+   "label": "先送りのうえ実現",
+   "desc": "約束した時期から延期されたのち実施された"
+  },
+  {
+   "id": "inprogress",
+   "label": "決定済み・実施前",
+   "desc": "実施の方針は決まったが、まだ実施されていない"
+  },
+  {
+   "id": "disputed",
+   "label": "公約との整合に見解が分かれる",
+   "desc": "条件付きの公約で、条件を満たしたかどうかについて党・政府と批判側で見解が分かれている"
+  },
+  {
+   "id": "reversed",
+   "label": "撤回・方針転換",
+   "desc": "公約や表明と異なる決定をした、または取りやめた"
+  },
+  {
+   "id": "changed",
+   "label": "公約の内容を変更",
+   "desc": "次の選挙の公約や合流後の公約で、掲げる内容を変えた"
+  },
+  {
+   "id": "emphasis",
+   "label": "扱いの大きさが変化",
+   "desc": "立場は同じだが、公約での扱いの大きさが変わった"
+  }
+ ],
+ "compares": {
+  "action": "その後の決定・実施と比べた",
+  "pledge": "次の公約と比べた",
+  "merger": "合流後の公約と比べた"
+ },
+ "commitKinds": {
+  "manifesto": "選挙公約（マニフェスト）",
+  "leader": "党首の発言",
+  "partyline": "党の基本方針",
+  "agreement": "政党間の合意",
+  "survey": "アンケートへの党の回答"
+ },
+ "extraThemes": [
+  {
+   "id": "zeisei",
+   "name": "所得税・ガソリン税"
+  },
+  {
+   "id": "shakaihosho",
+   "name": "社会保障・給付"
+  },
+  {
+   "id": "kokyo",
+   "name": "公共事業・交通"
+  },
+  {
+   "id": "tsusho",
+   "name": "通商・TPP"
+  },
+  {
+   "id": "gyokaku",
+   "name": "郵政・行政改革"
+  },
+  {
+   "id": "senkyo",
+   "name": "選挙制度・議員定数"
+  }
+ ],
+ "sources": {
+  "$parts": [
+   "sources-01.json",
+   "sources-02.json"
+  ]
+ },
+ "records": {
+  "$parts": [
+   "records-01.json",
+   "records-02.json",
+   "records-03.json"
+  ]
+ }
+}

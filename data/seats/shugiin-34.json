@@ -1,0 +1,48 @@
+{
+ "n": 34,
+ "date": "1976-12-05",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "party": "jimin",
+   "seats": 249
+  },
+  {
+   "label": "自ク",
+   "party": "shinjiyu",
+   "seats": 17
+  },
+  {
+   "label": "社会",
+   "party": "shakai55",
+   "seats": 123
+  },
+  {
+   "label": "民社",
+   "party": "minsha",
+   "seats": 29
+  },
+  {
+   "label": "公明",
+   "party": "komei64",
+   "seats": 55
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 17
+  },
+  {
+   "label": "諸派",
+   "seats": 0
+  },
+  {
+   "label": "無所属",
+   "seats": 21
+  }
+ ],
+ "total": 511
+}

@@ -1,0 +1,793 @@
+[
+ {
+  "party": "jimin",
+  "theme": "genpatsu",
+  "election": "s2016",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "jimin2016bank"
+  ],
+  "verified": true,
+  "wording": "「原子力規制委員会によって世界最高レベルの新規制基準に適合すると認められた場合には、立地自治体等関係者の理解と協力を得つつ、原発の再稼働を進めます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "genpatsu",
+  "election": "s2016",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「2030年代原発ゼロに向け、あらゆる政策資源を投入します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "genpatsu",
+  "election": "s2016",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「2030年代原発ゼロに向け、あらゆる政策資源を投入します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "genpatsu",
+  "election": "s2016",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "kyosan2016pol"
+  ],
+  "verified": true,
+  "wording": "「『原発ゼロ』の政治決断を行い、原発の再稼働を中止し、すべての原発で廃炉のプロセスに入ります」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "genpatsu",
+  "election": "s2017",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "g2s2017_kibo",
+   "g2s2017_genpatsu"
+  ],
+  "verified": true,
+  "asName": "希望の党",
+  "wording": "アンケート「2030年までに原発ゼロを目指すべきだ」に「賛成」。「日本に残すべき原子力技術の保持方法を確保した上で、2030年までに原発はゼロへ。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "genpatsu",
+  "election": "s2017",
+  "position": "conditional",
+  "temp": null,
+  "sources": [
+   "komei2017pdf"
+  ],
+  "verified": true,
+  "wording": "「原発の新設を認めず、…原発に依存しない社会・原発ゼロをめざします。」「再稼働については、原子力規制委員会が策定した厳格な規制基準を満たした上で、立地自治体等関係者の理解を得て判断します。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "kyosan",
+  "theme": "genpatsu",
+  "election": "s2017",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "kyosan2017pdf"
+  ],
+  "verified": true,
+  "wording": "「『原発ゼロ』の政治決断を行い、原発の再稼働を中止し、すべての原発で廃炉のプロセスに入ります。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "genpatsu",
+  "election": "s2017",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "g2s2017_genpatsu",
+   "g2s2017_rikken"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "アンケート「2030年までに原発ゼロを目指すべきだ」に「やや賛成」。「原発の再稼働は現状では認められません。」「１日も早く原発ゼロを実現するべきです。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "shamin",
+  "theme": "genpatsu",
+  "election": "s2017",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "g2s2017_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「2030年までに原発ゼロを目指すべきだ」に「賛成」。「原発依存から直ちに脱却すべきだ。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "jimin",
+  "theme": "genpatsu",
+  "election": "s2019",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "jimin2019jfile"
+  ],
+  "verified": true,
+  "wording": "「新規制基準に適合すると認められた場合には、原発の再稼働を進めます。」「原発依存度については…可能な限り低減させます。」",
+  "verifiedOn": "2026-11-22",
+  "note": "「原発依存度については…可能な限り低減」とあるが、将来は原発に依存しない社会を目指すとは書いていないため「再稼働を進める」"
+ },
+ {
+  "party": "komei",
+  "theme": "genpatsu",
+  "election": "s2019",
+  "position": "conditional",
+  "temp": null,
+  "sources": [
+   "komei2019pdf"
+  ],
+  "verified": true,
+  "wording": "「原発の新設を認めず、…原発に依存しない社会“原発ゼロ”をめざします。」「原発の再稼働については、原子力規制委員会が策定した世界で最も厳しい基準を満たした上で、立地自治体等の関係者の理解を得て判断します。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "rikken",
+  "theme": "genpatsu",
+  "election": "s2019",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "rikken2019v3"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "「原発再稼働を認めず、原発ゼロ基本法案の早期成立を目指します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "genpatsu",
+  "election": "s2019",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "kokumin2019pamph"
+  ],
+  "verified": true,
+  "asName": "国民民主党（旧）",
+  "wording": "「2030年代を目標として、できるだけ早期に原子力エネルギーに依存しない社会（原発ゼロ社会）を実現します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "genpatsu",
+  "election": "s2019",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "kyosan2019koho"
+  ],
+  "verified": true,
+  "wording": "「原発ゼロの日本へ、再生可能エネルギーへの大転換をはかる。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "genpatsu",
+  "election": "s2019",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "shamin2019koho"
+  ],
+  "verified": true,
+  "wording": "「脱原発の実現、被災地の復興」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "genpatsu",
+  "election": "s2019",
+  "position": "immediate",
+  "temp": null,
+  "sources": [
+   "reiwa2019koho"
+  ],
+  "verified": true,
+  "wording": "「原発即時禁止・被曝させない」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "genpatsu",
+  "election": "s2021",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "jimin2021pdf"
+  ],
+  "verified": true,
+  "wording": "「安全が確認された原子力発電所の再稼働」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "genpatsu",
+  "election": "s2021",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "rikken2021pdf"
+  ],
+  "verified": true,
+  "wording": "「原子力発電のない社会に向けて、不可逆的で明確な第一歩を踏み出し、」「原子力エネルギーに依存しない社会を一日も早く実現します。」「原子力発電所の新増設は認めません。」",
+  "verifiedOn": "2026-11-22",
+  "note": "公約に再稼働を認める記述はなく、「原子力発電のない社会」を掲げているため「原発ゼロを目指す」に分類（以前は「条件付きで再稼働容認」）"
+ },
+ {
+  "party": "kokumin",
+  "theme": "genpatsu",
+  "election": "s2021",
+  "position": "conditional",
+  "temp": null,
+  "sources": [
+   "kokumin2021pdf"
+  ],
+  "verified": true,
+  "wording": "「最終的には原子力に依存しない社会をめざしていく」「法令に基づく安全基準を満たした上で避難計画の作成と地元同意を得た原子力発電所は稼働させる。」「新増設は行わない。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "komei",
+  "theme": "genpatsu",
+  "election": "s2021",
+  "position": "conditional",
+  "temp": null,
+  "sources": [
+   "komei2021pdf",
+   "g2s2021_komei"
+  ],
+  "verified": true,
+  "wording": "「原発の新設を認めず」「将来的に原発に依存しない社会“原発ゼロ”をめざします。」「原子力規制委員会が策定した世界で最も厳しい水準の基準を満たした上で、立地自治体等の関係者の理解と協力を得て判断します。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "reiwa",
+  "theme": "genpatsu",
+  "election": "s2021",
+  "position": "immediate",
+  "temp": null,
+  "sources": [
+   "reiwa2021pdf",
+   "g2s2021_reiwa"
+  ],
+  "verified": true,
+  "wording": "「原発を即時に禁止し、石炭火力発電を2030年までに廃止」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "genpatsu",
+  "election": "s2021",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "shamin2021koho",
+   "g2s2021_shamin"
+  ],
+  "verified": true,
+  "wording": "「脱原発実現」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "genpatsu",
+  "election": "s2022",
+  "position": "immediate",
+  "temp": null,
+  "sources": [
+   "kyosan2022koho"
+  ],
+  "verified": true,
+  "wording": "「原発即時ゼロ」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "genpatsu",
+  "election": "s2022",
+  "position": "immediate",
+  "temp": null,
+  "sources": [
+   "reiwa2022pdf"
+  ],
+  "verified": true,
+  "wording": "「地震大国の日本では原発は即時禁止」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "genpatsu",
+  "election": "s2022",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "shamin2022koho"
+  ],
+  "verified": true,
+  "wording": "「脱原発社会実現。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "genpatsu",
+  "election": "s2022",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "ishin2022pdf",
+   "g2s2022_ishin"
+  ],
+  "verified": true,
+  "wording": "「安全性が確認できた原子力発電所については可能な限り速やかに再稼働します」",
+  "verifiedOn": "2026-11-22",
+  "note": "再稼働を掲げ、将来は原発に依存しない社会を目指すとは書いていないため、テーマの基準に沿って「再稼働を進める」に分類（以前は「条件付きで再稼働容認」）"
+ },
+ {
+  "party": "rikken",
+  "theme": "genpatsu",
+  "election": "s2022",
+  "position": "conditional",
+  "temp": null,
+  "sources": [
+   "g2s2022_rikken"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-22",
+  "wording": "アンケート「原子力発電所の再稼働を進めるべきだ」に「やや反対」。「実効性のある避難計画の策定、地元合意がないままの原子力発電所の再稼働は認めません。」「原子力エネルギーに依存しない原発ゼロ社会を一日も早く目指します。」",
+  "note": "「地元合意がないままの再稼働は認めません」と条件付きで再稼働を認めつつ、「原発ゼロ社会を一日も早く目指します」としているため、テーマの基準に沿って「条件付きで再稼働容認・将来は依存しない」に分類（2024・2025年と同じ扱い）"
+ },
+ {
+  "party": "kokumin",
+  "theme": "genpatsu",
+  "election": "s2022",
+  "position": "promote_new",
+  "temp": null,
+  "sources": [
+   "g2s2022_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「原子力発電所の再稼働を進めるべきだ」に「やや賛成」。「安全性が確認された原子力発電所の再稼働と安定運転を図るとともに、」「次世代軽水炉や小型モジュール炉、高速炉などへのリプレース等を通じ…」",
+  "verifiedOn": "2026-11-22",
+  "note": "公約の文書は確認できておらず、区分は党のアンケート回答（次世代炉へのリプレース）による（以前は「条件付きで再稼働容認」）"
+ },
+ {
+  "party": "jimin",
+  "theme": "genpatsu",
+  "election": "s2024",
+  "position": "promote_new",
+  "temp": null,
+  "sources": [
+   "jimin2024pdf"
+  ],
+  "verified": true,
+  "wording": "「原子力規制委員会により厳しい安全性基準への適合が認められた原子力発電所については、立地自治体等関係者の理解と協力のもと再稼働を進めます」「次世代革新炉の開発・建設に取り組みます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "genpatsu",
+  "election": "s2024",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "g2s_komei"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-22",
+  "wording": "アンケート「原子力発電所の再稼働を進めるべきですか？」に「中立」。「原子力規制委員会が策定した世界で最も厳しい基準を満たした上で地元の理解を得た原子力発電に限り再稼働を進めるべきです」",
+  "note": "公約（日経掲載）に原発の記載なし。アンケートの回答は条件付きで再稼働を進めるとし、将来は原発に依存しない社会を目指すとは書いていないため、テーマの基準に沿って「再稼働を進める」に分類（以前は「条件付きで再稼働容認」）"
+ },
+ {
+  "party": "rikken",
+  "theme": "genpatsu",
+  "election": "s2024",
+  "position": "conditional",
+  "temp": null,
+  "sources": [
+   "rikken2024pdf"
+  ],
+  "verified": true,
+  "wording": "「原子力発電所の新増設は認めません」「地元合意がないままの原子力発電所の再稼働は認めません」",
+  "verifiedOn": "2026-11-21",
+  "note": "以前は政策集の記載から「原発ゼロを目指す」としていたが、公約原文に合わせて区分を修正"
+ },
+ {
+  "party": "ishin",
+  "theme": "genpatsu",
+  "election": "s2024",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "ishin2024pdf"
+  ],
+  "verified": true,
+  "wording": "「新規制基準の許可を得ている原子力発電所の早期再稼働を進めます」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "genpatsu",
+  "election": "s2024",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "g2s_kokumin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「原子力発電所の再稼働を進めるべきですか？」に「賛成」。「安全確保を最優先としつつ、原子力を我が国の電力供給基盤における重要な選択肢と位置付け」",
+  "note": "選挙公報に原発の記載なし。アンケートの回答に新増設・次世代炉への言及はないため「再稼働を進める」に分類（以前は「新増設・次世代炉まで推進」）"
+ },
+ {
+  "party": "kyosan",
+  "theme": "genpatsu",
+  "election": "s2024",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "kyosan2024pdf"
+  ],
+  "verified": true,
+  "wording": "「すみやかに原発ゼロ…2030年度に原発と石炭火力をゼロにします」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "genpatsu",
+  "election": "s2024",
+  "position": "immediate",
+  "temp": null,
+  "sources": [
+   "reiwa2024koho"
+  ],
+  "verified": true,
+  "wording": "「原発も即廃止。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "genpatsu",
+  "election": "s2024",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "shamin2024koho"
+  ],
+  "verified": true,
+  "wording": "「原発ゼロ・自然エネルギー100%の社会へ」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "genpatsu",
+  "election": "s2024",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "g2s_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「原子力発電所の再稼働を進めるべきですか？」に「賛成」。「…既存原発については安全対策を徹底した上で再稼働を進めるべき。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "genpatsu",
+  "election": "s2025",
+  "position": "promote_new",
+  "temp": null,
+  "sources": [
+   "g2s2025_jimin"
+  ],
+  "verified": true,
+  "wording": "アンケート「原子力発電所を増設すべきですか？」に「やや賛成」。「原子力については、福島第一原発事故への真摯な反省を出発点に、…二度と事故を起こさない取組みを続けます。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約（参院選公約2025）には原発政策の記載なし"
+ },
+ {
+  "party": "rikken",
+  "theme": "genpatsu",
+  "election": "s2025",
+  "position": "conditional",
+  "temp": 1,
+  "sources": [
+   "rikken2025pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「原子力発電所の新増設は認めません」「地元合意がないままの原子力発電所の再稼働は認めません」",
+  "tempBasis": "パンフレット本編にはなく、詳細版のエネルギー章のみ",
+  "verifiedOn": "2026-11-21",
+  "note": "公約原文に合わせて区分を修正（以前は「原発ゼロを目指す」）"
+ },
+ {
+  "party": "ishin",
+  "theme": "genpatsu",
+  "election": "s2025",
+  "position": "promote_new",
+  "temp": null,
+  "sources": [
+   "ishin2025core"
+  ],
+  "verified": true,
+  "wording": "「原子力発電所の再稼働や再生可能エネルギーの導入促進」「核融合発電を含む次世代原子力発電」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "genpatsu",
+  "election": "s2025",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "kyosan2025pdf",
+   "jcp2025"
+  ],
+  "verified": true,
+  "wording": "「すみやかに原発ゼロ、石炭火力からの計画的撤退をすすめ、30年度にゼロにします」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "genpatsu",
+  "election": "s2025",
+  "position": "promote_new",
+  "temp": null,
+  "sources": [
+   "kokumin2025pdf"
+  ],
+  "verified": true,
+  "wording": "「厳格な安全基準を満たした」「リプレース・新増設推進」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "genpatsu",
+  "election": "s2025",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "shamin2025koho",
+   "g2s2025_shamin"
+  ],
+  "verified": true,
+  "wording": "「地震大国に原発はいらない！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "genpatsu",
+  "election": "s2025",
+  "position": "promote_new",
+  "temp": null,
+  "sources": [
+   "g2s2025_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「原子力発電所を増設すべきですか？」に「やや賛成」。「まず、喫緊の電力安定共有と電気料金の抑制のため、既存原発については安全対策を徹底した上で再稼働を進めるべき。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "genpatsu",
+  "election": "s2026",
+  "position": "promote_new",
+  "temp": 2,
+  "sources": [
+   "jimin2026bank"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「立地自治体等関係者の理解と協力のもと再稼働を進めます。」「新たな安全メカニズムを組み込んだ次世代革新炉の開発・設置に取り組みます。」",
+  "tempBasis": "エネルギー政策の柱に記載。次世代革新炉・核燃料サイクルの推進も",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "chudo",
+  "theme": "genpatsu",
+  "election": "s2026",
+  "position": "conditional",
+  "temp": 2,
+  "sources": [
+   "chudo2026pdf"
+  ],
+  "verified": true,
+  "commit": "aim",
+  "wording": "「将来的に原発に依存しない社会を目指しつつ、安全性が確実に確認され、実効性のある避難計画があり、地元の合意が得られた原発の再稼働」",
+  "tempBasis": "第1の柱の冒頭の重点項目4",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "ishin",
+  "theme": "genpatsu",
+  "election": "s2026",
+  "position": "restart",
+  "temp": 1,
+  "sources": [
+   "ishin2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「原子力発電所の再稼働」",
+  "tempBasis": "本文の柱にはなく、末尾の連立合意（エネルギー政策）にのみ記載",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "genpatsu",
+  "election": "s2026",
+  "position": "promote_new",
+  "temp": 2,
+  "sources": [
+   "kokumin2026pol",
+   "g2s2026_kokumin"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「原子力発電所の再稼働・リプレース・新増設や核融合等で…エネルギー自給率50％を実現」",
+  "tempBasis": "第4柱「自分の国は自分で守る」の7番目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "genpatsu",
+  "election": "s2026",
+  "position": "zero",
+  "temp": 2,
+  "sources": [
+   "kyosan2026pdf"
+  ],
+  "verified": true,
+  "commit": "aim",
+  "wording": "「原発ゼロの日本をめざします」",
+  "tempBasis": "総選挙政策の第一の柱、重点政策5",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "genpatsu",
+  "election": "s2026",
+  "position": "immediate",
+  "temp": 2,
+  "sources": [
+   "reiwaBasic2502",
+   "reiwaPolicy"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「原子力発電所や関連施設は即時、使用を禁止します。」",
+  "tempBasis": "脱原発の章の最初の項目",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公約の文書は確認できず、選挙時点で党が公開していた基本政策（2025年2月版）で照合"
+ },
+ {
+  "party": "sansei",
+  "theme": "genpatsu",
+  "election": "s2026",
+  "position": "promote_new",
+  "temp": 1,
+  "sources": [
+   "g2s2026_sansei"
+  ],
+  "verified": true,
+  "commit": null,
+  "wording": "アンケート「原子力発電所を新増設すべきですか？」に「やや賛成」。「まず、…既存原発については安全対策を徹底し住民の理解も得られた上で再稼働を進めるべき。」",
+  "tempBasis": "公約の本体には原発の記載がなく、エネルギーの項目は再エネ偏重の見直しが中心",
+  "verifiedOn": "2026-11-21",
+  "note": "党の公約（日経掲載PDF）には原発の記載がなく、区分は党のアンケート回答（新増設に「やや賛成」）による"
+ },
+ {
+  "party": "shamin",
+  "theme": "genpatsu",
+  "election": "s2026",
+  "position": "zero",
+  "temp": 2,
+  "sources": [
+   "shamin2026"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「地震の多い日本に原発は不要。」",
+  "tempBasis": "防災・エネルギーの項目の2番目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "genpatsu",
+  "election": "s2022",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "jimin2022pdf",
+   "g2s2022_jimin"
+  ],
+  "verified": true,
+  "wording": "「安全が確認された原子力の最大限の活用を図ります」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "genpatsu",
+  "election": "s2022",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "g2s2022_komei"
+  ],
+  "verified": true,
+  "wording": "アンケート「原子力発電所の再稼働を進めるべきだ」に「中立」。「原子力規制委員会が策定した世界で最も厳しい安全基準を満たした上で、立地自治体等の関係者の理解と協力を得て取り組む。」",
+  "verifiedOn": "2026-11-22",
+  "note": "アンケートの回答は基準を満たしたうえでの再稼働に「取り組む」とし、将来は原発に依存しない社会を目指すとは書いていないため、テーマの基準に沿って「再稼働を進める」に分類（以前は「条件付きで再稼働容認」）"
+ },
+ {
+  "party": "kyosan",
+  "theme": "genpatsu",
+  "election": "s2021",
+  "position": "zero",
+  "temp": null,
+  "sources": [
+   "kyosan2021koho",
+   "g2s2021_kyosan"
+  ],
+  "verified": true,
+  "wording": "「石炭火力・原発の発電をゼロに。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "genpatsu",
+  "election": "s2017",
+  "position": "restart",
+  "temp": null,
+  "sources": [
+   "jimin2017pdf"
+  ],
+  "verified": true,
+  "wording": "「原子力は安全性の確保を大前提に…重要なベースロード電源との位置付けのもとに活用します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "genpatsu",
+  "election": "s2025",
+  "position": "immediate",
+  "temp": null,
+  "sources": [
+   "reiwaBasic2502"
+  ],
+  "verified": true,
+  "wording": "「原子力発電所や関連施設は即時、使用を禁止します。」",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公約の文書は確認できず、選挙時点で党が公開していた基本政策（2025年2月版）で照合"
+ }
+]

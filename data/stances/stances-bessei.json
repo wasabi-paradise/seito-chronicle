@@ -1,0 +1,751 @@
+[
+ {
+  "party": "rikken",
+  "theme": "bessei",
+  "election": "s2016",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「選択的夫婦別姓を可能とする法律をつくります。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "bessei",
+  "election": "s2016",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf"
+  ],
+  "verified": true,
+  "asName": "民進党",
+  "wording": "「選択的夫婦別姓を可能とする法律をつくります。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "bessei",
+  "election": "s2019",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "rikken2019v2"
+  ],
+  "verified": true,
+  "asName": "立憲民主党（旧）",
+  "wording": "「選択的夫婦別姓を導入します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "bessei",
+  "election": "s2019",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "kokumin2019pamph"
+  ],
+  "verified": true,
+  "asName": "国民民主党（旧）",
+  "wording": "「選択的夫婦別姓を実現します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "bessei",
+  "election": "s2019",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "kyosan2019koho"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓を実現する。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "bessei",
+  "election": "s2019",
+  "position": "kyusei",
+  "temp": null,
+  "sources": [
+   "ishin2019pdf"
+  ],
+  "verified": true,
+  "wording": "「同一戸籍・同一氏の原則を維持しながら旧姓使用にも一般的な法的効力を。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "bessei",
+  "election": "s2021",
+  "position": "none",
+  "temp": null,
+  "sources": [
+   "jimin2021pdf",
+   "g2s2021_jimin"
+  ],
+  "verified": true,
+  "wording": "（公約に記載なし）",
+  "verifiedOn": "2026-11-22",
+  "note": "公約に記載なし。アンケートは「中立」で、回答文（改姓による不利益の解消）に制度の方向の記述はない"
+ },
+ {
+  "party": "komei",
+  "theme": "bessei",
+  "election": "s2021",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "komei2021pdf"
+  ],
+  "verified": true,
+  "wording": "「同姓または別姓の選択を認める「選択的夫婦別姓制度」の導入を推進します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "bessei",
+  "election": "s2021",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "rikken2021pdf"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓制度を早期に実現します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "bessei",
+  "election": "s2021",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "kyosan2021koho"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓、ＬＧＢＴ平等法の実現、同性婚を認める法改正。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "bessei",
+  "election": "s2021",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "kokumin2021pdf"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓制度を導入します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "bessei",
+  "election": "s2021",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "shamin2021koho"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓導入」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "bessei",
+  "election": "s2021",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "g2s2021_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を認めるべきだ」に「賛成」。「反対する理由が存在しない。速やかに法制化すべきだ。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "bessei",
+  "election": "s2021",
+  "position": "kyusei",
+  "temp": null,
+  "sources": [
+   "g2s2021_ishin"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を認めるべきだ」に「賛成」。「同一戸籍・同一氏の原則を維持しながら、旧姓使用にも一般的な法的効力を与える選択的夫婦別姓制度を創設し、結婚後も旧姓を用いて社会経済活動が行える仕組みを整備する。」",
+  "verifiedOn": "2026-11-22",
+  "note": "党はこの制度を「選択的夫婦別姓制度」と呼んでいるが、同一戸籍・同一氏を維持して旧姓使用に法的効力を与える内容のため「同姓を維持し旧姓使用を法制化・拡大」に分類"
+ },
+ {
+  "party": "rikken",
+  "theme": "bessei",
+  "election": "s2022",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "rikken2022pol"
+  ],
+  "verified": true,
+  "wording": "「個人の尊厳と両性の本質的平等を実現するため、民法を改正し選択的夫婦別姓を導入します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "bessei",
+  "election": "s2022",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "g2s2022_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を認めるべきですか？」に「賛成」。「選択的夫婦別姓制度を導入します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "bessei",
+  "election": "s2022",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "kyosan2022koho",
+   "g2s2022_kyosan"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓、同性婚を認め」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "bessei",
+  "election": "s2022",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "g2s2022_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を認めるべきですか？」に「賛成」。「家族のあり方が多様になっている現在、婚姻しても自らの姓を選べることは権利であり、急務だと思います。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "bessei",
+  "election": "s2024",
+  "position": "kyusei",
+  "temp": null,
+  "sources": [
+   "g2s2024_jimin"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を導入すべきですか？」に「中立」。「夫婦の氏制度の在り方については、旧氏使用ができない事で不便を感じられている方に寄り添い、運用面で対応する形で一刻も早い不便の解消に取り組みます。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約（日経掲載PDF）には記載なし。党のアンケート回答による"
+ },
+ {
+  "party": "komei",
+  "theme": "bessei",
+  "election": "s2024",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "komei2024pdf"
+  ],
+  "verified": true,
+  "wording": "「『選択的夫婦別姓制度』の導入を推進します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "bessei",
+  "election": "s2024",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "rikken2024pdf"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓制度を早期に実現します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "bessei",
+  "election": "s2024",
+  "position": "kyusei",
+  "temp": null,
+  "sources": [
+   "ishin2024pdf"
+  ],
+  "verified": true,
+  "wording": "「旧姓使用にも一般的な法的効力を与える制度（維新版選択的夫婦別姓制度）の創設」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "bessei",
+  "election": "s2024",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "kyosan2024pdf"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓を今すぐ実現します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "bessei",
+  "election": "s2024",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "g2s_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を導入すべきですか？」に「やや賛成」。「選択的夫婦別姓制度を導入します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "bessei",
+  "election": "s2024",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "g2s_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を導入すべきですか？」に「賛成」。",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "bessei",
+  "election": "s2024",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "g2s_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を導入すべきですか？」に「賛成」。「長年、生活や仕事で使ってきた姓を結婚により、どちらか一方が変更を強制されることは人格権の侵害です。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "bessei",
+  "election": "s2024",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "sansei2024pdf"
+  ],
+  "verified": true,
+  "wording": "「日本の伝統的な家族観と世論を軽視した選択的夫婦別姓制度導入に反対」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "bessei",
+  "election": "s2025",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "jimin2025pdf",
+   "g2s2025_jimin"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を導入すべきですか？」に「やや反対」。「家族の一体感や親子関係の安定を重視する立場から、この制度には慎重であるべきだと考えます。」",
+  "verifiedOn": "2026-11-22",
+  "note": "公約に記載なし。アンケートの回答（「やや反対」）で分類（以前は「公約で言及なし」）"
+ },
+ {
+  "party": "komei",
+  "theme": "bessei",
+  "election": "s2025",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "komei2025pdf"
+  ],
+  "verified": true,
+  "wording": "「『選択的夫婦別姓制度』の導入実現に取り組んでまいります」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "bessei",
+  "election": "s2025",
+  "position": "introduce",
+  "temp": 2,
+  "sources": [
+   "rikken2025pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「選択的夫婦別姓、クオータ制を実現します」",
+  "tempBasis": "本編のジェンダー平等・共生社会・人権の章",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "bessei",
+  "election": "s2025",
+  "position": "kyusei",
+  "temp": null,
+  "sources": [
+   "ishin2025core"
+  ],
+  "verified": true,
+  "wording": "「社会生活のあらゆる場面で旧姓使用に法的効力を与える制度の創設」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約原文に合わせて区分を修正（以前は「公約で言及なし」）"
+ },
+ {
+  "party": "kokumin",
+  "theme": "bessei",
+  "election": "s2025",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "g2s2025_kokumin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "アンケート「選択的夫婦別姓を導入すべきですか？」に「やや賛成」。「戸籍制度を維持しつつ、…幅広い合意形成を得た上で、選択的夫婦別姓制度を導入します。」"
+ },
+ {
+  "party": "kyosan",
+  "theme": "bessei",
+  "election": "s2025",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "kyosan2025pdf"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓を今すぐ実現します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "bessei",
+  "election": "s2025",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "reiwaBasic2502"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓を実現する」",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公約の文書は確認できず、選挙時点で党が公開していた基本政策（2025年2月版）で照合"
+ },
+ {
+  "party": "sansei",
+  "theme": "bessei",
+  "election": "s2025",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2025_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を導入すべきですか？」に「反対」。「家族が同じ姓を名乗ることは、一体感や絆を育む重要な要素である。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "bessei",
+  "election": "s2025",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "shamin2025koho"
+  ],
+  "verified": true,
+  "wording": "「ジェンダー平等・多文化共生社会、選択的夫婦別姓の実現！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "bessei",
+  "election": "s2026",
+  "position": "kyusei",
+  "temp": 2,
+  "sources": [
+   "jimin2026ch5"
+  ],
+  "verified": true,
+  "commit": "aim",
+  "wording": "「旧氏の通称使用の法制化を目指します」",
+  "tempBasis": "政権公約の第5章に記載",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "bessei",
+  "election": "s2026",
+  "position": "kyusei",
+  "temp": 1,
+  "sources": [
+   "ishin2026pdf"
+  ],
+  "verified": true,
+  "commit": null,
+  "wording": "「旧姓使用」（連立合意の箇条書き）",
+  "tempBasis": "本文の柱にはなく、連立合意の箇条書きのみ",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "chudo",
+  "theme": "bessei",
+  "election": "s2026",
+  "position": "introduce",
+  "temp": 3,
+  "sources": [
+   "chudo2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「選択的夫婦別姓、クオータ制を実現します」",
+  "tempBasis": "第3の柱の冒頭の重点項目2",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "bessei",
+  "election": "s2026",
+  "position": "introduce",
+  "temp": 2,
+  "sources": [
+   "kyosan2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「選択的夫婦別姓、同性婚の法制化を実現します」",
+  "tempBasis": "総選挙政策の第三の柱、重点政策3",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "bessei",
+  "election": "s2026",
+  "position": "introduce",
+  "temp": 1,
+  "sources": [
+   "reiwaBasic2502",
+   "reiwaPolicy"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「選択的夫婦別姓を実現する」",
+  "tempBasis": "子ども・ジェンダーの章の15番目の項目",
+  "verifiedOn": "2026-11-21",
+  "note": "選挙公約の文書は確認できず、選挙時点で党が公開していた基本政策（2025年2月版）で照合"
+ },
+ {
+  "party": "sansei",
+  "theme": "bessei",
+  "election": "s2026",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2026_sansei"
+  ],
+  "verified": true,
+  "commit": null,
+  "wording": "アンケート「選択的夫婦別姓を導入すべきですか？」に「反対」。「家族が同じ姓を名乗ることは、一体感や絆を育む重要な要素である。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "bessei",
+  "election": "s2026",
+  "position": "introduce",
+  "temp": 2,
+  "sources": [
+   "shamin2026"
+  ],
+  "verified": true,
+  "commit": "aim",
+  "wording": "「選択的夫婦別姓や同性婚の法制化、事実婚の法的保護を推進。」",
+  "tempBasis": "ジェンダー・人権の項目の2番目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "bessei",
+  "election": "s2026",
+  "sources": [
+   "g2s2026_kokumin"
+  ],
+  "verified": true,
+  "position": "introduce",
+  "temp": 1,
+  "commit": "definite",
+  "wording": "アンケート「選択的夫婦別姓を導入すべきですか？」に「やや賛成」。「国民民主党は、現行の戸籍制度を維持した上で、婚姻前の姓を婚姻後もそのまま使い続けることができるようにし、…」",
+  "tempBasis": "5本柱には記載がなく、公約要旨・政策各論に記載",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "bessei",
+  "election": "s2022",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "g2s2022_komei"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を認めるべきですか？」に「賛成」。「わが国では、結婚により改姓するのは95％が女性です。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "bessei",
+  "election": "s2017",
+  "position": "kyusei",
+  "temp": null,
+  "sources": [
+   "jimin2017pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「旧姓の幅広い使用を認める取組を進めます。」"
+ },
+ {
+  "party": "kyosan",
+  "theme": "bessei",
+  "election": "s2016",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "kyosan2016pol"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「民法を改正し、選択的夫婦別姓を導入します。」"
+ },
+ {
+  "party": "komei",
+  "theme": "bessei",
+  "election": "s2017",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "komei2017pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「選択的夫婦別姓の導入の実現に向けて議論を進めます。」",
+  "commit": "consider"
+ },
+ {
+  "party": "kyosan",
+  "theme": "bessei",
+  "election": "s2017",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "kyosan2017pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「民法を改正し、選択的夫婦別姓を導入します。」"
+ },
+ {
+  "party": "jimin",
+  "theme": "bessei",
+  "election": "s2019",
+  "position": "kyusei",
+  "temp": null,
+  "sources": [
+   "jimin2019bank"
+  ],
+  "verified": true,
+  "wording": "「旧姓の幅広い使用を認める取組みを進めます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "bessei",
+  "election": "s2019",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "shamin2019web"
+  ],
+  "verified": true,
+  "wording": "「選択的夫婦別姓の実現など民法を改正します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "bessei",
+  "election": "s2016",
+  "position": "kyusei",
+  "temp": null,
+  "sources": [
+   "jimin2016bank"
+  ],
+  "verified": true,
+  "wording": "「旧姓の幅広い使用を認める取組みを進めます。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "bessei",
+  "election": "s2022",
+  "position": "introduce",
+  "temp": null,
+  "sources": [
+   "g2s2022_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を認めるべきですか？」に「賛成」。「氏名は人格の一部です。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "bessei",
+  "election": "s2022",
+  "position": "oppose",
+  "temp": null,
+  "sources": [
+   "g2s2022_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「選択的夫婦別姓を認めるべきですか？」に「反対」。「日本には日本の慣習があってよい」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "bessei",
+  "election": "s2022",
+  "position": "none",
+  "sources": [
+   "g2s2022_jimin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-22",
+  "wording": "（公約に記載なし）アンケート「選択的夫婦別姓を認めるべきですか？」に「中立」。「令和３年最高裁大法廷の判決を踏まえつつ、氏を改めることによる不利益…をさらに解消し、国民一人一人の活躍を推進します。」",
+  "note": "公約に記載なし。アンケートは「中立」で、回答文に制度の方向の記述はないため、2021年と同じく「公約で言及なし」",
+  "temp": null
+ }
+]

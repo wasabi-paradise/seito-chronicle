@@ -1,0 +1,43 @@
+{
+ "n": 23,
+ "date": "1947-04-25",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "民主",
+   "party": "minshu47",
+   "seats": 121
+  },
+  {
+   "label": "自由",
+   "party": "jiyu45",
+   "seats": 131
+  },
+  {
+   "label": "社会",
+   "party": "shakai45",
+   "seats": 143
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 4
+  },
+  {
+   "label": "国協",
+   "party": "kokkyo",
+   "seats": 29
+  },
+  {
+   "label": "諸派",
+   "seats": 25
+  },
+  {
+   "label": "無所属",
+   "seats": 13
+  }
+ ],
+ "total": 466
+}

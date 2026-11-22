@@ -1,0 +1,51 @@
+{
+ "n": 26,
+ "date": "1953-04-19",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "改進",
+   "party": "kaishin",
+   "seats": 76
+  },
+  {
+   "label": "鳩自",
+   "seats": 35
+  },
+  {
+   "label": "吉自",
+   "party": "jiyu50",
+   "seats": 199
+  },
+  {
+   "label": "左社",
+   "party": "saha",
+   "seats": 72
+  },
+  {
+   "label": "右社",
+   "party": "uha",
+   "seats": 66
+  },
+  {
+   "label": "労農",
+   "seats": 5
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 1
+  },
+  {
+   "label": "諸派",
+   "seats": 1
+  },
+  {
+   "label": "無所属",
+   "seats": 11
+  }
+ ],
+ "total": 466
+}

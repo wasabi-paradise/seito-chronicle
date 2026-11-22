@@ -1,0 +1,674 @@
+[
+ {
+  "party": "kyosan",
+  "theme": "kenkin",
+  "election": "s2016",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "kyosan2016pol"
+  ],
+  "verified": true,
+  "wording": "「カネで政治をゆがめる企業・団体献金（企業・団体によるパーティー券購入を含む）を禁止します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenkin",
+  "election": "s2021",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2021_ishin"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきだ」に「賛成」。「議員、政党への企業・団体・組合等による献金の全面禁止を求め、ネット献金を含めた個人献金を促進する。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenkin",
+  "election": "s2021",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "kyosan2021kenkin",
+   "g2s2021_kyosan"
+  ],
+  "verified": true,
+  "wording": "「カネで政治をゆがめる企業・団体献金を全面的に禁止し、政党助成金を廃止します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenkin",
+  "election": "s2021",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2021_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきだ」に「賛成」。「まずは、政治、特に選挙にかかるお金が掛からない制度への変更が必要。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenkin",
+  "election": "s2021",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2021_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきだ」に「賛成」。",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenkin",
+  "election": "s2022",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "ishin2022pdf",
+   "g2s2022_ishin"
+  ],
+  "verified": true,
+  "wording": "「議員、政党への企業・団体・組合等による献金の全面禁止を求め」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenkin",
+  "election": "s2022",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2022_rikken"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。「パーティー券の購入を含めた企業団体献金の禁止と個人献金促進を図る法律の制定を目指します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenkin",
+  "election": "s2022",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "kyosan2022kenkin",
+   "g2s2022_kyosan"
+  ],
+  "verified": true,
+  "wording": "「金権腐敗政治を根絶するうえで、企業・団体献金の全面禁止と政党助成金の廃止を一体として行うことが不可欠の道です。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenkin",
+  "election": "s2022",
+  "position": "disclose",
+  "temp": null,
+  "sources": [
+   "g2s2022_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「中立」。「政党に対し、企業団体献金を禁止したところで、パーティ券などの手段で事実上の企業団体献金は存在する。」「透明化が大事だと考えます。」",
+  "verifiedOn": "2026-11-22",
+  "note": "他の年は「禁止」。この年の回答のみ「透明化」重視"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenkin",
+  "election": "s2022",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2022_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。「「政治とカネ」問題は後を絶ちません。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "kenkin",
+  "election": "s2022",
+  "position": "tighten",
+  "temp": null,
+  "sources": [
+   "g2s2022_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「やや賛成」。「全てを反対はしないが、要件はさらに絞っていくべき」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenkin",
+  "election": "s2024",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "rikken2024pdf",
+   "g2s_rikken"
+  ],
+  "verified": true,
+  "wording": "「企業・団体献金の禁止、政策活動費の廃止など政治資金規正法を再改正し」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenkin",
+  "election": "s2024",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「やや賛成」。「政党交付金のあり方の見直しや企業団体献金の廃止に向けて、与野党合意の実現を目指します。」",
+  "verifiedOn": "2026-11-22"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenkin",
+  "election": "s2024",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenkin",
+  "election": "s2024",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s_shamin"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。「特定企業や団体の献金は政策をゆがめております。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "kenkin",
+  "election": "s2024",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。「企業や団体の献金は、自社の利益や業界全体の優遇を求める動機に基づくことが多い。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenkin",
+  "election": "s2024",
+  "position": "disclose",
+  "temp": null,
+  "sources": [
+   "jimin2024pdf",
+   "g2s2024_jimin"
+  ],
+  "verified": true,
+  "wording": "「政治資金の透明化と厳正なコンプライアンス対応などに取り組みます」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約は企業・団体献金に直接触れていない。献金禁止に「反対」はアンケートの回答による"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenkin",
+  "election": "s2024",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "ishin2024pdf",
+   "ishin2024core"
+  ],
+  "verified": true,
+  "wording": "「企業団体献金の全面禁止」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenkin",
+  "election": "s2024",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "kyosan2024pdf",
+   "g2s2024_kyosan"
+  ],
+  "verified": true,
+  "wording": "「企業・団体によるパーティー券購入を含む企業・団体献金を全面禁止します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenkin",
+  "election": "s2025",
+  "position": "disclose",
+  "temp": null,
+  "sources": [
+   "jimin2025pdf"
+  ],
+  "verified": true,
+  "wording": "「改正政治資金規正法に則り、政治資金の透明化と厳正なコンプライアンスを一層推進する」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "komei",
+  "theme": "kenkin",
+  "election": "s2025",
+  "position": "tighten",
+  "temp": null,
+  "sources": [
+   "komei2025pdf",
+   "g2s2025_komei"
+  ],
+  "verified": true,
+  "wording": "「企業・団体献金については、カネの流れの透明性を高めた上で規制を強化し、不正の温床とならない仕組みづくりが何より重要です」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenkin",
+  "election": "s2025",
+  "position": "ban",
+  "temp": 2,
+  "sources": [
+   "rikken2025pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「企業・団体献金の禁止。」",
+  "tempBasis": "本編の政治改革章",
+  "verifiedOn": "2026-11-21",
+  "note": "詳細版の政治改革章には献金禁止の記載がなく、パーティー券購入の禁止のみ"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenkin",
+  "election": "s2025",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "ishin2025core"
+  ],
+  "verified": true,
+  "wording": "「議員・政党への企業・団体・組合等による献金の全面禁止を求め」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenkin",
+  "election": "s2025",
+  "position": "tighten",
+  "temp": null,
+  "sources": [
+   "g2s2025_kokumin"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-22",
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「やや反対」。「①政治資金の受け手規制を含む透明性強化及びDX化、②違反した場合の議員の厳罰化及び政党交付金の減額・停止、③政治資金を監視するための第三者機関の創設」",
+  "note": "公約（日経掲載）に献金の記載なし。区分はアンケートの回答による（禁止には「やや反対」）"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenkin",
+  "election": "s2025",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "kyosan2025pdf"
+  ],
+  "verified": true,
+  "wording": "「企業・団体によるパーティー券購入を含む企業・団体献金を全面禁止します」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenkin",
+  "election": "s2025",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "shamin2025koho",
+   "g2s2025_shamin"
+  ],
+  "verified": true,
+  "wording": "「企業・団体献金の禁止！」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenkin",
+  "election": "s2025",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2025_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "kenkin",
+  "election": "s2025",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2025_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。「企業や団体による政治献金には、しばしば何らかの見返りが期待されているのが実情である。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenkin",
+  "election": "s2026",
+  "position": "disclose",
+  "temp": 2,
+  "sources": [
+   "jimin2026ch5"
+  ],
+  "verified": true,
+  "commit": "consider",
+  "wording": "「『禁止よりも公開』のもとに透明性・公開性の一層の強化」「有識者会議において幅広く検討を加え、令和9年9月30日までに結論を得て」",
+  "tempBasis": "政権公約の第5章に記載",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "chudo",
+  "theme": "kenkin",
+  "election": "s2026",
+  "position": "tighten",
+  "temp": 3,
+  "sources": [
+   "chudo2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「企業・団体献金の禁止への第一歩として、企業・団体献金の受け手制限規制、献金額の上限規制を強化します」",
+  "tempBasis": "第5の柱の冒頭の重点項目2",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenkin",
+  "election": "s2026",
+  "position": "ban",
+  "temp": 2,
+  "sources": [
+   "kyosan2026pdf"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「企業・団体献金を全面禁止します」",
+  "tempBasis": "重点政策の4番目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenkin",
+  "election": "s2026",
+  "position": "ban",
+  "temp": 1,
+  "sources": [
+   "shamin2026"
+  ],
+  "verified": true,
+  "commit": "definite",
+  "wording": "「企業・団体献金は全面禁止。」",
+  "tempBasis": "最後の項目（政治制度改革）の2番目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenkin",
+  "election": "s2026",
+  "sources": [
+   "kokumin2026pol"
+  ],
+  "verified": true,
+  "position": "tighten",
+  "temp": 3,
+  "commit": "definite",
+  "wording": "「企業団体献金規制強化法案を成立させ、『受け手規制』『献金上限規制』による徹底した透明性向上」",
+  "tempBasis": "第5柱「正直な政治をつらぬく」の1番目",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "reiwa",
+  "theme": "kenkin",
+  "election": "s2026",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2026_reiwa"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "sansei",
+  "theme": "kenkin",
+  "election": "s2026",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2026_sansei"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。「企業や団体による政治献金には、しばしば何らかの見返りが期待されているのが実情である。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenkin",
+  "election": "s2022",
+  "position": "disclose",
+  "temp": null,
+  "sources": [
+   "g2s2022_jimin"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「反対」。「最高裁判決によれば、企業も個人と同様に社会を構成する一員であり、社会貢献の一環として政治寄附を行うことは憲法上認められています。」",
+  "verifiedOn": "2026-11-21",
+  "note": "禁止に反対で規制強化の明言もないため、最も緩い「公開・透明化」に分類"
+ },
+ {
+  "party": "komei",
+  "theme": "kenkin",
+  "election": "s2022",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2022_komei"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「賛成」。「企業・団体献金については全面禁止にすべきであり、迂回献金が可能となっている現行法の抜け穴を防ぐことが必要です。」",
+  "verifiedOn": "2026-11-22",
+  "note": "アンケートで「全面禁止にすべき」と回答。2021年の回答は禁止に「やや賛成」で方針の記述がなかった"
+ },
+ {
+  "party": "jimin",
+  "theme": "kenkin",
+  "election": "s2021",
+  "position": "disclose",
+  "temp": null,
+  "sources": [
+   "g2s2021_jimin"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきだ」に「無選択」。「企業・団体を含め、個人や法人からの寄付など幅広い国民の浄財によって、政党活動を行なうことは、政治活動の自由と議会制民主主義の健全な発展の観点から必要であると考えます。」",
+  "verifiedOn": "2026-11-21",
+  "note": "賛否の選択はなし。説明の内容から「公開・透明化」に分類"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenkin",
+  "election": "s2021",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "g2s2021_rikken"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきだ」に「賛成」。「パーティー券の購入を含めた企業団体献金の禁止と個人献金促進を図る法律の制定を目指します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenkin",
+  "election": "s2021",
+  "position": "disclose",
+  "temp": null,
+  "sources": [
+   "kokumin2021pdf",
+   "g2s2021_kokumin"
+  ],
+  "verified": true,
+  "wording": "「政治とカネの問題にかかる国民の不信感を払拭するため、政治資金の透明化に努めます。」",
+  "verifiedOn": "2026-11-21",
+  "note": "公約は政治資金の透明化のみで、企業・団体献金には触れていない"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenkin",
+  "election": "s2016",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf",
+   "minshin2016pol"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「企業団体献金の禁止を定める法律」の制定（政策集では「企業団体献金（パーティー券による購入を含む。）禁止と個人献金促進を定める法律の制定を図ります」）",
+  "asName": "民進党"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenkin",
+  "election": "s2016",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "minshin2016pdf",
+   "minshin2016pol"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「企業団体献金の禁止を定める法律」の制定（政策集では「企業団体献金（パーティー券による購入を含む。）禁止と個人献金促進を定める法律の制定を図ります」）",
+  "asName": "民進党"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenkin",
+  "election": "s2017",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "ishin2017pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「企業・団体・組合の献金を禁止する。」"
+ },
+ {
+  "party": "ishin",
+  "theme": "kenkin",
+  "election": "s2019",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "ishin2019pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「企業団体献金廃止」"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenkin",
+  "election": "s2017",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "kyosan2017pdf"
+  ],
+  "verified": true,
+  "verifiedOn": "2026-11-21",
+  "wording": "「カネで政治をゆがめる企業・団体献金（企業・団体によるパーティー券購入を含む）を禁止します。」"
+ },
+ {
+  "party": "rikken",
+  "theme": "kenkin",
+  "election": "s2019",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "rikken2019v4"
+  ],
+  "asName": "立憲民主党（旧）",
+  "verified": true,
+  "wording": "「企業団体献金を禁止し、各議員の政治資金収支報告書をまとめてウェブ公開させる法改正を行います。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "shamin",
+  "theme": "kenkin",
+  "election": "s2019",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "shamin2019web"
+  ],
+  "verified": true,
+  "wording": "「政党や政治資金団体への企業・団体献金をただちに禁止します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kyosan",
+  "theme": "kenkin",
+  "election": "s2019",
+  "position": "ban",
+  "temp": null,
+  "sources": [
+   "kyosan2019pol"
+  ],
+  "verified": true,
+  "wording": "「カネで政治をゆがめる企業・団体献金を禁止します。」",
+  "verifiedOn": "2026-11-21"
+ },
+ {
+  "party": "kokumin",
+  "theme": "kenkin",
+  "election": "s2022",
+  "position": "disclose",
+  "temp": null,
+  "sources": [
+   "g2s2022_kokumin"
+  ],
+  "verified": true,
+  "wording": "アンケート「企業・団体献金を禁止すべきですか？」に「中立」。「政治とカネの問題に係る国民の不信感を払拭するため、政治資金の透明化に努めます。」",
+  "verifiedOn": "2026-11-21"
+ }
+]

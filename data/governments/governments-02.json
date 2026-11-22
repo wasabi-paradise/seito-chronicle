@@ -1,0 +1,701 @@
+[
+ {
+  "pm": "小渕恵三",
+  "cabinets": "小渕内閣",
+  "start": "1998-07-30",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "1998-07-30",
+    "partners": [],
+    "outside": []
+   },
+   {
+    "from": "1999-01-14",
+    "partners": [
+     "jiyu98"
+    ],
+    "outside": [],
+    "note": "自由党と連立"
+   },
+   {
+    "from": "1999-10-05",
+    "partners": [
+     "jiyu98",
+     "komei98"
+    ],
+    "outside": [],
+    "note": "公明党が連立に参加"
+   },
+   {
+    "from": "2000-04-01",
+    "partners": [
+     "komei98"
+    ],
+    "outside": [],
+    "note": "自由党が連立を離脱"
+   },
+   {
+    "from": "2000-04-03",
+    "partners": [
+     "komei98",
+     "hoshuto"
+    ],
+    "outside": [],
+    "note": "自由党から分かれた保守党が結成され、連立に加わる"
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k84",
+   "nippon",
+   "jh18"
+  ],
+  "nonparty": false,
+  "end": "2000-04-05",
+  "short": "小渕",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "1999年1月14日に自由党と連立、10月5日に公明党が加わり自自公、2000年4月1日に自由党との連立を解消し、自由党から分かれた保守党（4月3日結成）が連立に加わる。自民党の党史で照合"
+  }
+ },
+ {
+  "pm": "森喜朗",
+  "cabinets": "第1・2次森内閣",
+  "start": "2000-04-05",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2000-04-05",
+    "partners": [
+     "komei98",
+     "hoshuto"
+    ],
+    "outside": []
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k85",
+   "nippon",
+   "jh19"
+  ],
+  "nonparty": false,
+  "end": "2001-04-26",
+  "short": "森",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "自民党・公明党・保守党の連立。自民党の党史で照合（保守新党は2002年12月の結党後）"
+  }
+ },
+ {
+  "pm": "小泉純一郎",
+  "cabinets": "第1〜3次小泉内閣",
+  "start": "2001-04-26",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2001-04-26",
+    "partners": [
+     "komei98",
+     "hoshuto"
+    ],
+    "outside": []
+   },
+   {
+    "from": "2002-12-25",
+    "partners": [
+     "komei98",
+     "hoshushinto"
+    ],
+    "outside": [],
+    "note": "保守党が保守新党に"
+   },
+   {
+    "from": "2003-11-21",
+    "partners": [
+     "komei98"
+    ],
+    "outside": [],
+    "note": "保守新党が自民党に合流し、自公連立に"
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k87",
+   "nippon",
+   "ndl_ref2014",
+   "jh20"
+  ],
+  "nonparty": false,
+  "end": "2006-09-26",
+  "short": "小泉",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "自公保連立（2002年12月に保守党が解散し保守新党に）。2003年11月の衆院選後、保守新党が自民党に合流して自公連立に。国立国会図書館『レファレンス』と自民党の党史で照合"
+  }
+ },
+ {
+  "pm": "安倍晋三",
+  "cabinets": "第1次安倍内閣",
+  "start": "2006-09-26",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2006-09-26",
+    "partners": [
+     "komei98"
+    ],
+    "outside": []
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k90",
+   "nippon",
+   "jh21"
+  ],
+  "nonparty": false,
+  "end": "2007-09-26",
+  "short": "安倍",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "自民党・公明党の連立。自民党の党史で照合"
+  }
+ },
+ {
+  "pm": "福田康夫",
+  "cabinets": "福田内閣",
+  "start": "2007-09-26",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2007-09-26",
+    "partners": [
+     "komei98"
+    ],
+    "outside": []
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k91",
+   "nippon",
+   "komei20251010"
+  ],
+  "nonparty": false,
+  "end": "2008-09-24",
+  "short": "福田",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "自民党・公明党の連立。自民党の党史・公明新聞で照合"
+  }
+ },
+ {
+  "pm": "麻生太郎",
+  "cabinets": "麻生内閣",
+  "start": "2008-09-24",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2008-09-24",
+    "partners": [
+     "komei98"
+    ],
+    "outside": []
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k92",
+   "nippon",
+   "jh21",
+   "komei20251010"
+  ],
+  "nonparty": false,
+  "end": "2009-09-16",
+  "short": "麻生",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "自民党・公明党の連立。自民党の党史で照合"
+  }
+ },
+ {
+  "pm": "鳩山由紀夫",
+  "cabinets": "鳩山内閣",
+  "start": "2009-09-16",
+  "pmParty": [
+   "minshu98"
+  ],
+  "phases": [
+   {
+    "from": "2009-09-16",
+    "partners": [
+     "shamin",
+     "kokuminshinto"
+    ],
+    "outside": []
+   },
+   {
+    "from": "2010-05-30",
+    "partners": [
+     "kokuminshinto"
+    ],
+    "outside": [],
+    "note": "社民党が連立を離脱"
+   }
+  ],
+  "others": null,
+  "note": "民主・社民・国民新党の連立。",
+  "sources": [
+   "k93",
+   "nippon",
+   "ndl_ref2014",
+   "jh24"
+  ],
+  "nonparty": false,
+  "end": "2010-06-08",
+  "short": "鳩山",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "民主党・社民党・国民新党の3党連立。2010年5月30日に社民党が連立離脱（国立国会図書館『レファレンス』、自民党の党史）"
+  },
+  "events": [
+   {
+    "title": "第45回総選挙と民主党中心の連立政権の発足（2009年）",
+    "summary": {
+     "text": "2009年7月21日に衆議院が解散され、8月30日の第45回総選挙で民主党が308議席、自民党が119議席を得た。民主党・社会民主党・国民新党は9月9日に連立政権の合意書を交わし、9月16日に鳩山内閣が発足した。",
+     "sources": [
+      "kokkai20090721",
+      "soumu_r3k",
+      "mhlw_renritsu2009",
+      "k93"
+     ]
+    },
+    "facts": [
+     {
+      "date": "2009-07-21",
+      "text": "衆議院本会議で、「日本国憲法第七条により、衆議院を解散する。」との詔書が朗読され、衆議院が解散（麻生内閣）。",
+      "sources": [
+       "kokkai20090721"
+      ]
+     },
+     {
+      "date": "2009-08-30",
+      "text": "第45回総選挙。当選人数は民主党308（小選挙区221・比例87）、自民党119（小選挙区64・比例55）、公明党21、共産党9、社民党7、みんなの党5、国民新党3など（定数480）。",
+      "sources": [
+       "soumu_r3k"
+      ]
+     },
+     {
+      "date": "2009-09-09",
+      "text": "民主党・社会民主党・国民新党が三党連立政権合意書を交わす。合意書は冒頭で「第45回衆議院総選挙で国民が示した政権交代の審判を受け、新しい連立政権を樹立することとし」と述べている。",
+      "sources": [
+       "mhlw_renritsu2009"
+      ]
+     },
+     {
+      "date": "2009-09-16",
+      "text": "鳩山由紀夫内閣が発足（民主党・社民党・国民新党の連立）。",
+      "sources": [
+       "k93"
+      ]
+     }
+    ],
+    "sides": [
+     {
+      "who": "政権についた民主党（鳩山首相）",
+      "text": "所信表明演説で「総選挙において、国民の皆様は政権交代を選択されました」と述べ、「今の日本の政治を何とかしてくれないと困るという国民の声が、この政権交代をもたらしたのだと私は認識しております」と述べた。",
+      "sources": [
+       "kokkai20091026"
+      ]
+     },
+     {
+      "who": "連立を組んだ3党（合意書）",
+      "text": "三党連立政権合意書で「三党連立政権は、政権交代という民意に従い、国民の負託に応えることを確認する」とした。",
+      "sources": [
+       "mhlw_renritsu2009"
+      ]
+     },
+     {
+      "who": "野党になった自民党（谷垣総裁）",
+      "text": "総選挙後の代表質問で「さきの総選挙によって私たち自由民主党は大幅に議席を失い、野党になりました」と述べ、「我が党は、五五年体制のもと、常に与党であるという慢心があり、それゆえに政権運営に、どこかにそのおごりがあらわれていたのかもしれません」と述べた。",
+      "sources": [
+       "kokkai20091028"
+      ]
+     },
+     {
+      "who": "麻生首相（解散時の首相）",
+      "text": "選挙結果について麻生首相本人が述べた記録は、国会会議録では見つからなかった（官邸の当時のページは取得できなかった）。",
+      "sources": []
+     }
+    ],
+    "background": [
+     {
+      "text": "山田真裕（2011）は、2005年に自民党、2009年に民主党へ投票先を変えた有権者を調査データ（JES4）で分析し、「麻生内閣への失望と新しい政権への期待，特に民主党の政権担当能力に対する評価の改善」がこの変化をもたらしたとしている。",
+      "sources": [
+       "yamada2011"
+      ]
+     }
+    ],
+    "note": "有権者がなぜ投票先を変えたかについて、このサイトは判断していません。研究者の分析は、その資料が示す範囲で載せています。"
+   }
+  ]
+ },
+ {
+  "pm": "菅直人",
+  "cabinets": "菅内閣",
+  "start": "2010-06-08",
+  "pmParty": [
+   "minshu98"
+  ],
+  "phases": [
+   {
+    "from": "2010-06-08",
+    "partners": [
+     "kokuminshinto"
+    ],
+    "outside": []
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k94",
+   "nippon",
+   "jh24"
+  ],
+  "nonparty": false,
+  "end": "2011-09-02",
+  "short": "菅",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "民主党・国民新党の連立。自民党の党史で照合"
+  }
+ },
+ {
+  "pm": "野田佳彦",
+  "cabinets": "野田内閣",
+  "start": "2011-09-02",
+  "pmParty": [
+   "minshu98"
+  ],
+  "phases": [
+   {
+    "from": "2011-09-02",
+    "partners": [
+     "kokuminshinto"
+    ],
+    "outside": []
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k95",
+   "kokkai20110915",
+   "kokkai20111028",
+   "nippon"
+  ],
+  "nonparty": false,
+  "end": "2012-12-26",
+  "short": "野田",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "首相が国会で「連立与党である国民新党」と述べている（2011年9月15日の衆院本会議答弁、10月28日の所信表明演説の会議録）"
+  }
+ },
+ {
+  "pm": "安倍晋三",
+  "cabinets": "第2〜4次安倍内閣",
+  "start": "2012-12-26",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2012-12-26",
+    "partners": [
+     "komei98"
+    ],
+    "outside": []
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k96",
+   "nippon",
+   "komei20251010"
+  ],
+  "nonparty": false,
+  "end": "2020-09-16",
+  "short": "安倍",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "自民党・公明党の連立（公明党の発表では、自公連立は1999年から2025年10月までの26年間、野党時代を含む）"
+  }
+ },
+ {
+  "pm": "菅義偉",
+  "cabinets": "菅内閣",
+  "start": "2020-09-16",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2020-09-16",
+    "partners": [
+     "komei98"
+    ],
+    "outside": []
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k99",
+   "nippon",
+   "komei20251010"
+  ],
+  "nonparty": false,
+  "end": "2021-10-04",
+  "short": "菅",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "自民党・公明党の連立（公明党の発表では、自公連立は1999年から2025年10月までの26年間、野党時代を含む）"
+  }
+ },
+ {
+  "pm": "岸田文雄",
+  "cabinets": "第1・2次岸田内閣",
+  "start": "2021-10-04",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2021-10-04",
+    "partners": [
+     "komei98"
+    ],
+    "outside": []
+   }
+  ],
+  "others": null,
+  "note": null,
+  "sources": [
+   "k100",
+   "nippon",
+   "komei20251010"
+  ],
+  "nonparty": false,
+  "end": "2024-10-01",
+  "short": "岸田",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "自民党・公明党の連立（公明党の発表では、自公連立は1999年から2025年10月までの26年間、野党時代を含む）"
+  }
+ },
+ {
+  "pm": "石破茂",
+  "cabinets": "第1・2次石破内閣",
+  "start": "2024-10-01",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2024-10-01",
+    "partners": [
+     "komei98"
+    ],
+    "outside": []
+   },
+   {
+    "from": "2025-10-10",
+    "partners": [],
+    "outside": [],
+    "note": "公明党が連立を離脱"
+   }
+  ],
+  "others": null,
+  "sources": [
+   "k102",
+   "nippon",
+   "komei20251010"
+  ],
+  "nonparty": false,
+  "end": "2025-10-21",
+  "short": "石破",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "自民党・公明党の連立。2025年10月10日に公明党が連立を離脱（公明新聞）"
+  },
+  "events": [
+   {
+    "title": "公明党の連立離脱（2025年10月）",
+    "summary": {
+     "text": "2025年9月7日、石破首相が自民党総裁を辞任すると表明した。10月4日に高市早苗氏が総裁に選ばれ公明党と連立協議を始めたが、10月10日、「政治とカネ」の問題への対応をめぐって公明党が連立離脱を伝えた。自民党は10月20日に日本維新の会と連立政権合意を結び、21日に高市内閣が発足した。",
+     "sources": [
+      "kantei20250907",
+      "jimin20251021",
+      "komei20251011",
+      "renritsu2025",
+      "k104"
+     ]
+    },
+    "facts": [
+     {
+      "date": "2025-09-07",
+      "text": "石破首相が記者会見で自民党総裁の職を辞すると表明。",
+      "sources": [
+       "kantei20250907"
+      ]
+     },
+     {
+      "date": "2025-10-04",
+      "text": "自民党総裁に高市早苗氏が選ばれ、公明党との連立協議を始める。",
+      "sources": [
+       "jimin20251021",
+       "komei20251011"
+      ]
+     },
+     {
+      "date": "2025-10-10",
+      "text": "自民・公明の党首会談で、公明党が連立政権からの離脱を伝える。",
+      "sources": [
+       "jimin20251010",
+       "komei20251011"
+      ]
+     },
+     {
+      "date": "2025-10-20",
+      "text": "自民党と日本維新の会が連立政権合意書を交わし、21日に高市内閣が発足（維新は当初、閣僚を出さない閣外協力）。",
+      "sources": [
+       "renritsu2025",
+       "k104",
+       "kokkai20251126"
+      ]
+     }
+    ],
+    "sides": [
+     {
+      "who": "離脱した公明党",
+      "text": "党の機関紙で、自民党に求めていた「政治とカネ」を巡る問題への対応について「明確かつ具体的な協力が得られなかったため、自公連立政権はいったん白紙として、これまでの関係に区切りを付けることを決めました」と説明。企業・団体献金の受け手を党本部と都道府県組織に絞る規制強化を求めたが、自民党の回答は「これから検討する」というものだったとしている。",
+      "sources": [
+       "komei20251011",
+       "komei20251010"
+      ]
+     },
+     {
+      "who": "自民党（高市総裁）",
+      "text": "党の発表によれば、高市総裁は「公明党から政治資金規正法改正の公明党案についてその場で賛否を示すよう求められた。わが党での手続きを経ずにこの場で総裁、幹事長が決めることはできないと説明した」と述べた。会見では「先方からは、『それは、具体的な回答ではない』ということで、一方的に連立政権からの離脱を伝えられました」と述べている。",
+      "sources": [
+       "jimin20251010b",
+       "jimin20251010"
+      ]
+     },
+     {
+      "who": "石破首相（退陣の理由）",
+      "text": "退陣を表明した会見で「選挙結果に対する責任は総裁たる私にある」と述べ、「米国関税措置に関する交渉に一つの区切りがついた今こそが、その「然るべきタイミング」であると、このように考え、後進に道を譲る決断をいたしました」と説明した。",
+      "sources": [
+       "kantei20250907"
+      ]
+     }
+    ],
+    "background": [],
+    "note": ""
+   }
+  ]
+ },
+ {
+  "pm": "高市早苗",
+  "cabinets": "第1・2次高市内閣",
+  "start": "2025-10-21",
+  "pmParty": [
+   "jimin"
+  ],
+  "phases": [
+   {
+    "from": "2025-10-21",
+    "partners": [],
+    "outside": [
+     "ishin16"
+    ],
+    "note": "日本維新の会と連立合意。維新は当初、閣僚を出さない閣外協力"
+   },
+   {
+    "from": "2026-09-17",
+    "partners": [
+     "ishin16"
+    ],
+    "outside": [],
+    "note": "第2次改造内閣で維新から閣僚を起用"
+   }
+  ],
+  "others": null,
+  "note": "自民・維新の連立。",
+  "sources": [
+   "k104",
+   "renritsu2025",
+   "kokkai20251126",
+   "kokkai20261014",
+   "sakigake_t2"
+  ],
+  "nonparty": false,
+  "end": null,
+  "short": "高市",
+  "datesVerified": true,
+  "partiesVerified": true,
+  "partiesCheck": {
+   "on": "2026-11-21",
+   "text": "連立政権合意書（2025年10月20日）で連立を確認。発足当初に維新が閣外だったことは国会の発言（2025年11月26日 参院憲法審査会ほか）、改造での入閣は首相の国会答弁（2026年10月14日 衆院予算委員会「新たな段階に連立が進んだ」）で確認"
+  }
+ }
+]

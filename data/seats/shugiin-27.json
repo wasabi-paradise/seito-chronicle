@@ -1,0 +1,47 @@
+{
+ "n": 27,
+ "date": "1955-02-27",
+ "sources": [
+  "soumu_r3"
+ ],
+ "rows": [
+  {
+   "label": "民主",
+   "party": "nihonminshu",
+   "seats": 185
+  },
+  {
+   "label": "自由",
+   "party": "jiyu50",
+   "seats": 112
+  },
+  {
+   "label": "左社",
+   "party": "saha",
+   "seats": 89
+  },
+  {
+   "label": "右社",
+   "party": "uha",
+   "seats": 67
+  },
+  {
+   "label": "労農",
+   "seats": 4
+  },
+  {
+   "label": "共産",
+   "party": "kyosan",
+   "seats": 2
+  },
+  {
+   "label": "諸派",
+   "seats": 2
+  },
+  {
+   "label": "無所属",
+   "seats": 6
+  }
+ ],
+ "total": 467
+}

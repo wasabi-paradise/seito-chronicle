@@ -1,0 +1,91 @@
+{
+ "n": 16,
+ "date": "1992-07-26",
+ "tier": [
+  "比例代表",
+  "選挙区"
+ ],
+ "seatsA": 50,
+ "seatsB": 76,
+ "total": 126,
+ "sources": [
+  "soumu_s_r4"
+ ],
+ "rows": [
+  {
+   "label": "自民",
+   "seats": 67,
+   "a": 19,
+   "b": 48,
+   "party": "jimin",
+   "by": 1
+  },
+  {
+   "label": "社会",
+   "seats": 22,
+   "a": 10,
+   "b": 12,
+   "party": "shakai55"
+  },
+  {
+   "label": "民社",
+   "seats": 4,
+   "a": 3,
+   "b": 1,
+   "party": "minsha"
+  },
+  {
+   "label": "公明",
+   "seats": 14,
+   "a": 8,
+   "b": 6,
+   "party": "komei64"
+  },
+  {
+   "label": "共産",
+   "seats": 6,
+   "a": 4,
+   "b": 2,
+   "party": "kyosan"
+  },
+  {
+   "label": "二院ク",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "日本新党",
+   "seats": 4,
+   "a": 4,
+   "b": 0,
+   "party": "nihonshinto"
+  },
+  {
+   "label": "スポーツ",
+   "seats": 1,
+   "a": 1,
+   "b": 0
+  },
+  {
+   "label": "連合の会",
+   "seats": 0,
+   "a": 0,
+   "b": 0
+  },
+  {
+   "label": "諸派",
+   "seats": 2,
+   "a": 0,
+   "b": 2
+  },
+  {
+   "label": "無所属",
+   "seats": 5,
+   "a": 0,
+   "b": 5
+  }
+ ],
+ "by": 1,
+ "note": "埼玉県選挙区で通常選挙と合わせて行われた補欠選挙の当選人1人（自民）は外書（結果調の注）。"
+}
