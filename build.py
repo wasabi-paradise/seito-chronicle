@@ -7,7 +7,7 @@ data/*.json と src/template.html から dist/ を作る（Python 3 の標準ラ
 - dist/sitemap.xml  : サイトマップ
 - public/ の中身（_headers・robots.txt・404.html・og/ の画像）をそのまま dist/ にコピー
 
-公開URLは環境変数 SITE_URL で変えられる（既定は https://seito-chronicle.kimizuka-006.workers.dev）。
+公開URLは環境変数 SITE_URL で変えられる（既定は https://seito-chronicle.michisus.co.jp）。
 Google アナリティクスの測定IDは環境変数 GA_ID で変えられる（既定は下の GA_ID）。
 """
 import html
@@ -18,7 +18,7 @@ import re
 import shutil
 
 root = pathlib.Path(__file__).parent
-SITE_URL = os.environ.get("SITE_URL", "https://seito-chronicle.kimizuka-006.workers.dev").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://seito-chronicle.michisus.co.jp").rstrip("/")
 # Google アナリティクス 4 の測定ID（環境変数 GA_ID で上書き可。空にすると計測しない）
 GA_ID = os.environ.get("GA_ID", "G-2B0WVY5TKK")
 dist = root / "dist"

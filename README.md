@@ -2,7 +2,7 @@
 
 戦後の政党の結成・合流・分裂の系譜と、2016〜2026年の国政選挙での各党の政策の立場、公約のその後を、出典つきでまとめたサイトです。
 
-- サイト：https://seito-chronicle.kimizuka-006.workers.dev/
+- サイト：https://seito-chronicle.michisus.co.jp/
 - 運営：Michisus
 
 ## 方針
@@ -45,11 +45,12 @@ npm install playwright && npx playwright install chromium
 node tools/make-og.js
 ```
 
-## 公開（Cloudflare Workers の静的アセット）
+## 公開（Cloudflare Pages）
 
 - ビルドコマンド：`python3 build.py`
-- デプロイコマンド：`npx wrangler deploy`（設定は `wrangler.jsonc`。`dist/` をそのまま公開）
-- 変数（独自ドメインのとき）：`SITE_URL`
+- 出力ディレクトリ：`dist`
+- 環境変数：`SITE_URL=https://seito-chronicle.michisus.co.jp`
+- 独自ドメイン：`seito-chronicle.michisus.co.jp`（DNS に CNAME `seito-chronicle` → `seito-chronicle.pages.dev.`）
 
 アクセス解析（Google アナリティクス 4）の測定IDは `build.py` の `GA_ID`（または環境変数 `GA_ID`）で設定します。空にすると何も送信しません。公開先（https の本番ドメイン）以外では読み込みません。
 
