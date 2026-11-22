@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f4ef">
+<title>政党クロニクル ― 戦後の政党と、公約のその後</title>
+<meta name="description" content="政党クロニクル：戦後の政党の結成・合流・分裂、各党の政策の立場、公約のその後を、出典つきでたどれます。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="政党クロニクル ― 戦後の政党と、公約のその後">
+<meta property="og:description" content="戦後の政党の系譜と、2016〜2026年の国政選挙での各党の立場、公約のその後を、党の資料などの出典つきでたどれます。">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="%%SITE_URL%%/">
+<meta property="og:image" content="%%SITE_URL%%/og/default.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:site_name" content="政党クロニクル">
+<link rel="canonical" href="%%SITE_URL%%/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2325282d'/%3E%3Cpath d='M7 10h9M7 16h18M16 22h9M16 10c3 0 3 6 6 6M13 16c3 0 3 6 6 6' fill='none' stroke='%23f6f4ef' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>/*@CSS*/</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="titlerow"><h1>政党クロニクル<span class="subtitle">戦後の政党と、公約のその後</span></h1><span data-tipslot="about"></span></div>
+    <div class="meta"><span id="asof"></span></div>
+  </header>
+  <section class="intro card" id="intro" aria-label="はじめに">
+    <p class="intro-lead">戦後の政党が、どこから生まれて、どう分かれ、どう合わさってきたか。いまの各党が、消費税や原発などのテーマでどんな立場をとってきたか。資料の出典つきでたどれます。</p>
+    <div class="intro-go">
+      <button type="button" data-go="keifu"><b>いまの政党のルーツ</b><span>結成・合流・分裂と政権の歩み</span></button>
+      <button type="button" data-go="theme"><b>テーマで比べる</b><span>消費税・原発・子育てなどで各党を比べる</span></button>
+      <button type="button" data-go="party"><b>政党ごとに見る</b><span>1つの党の立場の移り変わり</span></button>
+    </div>
+    <button type="button" class="intro-close" id="introClose" aria-label="この案内を閉じる">閉じる</button>
+  </section>
+
+  <main id="main">
+  <nav class="tabs" aria-label="表示の切り替え">
+    <button type="button" class="tab" id="tab-keifu" data-view="keifu"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h7M4 12h16M13 18h7M11 6c2 0 2 6 4 6M9 12c2 0 2 6 4 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="long">政党の系譜</span><span class="short">系譜</span></button>
+    <button type="button" class="tab" id="tab-seisaku" data-view="seisaku"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM4 10h16M10 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="long">政策の立場とその後</span><span class="short">政策</span></button>
+    <button type="button" class="tab" id="tab-giseki" data-view="giseki"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h11M4 17h7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="long">選挙と議席</span><span class="short">議席</span></button>
+  </nav>
+
+  <div id="view-keifu" class="view">
+  <div class="seg mobile-only" id="kmode" role="group" aria-label="系譜の表示方法">
+    <button type="button" data-m="list" aria-pressed="true">一覧</button>
+    <button type="button" data-m="chart" aria-pressed="false">図</button>
+  </div>
+  <div class="legend kchart" id="legend" aria-label="凡例"></div>
+
+  <div class="main">
+    <section class="card mlist mobile-only" aria-label="政党の一覧">
+      <div class="chart-tools"><label class="search"><span class="vh">党名で探す</span><input type="search" id="psearch" placeholder="党名で探す" autocomplete="off"></label></div>
+      <div id="mlist"></div>
+    </section>
+    <section class="card kchart" aria-label="系譜図">
+      <div class="chart-tools">
+        <span class="hint" data-tipslot="chart"></span>
+        <label class="search desk desktop-only" style="width:auto"><span class="vh">党名で探す</span><input type="search" id="dsearch" list="plist" placeholder="党名で探す（例：新進党）" autocomplete="off"></label><datalist id="plist"></datalist>
+        <button type="button" id="toStart" class="ibtn" aria-label="1945年へ移動"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 5v14M18 6l-8 6 8 6"/></svg><span>1945</span></button>
+        <button type="button" id="toNow" class="ibtn" aria-label="現在へ移動"><span>現在</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 5v14M6 6l8 6-8 6"/></svg></button>
+        <button type="button" id="clear" class="ibtn" aria-label="選択を解除"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg><span>解除</span></button>
+      </div>
+      <a class="skip" href="#panel">系譜図を飛ばして詳細へ</a>
+      <div class="scroller" id="scroller"><svg id="chart" role="group" aria-label="政党の系譜図。矢印キーで帯を移動、Enterで詳細"></svg></div>
+    </section>
+    <aside class="card panel sheet" id="panel" aria-label="詳細"><button type="button" class="sheet-close" data-close>閉じる</button><div id="panelBody" class="panel-body"></div></aside>
+  </div>
+
+  <details class="card events fold" aria-label="出来事の一覧">
+    <summary class="events-head">
+      <h2>結成・合流・分裂の年表</h2>
+      <span class="pending" id="evcount"></span>
+    </summary>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>日付</th><th>種類</th><th>出来事</th></tr></thead>
+        <tbody id="evbody"></tbody>
+      </table>
+    </div>
+  </details>
+
+  </div>
+
+  <div id="view-seisaku" class="view" hidden>
+    <div class="seisaku-top">
+    <div class="seg axisseg" id="axisSeg" role="group" aria-label="見方の切り替え">
+      <button type="button" data-axis="theme" aria-pressed="true">テーマで見る</button>
+      <button type="button" data-axis="party" aria-pressed="false">政党で見る</button>
+    </div>
+    <label class="simpletoggle"><input type="checkbox" id="detailToggle"> 扱いの大きさ・言い切り方の印も表示</label>
+    </div>
+    <div class="themebar" id="themebar" role="group" aria-label="政策テーマ"></div>
+    <section class="card notice" id="nomatrix" hidden><p id="nomatrixText"></p></section>
+    <section class="card posmap" id="posmap" aria-label="いまの構図"></section>
+    <div class="main" id="matrixArea">
+      <section class="card" aria-label="立場の比較表">
+        <div class="chart-tools"><span class="hint" id="themeq"></span></div>
+        <div class="mstance mobile-only">
+          <div class="seg" id="eseg" role="group" aria-label="選挙を選ぶ"></div>
+          <div id="mrows"></div>
+        </div>
+        <p class="matrix-scrollhint desktop-only" id="mhint" hidden>新しい選挙から表示しています。表を左へ動かすと2016年から見られます　<button type="button" class="linkbtn" id="mhintBtn">← 2016年から表示</button></p>
+        <div class="tablewrap desktop-only"><table class="matrix" id="matrix"></table></div>
+        <div class="matrix-legend" id="mlegend"></div>
+      </section>
+      <aside class="card panel sheet" id="spanel" aria-label="詳細"><button type="button" class="sheet-close" data-close>閉じる</button><div id="spanelBody" class="panel-body"></div></aside>
+    </div>
+    <section class="records" aria-label="表明とその後">
+      <div class="events-head"><h2 id="recTitle">表明とその後</h2><span class="pending" id="chcount"></span><span id="recUnv"></span><label style="margin-left:auto"><span class="vh">記録を探す</span><input type="search" id="rsearch" placeholder="記録を探す（例：103万円）" autocomplete="off"></label></div>
+      <div class="outcome-bar" id="obar" aria-label="結果で絞り込む"></div>
+      <div class="themebar" id="pbar" aria-label="政党で絞り込む"></div>
+      <div class="pledges" id="records"></div>
+    </section>
+    <details class="card events fold" aria-label="判定の基準">
+      <summary class="events-head"><h2>判定の基準</h2></summary>
+      <div class="criteria" id="criteria"></div>
+    </details>
+  </div>
+
+  <div id="view-giseki" class="view" hidden>
+    <section class="card seats" aria-labelledby="seatsTitle">
+      <div class="seg" id="houseSeg" role="group" aria-label="選挙の種類" style="margin-bottom:10px"><button type="button" data-house="lo" aria-pressed="true">衆院選</button><button type="button" data-house="up" aria-pressed="false">参院選</button></div>
+      <div class="events-head"><h2 id="seatsTitle">衆議院選挙の党派別の当選人数</h2><span class="pending" id="seatsCount"></span></div>
+      <p class="seatnote" id="seatsNote"></p>
+      <div class="seatlegend"><span id="majLegend"><span class="majl"></span>過半数のライン（当選人数の合計の半数を超える数）</span><span>帯は当選人数の多い順。帯を押すと内訳と、選挙時の内閣・与党が出ます</span><span><span class="evb" style="margin:0">論点</span> 選挙の論点と結果についての研究者の分析・当事者の受け止めがあるもの</span><span><span class="evb" style="margin:0">経緯</span> 選挙のあと3か月の間に、政権交代・連立の組み替えの「経緯」があるもの</span><span id="houseLegend" hidden><span class="evb" style="margin:0">全体</span> 参議院全体（非改選を含む）の議席の表があるもの（2007年以降）</span></div>
+      <ol class="selist" id="seatsList"></ol>
+    </section>
+  </div>
+
+  </main>
+
+  <p class="printnote" id="printnote"></p>
+  <footer>
+    <details class="fold-plain"><summary>このサイトについて・注意事項</summary>
+    <p>1945年から現在までの主要政党の系譜と、各党の政策の立場・公約のその後をまとめています。小政党や短命の政党の多くは省略しています。</p>
+    <p>日付は原則として結党日（結党大会・届出の日）です。月までしか特定していないものは「1998年1月」のように示しています。政党の「移籍」は、党そのものではなく所属議員の多くが移ったことを表します。</p>
+    <p>記述は出典に書かれている範囲にとどめ、推測や独自の解釈は加えていません。各項目に出典（種類つき）を示しています。ただし、政策の立場の区分・扱いの大きさ・言い切り方、「表明とその後」の結果の区分、系譜図の系統の分け方と色は、このサイトが示した基準に沿って整理したものです。立場の区分には、根拠にした党の資料の文言をそのまま引用して添えています。</p>
+    <p>政権交代・連立の組み替えの「経緯」は、資料に書かれた事実と、当事者それぞれが述べた説明を出典つきで並べたもので、どの説明が正しいかの判断はしていません。当事者は主な立場ごとに1つずつ、「動いた側 → 受けた側 → その他」の順に載せ、反論への再反論は載せません。</p>
+    <p>選挙の議席は、総務省の結果調の党派別当選人数をそのまま載せています。衆院選は「衆議院議員総選挙・最高裁判所裁判官国民審査結果調」（第22回〜第49回は令和3年版の推移表、第50回・第51回は各回の結果調）、参院選は「参議院議員通常選挙結果調」（第1回〜第26回は令和4年版の推移表、第27回は令和7年版）です。参院選は改選分の当選人数で、参議院全体の議席（非改選を含む）ではありません。当選後の入党・離党、追加公認、会派の組み替えは含みません。「与党の当選人数」は、このサイトの「与党の構成」に挙げた党の当選人数を足し合わせたものです。</p>
+    <p>政策の立場は、党の公約・公式資料・党が回答したアンケートだけを根拠にしています。「表明とその後」の記録は、政府・国会・政党の一次資料を中心に、日付などの確認に報道機関の記事や学術論文も使っています（出典の種類を表示）。まとめ記事・個人のブログ・団体の分析は使っていません。政党の機関紙は、その党自身の公約・発表の確認に限って使っています（種類を「政党の機関紙」と表示）。</p>
+    </details>
+    <details class="fold-plain" id="glossary"><summary>用語と略称</summary>
+    <dl class="gloss">
+    <dt>改選・非改選</dt><dd>参議院は3年ごとに半数ずつ選挙をします。その選挙で選ばれる議席が「改選」、任期の途中で選挙のない議席が「非改選」です。このサイトの参院選の当選人数は改選分です。</dd>
+    <dt>結果調</dt><dd>総務省がまとめる選挙結果の公式の集計（「衆議院議員総選挙・最高裁判所裁判官国民審査結果調」「参議院議員通常選挙結果調」）。議席の表の党派名は、結果調の略した表記のままです。</dd>
+    <dt>所信表明演説・施政方針演説</dt><dd>首相が国会で内閣の方針を述べる演説。施政方針演説は通常国会のはじめ、所信表明演説は臨時国会などで行います。</dd>
+    <dt>代表質問</dt><dd>首相の演説に対し、各会派の代表が本会議で行う質問。</dd>
+    <dt>明推協</dt><dd>公益財団法人 明るい選挙推進協会。国政選挙のあとに有権者への意識調査を行い、報告書を公開しています。</dd>
+    <dt>JES</dt><dd>日本の選挙研究者が共同で行ってきた全国の有権者調査（Japanese Election Study）。JES3・JES4・JESⅤ は回の違いです。</dd>
+    <dt>閣外協力</dt><dd>閣僚は出さずに、政権に協力すること。</dd>
+    <dt>党の回答</dt><dd>報道機関などのアンケートに、政党が答えたもの。立場の根拠のうち、公約などの党の資料ではなくアンケートの回答だけによるマスには、その旨を表示しています。</dd>
+    </dl>
+    <p><strong>同じ名前の別の党</strong>：<span id="sameName"></span></p>
+    <p><strong>議席の表の略称</strong>（系譜図に載っている党）：<span id="abbrList"></span>。ここにない略称（諸派・小政党）は結果調の表記のままです。</p>
+    </details>
+    <details class="fold-plain"><summary>運営者・誤りの報告</summary>
+    <p>運営：Michisus</p>
+    <p>誤りの報告・ご意見は <span id="issueLink"></span> で受け付けています。いただいた指摘は一次資料で確認し、訂正した内容と日付は同じ場所で公開します。</p>
+    <p>特定の政党・団体から依頼や資金を受けて作ったものではありません。</p>
+    <p>資料の検索・抜き出し・照合には、AI（Anthropic社のClaude）を使っています。引用は出典の原文と照合したうえで掲載しています。</p>
+    </details>
+    <details class="fold-plain" id="gaInfo"><summary>アクセス解析（利用者情報の外部送信）について</summary>
+    <p>このサイトでは、閲覧の状況を把握してサイトを改善するために、Google LLC のアクセス解析サービス「Google アナリティクス」を使います。閲覧したときに、次の情報がブラウザから Google に送信されます。</p>
+    <dl class="gloss">
+    <dt>送信先</dt><dd>Google LLC（Google アナリティクス）</dd>
+    <dt>送信される情報</dt><dd>閲覧したページのURL（「#」以降を含む）とページの題名、参照元のページ、閲覧日時、端末・OS・ブラウザの種類、画面の大きさ、言語の設定、Cookie などに保存される識別子、IPアドレス（Google がおおよその地域の推定に使います）。あわせて、このサイトでの次の操作：データのダウンロード、「このマスのリンクをコピー」、印刷、出典リンクのクリック（リンク先のURL）、系譜図の「党名で探す」に入力した語。</dd>
+    <dt>利用目的</dt><dd>どの画面・テーマがよく見られているかなど閲覧の状況を把握し、サイトを改善するため。広告には使いません。</dd>
+    <dt>送信先での扱い</dt><dd><a href="https://policies.google.com/technologies/partner-sites?hl=ja" target="_blank" rel="noopener">Google のサービスを使用するサイトやアプリから収集した情報の Google による使用</a>、<a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">Google プライバシーポリシー</a></dd>
+    <dt>停止のしかた</dt><dd>下のボタンで、このブラウザでの計測を止められます。すべてのサイトで止めるには <a href="https://tools.google.com/dlpage/gaoptout?hl=ja" target="_blank" rel="noopener">Google アナリティクス オプトアウト アドオン</a> を使えます。</dd>
+    </dl>
+    <p><span id="gaStatus"></span> <button type="button" class="linkbtn" id="gaToggle" hidden></button></p>
+    </details>
+    <details class="fold-plain"><summary>データのダウンロードと引用のしかた</summary>
+    <p>このサイトの文章とデータ（区分・整理・説明文）は、<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" rel="license">クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）</a>で提供します。出典を示せば、授業・報道・研究・商用を含めて自由に使えます。ただし、引用している党の資料・国会会議録・論文などの文言は、それぞれの著作権者の権利のままです。</p>
+    <p>引用の例：<span id="citeEx"></span></p>
+    <p>政策の立場の区分・扱いの大きさ・言い切り方、「表明とその後」の結果の区分は、このサイトの基準による整理です。引用するときは、その旨と各項目の出典（党の資料・政府資料など）も添えてください。</p>
+    <div class="dl"><button type="button" id="dlCsv">各党の立場の一覧（CSV）</button><button type="button" id="dlRec">表明とその後（CSV）</button><button type="button" id="dlJson">すべてのデータ（JSON）</button></div>
+    </details>
+  </footer>
+</div>
+
+<div class="backdrop" id="backdrop" hidden></div>
+<div class="vh" id="live" aria-live="polite"></div>
+<div class="bubble" id="bubble" role="status" hidden></div>
+<script>/*@JS*/</script>
+</body>
+</html>

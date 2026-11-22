@@ -1,11 +1,19 @@
 """政党クロニクルのビルド。
 
-data/*.json と src/template.html から dist/ を作る（Python 3 の標準ライブラリだけで動く）。
+小さなファイルに分けたテンプレートとデータを組み立てて dist/ を作る（Python 3 の標準ライブラリだけで動く）。
+
+- src/page.html      : ページの骨組み（/*@CSS*/ と /*@JS*/ の位置に下の2つを入れる）
+- src/css/*.css      : スタイル（ファイル名の順に連結）
+- src/js/*.js        : プログラム（ファイル名の順に連結）
+- data/<名前>/index.json : データの目次。{"$parts": [...]} は分けたファイルを連結（配列はつなぎ、
+                        オブジェクトは合わせる）、{"$items": [...]} は1ファイル1要素の配列を表す
+- public/            : そのまま dist/ にコピー（_headers・404.html・og/ の画像）
+
+出力：
 - dist/index.html   : サイト本体（1ファイル）
 - dist/theme/<id>/  : テーマ別の共有用ページ（SNS用のタイトル・画像を持ち、本体の該当画面へ移動する）
 - dist/party/<id>/  : 政党別の共有用ページ
-- dist/sitemap.xml  : サイトマップ
-- public/ の中身（_headers・robots.txt・404.html・og/ の画像）をそのまま dist/ にコピー
+- dist/sitemap.xml・dist/robots.txt
 
 公開URLは環境変数 SITE_URL で変えられる（既定は https://seito-chronicle.michisus.co.jp）。
 Google アナリティクスの測定IDは環境変数 GA_ID で変えられる（既定は下の GA_ID）。
@@ -24,13 +32,43 @@ GA_ID = os.environ.get("GA_ID", "G-2B0WVY5TKK")
 dist = root / "dist"
 
 
+def read(p):
+    return p.read_text(encoding="utf-8")
+
+
+def assemble(d, node):
+    """data/<名前>/index.json の目次をたどって、分けたファイルを1つのデータに戻す。"""
+    if isinstance(node, dict):
+        if "$parts" in node:
+            vals = [json.loads(read(d / f)) for f in node["$parts"]]
+            if all(isinstance(v, list) for v in vals):
+                return [x for v in vals for x in v]
+            merged = {}
+            for v in vals:
+                merged.update(v)
+            return merged
+        if "$items" in node:
+            return [json.loads(read(d / f)) for f in node["$items"]]
+        return {k: assemble(d, v) for k, v in node.items()}
+    return node
+
+
 def load(name):
-    return json.loads((root / "data" / name).read_text(encoding="utf-8"))
+    d = root / "data" / name
+    return assemble(d, json.loads(read(d / "index.json")))
 
 
-data, gov, st = load("genealogy.json"), load("governments.json"), load("stances.json")
-seats, records = load("seats.json"), load("records.json")
-tpl = (root / "src/template.html").read_text(encoding="utf-8")
+def template():
+    page = read(root / "src" / "page.html")
+    css = "".join(read(p) for p in sorted((root / "src" / "css").glob("*.css")))
+    js = "".join(read(p) for p in sorted((root / "src" / "js").glob("*.js")))
+    assert page.count("/*@CSS*/") == 1 and page.count("/*@JS*/") == 1
+    return page.replace("/*@CSS*/", css, 1).replace("/*@JS*/", js, 1)
+
+
+data, gov, st = load("genealogy"), load("governments"), load("stances")
+seats, records = load("seats"), load("records")
+tpl = template()
 j = lambda x: json.dumps(x, ensure_ascii=False)
 out = (tpl.replace("/*DATA*/", j(data)).replace("/*GOV*/", j(gov)).replace("/*STANCES*/", j(st))
        .replace("/*SEATS*/", j(seats)).replace("/*RECORDS*/", j(records)).replace("%%SITE_URL%%", SITE_URL))

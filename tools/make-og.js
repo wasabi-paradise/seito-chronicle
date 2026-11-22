@@ -3,7 +3,11 @@
 const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path');
 const root = path.join(__dirname, '..');
-const st = JSON.parse(fs.readFileSync(path.join(root, 'data/stances.json'), 'utf8'));
+// data/stances/index.json の目次から、分けたファイルを組み立てる（build.py と同じ規則）
+const dir = path.join(root, 'data/stances');
+const rd = f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+const asm = n => n && typeof n === 'object' && !Array.isArray(n) ? (n.$parts ? (v => v.every(Array.isArray) ? v.flat() : Object.assign({}, ...v))(n.$parts.map(rd)) : n.$items ? n.$items.map(rd) : Object.fromEntries(Object.entries(n).map(([k, v]) => [k, asm(v)]))) : n;
+const st = asm(rd('index.json'));
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const page = (kicker, title, sub) => `<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><style>
 html,body{margin:0;width:1200px;height:630px;background:#f6f4ef;color:#25282d;font-family:"Noto Sans CJK JP","Noto Sans JP",sans-serif}

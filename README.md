@@ -19,17 +19,22 @@
 
 ## 構成
 
+ふだんの修正が小さなファイル1〜2個で済むように、テンプレートとデータを役割ごとに分けています。ビルド（`build.py`）がこれらを組み立てて、1つの `dist/index.html` にします。
+
 | パス | 内容 |
 |---|---|
-| `data/genealogy.json` | 政党の系譜（結成・合流・分裂、出典） |
-| `data/governments.json` | 政権と与党の構成 |
-| `data/stances.json` | テーマ・区分・各党の立場（党の資料の文言と出典）、確認できなかったマスの理由 |
-| `data/records.json` | 表明とその後の記録 |
-| `data/seats.json` | 衆院選・参院選の党派別当選人数、各選挙の背景・論点 |
-| `src/template.html` | サイト本体のテンプレート（HTML・CSS・JavaScript） |
-| `build.py` | `dist/` を作るビルド（Python 3 の標準ライブラリのみ） |
+| `src/page.html` | ページの骨組み（HTML）。`/*@CSS*/` と `/*@JS*/` の位置に下の2つが入る |
+| `src/css/*.css` | スタイル。ファイル名の順に連結 |
+| `src/js/*.js` | プログラム。ファイル名の順に連結（01 初期化・アクセス解析・系譜図の配置 … 08 起動） |
+| `data/genealogy/` | 政党の系譜（結成・合流・分裂、出典）。`index.json` が目次、`parties-NN.json` が政党 |
+| `data/governments/` | 政権と与党の構成 |
+| `data/stances/` | テーマ・区分・各党の立場。立場は `stances-<テーマ>.json`、確認できなかったマスは `nodata-<テーマ>.json`、出典は `sources-NN.json` |
+| `data/records/` | 表明とその後の記録 |
+| `data/seats/` | 党派別当選人数と各選挙の背景・論点。衆院選は `shugiin-<回>.json`、参院選は `sangiin-<回>.json` |
 | `public/` | そのまま公開するファイル（`_headers`、`404.html`、共有用画像 `og/`） |
 | `tools/make-og.js` | 共有用画像を作るスクリプト（Node.js と Playwright が必要） |
+
+データの目次（`data/<名前>/index.json`）の書き方：`{"$parts": ["a.json", "b.json"]}` は分けたファイルを順につなぐ（配列は連結、オブジェクトは合わせる）、`{"$items": [...]}` は1ファイルに1要素ずつ入った配列を表します。新しいファイルを足したときは目次にも加えてください。
 
 ## ビルド
 
