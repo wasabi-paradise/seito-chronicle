@@ -51,7 +51,7 @@ node tools/make-og.js
 - デプロイコマンド：`npx wrangler deploy`（設定は `wrangler.jsonc`。`dist/` をそのまま公開）
 - 変数（独自ドメインのとき）：`SITE_URL`
 
-アクセス解析（Google アナリティクス 4）は、`src/template.html` の `GA_ID` に測定IDを入れると有効になります。空のあいだは何も送信しません。
+アクセス解析（Google アナリティクス 4）の測定IDは `build.py` の `GA_ID`（または環境変数 `GA_ID`）で設定します。空にすると何も送信しません。公開先（https の本番ドメイン）以外では読み込みません。
 
 ## ライセンス
 

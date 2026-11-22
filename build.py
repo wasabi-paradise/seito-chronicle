@@ -8,15 +8,19 @@ data/*.json と src/template.html から dist/ を作る（Python 3 の標準ラ
 - public/ の中身（_headers・robots.txt・404.html・og/ の画像）をそのまま dist/ にコピー
 
 公開URLは環境変数 SITE_URL で変えられる（既定は https://seito-chronicle.kimizuka-006.workers.dev）。
+Google アナリティクスの測定IDは環境変数 GA_ID で変えられる（既定は下の GA_ID）。
 """
 import html
 import json
 import os
 import pathlib
+import re
 import shutil
 
 root = pathlib.Path(__file__).parent
 SITE_URL = os.environ.get("SITE_URL", "https://seito-chronicle.kimizuka-006.workers.dev").rstrip("/")
+# Google アナリティクス 4 の測定ID（環境変数 GA_ID で上書き可。空にすると計測しない）
+GA_ID = os.environ.get("GA_ID", "G-2B0WVY5TKK")
 dist = root / "dist"
 
 
@@ -30,6 +34,10 @@ tpl = (root / "src/template.html").read_text(encoding="utf-8")
 j = lambda x: json.dumps(x, ensure_ascii=False)
 out = (tpl.replace("/*DATA*/", j(data)).replace("/*GOV*/", j(gov)).replace("/*STANCES*/", j(st))
        .replace("/*SEATS*/", j(seats)).replace("/*RECORDS*/", j(records)).replace("%%SITE_URL%%", SITE_URL))
+if not re.fullmatch(r"(G-[A-Z0-9]+)?", GA_ID):
+    raise SystemExit("GA_ID の形式が正しくありません: " + GA_ID)
+assert 'const GA_ID = "";' in out
+out = out.replace('const GA_ID = "";', f'const GA_ID = "{GA_ID}";')
 
 if dist.exists():
     shutil.rmtree(dist)
