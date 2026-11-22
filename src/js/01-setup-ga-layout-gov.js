@@ -272,6 +272,8 @@ function render() {
   addEventListener("pointermove", e => { if (!on) return; const dx = e.clientX - sx; if (Math.abs(dx) > 5) { moved = true; sc.classList.add("drag"); } if (moved) sc.scrollLeft = sl - dx; });
   addEventListener("pointerup", () => { on = false; setTimeout(() => sc.classList.remove("drag"), 0); });
   sc.addEventListener("click", e => { if (moved) { e.stopPropagation(); e.preventDefault(); moved = false; } }, true);
+  // 図の帯のない所を押すと、選択をやめてすべての党の表示に戻る
+  sc.addEventListener("click", e => { if (e.target.closest(".bar, .gseg, a, button")) return; if (document.getElementById("chart").classList.contains("focus")) select(null); });
 })();
 
 // ---- lineage ----
@@ -291,6 +293,16 @@ function walk(id, map, key) {
 }
 
 let current = null;
+// 党・内閣を選んでいる間だけ「すべての党を表示」を出し、詳細の先頭にも戻るボタンを置く
+function selUI(on) {
+  document.getElementById("clear").hidden = !on;
+  if (!on) return;
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "linkbtn backall-top desktop-only";
+  b.innerHTML = "← すべての党の表示に戻る";
+  b.addEventListener("click", () => { closeSheet(); select(null); });
+  document.getElementById("panelBody").prepend(b);
+}
 function select(id) {
   current = id;
   const svg = document.getElementById("chart");
@@ -298,6 +310,7 @@ function select(id) {
     svg.classList.remove("focus");
     svg.querySelectorAll(".on,.sel").forEach(n => n.classList.remove("on", "sel"));
     renderOverview();
+    selUI(false);
     return;
   }
   const up = walk(id, inL, "from"), down = walk(id, outL, "to");
@@ -311,6 +324,7 @@ function select(id) {
   svg.querySelectorAll(".link, .link-dot").forEach(n => n.classList.toggle("on", ls.has(+n.dataset.i)));
   svg.querySelectorAll(".gseg.sel").forEach(n => n.classList.remove("sel"));
   renderDetail(P[id]);
+  selUI(true);
   document.querySelectorAll("#mlist .prow").forEach(r => r.classList.toggle("sel", r.dataset.id === id));
   openSheet("panel");
   setHash(id);
@@ -325,6 +339,7 @@ function selectGov(gi) {
   svg.querySelectorAll(".link, .link-dot").forEach(n => n.classList.remove("on"));
   svg.querySelectorAll(".gseg").forEach(n => n.classList.toggle("sel", +n.dataset.gi === gi));
   renderGovDetail(gi);
+  selUI(true);
   openSheet("panel");
 }
 // 政権交代・連立の組み替えの経緯：事実、当事者それぞれの説明、研究者の資料を出典つきで並べる（サイトの評価は加えない）

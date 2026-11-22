@@ -61,6 +61,9 @@
 .bubble strong { font-weight: 700; }
 .ibtn { display: inline-flex; align-items: center; gap: 4px; }
 .ibtn svg { width: 16px; height: 16px; }
+.ibtn[hidden] { display: none; }
+.ibtn.backall { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.backall-top { display: block; text-align: left; margin: 0 0 10px; font-size: 13px; }
 details.fold > summary { list-style: none; cursor: pointer; }
 details.fold > summary::-webkit-details-marker { display: none; }
 details.fold > summary::after { content: "開く"; font-size: 12px; color: var(--accent); margin-left: auto; }
