@@ -10,11 +10,12 @@ const GA = (() => {
   let off = false; try { off = localStorage.getItem("gaOptOut") === "1"; } catch (e) {}
   const host = location.hostname;
   const allowed = !!GA_ID && /^https:$/.test(location.protocol) && !/(^|\.)claude(usercontent)?\.(ai|com)$/.test(host) && host !== "localhost";
-  let on = false, lastPath = null, configured = false;
+  let on = false, lastPath = null;
   const start = () => {
     if (on || !allowed || off) return; on = true;
     window.dataLayer = window.dataLayer || []; window.gtag = function () { dataLayer.push(arguments); };
-    gtag("js", new Date());
+    // gtag.js は読み込み時に自動で page_view を1回送るため、先に止めておく（page_view は下の page() からだけ送る）
+    gtag("set", { send_page_view: false }); gtag("js", new Date()); gtag("config", GA_ID, { send_page_view: false });
     const sc = document.createElement("script"); sc.async = true; sc.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(GA_ID); document.head.appendChild(sc);
   };
   return {
@@ -24,9 +25,7 @@ const GA = (() => {
     page() { if (!on || off) return; const loc = location.href; if (loc === lastPath) return; lastPath = loc;
       // GA4 は URL の「#」以降を記録しないため、画面の区別（#seisaku-… など）を ?view= に移して送る
       const h = location.hash.replace(/^#/, ""), pl = location.origin + location.pathname + (h ? "?view=" + encodeURIComponent(h) : "");
-      // 最初の画面は config で送る（読み込み時の page_view が自動で1回送られるため、そこに ?view= を載せる）。以降の画面の切り替えは page_view を送る
-      if (!configured) { configured = true; gtag("config", GA_ID, { page_location: pl, page_title: document.title }); }
-      else { gtag("set", { page_location: pl, page_title: document.title }); gtag("event", "page_view", { page_location: pl, page_title: document.title }); } },
+      gtag("set", { page_location: pl, page_title: document.title }); gtag("event", "page_view", { page_location: pl, page_title: document.title }); },
     ev(name, params) { if (on && !off) gtag("event", name, params || {}); }
   };
 })();
