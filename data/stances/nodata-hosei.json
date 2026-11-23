@@ -166,5 +166,26 @@
   "theme": "hosei",
   "asName": null,
   "reason": "選挙公報で、安保法制への言及を確認できなかった（党サイトの公約PDFは削除されている）"
+ },
+ {
+  "party": "sansei",
+  "election": "s2024",
+  "theme": "hosei",
+  "asName": null,
+  "reason": "党の公約（参政党公約2024「3つの決意と7つの行動」。日経掲載の公約PDF・選挙公報）と党のアンケート回答（選挙ドットコム）で、安保法制への言及を確認できなかった"
+ },
+ {
+  "party": "sansei",
+  "election": "s2025",
+  "theme": "hosei",
+  "asName": null,
+  "reason": "選挙公報（3つの柱と9の政策）と党のアンケート回答（選挙ドットコム）で、安保法制への言及を確認できなかった"
+ },
+ {
+  "party": "sansei",
+  "election": "s2026",
+  "theme": "hosei",
+  "asName": null,
+  "reason": "党の公約（日経掲載の公約PDF）と党のアンケート回答（選挙ドットコム）で、安保法制への言及を確認できなかった"
  }
 ]
