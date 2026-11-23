@@ -21,7 +21,7 @@ CSS = """body{margin:0;background:#f6f4ef;color:#25282d;font:16px/1.75 "Hiragino
 nav.bc{font-size:13px;color:#6b6860;margin:6px 0 18px}nav.bc a{color:#6b6860}h1{font-size:26px;line-height:1.4;margin:0 0 10px}
 h2{font-size:20px;margin:34px 0 8px;padding-top:10px;border-top:1px solid #ddd8cc}h3{font-size:16px;margin:22px 0 6px}
 .lead{font-size:16px}.app{display:inline-block;margin:10px 0 4px;padding:8px 16px;border:2px solid #25282d;border-radius:8px;font-weight:700;text-decoration:none}
-.note{font-size:13px;color:#6b6860}table{border-collapse:collapse;width:100%;font-size:14px;margin:6px 0 10px;background:#fffdf9}
+.note{font-size:13px;color:#6b6860}footer button{font:inherit;font-size:13px;background:none;border:0;padding:0;text-decoration:underline;color:#25282d;cursor:pointer}table{border-collapse:collapse;width:100%;font-size:14px;margin:6px 0 10px;background:#fffdf9}
 th,td{border:1px solid #ddd8cc;padding:6px 8px;text-align:left;vertical-align:top}th{background:#f0ede5;font-weight:600}td.n{text-align:right;font-variant-numeric:tabular-nums}
 .pos{font-weight:700;white-space:nowrap}ul.links{columns:2;padding-left:1.2em}footer{margin-top:40px;font-size:13px;color:#6b6860;border-top:1px solid #ddd8cc;padding-top:12px}
 td,th{overflow-wrap:anywhere}
@@ -35,9 +35,22 @@ def ymd(s):
     return f"{p[0]}年" + (f"{p[1]}月" if len(p) > 1 else "") + (f"{p[2]}日" if len(p) > 2 else "")
 
 
+# アクセス解析（本体と同じ測定ID・同じ停止の設定〈localStorage の gaOptOut〉を使う。https の公開先だけで動く）
+GA_JS = """(function(){var ID=%s;var off=false;try{off=localStorage.getItem("gaOptOut")==="1"}catch(e){}
+if(ID)window["ga-disable-"+ID]=off;var h=location.hostname;
+if(!ID||off||location.protocol!=="https:"||h==="localhost"||/(^|\\.)claude(usercontent)?\\.(ai|com)$/.test(h))return;
+window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",ID);
+var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+encodeURIComponent(ID);document.head.appendChild(s);
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href^='http']");if(a&&a.host!==location.host)gtag("event","click_source",{link_url:a.href})});})();"""
+GA_FOOT_JS = """(function(){var b=document.getElementById("gaToggle"),t=document.getElementById("gaStatus");if(!b)return;
+function off(){try{return localStorage.getItem("gaOptOut")==="1"}catch(e){return false}}
+function draw(){t.textContent=off()?"このブラウザでは計測を停止しています。":"このブラウザで計測しています。";b.textContent=off()?"計測を再開する":"計測を停止する"}
+b.addEventListener("click",function(){try{localStorage.setItem("gaOptOut",off()?"0":"1")}catch(e){}draw();if(!off())location.reload()});b.hidden=false;draw();})();"""
+
+
 class Ctx:
-    def __init__(self, site_url, dist, data, gov, st, seats, records):
-        self.U, self.dist = site_url, dist
+    def __init__(self, site_url, dist, data, gov, st, seats, records, ga_id=""):
+        self.U, self.dist, self.ga = site_url, dist, ga_id
         self.data, self.gov, self.st, self.seats, self.rec = data, gov, st, seats, records
         self.P = {p["id"]: p for p in data["parties"]}
         self.SP = {p["id"]: p for p in st["parties"]}
@@ -82,6 +95,7 @@ class Ctx:
 <link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" href="/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
+{f"<script>{GA_JS % json.dumps(self.ga)}</script>" if self.ga else ""}
 </head>
 <body><div class="w">
 <header><a class="s" href="/">{SITE}</a> <span class="note">政党の政策・議席・ルーツがわかる</span></header>
@@ -95,6 +109,7 @@ class Ctx:
 <p>{SITE}（運営：Michisus）。{ymd(self.asof)}時点のデータ。記述は出典に書かれている範囲にとどめ、推測や評価は加えていません。立場の区分・結果の区分は、サイトで公開している基準による整理です。</p>
 <p>文章とデータは <a href="{LICENSE}" rel="license">CC BY 4.0</a>（引用している党の資料・会議録などの文言は、それぞれの著作権者の権利のまま）。<a href="/data/">データのダウンロード</a>・<a href="https://github.com/wasabi-paradise/seito-chronicle/issues">誤りの報告</a></p>
 <p><a href="/theme/">テーマの一覧</a>・<a href="/party/">政党の一覧</a>・<a href="/election/">選挙の一覧</a></p>
+{f'<p>このページでは Google アナリティクスで閲覧の状況を計測しています（送信される情報・利用目的は、<a href="/">トップページ</a>の下の「アクセス解析（利用者情報の外部送信）について」に記載）。<span id="gaStatus"></span> <button type="button" id="gaToggle" hidden>計測を停止する</button></p><script>{GA_FOOT_JS}</script>' if self.ga else ""}
 </footer>
 </div></body>
 </html>
@@ -339,8 +354,8 @@ class Ctx:
                   [("データ", f"{self.U}/data/")], body, None, image="data", alt=f"データのダウンロード ｜ {SITE}", ld_extra=ds)
 
 
-def build(site_url, dist, data, gov, st, seats, records):
-    c = Ctx(site_url, dist, data, gov, st, seats, records)
+def build(site_url, dist, data, gov, st, seats, records, ga_id=""):
+    c = Ctx(site_url, dist, data, gov, st, seats, records, ga_id)
     c.themes()
     c.parties()
     c.elections()

@@ -97,7 +97,7 @@ if pub.exists():
 
 import pages  # noqa: E402  検索とSNS共有のための静的ページ
 
-urls = [f"{SITE_URL}/"] + pages.build(SITE_URL, dist, data, gov, st, seats, records)
+urls = [f"{SITE_URL}/"] + pages.build(SITE_URL, dist, data, gov, st, seats, records, GA_ID)
 
 sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 sm += [f"  <url><loc>{html.escape(u)}</loc><lastmod>{data['asOf']}</lastmod></url>" for u in urls]

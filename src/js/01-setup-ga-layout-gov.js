@@ -21,7 +21,10 @@ const GA = (() => {
     allowed: () => allowed, optedOut: () => off,
     setOptOut(v) { off = !!v; try { localStorage.setItem("gaOptOut", v ? "1" : "0"); } catch (e) {} if (GA_ID) window["ga-disable-" + GA_ID] = off; if (!off) { start(); this.page(); } },
     init() { if (GA_ID) window["ga-disable-" + GA_ID] = off; start(); },
-    page() { if (!on || off) return; const loc = location.href; if (loc === lastPath) return; lastPath = loc; gtag("event", "page_view", { page_location: loc, page_title: document.title }); },
+    page() { if (!on || off) return; const loc = location.href; if (loc === lastPath) return; lastPath = loc;
+      // GA4 は URL の「#」以降を記録しないため、画面の区別（#seisaku-… など）を ?view= に移して送る
+      const h = location.hash.replace(/^#/, ""), pl = location.origin + location.pathname + (h ? "?view=" + encodeURIComponent(h) : "");
+      gtag("event", "page_view", { page_location: pl, page_title: document.title }); },
     ev(name, params) { if (on && !off) gtag("event", name, params || {}); }
   };
 })();
