@@ -24,7 +24,7 @@ const GA = (() => {
     page() { if (!on || off) return; const loc = location.href; if (loc === lastPath) return; lastPath = loc;
       // GA4 は URL の「#」以降を記録しないため、画面の区別（#seisaku-… など）を ?view= に移して送る
       const h = location.hash.replace(/^#/, ""), pl = location.origin + location.pathname + (h ? "?view=" + encodeURIComponent(h) : "");
-      gtag("event", "page_view", { page_location: pl, page_title: document.title }); },
+      gtag("set", { page_location: pl, page_title: document.title }); gtag("event", "page_view", { page_location: pl, page_title: document.title }); },
     ev(name, params) { if (on && !off) gtag("event", name, params || {}); }
   };
 })();
