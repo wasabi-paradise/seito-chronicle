@@ -84,7 +84,7 @@ class Ctx:
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head>
 <body><div class="w">
-<header><a class="s" href="/">{SITE}</a> <span class="note">戦後の政党と、公約のその後</span></header>
+<header><a class="s" href="/">{SITE}</a> <span class="note">政党の政策・議席・ルーツがわかる</span></header>
 <nav class="bc" aria-label="パンくず">{" › ".join(f'<a href="{E(u)}">{E(n)}</a>' for n, u in bc[:-1])} › {E(bc[-1][0])}</nav>
 <main>
 <h1>{E(title)}</h1>

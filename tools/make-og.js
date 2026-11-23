@@ -19,11 +19,11 @@ html,body{margin:0;width:1200px;height:630px;background:#f6f4ef;color:#25282d;fo
 .b{font-size:44px;font-weight:800}.b span{display:block;font-size:24px;font-weight:500;color:#6b6760;margin-top:6px}
 .n{font-size:22px;color:#6b6760;text-align:right;line-height:1.6}
 </style></head><body><div class="w"><div><div class="k">${esc(kicker)}</div><div class="t">${esc(title)}</div>${sub ? `<div class="s">${esc(sub)}</div>` : ''}</div>
-<div class="f"><div class="b">政党クロニクル<span>戦後の政党と、公約のその後</span></div><div class="n">党の資料などの出典つき</div></div></div></body></html>`;
+<div class="f"><div class="b">政党クロニクル<span>政党の政策・議席・ルーツがわかる</span></div><div class="n">党の資料などの出典つき</div></div></div></body></html>`;
 (async () => {
   const out = path.join(root, 'public/og'); fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1200, height: 630 } });
-  const jobs = [['default', page('戦後の政党の系譜と、各党の政策の立場', 'その公約、そのあとどうなった？', '結成・合流・分裂の系譜／2016〜2026年の各党の立場')]];
+  const jobs = [['default', page('各党の政策の立場・選挙の議席・政党の系譜', 'その公約、そのあとどうなった？', '2016〜2026年の各党の立場／戦後の選挙／政党の系譜')]];
   st.themes.forEach(t => jobs.push(['theme-' + t.id, page('テーマで比べる：各党の立場', t.name, '問い：' + t.question)]));
   st.parties.forEach(p => jobs.push(['party-' + p.id, page('政党ごとに見る：政策の立場の移り変わり', p.name.replace(/（.*?）/, ''), ((p.name.match(/（(.*?)）/) || [])[1] ? (p.name.match(/（(.*?)）/)[1] + '／') : '') + '2016〜2026年の国政選挙')]));
   jobs.push(['elections', page('選挙ごとに見る：党派別の当選人数', '戦後の衆院選・参院選の結果', '総務省の結果調の数字／選挙の背景と有権者の調査')]);
