@@ -12,7 +12,7 @@ function renderMobileStance(theme) {
     const s = ST.stances.find(x => x.party === p.id && x.theme === curTheme && x.election === e.id);
     if (!s) return `<div class="mrow na"><span class="pt">${esc(p.short)}</span><span>${ndLabel(p.id, curTheme, e.id)}</span></div>`;
     const pcm = prevChange(p.id, curTheme, e.id);
-    return `<button type="button" class="mrow" data-key="${p.id}|${e.id}"><span class="pt">${esc(p.short)}${pcm ? "<br>" + CHG(pcm) : ""}</span>
+    return `<button type="button" class="mrow${pcm && pcm.kind === "chg" ? " chgd" : ""}" data-key="${p.id}|${e.id}"><span class="go" aria-hidden="true">›</span><span class="pt">${esc(p.short)}${pcm ? "<br>" + CHG(pcm) : ""}</span>
       <span class="mpos">${s.asName ? `<span class="as">${esc(s.asName)}として</span>` : ""}<span class="pos" style="${posStyle(theme, s.position)}">${esc(theme.scale.find(x => x.id === s.position).label)}</span></span>
       <span class="cellmeta">${s.commit ? `<span class="tip" role="img" aria-label="言い切り方：${cmLabel(s.commit)}">${cmIcon(s.commit)}</span>` : ""}${s.temp === null || s.temp === undefined ? "" : tempIcon(s.temp)}${s.flag ? `<span class="tip" role="img" aria-label="要確認">${ic("flag")}</span>` : ""}</span></button>`;
   }).join("");
@@ -20,6 +20,8 @@ function renderMobileStance(theme) {
 }
 const OUT_COLOR = { realized: "#3f7f8c", modified: "#5f81a8", postponed: "#7b6ea8", inprogress: "#8c7a45", disputed: "#7d7d7d", reversed: "#a8613f", changed: "#8a6a8f", emphasis: "#6d8662" };
 Object.keys(OUT_COLOR).forEach(k => { OUT_COLOR[k] = readableBg(OUT_COLOR[k]); });
+// 結果の区分は色だけでなく形の違う記号でも示す
+function outIc(id) { return ICONS["o_" + id] ? ic("o_" + id) : ""; }
 const CMP_ICON = { action: "after", pledge: "between", merger: "merger" };
 let oFilter = null, pFilter = null;
 const PRIMARY_KINDS = new Set(["政府資料", "国会会議録", "国会資料", "政党の公式発表", "政党間の合意文書", "政府間の合意文書", "政党の公約原文", "政党の回答", "選挙公報", "政党の公式資料"]);
@@ -45,10 +47,10 @@ function recordHTML(r) {
   return `<article class="pledge compact" id="${r.id}">
     <header>
       <div class="who">${tip(CMP_ICON[r.compare], PL.compares[r.compare], `<p><strong>${esc(PL.compares[r.compare])}</strong></p>`)}${tip(COMMIT_ICON[r.commit] || "doc", ck, `<p><strong>最初の表明：${esc(ck)}</strong></p>` + (r.commit === "leader" ? "<p>選挙公約の文書ではなく、党の代表が選挙戦などで約束した内容です。</p>" : ""))}${r.fromParty ? `<button type="button" class="linkbtn" data-keifu="${r.fromParty}">${esc(P[r.fromParty].name)}</button><span>→</span>` : ""}<button type="button" class="linkbtn" data-keifu="${r.party}">${esc(P[r.party].name)}</button><span>${r.fromParty ? `${fmt(r.date)}の公約から` : fmt(r.date)}</span>${curAxis === "party" || curTheme === "all" || curTheme === "other" ? `<span class="kindpill">${esc(themeName(r.theme))}</span>` : ""}${r.era === "pre2003" ? tip("info", "2003年以前の事例", "<p>マニフェスト導入（2003年）より前の大きな事例です。</p>") : ""}${r.flag ? FLAG(r.flag) : ""}</div>
-      <h3>${esc(r.title)}</h3><a class="reclink" href="#${r.id}">この記録へのリンク</a>
+      <h3>${esc(r.title)}</h3>
     </header>
-    ${r.steps.length ? `<p class="flow">${fmt(st.date)} ${esc(st.label || ck)} → ${fmt(r.steps[r.steps.length - 1].date)} ${esc(r.steps[r.steps.length - 1].label)}</p>` : ""}
-    <div class="res"><span class="opill" style="background:${OUT_COLOR[r.outcome]}">${esc(o.label)}</span>${tip("info", "結果の区分", `<p><strong>${esc(o.label)}</strong></p><p>${esc(o.desc)}</p>`)}${recCheckIcon(r)}</div>
+    ${r.steps.length ? `<p class="flow"><span><small>${fmt(st.date)}</small>${esc(st.label || ck)}</span><span class="rp-arrow" aria-label="その後">→</span><span><small>${fmt(r.steps[r.steps.length - 1].date)}</small>${esc(r.steps[r.steps.length - 1].label)}</span></p>` : ""}
+    <div class="res"><span class="opill" style="background:${OUT_COLOR[r.outcome]}">${outIc(r.outcome)}${esc(o.label)}</span>${tip("info", "結果の区分", `<p><strong>${esc(o.label)}</strong></p><p>${esc(o.desc)}</p>`)}${recCheckIcon(r)}<span class="rshare"><button type="button" class="linkbtn" data-rec-share="${r.id}">${ic("share")}<span>この記録を共有</span></button><span class="pending" data-act-msg role="status"></span></span></div>
     <details class="more"><summary>${ic("chev")}詳しく（最初の表明と、その後${r.steps.length}件）</summary>
       <div class="inner">
         ${recCheckLine(r)}<div class="col"><h4>最初の表明${st.label ? "：" + esc(st.label) : ""}（${fmt(st.date)}）</h4><blockquote>${esc(st.text)}</blockquote><div class="srcs">${pSrc(st.sources)}</div>${r.summary ? `<h4>${r.compare === "action" ? "結果" : "背景"}</h4><p style="margin:0">${esc(r.summary)}</p>` : ""}${r.note ? `<p class="note">${ic("info")}<span><strong>注記</strong>　${esc(r.note)}</span></p>` : ""}</div>
@@ -84,7 +86,7 @@ function renderRecords() {
   obar.hidden = !inTheme.length;
   obar.innerHTML = PL.outcomes.map(o => {
     const n = inTheme.filter(r => r.outcome === o.id).length;
-    return n ? `<button type="button" class="ofilter" data-o="${o.id}" aria-pressed="${oFilter === o.id}"><span class="opill" style="background:${OUT_COLOR[o.id]}">${esc(o.label)}</span><b>${n}</b></button>` : "";
+    return n ? `<button type="button" class="ofilter" data-o="${o.id}" aria-pressed="${oFilter === o.id}"><span class="opill" style="background:${OUT_COLOR[o.id]}">${outIc(o.id)}${esc(o.label)}</span><b>${n}</b></button>` : "";
   }).join("");
   let list = oFilter ? inTheme.filter(r => r.outcome === oFilter) : inTheme;
   const parties = [...new Set(list.map(r => r.party))];
@@ -105,6 +107,7 @@ function renderRecords() {
   document.querySelectorAll("#obar [data-o]").forEach(b => b.addEventListener("click", () => { oFilter = oFilter === b.dataset.o ? null : b.dataset.o; renderRecords(); }));
   document.querySelectorAll("#pbar [data-p]").forEach(b => b.addEventListener("click", () => { pFilter = b.dataset.p || null; renderRecords(); }));
   document.querySelectorAll("#records [data-keifu]").forEach(b => b.addEventListener("click", () => { showView("keifu"); select(b.dataset.keifu); scrollToParty(b.dataset.keifu); }));
+  document.querySelectorAll("#records [data-rec-share]").forEach(b => b.addEventListener("click", () => { const r = allRecords().find(x => x.id === b.dataset.recShare); shareLink(pageURL(b.dataset.recShare), (r ? r.title + " ｜ " : "") + "政党クロニクル", b.parentElement.querySelector("[data-act-msg]")); }));
 }
 document.getElementById("rsearch").addEventListener("input", () => { oFilter = null; pFilter = null; renderRecords(); });
 function renderCriteria() {
@@ -125,7 +128,7 @@ function renderCriteria() {
     <p><strong>言い切り方</strong>は、公約の文末の表現で判定します（原文の表現は各マスの詳細に載せています）。</p>
     <dl>${(ST.commitScale || []).map(c => `<dt>${cmIcon(c.id)} ${esc(c.label)}</dt><dd>${esc(c.desc)}</dd>`).join("")}</dl>
     <p><strong>表明とその後</strong>は、党がある時点で掲げたこと（公約・党首の発言など）と、その後に起きたこと（決定・次の公約・合流後の公約）を、評価の言葉を使わずに並べたものです。結果の区分は次のとおりです。</p>
-    <dl>${PL.outcomes.map(o => `<dt><span class="opill" style="background:${OUT_COLOR[o.id]}">${esc(o.label)}</span></dt><dd>${esc(o.desc)}</dd>`).join("")}</dl>
+    <dl>${PL.outcomes.map(o => `<dt><span class="opill" style="background:${OUT_COLOR[o.id]}">${outIc(o.id)}${esc(o.label)}</span></dt><dd>${esc(o.desc)}</dd>`).join("")}</dl>
     <p>比べた相手はアイコンで示しています：${ic("after")} その後の決定・実施　${ic("between")} 次の公約　${ic("merger")} 合流後の公約</p>
     <p>2003年（マニフェスト導入）以降を中心にし、それ以前は大きな事例だけを載せています。</p>
     <p>記録は、党の公約や表明について、その後の決定・次の公約・合流後の公約を資料で確かめられたものを載せています。「その後の決定」は政権を担った党で確かめやすいため、与党経験のある党の記録が多くなっています。</p>`;

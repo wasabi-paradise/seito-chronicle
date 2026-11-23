@@ -62,7 +62,7 @@ const KIND_ICON = { after: "after", between: "between", merger: "merger", temper
 // ---- stances view ----
 const KIND_LABEL = { after: "選挙後の実施内容", between: "選挙間での公約の変化", merger: "合流による変化", temperature: "扱いの大きさの変化" };
 const SP = Object.fromEntries(ST.parties.map(p => [p.id, p]));
-let curTheme = ST.themes[0].id, curCell = null, curElection = null, curAxis = "theme", curParty = "jimin", curParty2 = null; let ptMode = "election";
+let curTheme = ST.themes[0].id, curCell = null, curElection = null, curAxis = "theme", curParty = "jimin", curParty2 = null; let ptMode = "election", cmpOpen = false;
 
 function tempHTML(v) {
   if (v === null || v === undefined) return '<span>扱いの大きさ：未判定</span>';
@@ -79,8 +79,8 @@ function srcLinks(ids) {
 }
 function renderThemebar() {
   const bar = document.getElementById("themebar");
-  bar.innerHTML = allThemes().map(t => `<button type="button" data-theme="${t.id}" aria-pressed="${t.id === curTheme}">${esc(t.name)}</button>`).join("")
-    + `<button type="button" data-theme="all" aria-pressed="${curTheme === "all"}">すべてのテーマ</button>`
+  bar.innerHTML = allThemes().map(t => `<button type="button" class="tbtn" data-theme="${t.id}" aria-pressed="${t.id === curTheme}">${themeIc(t.id)}${esc(t.name)}</button>`).join("")
+    + `<button type="button" class="tbtn tall" data-theme="all" aria-pressed="${curTheme === "all"}">${themeIc("all")}すべてのテーマ</button>`
     + `<span class="soon" style="display:inline-flex">${tip("info", "この画面の見方", TIPS.seisaku)}</span>`;
   bar.querySelectorAll("[data-theme]").forEach(b => b.addEventListener("click", () => { curTheme = b.dataset.theme; curCell = null; oFilter = null; pFilter = null; renderStances(); setHash("seisaku-" + curTheme); }));
 }
@@ -139,11 +139,19 @@ function renderPartyView() {
   bar.querySelectorAll("[data-party]").forEach(b => b.addEventListener("click", () => { curParty = b.dataset.party; if (curParty2 === curParty) curParty2 = null; curCell = null; oFilter = null; renderStances(); setHash(seisakuHash()); }));
   const p2 = curParty2 ? SP[curParty2] : null;
   document.getElementById("posmap").hidden = true;
+  document.getElementById("recprev").hidden = true;
+  document.getElementById("chgOnlyWrap").hidden = true;
   document.getElementById("nomatrix").hidden = true;
   document.getElementById("matrixArea").hidden = false;
   document.getElementById("themeq").innerHTML = p2 ? `${esc(p.short)}と${esc(p2.short)}：テーマごとの立場を並べて比べる（上が${esc(p.short)}、下が${esc(p2.short)}）` : `${esc(p.name)}：テーマごとの立場の移り変わり`;
-  document.getElementById("themeq").insertAdjacentHTML("beforeend", `<label class="cmpsel">比べる党<select id="cmpParty"><option value="">なし</option>${ST.parties.filter(x => x.id !== curParty).map(x => `<option value="${x.id}"${x.id === curParty2 ? " selected" : ""}>${esc(x.short)}</option>`).join("")}</select></label>`);
-  document.getElementById("cmpParty").addEventListener("change", e => { curParty2 = e.target.value || null; curCell = null; renderStances(); setHash(seisakuHash()); });
+  // 比べる党：ボタンで党の一覧を開き、選ぶと2党を上下に並べる
+  const cmp = p2 ? `<span class="cmpbar"><button type="button" class="ibtn" data-cmp-off>${ic("close")}<span>${esc(p2.short)}との比較をやめる</span></button></span>`
+    : cmpOpen ? `<span class="cmpbar" role="group" aria-label="並べる党を選ぶ"><span class="pending">並べる党：</span>${ST.parties.filter(x => x.id !== curParty).map(x => `<button type="button" class="pbtn" data-cmp="${x.id}">${esc(x.short)}</button>`).join("")}<button type="button" class="linkbtn" data-cmp-off>やめる</button></span>`
+    : `<span class="cmpbar"><button type="button" class="ibtn cmp-open" data-cmp-open><b aria-hidden="true">＋</b><span>ほかの党と並べて比べる</span></button></span>`;
+  document.getElementById("themeq").insertAdjacentHTML("beforeend", cmp);
+  document.querySelectorAll("#themeq [data-cmp]").forEach(b => b.addEventListener("click", () => { curParty2 = b.dataset.cmp; cmpOpen = false; curCell = null; renderStances(); setHash(seisakuHash()); }));
+  document.querySelectorAll("#themeq [data-cmp-off]").forEach(b => b.addEventListener("click", () => { curParty2 = null; cmpOpen = false; curCell = null; renderStances(); setHash(seisakuHash()); }));
+  document.querySelectorAll("#themeq [data-cmp-open]").forEach(b => b.addEventListener("click", () => { cmpOpen = true; renderStances(); const f = document.querySelector("#themeq [data-cmp]"); if (f) f.focus(); }));
   const head = `<thead><tr><th>テーマ</th>${ST.elections.map(e => `<th>${esc(e.name)}<span class="sub">${fmt(e.date)}投開票</span></th>`).join("")}</tr></thead>`;
   const rows = ST.themes.map(theme => {
     const one = (pid, e, lab) => {
@@ -151,10 +159,10 @@ function renderPartyView() {
       if (r.notYet) return `<div class="empty">${who}（未結成）</div>`;
       if (!r.s) return `<div class="empty">${who}${r.via ? esc(r.via) + "として：" : ""}${ndLabel(r.ps, theme.id, e.id)}${isND(r.ps, theme.id, e.id) ? NDTIP() : ""}</div>`;
       const key = `${r.ps}|${e.id}`;
-      return `<button type="button" class="cell${curCell === key && curTheme === theme.id ? " sel" : ""}" data-key="${key}" data-theme="${theme.id}">${who}${partyCellInner(theme, r)}</button>`;
+      return `<button type="button" class="cell${curCell === key && curTheme === theme.id ? " sel" : ""}" data-key="${key}" data-theme="${theme.id}"><span class="go" aria-hidden="true">›</span>${who}${partyCellInner(theme, r)}</button>`;
     };
     const cells = ST.elections.map(e => p2 ? `<td><div class="pair">${one(curParty, e, true)}${one(curParty2, e, true)}</div></td>` : `<td>${one(curParty, e, false)}</td>`).join("");
-    return `<tr><th class="party trow" scope="row"><button type="button" class="linkbtn" data-goto-theme="${theme.id}">${esc(theme.name)}</button></th>${cells}</tr>`;
+    return `<tr><th class="party trow" scope="row"><button type="button" class="linkbtn" data-goto-theme="${theme.id}">${themeIc(theme.id)}${esc(theme.name)}</button></th>${cells}</tr>`;
   }).join("");
   const m = document.getElementById("matrix");
   m.innerHTML = head + "<tbody>" + rows + "</tbody>";
@@ -174,13 +182,13 @@ function renderPartyView() {
       if (notYetFor(pp, e)) return `<div class="mrow na"><span class="pt">${lab}</span><span>${esc(pp.short)}：未結成</span></div>`;
       const r = stanceFor(pid, theme.id, e);
       if (!r.s) return `<div class="mrow na"><span class="pt">${lab}</span><span>${p2 ? esc(pp.short) + "：" : ""}${ndLabel(r.ps, theme.id, e.id)}</span></div>`;
-      return `<button type="button" class="mrow" data-key="${r.ps}|${e.id}" data-theme="${theme.id}"><span class="pt">${lab}</span><span class="mpos">${p2 ? `<span class="as">${esc(pp.short)}</span>` : ""}${partyCellInner(theme, r)}</span></button>`;
+      return `<button type="button" class="mrow" data-key="${r.ps}|${e.id}" data-theme="${theme.id}"><span class="go" aria-hidden="true">›</span><span class="pt">${lab}</span><span class="mpos">${p2 ? `<span class="as">${esc(pp.short)}</span>` : ""}${partyCellInner(theme, r)}</span></button>`;
     };
     return row(curParty, esc(theme.name)) + (p2 ? row(curParty2, "") : "");
   }).join("");
   const ptToggle = `<div class="seg" id="ptmode" role="group" aria-label="表示のしかた" style="margin:10px;display:flex"><button type="button" data-pt="election" aria-pressed="${ptMode === "election"}" style="flex:1">選挙ごと</button><button type="button" data-pt="trend" aria-pressed="${ptMode === "trend"}" style="flex:1">テーマごとの推移</button></div>`;
   seg.style.display = ptMode === "trend" ? "none" : "";
-  const trendHTML = ST.themes.map(theme => `<div class="mtrend"><h3>${esc(theme.name)}</h3><ul class="trend">${ST.elections.map(el => {
+  const trendHTML = ST.themes.map(theme => `<div class="mtrend"><h3>${themeIc(theme.id)}${esc(theme.name)}</h3><ul class="trend">${ST.elections.map(el => {
     const one = pid => { const pp = SP[pid]; if (notYetFor(pp, el)) return '<span class="pending">（未結成）</span>';
       const r = stanceFor(pid, theme.id, el); if (!r.s) return `<span class="pending">${ndLabel(r.ps, theme.id, el.id)}</span>`;
       return `<button type="button" class="mtb" data-key="${r.ps}|${el.id}" data-theme="${theme.id}" style="background:none;border:none;padding:0;text-align:left">${p2 ? `<span class="as">${esc(pp.short)} </span>` : ""}<span class="pos" style="${posStyle(theme, r.s.position)}">${esc(theme.scale.find(z => z.id === r.s.position).label)}</span></button>`; };

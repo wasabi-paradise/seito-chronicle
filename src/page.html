@@ -26,23 +26,24 @@
     <div class="meta"><span id="asof"></span></div>
   </header>
   <section class="intro card" id="intro" aria-label="はじめに">
-    <p class="intro-lead">戦後の政党が、どこから生まれて、どう分かれ、どう合わさってきたか。いまの各党が、消費税や原発などのテーマでどんな立場をとってきたか。資料の出典つきでたどれます。</p>
+    <p class="intro-lead">いまの各党が、消費税や原発などのテーマでどんな立場をとってきたか。掲げた公約がその後どうなったか。戦後の政党がどう分かれ、どう合わさってきたか。党の資料などの出典つきでたどれます。<span class="intro-next">まずは下の「いまの構図」で、テーマごとに各党の立場を見比べられます。</span></p>
     <div class="intro-go">
-      <button type="button" data-go="keifu"><b>いまの政党のルーツ</b><span>結成・合流・分裂と政権の歩み</span></button>
-      <button type="button" data-go="theme"><b>テーマで比べる</b><span>消費税・原発・子育てなどで各党を比べる</span></button>
-      <button type="button" data-go="party"><b>政党ごとに見る</b><span>1つの党の立場の移り変わり</span></button>
+      <button type="button" data-go="party"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM4 10h16M10 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><b>政党ごとに見る</b><span>1つの党の立場の移り変わり。2党を並べて比べることも</span></button>
+      <button type="button" data-go="records"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h8v11H3zM5.5 8h3M5.5 11h3M13 9.5h6M17 7l2.5 2.5L17 12M14 18l2.5 2.5L21 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><b>公約のその後</b><span>掲げた公約が、その後どうなったか</span></button>
+      <button type="button" data-go="giseki"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h11M4 17h7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><b>選挙と議席</b><span>戦後すべての国政選挙の結果と背景</span></button>
+      <button type="button" data-go="keifu"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h7M4 12h16M13 18h7M11 6c2 0 2 6 4 6M9 12c2 0 2 6 4 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><b>政党のルーツ</b><span>結成・合流・分裂と政権の歩み</span></button>
     </div>
     <button type="button" class="intro-close" id="introClose" aria-label="この案内を閉じる">閉じる</button>
   </section>
 
   <main id="main">
   <nav class="tabs" aria-label="表示の切り替え">
-    <button type="button" class="tab" id="tab-keifu" data-view="keifu"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h7M4 12h16M13 18h7M11 6c2 0 2 6 4 6M9 12c2 0 2 6 4 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="long">政党の系譜</span><span class="short">系譜</span></button>
     <button type="button" class="tab" id="tab-seisaku" data-view="seisaku"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM4 10h16M10 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="long">政策の立場とその後</span><span class="short">政策</span></button>
-    <button type="button" class="tab" id="tab-giseki" data-view="giseki"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h11M4 17h7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="long">選挙と議席</span><span class="short">議席</span></button>
+    <button type="button" class="tab" id="tab-giseki" data-view="giseki"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h11M4 17h7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="long">選挙と議席</span><span class="short">選挙</span></button>
+    <button type="button" class="tab" id="tab-keifu" data-view="keifu"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h7M4 12h16M13 18h7M11 6c2 0 2 6 4 6M9 12c2 0 2 6 4 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="long">政党の系譜</span><span class="short">系譜</span></button>
   </nav>
 
-  <div id="view-keifu" class="view">
+  <div id="view-keifu" class="view" hidden>
   <div class="seg mobile-only" id="kmode" role="group" aria-label="系譜の表示方法">
     <button type="button" data-m="list" aria-pressed="true">一覧</button>
     <button type="button" data-m="chart" aria-pressed="false">図</button>
@@ -83,20 +84,21 @@
 
   </div>
 
-  <div id="view-seisaku" class="view" hidden>
+  <div id="view-seisaku" class="view">
     <div class="seisaku-top">
     <div class="seg axisseg" id="axisSeg" role="group" aria-label="見方の切り替え">
       <button type="button" data-axis="theme" aria-pressed="true">テーマで見る</button>
       <button type="button" data-axis="party" aria-pressed="false">政党で見る</button>
     </div>
-    <label class="simpletoggle"><input type="checkbox" id="detailToggle"> 扱いの大きさ・言い切り方の印も表示</label>
     </div>
     <div class="themebar" id="themebar" role="group" aria-label="政策テーマ"></div>
     <section class="card notice" id="nomatrix" hidden><p id="nomatrixText"></p></section>
     <section class="card posmap" id="posmap" aria-label="いまの構図"></section>
+    <section class="card recprev" id="recprev" aria-label="このテーマの公約のその後" hidden></section>
     <div class="main" id="matrixArea">
       <section class="card" aria-label="立場の比較表">
         <div class="chart-tools"><span class="hint" id="themeq"></span></div>
+        <p class="cellhint"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>マスを押すと、根拠にした党の資料の原文（引用）と出典が出ます</p>
         <div class="mstance mobile-only">
           <div class="seg" id="eseg" role="group" aria-label="選挙を選ぶ"></div>
           <div id="mrows"></div>
@@ -104,6 +106,7 @@
         <p class="matrix-scrollhint desktop-only" id="mhint" hidden>新しい選挙から表示しています。表を左へ動かすと2016年から見られます　<button type="button" class="linkbtn" id="mhintBtn">← 2016年から表示</button></p>
         <div class="tablewrap desktop-only"><table class="matrix" id="matrix"></table></div>
         <div class="matrix-legend" id="mlegend"></div>
+        <div class="matrix-foot"><label class="simpletoggle" id="chgOnlyWrap"><input type="checkbox" id="chgOnly"> 前回の選挙から区分が変わったマスを強調</label><label class="simpletoggle"><input type="checkbox" id="detailToggle"> 扱いの大きさ・言い切り方の印も表示</label><button type="button" class="linkbtn" id="dlTheme">この表のデータ（CSV）</button></div>
       </section>
       <aside class="card panel sheet" id="spanel" aria-label="詳細"><button type="button" class="sheet-close" data-close>閉じる</button><div id="spanelBody" class="panel-body"></div></aside>
     </div>
@@ -124,7 +127,7 @@
       <div class="seg" id="houseSeg" role="group" aria-label="選挙の種類" style="margin-bottom:10px"><button type="button" data-house="lo" aria-pressed="true">衆院選</button><button type="button" data-house="up" aria-pressed="false">参院選</button></div>
       <div class="events-head"><h2 id="seatsTitle">衆議院選挙の党派別の当選人数</h2><span class="pending" id="seatsCount"></span></div>
       <p class="seatnote" id="seatsNote"></p>
-      <div class="seatlegend"><span id="majLegend"><span class="majl"></span>過半数のライン（当選人数の合計の半数を超える数）</span><span>帯は当選人数の多い順。帯を押すと内訳と、選挙時の内閣・与党が出ます</span><span><span class="evb" style="margin:0">論点</span> 選挙の論点と結果についての研究者の分析・当事者の受け止めがあるもの</span><span><span class="evb" style="margin:0">経緯</span> 選挙のあと3か月の間に、政権交代・連立の組み替えの「経緯」があるもの</span><span id="houseLegend" hidden><span class="evb" style="margin:0">全体</span> 参議院全体（非改選を含む）の議席の表があるもの（2007年以降）</span></div>
+      <div class="seatlegend"><span id="majLegend"><span class="majl"></span>過半数のライン（当選人数の合計の半数を超える数）</span><span>帯は当選人数の多い順。帯を押すと内訳と、選挙時の内閣・与党が出ます</span><span><span class="evb" style="margin:0"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></svg></span> 背景・分析：選挙の背景、研究者の分析、有権者の調査、当事者の受け止めがあるもの</span><span><span class="evb" style="margin:0"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></span> 政権の動き：選挙のあと3か月の間に、政権交代・連立の組み替えの「経緯」があるもの</span><span id="houseLegend" hidden><span class="evb" style="margin:0"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 19a9 9 0 0 1 18 0z"/><path d="M8 19a4 4 0 0 1 8 0"/></svg></span> 全議席：参議院全体（非改選を含む）の議席の表があるもの（2007年以降）</span></div>
       <ol class="selist" id="seatsList"></ol>
     </section>
   </div>
@@ -165,7 +168,7 @@
     <p>このサイトでは、閲覧の状況を把握してサイトを改善するために、Google LLC のアクセス解析サービス「Google アナリティクス」を使います。閲覧したときに、次の情報がブラウザから Google に送信されます。</p>
     <dl class="gloss">
     <dt>送信先</dt><dd>Google LLC（Google アナリティクス）</dd>
-    <dt>送信される情報</dt><dd>閲覧したページのURL（「#」以降を含む）とページの題名、参照元のページ、閲覧日時、端末・OS・ブラウザの種類、画面の大きさ、言語の設定、Cookie などに保存される識別子、IPアドレス（Google がおおよその地域の推定に使います）。あわせて、このサイトでの次の操作：データのダウンロード、「このマスのリンクをコピー」、印刷、出典リンクのクリック（リンク先のURL）、系譜図の「党名で探す」に入力した語。</dd>
+    <dt>送信される情報</dt><dd>閲覧したページのURL（「#」以降を含む）とページの題名、参照元のページ、閲覧日時、端末・OS・ブラウザの種類、画面の大きさ、言語の設定、Cookie などに保存される識別子、IPアドレス（Google がおおよその地域の推定に使います）。あわせて、このサイトでの次の操作：データのダウンロード、リンクの共有・コピー、印刷、出典リンクのクリック（リンク先のURL）、系譜図の「党名で探す」に入力した語。</dd>
     <dt>利用目的</dt><dd>どの画面・テーマがよく見られているかなど閲覧の状況を把握し、サイトを改善するため。広告には使いません。</dd>
     <dt>送信先での扱い</dt><dd><a href="https://policies.google.com/technologies/partner-sites?hl=ja" target="_blank" rel="noopener">Google のサービスを使用するサイトやアプリから収集した情報の Google による使用</a>、<a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">Google プライバシーポリシー</a></dd>
     <dt>停止のしかた</dt><dd>下のボタンで、このブラウザでの計測を止められます。すべてのサイトで止めるには <a href="https://tools.google.com/dlpage/gaoptout?hl=ja" target="_blank" rel="noopener">Google アナリティクス オプトアウト アドオン</a> を使えます。</dd>

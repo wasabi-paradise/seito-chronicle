@@ -3,6 +3,8 @@ function renderStances() {
   if (curAxis === "party") { renderPartyView(); return; }
   renderThemebar();
   renderPosmap();
+  renderRecPreview();
+  document.getElementById("chgOnlyWrap").hidden = false;
   const theme = ST.themes.find(t => t.id === curTheme);
   document.getElementById("matrixArea").hidden = !theme;
   document.getElementById("nomatrix").hidden = !!theme || curTheme === "all";
@@ -25,7 +27,7 @@ function renderStances() {
       const pos = theme.scale.find(x => x.id === s.position).label;
       const pc_ = prevChange(p.id, curTheme, e.id);
       return `<td><button type="button" class="cell${curCell === key ? " sel" : ""}${pc_ && pc_.kind === "chg" ? " chgd" : ""}" data-key="${key}">
-        ${pc_ ? CHG(pc_) : ""}${asTag(s)}<span class="pos" style="${posStyle(theme, s.position)}">${esc(pos)}</span>
+        <span class="go" aria-hidden="true">›</span>${pc_ ? CHG(pc_) : ""}${asTag(s)}<span class="pos" style="${posStyle(theme, s.position)}">${esc(pos)}</span>
         <span class="cellmeta">${s.commit ? `<span class="tip" role="img" aria-label="言い切り方：${cmLabel(s.commit)}">${cmIcon(s.commit)}</span>` : ""}${s.temp === null || s.temp === undefined ? "" : tempIcon(s.temp)}${s.flag ? `<span class="tip" role="img" aria-label="要確認">${ic("flag")}</span>` : ""}</span>
       </button></td>`;
     }).join("");
@@ -87,7 +89,7 @@ function renderCellDetail() {
   const t = s.temp === null || s.temp === undefined ? null : ST.temperatureScale.find(x => x.v === s.temp);
   const related = allRecords().filter(r => r.theme === curTheme && (r.party === p.genealogy || (r.compare === "merger" && p.mergedInto)));
   panel.innerHTML = `
-    <div><span class="chip">${esc(e.full)}・${esc(theme.name)}</span><h2>${s.asName ? esc(s.asName) + `<span class="pending" style="font-size:13px;font-weight:400">（現在の${esc(p.short)}につながる党）</span>` : esc(p.name)}</h2></div>
+    ${actsHTML()}<div><span class="chip">${esc(e.full)}・${esc(theme.name)}</span><h2>${s.asName ? esc(s.asName) + `<span class="pending" style="font-size:13px;font-weight:400">（現在の${esc(p.short)}につながる党）</span>` : esc(p.name)}</h2></div>
     <span class="pos" style="${posStyle(theme, s.position)}">${esc(theme.scale.find(x => x.id === s.position).label)}</span>
     <div><h3>党の資料の文言（引用）</h3><blockquote class="quote">${esc(s.wording || "")}</blockquote></div>
     ${s.note ? `<p class="note">${ic("info")}<span><strong>注記</strong>　${esc(s.note)}</span></p>` : ""}
@@ -102,15 +104,12 @@ function renderCellDetail() {
       const lab = notYet ? '<span class="pending">（未結成）</span>' : x ? `<span class="pos" style="${posStyle(theme, x.position)}">${esc(theme.scale.find(z => z.id === x.position).label)}</span>` : `<span class="pending">${ndLabel(ps, curTheme, el.id)}</span>`;
       return `<li class="${el.id === eid ? "cur" : ""}"><span class="pending">${esc(el.name)}${ps !== pid ? "（" + esc(SP[ps].short) + "）" : x && x.asName ? "（" + esc(x.asName) + "）" : ""}</span>${x && el.id !== eid ? `<button type="button" data-cell="${ps}|${el.id}">${lab}</button>` : lab}</li>`;
     }).join("")}</ul></div>
-    ${curAxis === "theme" ? `<p><button type="button" class="linkbtn" data-to-party="${pid}">${esc(p.short)}の全テーマを見る</button>　<button type="button" class="linkbtn" data-share>このマスのリンクをコピー</button><span class="pending" data-share-msg role="status"></span></p>` : ""}
+    ${curAxis === "theme" ? `<p><button type="button" class="linkbtn" data-to-party="${pid}">${esc(p.short)}の全テーマを見る</button>　<button type="button" class="linkbtn" data-to-party="${pid}" data-cmp="1">${esc(p.short)}をほかの党と並べて比べる</button></p>` : ""}
     ${related.length ? `<div><h3>関連する記録</h3><ul class="rel">${related.map(r => `<li><a href="#${r.id}" data-jump>${esc(r.title)}</a></li>`).join("")}</ul></div>` : ""}`;
   bindTrend();
-  panel.querySelectorAll("[data-share]").forEach(b => b.addEventListener("click", async () => {
-    const m = panel.querySelector("[data-share-msg]"), u = location.href;
-    GA.ev("share", { method: "copy_link", item_id: location.hash.slice(1) }); try { await navigator.clipboard.writeText(u); m.textContent = "　コピーしました"; } catch (e) { m.textContent = "　" + u; }
-  }));
+  bindActs(panel, () => "seisaku-" + curTheme + "~" + curCell.replace("|", "~"));
   panel.querySelectorAll("[data-jump]").forEach(x => x.addEventListener("click", closeSheet));
-  panel.querySelectorAll("[data-to-party]").forEach(b => b.addEventListener("click", () => { closeSheet(); curAxis = "party"; curParty = b.dataset.toParty; curCell = null; oFilter = null; pFilter = null; renderStances(); setHash(seisakuHash()); document.getElementById("axisSeg").scrollIntoView({ block: "start" }); }));
+  panel.querySelectorAll("[data-to-party]").forEach(b => b.addEventListener("click", () => { closeSheet(); curAxis = "party"; curParty = b.dataset.toParty; curParty2 = null; cmpOpen = !!b.dataset.cmp; curCell = null; oFilter = null; pFilter = null; renderStances(); setHash(seisakuHash()); document.getElementById("axisSeg").scrollIntoView({ block: "start" }); }));
 }
 function bindTrend() {
   document.querySelectorAll("#spanelBody [data-cell]").forEach(b => b.addEventListener("click", () => { curCell = b.dataset.cell; renderCellDetail();
@@ -139,7 +138,7 @@ function posmapTheme(theme, withTitle) {
   const rows = theme.scale.map(sc => {
     const ps = ents.filter(x => x.s && x.s.position === sc.id);
     // 軸がずれないよう、党がいない行も常に表示する（「公約で言及なし」は最後に区切って置く）
-    return `<div class="pm-row${sc.id === "none" ? " pm-nonerow" : ""}"><span class="pos" style="${posStyle(theme, sc.id)}">${esc(sc.label)}</span><span class="pm-parties">${ps.length ? ps.map(({ p, s }) => {
+    return `<div class="pm-row${sc.id === "none" ? " pm-nonerow" : ""}${ps.length ? "" : " pm-zero"}"><span class="pos" style="${posStyle(theme, sc.id)}">${esc(sc.label)}</span><span class="pm-parties">${ps.length ? ps.map(({ p, s }) => {
       const el = ST.elections.find(e => e.id === s.election);
       const old = !pmElection && s.election !== last;
       const tcls = s.temp === null || s.temp === undefined ? "" : " t" + s.temp;
@@ -148,7 +147,7 @@ function posmapTheme(theme, withTitle) {
     }).join("") : '<span class="pm-dash">—</span>'}</span></div>`;
   }).join("");
   const none = ents.filter(x => !x.s).map(x => x.p);
-  return `<div class="pm-theme">${withTitle ? `<h3><button type="button" class="linkbtn" data-goto-theme="${theme.id}">${esc(theme.name)}</button></h3>` : ""}${rows}${none.length ? `<div class="pm-row pm-empty"><span class="pending">データなし</span><span class="pm-parties">${none.map(p => esc(p.short)).join("・")}</span></div>` : ""}</div>`;
+  return `<div class="pm-theme">${withTitle ? `<h3><button type="button" class="linkbtn" data-goto-theme="${theme.id}">${themeIc(theme.id)}${esc(theme.name)}</button></h3>` : ""}${rows}${none.length ? `<div class="pm-row pm-empty"><span class="pending">データなし</span><span class="pm-parties">${none.map(p => esc(p.short)).join("・")}</span></div>` : ""}</div>`;
 }
 function pmBodyHTML() {
   const theme = ST.themes.find(t => t.id === curTheme);
@@ -187,14 +186,16 @@ function setPmElection(eid) {
 }
 function pmLabel() {
   const e = ST.elections.find(x => x.id === pmElection);
-  const sub = document.getElementById("pmSub"); if (sub) sub.textContent = e ? `${e.name}の時点` : "いまの各党の立場";
+  const sub = document.getElementById("pmSub"); if (sub) sub.textContent = e ? "選挙を選ぶと、その時点の立場に党が移ります" : "各党が直近の国政選挙で掲げた立場";
+  const h = document.getElementById("pmTitle"); if (h) h.textContent = e ? `${e.name}の時点の構図` : "いまの構図" + (ST.themes.some(t => t.id === curTheme) ? "" : "（全テーマ）");
+  const nt = document.getElementById("pmNote"); if (nt) nt.innerHTML = e ? "" : pmNoteText();
   document.querySelectorAll("#pmSeg [data-pe]").forEach(b => b.setAttribute("aria-pressed", (b.dataset.pe || null) === pmElection));
   const seg = document.getElementById("pmSeg"), cb = seg && seg.querySelector('[aria-pressed="true"]');
   if (cb) seg.scrollLeft = cb.offsetLeft - seg.clientWidth / 2 + cb.offsetWidth / 2;
 }
 function stopPm() {
   if (pmTimer) { clearInterval(pmTimer); pmTimer = null; }
-  const pb = document.getElementById("pmPlay"); if (pb) pb.textContent = "▶ 2016→2026を再生";
+  const pb = document.getElementById("pmPlay"); if (pb) { pb.innerHTML = `${ic("play")}<span>2016→2026 各党の立場の移り変わりを再生</span>`; pb.setAttribute("aria-pressed", "false"); }
 }
 let pmOpen = null;
 function renderPosmap() {
@@ -204,18 +205,31 @@ function renderPosmap() {
   el.hidden = false;
   const note = "<p><strong>いまの構図</strong></p><p>活動中の各党について、直近の国政選挙で掲げた立場ごとに党を並べています。選挙を選ぶと、その時点の立場に党が移動します。点線の党は、最新（2026年衆院選）ではなく、表示した年の選挙での立場です。</p><p>立憲民主党と公明党は、2026年衆院選では中道改革連合として戦ったため、それぞれ2025年参院選の立場を表示しています。</p>";
   const legend = `<div class="pm-legend"><span class="pchip t3">最重点</span><span class="pchip">記載あり</span><span class="pchip t1">触れる程度</span><span class="lg">${cmIcon("definite")}明言</span><span class="lg">${cmIcon("aim")}目標</span><span class="lg">${cmIcon("consider")}検討</span>${tip("info", "印の見方", "<p><strong>党名の太さ＝扱いの大きさ</strong>（公約の中での扱い。2026年衆院選のみ）</p><p>太字：公約の柱や冒頭に掲げる／通常：本文に記載または未判定／薄字：触れる程度</p><p><strong>丸印＝言い切り方</strong>（公約の文末）</p><p>● 明言（〜します・〜を実現）<br>◐ 目標（〜を目指します・推進）<br>○ 検討（検討を加速・議論を深める）</p><p>丸印がない党は未判定です。</p>")}</div>`;
-  if (pmOpen === null) pmOpen = !isMobile();
+  if (pmOpen === null) pmOpen = true;
   stopPm();
-  const timebar = `<div class="pm-time"><div class="seg pm-eseg" id="pmSeg" role="group" aria-label="時点を選ぶ"><button type="button" data-pe="" aria-pressed="true">いま</button>${ST.elections.map(e => `<button type="button" data-pe="${e.id}" aria-pressed="false">${e.date.slice(0, 4)}${e.name.includes("参") ? "参" : "衆"}</button>`).join("")}</div><button type="button" id="pmPlay" class="ibtn" aria-label="2016年から2026年まで順に再生">▶ 2016→2026を再生</button></div>`;
-  el.innerHTML = `<details class="pmfold"${pmOpen ? " open" : ""}><summary class="pm-head"><h2>いまの構図${theme ? "" : "（全テーマ）"}</h2><span class="pending" id="pmSub"></span></summary><div class="posmap"><div>${tip("info", "いまの構図とは", note, "<span>いまの構図とは</span>")}</div>` + timebar + legend
-    + `<div id="pmBody">${pmBodyHTML()}</div></div></details>`;
+  const timebar = `<div class="pm-time"><button type="button" id="pmPlay" class="ibtn pm-play" aria-pressed="false"></button><div class="seg pm-eseg" id="pmSeg" role="group" aria-label="時点を選ぶ"><button type="button" data-pe="" aria-pressed="true">いま</button>${ST.elections.map(e => `<button type="button" data-pe="${e.id}" aria-pressed="false">${e.date.slice(0, 4)}${e.name.includes("参") ? "参" : "衆"}</button>`).join("")}</div></div>`;
+  el.innerHTML = `<details class="pmfold"${pmOpen ? " open" : ""}><summary class="pm-head"><h2 id="pmTitle">いまの構図${theme ? "" : "（全テーマ）"}</h2><span class="pending" id="pmSub"></span></summary><div class="posmap">` + timebar
+    + `<div id="pmBody">${pmBodyHTML()}</div><p class="pm-note" id="pmNote"></p><div class="pm-foot">${tip("info", "いまの構図とは", note, "<span>いまの構図とは</span>")}${legend}</div></div></details>`;
   el.querySelector("details").addEventListener("toggle", e => { pmOpen = e.target.open; if (!pmOpen) stopPm(); });
   el.querySelectorAll("#pmSeg [data-pe]").forEach(b => b.addEventListener("click", () => { stopPm(); setPmElection(b.dataset.pe || null); }));
   document.getElementById("pmPlay").addEventListener("click", e => {
     if (pmTimer) { stopPm(); return; }
-    let i = 0; setPmElection(ST.elections[0].id); e.currentTarget.textContent = "■ 停止";
+    let i = 0; setPmElection(ST.elections[0].id); e.currentTarget.innerHTML = `${ic("stop")}<span>停止</span>`; e.currentTarget.setAttribute("aria-pressed", "true");
     pmTimer = setInterval(() => { i++; if (i >= ST.elections.length) { stopPm(); return; } setPmElection(ST.elections[i].id); }, 1800);
   });
+  stopPm();
   pmLabel();
   pmBind(el);
+}
+// 最新の選挙の立場がない党（点線）について、理由をデータから1行で示す
+function pmNoteText() {
+  const theme = ST.themes.find(t => t.id === curTheme); if (!theme) return "";
+  const last = ST.elections[ST.elections.length - 1];
+  const olds = pmEntries(theme, null).filter(x => x.s && x.s.election !== last.id);
+  if (!olds.length) return "";
+  const merged = {}, other = [];
+  olds.forEach(({ p, s }) => { const m = p.mergedInto && p.mergedInto[last.id]; const y = ST.elections.find(e => e.id === s.election).name; if (m) (merged[m] = merged[m] || []).push({ p, y }); else other.push({ p, y }); });
+  const parts = Object.entries(merged).map(([m, xs]) => `${xs.map(x => esc(x.p.name)).join("・")}は${esc(last.name)}に${esc(SP[m].name)}として臨んだため、${[...new Set(xs.map(x => x.y))].join("・")}の立場`)
+    .concat(other.length ? [`${other.map(x => esc(x.p.name)).join("・")}は${esc(last.name)}の立場がないため、${[...new Set(other.map(x => x.y))].join("・")}の立場`] : []);
+  return `点線の党名：${parts.join("。")}を表示しています（小さな数字は選挙の年）。`;
 }

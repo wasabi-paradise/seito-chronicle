@@ -301,7 +301,10 @@ function selUI(on) {
   b.type = "button"; b.className = "linkbtn backall-top desktop-only";
   b.innerHTML = "← すべての党の表示に戻る";
   b.addEventListener("click", () => { closeSheet(); select(null); });
-  document.getElementById("panelBody").prepend(b);
+  const pb = document.getElementById("panelBody");
+  // 党を選んでいるときは、その党の画面のリンクを共有できるようにする
+  if (current) { pb.insertAdjacentHTML("afterbegin", actsHTML()); bindActs(pb, () => current); }
+  pb.prepend(b);
 }
 function select(id) {
   current = id;

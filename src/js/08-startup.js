@@ -16,7 +16,8 @@ window.addEventListener("hashchange", () => {
   setTimeout(() => GA.page(), 0);
   if (h.startsWith("rec-")) { openRecord(h); return; }
   if (parseSeHash(h)) { const q = parseSeHash(h); showView("giseki"); setHouse(q.house); if (q.n && seOpen !== q.n) toggleSe(q.n, true); if (!q.n && seOpen) toggleSe(seOpen, false); return; }
-  if (!h) { showView("keifu"); if (current) select(null); return; }
+  if (!h) { showView("seisaku"); return; }
+  if (h === "keifu") { showView("keifu"); if (current) select(null); return; }
   if (h.startsWith("seito-") && SP[h.slice(6).split("~")[0]]) { const a = h.slice(6).split("~")[0], b2 = SP[h.split("~")[1]] ? h.split("~")[1] : null; if (curAxis !== "party" || curParty !== a || curParty2 !== b2) { curAxis = "party"; curParty = a; curParty2 = b2; curCell = null; renderStances(); } showView("seisaku"); return; }
   if (h.startsWith("seisaku")) { if (curAxis !== "theme") { curAxis = "theme"; curCell = null; } const q = parseSeisaku(h), t = q.t; if (t && (t !== curTheme || q.cell !== curCell || !document.querySelector("#themebar [data-theme]"))) { curTheme = t; curCell = q.cell; renderStances(); } showView("seisaku"); document.title = titleFor(h); openCellFromHash(q.cell); return; }
   if (h && P[h] && h !== current) { showView("keifu"); select(h); }
