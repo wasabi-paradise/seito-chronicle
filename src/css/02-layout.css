@@ -56,6 +56,7 @@ a, .linkbtn { color: var(--accent); text-decoration-color: color-mix(in srgb, va
 .events { padding: 16px; display: grid; gap: 12px; }
 .events-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
 .tablewrap { overflow-x: auto; }
+.seats { padding: 16px 20px 20px; }
 .seats h2 { margin: 0; }
 .semoves { display: grid; gap: 6px; border-top: 1px solid var(--line); padding-top: 8px; }
 .semoves h3 { margin: 0; font-size: 13px; }

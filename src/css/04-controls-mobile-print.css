@@ -66,6 +66,7 @@
   .sheet-close::before { content: ""; position: absolute; left: 50%; top: 6px; width: 40px; height: 4px; margin-left: -20px; border-radius: 2px; background: var(--line); }
   .panel-body { display: grid; gap: 12px; }
   .events { padding: 14px; }
+  .seats { padding: 14px; }
   .events table, .events tbody, .events tr, .events td { display: block; width: 100%; }
   .events thead { display: none; }
   .events tr { padding: 10px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: auto 1fr; gap: 4px 8px; }
