@@ -137,6 +137,20 @@ document.querySelectorAll("#intro [data-go]").forEach(b => b.addEventListener("c
   renderStances(); showView("seisaku"); setHash(seisakuHash());
   if (g === "records") requestAnimationFrame(() => document.getElementById("recTitle").scrollIntoView({ block: "start" }));
 }));
+// トップ画面：政策の立場（最初のテーマの「いまの構図」）と案内。サイト名・フッターのリンクから戻れる
+function goHome(push) {
+  stopPm(); pmElection = null;
+  curAxis = "theme"; curTheme = ST.themes[0].id; curCell = null; curParty2 = null; cmpOpen = false; oFilter = null; pFilter = null;
+  document.getElementById("rsearch").value = "";
+  const intro = document.getElementById("intro"); intro.hidden = false; intro.classList.add("mini");
+  renderStances(); showView("seisaku");
+  if (push) setHash("");
+}
+document.querySelectorAll("[data-home]").forEach(a => a.addEventListener("click", e => {
+  if (e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
+  e.preventDefault(); goHome(true);
+  const h = document.querySelector("h1 a"); if (h) h.focus({ preventScroll: true });
+}));
 matchMedia("(max-width: 720px)").addEventListener("change", () => { setLayout(); render(); if (current) select(current); });
 (function () {
   const yr = s => s ? s.slice(0, 4) : "現在";

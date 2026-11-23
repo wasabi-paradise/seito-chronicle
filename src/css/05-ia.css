@@ -12,6 +12,11 @@
 .intro.mini .intro-go b { font-size: 13.5px; }
 .intro.mini .intro-go span { display: none; }
 
+/* トップへ戻る */
+h1 a.home { color: inherit; text-decoration: none; }
+@media (hover: hover) { h1 a.home:hover { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; } h1 a.home:hover .subtitle { text-decoration: none; } }
+.tohome { margin: 0 0 6px; font-size: 13px; }
+
 /* テーマのボタン */
 .tbtn { display: inline-flex; align-items: center; gap: 6px; }
 .tbtn .ic, .trow .ic, .pm-theme h3 .ic, .mtrend h3 .ic, .rp-head h2 .ic { width: 17px; height: 17px; vertical-align: -3px; }
@@ -115,6 +120,6 @@ body.chgonly .cell:not(.chgd), body.chgonly .mrow:not(.chgd) { opacity: .28; }
   .seg-row .seg button { padding: 8px 11px; }
 }
 @media print {
-  .acts, .rshare, .cellhint, .matrix-foot, .recprev, .pm-play, .setoc, .backall-top { display: none !important; }
+  .tohome, .acts, .rshare, .cellhint, .matrix-foot, .recprev, .pm-play, .setoc, .backall-top { display: none !important; }
   .cell .go, .mrow .go { display: none; }
 }
