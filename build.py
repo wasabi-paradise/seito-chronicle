@@ -11,8 +11,7 @@
 
 出力：
 - dist/index.html   : サイト本体（1ファイル）
-- dist/theme/<id>/  : テーマ別の共有用ページ（SNS用のタイトル・画像を持ち、本体の該当画面へ移動する）
-- dist/party/<id>/  : 政党別の共有用ページ
+- dist/theme/・party/・election/・data/ : 検索とSNS共有のための静的ページとデータ配布（pages.py）
 - dist/sitemap.xml・dist/robots.txt
 
 公開URLは環境変数 SITE_URL で変えられる（既定は https://seito-chronicle.michisus.co.jp）。
@@ -76,6 +75,16 @@ if not re.fullmatch(r"(G-[A-Z0-9]+)?", GA_ID):
     raise SystemExit("GA_ID の形式が正しくありません: " + GA_ID)
 assert 'const GA_ID = "";' in out
 out = out.replace('const GA_ID = "";', f'const GA_ID = "{GA_ID}";')
+# フッターの一覧（検索エンジンがたどれる通常のリンク。テーマ・政党・選挙の要約ページとデータ）
+_e = html.escape
+_links = ('<p><b>テーマ別</b>：' + "・".join(f'<a href="/theme/{t["id"]}/">{_e(t["name"])}</a>' for t in st["themes"]) + '</p>'
+          '<p><b>政党別</b>：' + "・".join(f'<a href="/party/{p["id"]}/">{_e(re.sub(r"（.*?）", "", p["name"]))}</a>' for p in st["parties"]) + '</p>'
+          '<p><b>選挙別</b>：<a href="/election/">戦後の衆院選・参院選の一覧</a>（直近：' + "・".join(
+              f'<a href="/election/{k}-{e["n"]}/">{e["date"][:4]}年{lab}</a>' for k, lab, e in sorted(
+                  [("shugiin", "衆院選", x) for x in seats["elections"][-2:]] + [("sangiin", "参院選", x) for x in seats["upper"]["elections"][-2:]],
+                  key=lambda z: z[2]["date"], reverse=True)) + '）・<a href="/data/">データのダウンロード</a></p>')
+assert out.count("<!--@LINKS-->") == 1
+out = out.replace("<!--@LINKS-->", _links)
 
 if dist.exists():
     shutil.rmtree(dist)
@@ -86,53 +95,9 @@ pub = root / "public"
 if pub.exists():
     shutil.copytree(pub, dist, dirs_exist_ok=True)
 
-SITE = "政党クロニクル"
+import pages  # noqa: E402  検索とSNS共有のための静的ページ
 
-
-def share_page(path, title, desc, hash_, image):
-    url = f"{SITE_URL}/{path}/"
-    target = f"/#{hash_}"
-    t, d = html.escape(f"{title} ｜ {SITE}"), html.escape(desc)
-    page = f"""<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{t}</title>
-<meta name="description" content="{d}">
-<meta property="og:type" content="article">
-<meta property="og:title" content="{t}">
-<meta property="og:description" content="{d}">
-<meta property="og:url" content="{url}">
-<meta property="og:image" content="{SITE_URL}/og/{image}.png">
-<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta property="og:site_name" content="{SITE}">
-<meta property="og:locale" content="ja_JP">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="{url}">
-<meta http-equiv="refresh" content="0; url={target}">
-<script>location.replace({json.dumps(target)});</script>
-</head>
-<body>
-<p><a href="{target}">{html.escape(title)}（{SITE}）を開く</a></p>
-</body>
-</html>
-"""
-    p = dist / path
-    p.mkdir(parents=True, exist_ok=True)
-    (p / "index.html").write_text(page, encoding="utf-8")
-    return url
-
-
-urls = [f"{SITE_URL}/"]
-for t in st["themes"]:
-    urls.append(share_page(f"theme/{t['id']}", f"{t['name']}：各党の立場",
-                           f"問い：{t['question']}。2016〜2026年の国政選挙での各党の立場を、党の資料の文言と出典つきで比べられます。",
-                           f"seisaku-{t['id']}", f"theme-{t['id']}"))
-for p in st["parties"]:
-    urls.append(share_page(f"party/{p['id']}", f"{p['name']}の政策の立場",
-                           f"{p['name']}が2016〜2026年の国政選挙で、消費税・原発・憲法などのテーマにどんな立場をとってきたかを、党の資料の文言と出典つきでたどれます。",
-                           f"seito-{p['id']}", f"party-{p['id']}"))
+urls = [f"{SITE_URL}/"] + pages.build(SITE_URL, dist, data, gov, st, seats, records)
 
 sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 sm += [f"  <url><loc>{html.escape(u)}</loc><lastmod>{data['asOf']}</lastmod></url>" for u in urls]
@@ -140,4 +105,4 @@ sm.append("</urlset>")
 (dist / "sitemap.xml").write_text("\n".join(sm) + "\n", encoding="utf-8")
 (dist / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8")
 
-print("ok", len(out), "share pages:", len(urls) - 1)
+print("ok", len(out), "static pages:", len(urls) - 1)

@@ -1,5 +1,15 @@
 // ---- 共有・印刷 ----
 // スマホは OS の共有シート、それ以外はリンクのコピー。どちらも送るのはこのサイトのURLだけ
+// 共有するURL：テーマ・政党・選挙の画面は、要約ページ（SNSのカード画像と説明を持つ）のURLにする
+function shareURL(hash) {
+  if (location.protocol.startsWith("http")) {
+    let m;
+    if ((m = /^seisaku-([a-z0-9]+)$/.exec(hash || ""))) return location.origin + "/theme/" + m[1] + "/";
+    if ((m = /^seito-([a-z0-9]+)$/.exec(hash || ""))) return location.origin + "/party/" + m[1] + "/";
+    if ((m = /^(giseki|sangiin)-(\d+)$/.exec(hash || ""))) return location.origin + "/election/" + (m[1] === "giseki" ? "shugiin" : "sangiin") + "-" + m[2] + "/";
+  }
+  return pageURL(hash);
+}
 function pageURL(hash) { return location.protocol.startsWith("http") ? location.origin + location.pathname + (hash ? "#" + hash : "") : location.href.split("#")[0] + (hash ? "#" + hash : ""); }
 async function shareLink(url, title, msg) {
   const os = !!navigator.share && isMobile();
@@ -14,7 +24,7 @@ function actsHTML(withPrint = true) {
 function bindActs(root, getHash) {
   root.querySelectorAll(".acts").forEach(box => {
     const m = box.querySelector("[data-act-msg]");
-    const s = box.querySelector("[data-act-share]"); if (s) s.addEventListener("click", () => shareLink(pageURL(getHash()), document.title, m));
+    const s = box.querySelector("[data-act-share]"); if (s) s.addEventListener("click", () => shareLink(shareURL(getHash()), document.title, m));
     const p = box.querySelector("[data-act-print]"); if (p) p.addEventListener("click", () => window.print());
   });
 }

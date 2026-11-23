@@ -7,3 +7,6 @@
 
 /og/*
   Cache-Control: public, max-age=86400
+
+/data/*
+  Access-Control-Allow-Origin: *

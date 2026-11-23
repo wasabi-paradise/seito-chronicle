@@ -1,4 +1,4 @@
-// 共有用画像（1200×630）を public/og/ に作る。使い方：node tools/make-og.js
+// 共有用画像（1200×630）を public/og/ に、サイトのアイコン（icon.svg・favicon.ico・apple-touch-icon.png・logo.png）を public/ に作る。使い方：node tools/make-og.js
 // 立場の区分や色は載せず、サイト名・テーマ名・問い・党名だけを載せる（画像だけが切り取られても誤解されないように）
 const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path');
@@ -26,6 +26,21 @@ html,body{margin:0;width:1200px;height:630px;background:#f6f4ef;color:#25282d;fo
   const jobs = [['default', page('戦後の政党の系譜と、各党の政策の立場', 'その公約、そのあとどうなった？', '結成・合流・分裂の系譜／2016〜2026年の各党の立場')]];
   st.themes.forEach(t => jobs.push(['theme-' + t.id, page('テーマで比べる：各党の立場', t.name, '問い：' + t.question)]));
   st.parties.forEach(p => jobs.push(['party-' + p.id, page('政党ごとに見る：政策の立場の移り変わり', p.name.replace(/（.*?）/, ''), ((p.name.match(/（(.*?)）/) || [])[1] ? (p.name.match(/（(.*?)）/)[1] + '／') : '') + '2016〜2026年の国政選挙')]));
+  jobs.push(['elections', page('選挙ごとに見る：党派別の当選人数', '戦後の衆院選・参院選の結果', '総務省の結果調の数字／選挙の背景と有権者の調査')]);
+  jobs.push(['data', page('データのダウンロード（CC BY 4.0）', '政党クロニクルのデータ', '各党の立場・公約のその後・当選人数・系譜（CSV・JSON）')]);
   for (const [name, h] of jobs) { await pg.setContent(h); await pg.screenshot({ path: path.join(out, name + '.png') }); }
+  // アイコン：系譜図の線（分かれて、合わさる）を図案にしたもの
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#25282d"/><path d="M7 10h9M7 16h18M16 22h9M16 10c3 0 3 6 6 6M13 16c3 0 3 6 6 6" fill="none" stroke="#f6f4ef" stroke-width="2.4" stroke-linecap="round"/></svg>`;
+  const pub = path.join(root, 'public'); fs.writeFileSync(path.join(pub, 'icon.svg'), svg + '\n');
+  const png = async (size, pad) => { const ip = await b.newPage({ viewport: { width: size, height: size } });
+    await ip.setContent(`<html><body style="margin:0;background:${pad ? '#25282d' : 'transparent'}"><div style="width:${size}px;height:${size}px;display:flex;align-items:center;justify-content:center">${svg.replace('<svg ', `<svg width="${pad ? Math.round(size * .86) : size}" height="${pad ? Math.round(size * .86) : size}" `)}</div></body></html>`);
+    const buf = await ip.screenshot({ omitBackground: !pad }); await ip.close(); return buf; };
+  fs.writeFileSync(path.join(pub, 'apple-touch-icon.png'), await png(180, true));
+  fs.writeFileSync(path.join(pub, 'logo.png'), await png(512, false));
+  // favicon.ico：48×48 の PNG を1つ入れた ICO
+  const p48 = await png(48, false), h = Buffer.alloc(22);
+  h.writeUInt16LE(0, 0); h.writeUInt16LE(1, 2); h.writeUInt16LE(1, 4); h[6] = 48; h[7] = 48; h[8] = 0; h[9] = 0;
+  h.writeUInt16LE(1, 10); h.writeUInt16LE(32, 12); h.writeUInt32LE(p48.length, 14); h.writeUInt32LE(22, 18);
+  fs.writeFileSync(path.join(pub, 'favicon.ico'), Buffer.concat([h, p48]));
   await b.close(); console.log('ok', jobs.length);
 })();
