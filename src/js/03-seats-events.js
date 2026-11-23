@@ -17,7 +17,7 @@ function seCtxHTML(e) {
     ${list("論点（研究者の分析）", c.issues, "is")}
     ${sv}${th}
     ${list("この選挙についての研究者の分析", c.research, "rs")}
-    ${list("結果について：首相と野党第一党の受け止め", c.parties, "pt")}
+    ${list(`結果について：首相と野党第一党の受け止め <span class="glw">（${gl("所信表明演説・施政方針演説", "所信表明演説")}・${gl("代表質問")}）</span>`, c.parties, "pt")}
     ${c.note ? `<p class="note">${ic("info")}<span>${esc(c.note)}</span></p>` : ""}
     <p class="pending" style="font-size:12px;margin:0">${tip("info", "背景・論点と結果の書き方", TIPS.ctxrule, "<span>書き方</span>")}　出来事は国会会議録・政府資料など、有権者の考えは選挙後の全国調査の数字、分析は研究者の論文を、誰の資料かを示して載せています。有権者がなぜその選択をしたのかを、このサイトが判断することはしていません。</p></div>`;
 }
@@ -47,20 +47,22 @@ function houseBlock(e, withTable) {
   return `<div class="semoves"><h3 data-sd="house">参議院全体の議席（この選挙の結果、${fmt(H.asOf)}現在）</h3>${bar}${gov}${tbl}
     <p class="pending" style="font-size:12px;margin:0">今回の当選人と非改選議員を合わせた党派別の議席（結果調の「通常選挙の結果による参議院の党派別議席数」）。${esc(H.basis)}点線は過半数のライン。出典：<a href="${esc(SSRC(H.source).url)}" target="_blank" rel="noopener">${esc(SSRC(H.source).title)}</a>（${esc(H.where)}）</p></div>`;
 }
-let seHouse = "lo", seOpen = null;
+let seHouse = "lo", seOpen = null, seSort = "seats";
 function seHash() { return (seHouse === "up" ? "sangiin" : "giseki") + (seOpen ? "-" + seOpen : ""); }
 function renderSeats() {
   const els = HSE[seHouse], up = seHouse === "up";
   document.querySelectorAll("#houseSeg [data-house]").forEach(b => b.setAttribute("aria-pressed", b.dataset.house === seHouse));
   document.getElementById("seatsTitle").textContent = up ? "参議院選挙の党派別の当選人数（改選分）" : "衆議院選挙の党派別の当選人数";
   document.getElementById("seatsCount").textContent = `${seLabel(els[0])}（${seYear(els[0])}）〜${seLabel(els[els.length - 1])}（${seYear(els[els.length - 1])}）・${els.length}回`;
-  document.getElementById("seatsNote").textContent = up ? SEATS.upper.note : SEATS.note;
+  document.getElementById("seatsNote").innerHTML = esc(up ? SEATS.upper.note : SEATS.note) + ` <span class="glw">用語：${gl("結果調")}${up ? "・" + gl("改選・非改選") : ""}</span>`;
+  document.querySelectorAll("#sortSeg [data-sort]").forEach(b => b.setAttribute("aria-pressed", b.dataset.sort === seSort));
+  document.getElementById("sortLegend").textContent = (seSort === "family" ? "帯は系譜図の系統の順（系統の中は当選人数の多い順）" : "帯は当選人数の多い順") + "。帯を押すと内訳と、選挙時の内閣・与党が出ます";
   document.getElementById("majLegend").hidden = up;
   document.getElementById("houseLegend").hidden = !up;
   const list = document.getElementById("seatsList");
   list.innerHTML = [...els].reverse().map(e => {
     const maj = majOf(e), pct = v => (v / e.total * 100).toFixed(2) + "%";
-    const segs = sortedRows(e).filter(r => r.seats > 0).map(r => { const w = r.seats / e.total, c = w > 0.035 ? readableBg(rowColor(r)) : rowColor(r); return `<span style="width:${pct(r.seats)};background:${c};color:${onColor(c)}" title="${esc(r.label)} ${r.seats}">${w > 0.07 ? esc(r.label) + " " + r.seats : w > 0.035 ? r.seats : ""}</span>`; }).join("");
+    const segs = sortedRows(e, seSort).filter(r => r.seats > 0).map(r => { const w = r.seats / e.total, c = w > 0.035 ? readableBg(rowColor(r)) : rowColor(r); return `<span style="width:${pct(r.seats)};background:${c};color:${onColor(c)}" title="${esc(r.label)} ${r.seats}">${w > 0.07 ? esc(r.label) + " " + r.seats : w > 0.035 ? r.seats : ""}</span>`; }).join("");
     const top = sortedRows(e).slice(0, 3).map(r => `${r.label}${r.seats}`).join("、");
     const open = seOpen === e.n;
     return `<li class="serow${open ? " open" : ""}" id="se-${e.n}"><button type="button" aria-expanded="${open}" aria-controls="sedet-${e.n}"><span class="sel"><b>${seLabel(e)}</b>${seYear(e)}${e.context || seGovMoves(e).evs.length || e.house ? `<span class="evbs">${e.context ? `<span class="evb" title="背景・分析">${ic("doc")}<span class="vh">背景・分析あり</span></span>` : ""}${seGovMoves(e).evs.length ? `<span class="evb" title="政権の動き">${ic("change")}<span class="vh">政権の動きあり</span></span>` : ""}${e.house ? `<span class="evb" title="参議院全体の議席">${ic("chamber")}<span class="vh">参議院全体の議席あり</span></span>` : ""}</span>` : ""}</span><span class="sbar" role="img" aria-label="${HNAME[seHouse]}${seLabel(e)}（${fmt(e.date)}）。${up ? "改選数" : "合計"}${e.total}${up ? "" : "、過半数" + maj}。多い順に ${esc(top)}">${segs}${up ? "" : `<span class="maj" style="left:${pct(maj)}"></span>`}</span></button>
@@ -70,6 +72,14 @@ function renderSeats() {
     const n = +b.parentElement.id.slice(3); toggleSe(n, b.getAttribute("aria-expanded") !== "true");
   }));
   if (seOpen) bindSeatLinks(document.getElementById("sedet-" + seOpen));
+}
+// 用語：フッターの「用語と略称」の説明を、その場で吹き出しで見られるようにする（説明は1か所で管理）
+function glossDef(term) { const dt = [...document.querySelectorAll("#glossary .gloss dt")].find(x => x.textContent === term); return dt && dt.nextElementSibling ? dt.nextElementSibling.textContent : ""; }
+function gl(term, shown, label) {
+  const d = glossDef(term); if (shown === undefined) shown = term;
+  if (!d) return esc(shown);
+  const html = `<p><strong>${esc(term)}</strong></p><p>${esc(d)}</p>`;
+  return shown ? `<button type="button" class="tip gl" aria-label="${esc(shown)}（用語の説明）" aria-expanded="false" data-tip="${esc(html)}">${esc(shown)}</button>` : tip("info", label || term, html);
 }
 function setHouse(h) { if (seHouse === h) return; seHouse = h; seOpen = null; renderSeats(); }
 function toggleSe(n, on) {
@@ -110,7 +120,7 @@ function renderDetail(p) {
     <div class="period">${fmt(p.start)}${p.startType === "rebuild" ? "（戦後の再建）" : ""} 〜 ${p.end ? fmt(p.end) : "現在（存続）"}</div></div>
     ${p.note ? `<p>${esc(p.note)}</p>` : ""}
     ${isMobile() ? miniLineage(p.id) : ""}
-    <div><h3>政権との関わり</h3>${govRunsHTML(p.id)}</div>
+    <div><h3>政権との関わり ${tip("info", "与党期間の見方", TIPS.gov)}</h3>${govRunsHTML(p.id)}</div>
     ${partySeatsHTML(p.id)}
     <div><h3>前身</h3>${relList(inL[p.id] || [], "in")}</div>
     <div><h3>その後</h3>${(outL[p.id] || []).length ? relList(outL[p.id], "out") : `<p class="pending">${p.end ? "後継なし" : "現在も存続"}</p>`}</div>

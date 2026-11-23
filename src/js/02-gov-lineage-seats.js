@@ -13,7 +13,7 @@ function renderGovDetail(gi) {
     <div class="period">${fmt(g.start)} 〜 ${g.end ? fmt(g.end) : "現在"}</div></div>
     ${g.note ? `<p>${esc(g.note)}</p>` : ""}
     <div><h3>首相の党</h3>${g.nonparty ? '<p class="pending">政党内閣ではない</p>' : `<p>${pmNames}</p>`}</div>
-    ${g.nonparty ? "" : `<div><h3>与党の構成</h3><ul class="rel">${phases}</ul>${g.others ? `<p class="pending">ほかに：${esc(g.others)}</p>` : ""}</div>`}
+    ${g.nonparty ? "" : `<div><h3>与党の構成 ${gl("閣外協力", "", "閣外協力とは")}</h3><ul class="rel">${phases}</ul>${g.others ? `<p class="pending">ほかに：${esc(g.others)}</p>` : ""}</div>`}
     ${govSeatsHTML(gi)}
     ${govEvents(g)}
     <div><h3>出典</h3>${govSrc([...new Set([...g.sources, ...(g.events || []).flatMap(ev => [...(ev.summary ? ev.summary.sources : []), ...ev.facts.flatMap(f => f.sources), ...ev.sides.flatMap(x => x.sources), ...(ev.background || []).flatMap(x => x.sources)])])])}<p class="meta-row" style="font-size:13px">${g.datesVerified ? `${ic("ok")}<span>在任期間は首相官邸の「歴代内閣」と照合済み</span>` : `${UNV()}<span>未確認</span>`}</p>${g.partiesVerified ? `<p class="meta-row" style="font-size:13px">${ic("ok")}<span>与党の構成：${esc(g.partiesCheck.text)}</span></p>` : g.datesVerified ? `<p class="meta-row" style="font-size:13px">${UNV()}<span>与党の構成は未確認${toYear(g.start) >= 1982 ? "（報道の一覧と照合）" : ""}</span></p>` : ""}</div>`;
@@ -95,9 +95,11 @@ const seYear = e => e.date.slice(0, 4) + "年";
 const majOf = e => Math.floor(e.total / 2) + 1;
 const OTHER_C = "#b4b4b4";
 const rowColor = r => r.party && P[r.party] ? pc(P[r.party]) : OTHER_C;
-function sortedRows(e) {
+// 並び順：seats＝当選人数の多い順／family＝系譜図の系統の順（系統の中は多い順。系譜図にない党派は系統の後、無所属・諸派は最後）
+function sortedRows(e, mode = "seats") {
   const tail = r => !r.party && /無所属|諸派|本人/.test(r.label) ? 1 : 0;
-  return [...e.rows].sort((a, b) => tail(a) - tail(b) || b.seats - a.seats);
+  const FK = Object.keys(fam), fi = r => r.party && P[r.party] ? FK.indexOf(P[r.party].family) : FK.length;
+  return [...e.rows].sort((a, b) => tail(a) - tail(b) || (mode === "family" ? fi(a) - fi(b) : 0) || b.seats - a.seats);
 }
 const srcA = ids => ids.map(id => `<a href="${esc(SSRC(id).url)}" target="_blank" rel="noopener">${esc(SSRC(id).short)}</a>`).join(" ");
 // その日に在任していた内閣と、その時点の与党（首相の党＋連立。閣外協力は別に数える）

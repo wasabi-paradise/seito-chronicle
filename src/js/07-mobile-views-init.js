@@ -193,6 +193,8 @@ function start() {
   renderMobileList();
   renderCriteria();
   document.querySelectorAll("#houseSeg [data-house]").forEach(b => b.addEventListener("click", () => { setHouse(b.dataset.house); setHash(seHash()); }));
+  document.querySelectorAll("#sortSeg [data-sort]").forEach(b => b.addEventListener("click", () => { seSort = b.dataset.sort; renderSeats(); }));
+  document.getElementById("sortTip").outerHTML = tip("info", "系統の順とは", `<p><strong>系統の順</strong></p><p>帯の党派を、系譜図の系統（${Object.values(fam).map(f => esc(f.name.replace(/（.*）/, ""))).join("・")}）の順に並べます。系統の中は当選人数の多い順です。年をまたいで、同じ系統の議席の移り変わりを見比べるための並べ方です。</p><p>系統の分け方は、このサイトが系譜図のために整理したものです。系譜図にない党派（結果調の表記のまま灰色で表示）は系統の後に、無所属・諸派は最後に置いています。</p>`);
   renderSeats();
   let h = location.hash.slice(1);
   if (h === "koyaku") h = "seisaku-all";

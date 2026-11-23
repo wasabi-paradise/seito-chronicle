@@ -81,7 +81,14 @@ body.chgonly .cell:not(.chgd), body.chgonly .mrow:not(.chgd) { opacity: .28; }
 .lgparties { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 6px 0 2px; }
 .lgparties > span { display: inline-flex; align-items: center; gap: 4px; }
 
+/* 用語のその場の説明 */
+.tip.gl { font-size: inherit; color: inherit; padding: 0; border-radius: 0; text-decoration: underline dotted; text-underline-offset: 3px; vertical-align: baseline; line-height: inherit; }
+@media (hover: hover) { .tip.gl:hover { background: none; color: var(--accent); } }
+.glw { font-weight: 400; font-size: 12px; color: var(--muted); }
+.abbr { margin: 0; padding: 6px 14px 0; }
+
 /* 選挙と議席 */
+.seg-row { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-bottom: 10px; }
 .evbs { display: inline-flex; gap: 2px; margin-left: 4px; vertical-align: -2px; }
 .evb { display: inline-flex; align-items: center; justify-content: center; padding: 1px; margin-left: 0; }
 .evb .ic { width: 12px; height: 12px; vertical-align: 0; }
@@ -104,6 +111,8 @@ body.chgonly .cell:not(.chgd), body.chgonly .mrow:not(.chgd) { opacity: .28; }
   .cellhint { padding: 0 10px 4px; }
   .pm-play { width: 100%; justify-content: center; }
   .setoc { gap: 2px 12px; }
+  .seg-row { gap: 8px 6px; }
+  .seg-row .seg button { padding: 8px 11px; }
 }
 @media print {
   .acts, .rshare, .cellhint, .matrix-foot, .recprev, .pm-play, .setoc, .backall-top { display: none !important; }

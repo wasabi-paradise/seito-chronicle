@@ -229,7 +229,8 @@ function pmNoteText() {
   if (!olds.length) return "";
   const merged = {}, other = [];
   olds.forEach(({ p, s }) => { const m = p.mergedInto && p.mergedInto[last.id]; const y = ST.elections.find(e => e.id === s.election).name; if (m) (merged[m] = merged[m] || []).push({ p, y }); else other.push({ p, y }); });
-  const parts = Object.entries(merged).map(([m, xs]) => `${xs.map(x => esc(x.p.name)).join("・")}は${esc(last.name)}に${esc(SP[m].name)}として臨んだため、${[...new Set(xs.map(x => x.y))].join("・")}の立場`)
-    .concat(other.length ? [`${other.map(x => esc(x.p.name)).join("・")}は${esc(last.name)}の立場がないため、${[...new Set(other.map(x => x.y))].join("・")}の立場`] : []);
-  return `点線の党名：${parts.join("。")}を表示しています（小さな数字は選挙の年）。`;
+  const who = xs => xs.map(x => `${esc(x.p.name)}（${esc(x.y)}）`).join("・");
+  const parts = Object.entries(merged).map(([m, xs]) => `${esc(last.name)}に${esc(SP[m].name)}として臨んだ党：${who(xs)}`)
+    .concat(other.length ? [`${esc(last.name)}の立場がない党：${who(other)}`] : []);
+  return `点線の党名は、それより前の選挙の立場です（かっこ内の選挙。党名の横の数字はその年）。${parts.join("。")}。`;
 }

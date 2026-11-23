@@ -6,7 +6,7 @@ function renderMobileStance(theme) {
   const seg = document.getElementById("eseg"), curB = seg.querySelector('[aria-pressed="true"]');
   if (curB) seg.scrollLeft = curB.offsetLeft - seg.clientWidth / 2 + curB.offsetWidth / 2;
   const e = ST.elections.find(x => x.id === curElection);
-  document.getElementById("mrows").innerHTML = ST.parties.map(p => {
+  document.getElementById("mrows").innerHTML = `<p class="abbr">${tip("info", "党名の略称", `<p><strong>党名の略称</strong></p><p>${ST.parties.map(p => `${esc(p.short)}＝${esc(p.name)}`).join("<br>")}</p>`, "<span>党名の略称</span>")}</p>` + ST.parties.map(p => {
     if (notYetFor(p, e)) return "";
     if (p.mergedInto && p.mergedInto[e.id]) return `<div class="mrow na"><span class="pt">${esc(p.short)}</span><span>${esc(SP[p.mergedInto[e.id]].name)}として選挙に臨んだ</span></div>`;
     const s = ST.stances.find(x => x.party === p.id && x.theme === curTheme && x.election === e.id);
