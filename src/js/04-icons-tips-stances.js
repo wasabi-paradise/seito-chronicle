@@ -148,7 +148,7 @@ function renderPartyView() {
   const cmp = p2 ? `<span class="cmpbar"><button type="button" class="ibtn" data-cmp-off>${ic("close")}<span>${esc(p2.short)}との比較をやめる</span></button></span>`
     : cmpOpen ? `<span class="cmpbar" role="group" aria-label="並べる党を選ぶ"><span class="pending">並べる党：</span>${ST.parties.filter(x => x.id !== curParty).map(x => `<button type="button" class="pbtn" data-cmp="${x.id}">${esc(x.short)}</button>`).join("")}<button type="button" class="linkbtn" data-cmp-off>やめる</button></span>`
     : `<span class="cmpbar"><button type="button" class="ibtn cmp-open" data-cmp-open><b aria-hidden="true">＋</b><span>ほかの党と並べて比べる</span></button></span>`;
-  document.getElementById("themeq").insertAdjacentHTML("beforeend", cmp);
+  document.getElementById("themeq").insertAdjacentHTML("beforeend", cmp + partyCtxHTML(curParty));
   document.querySelectorAll("#themeq [data-cmp]").forEach(b => b.addEventListener("click", () => { curParty2 = b.dataset.cmp; cmpOpen = false; curCell = null; renderStances(); setHash(seisakuHash()); }));
   document.querySelectorAll("#themeq [data-cmp-off]").forEach(b => b.addEventListener("click", () => { curParty2 = null; cmpOpen = false; curCell = null; renderStances(); setHash(seisakuHash()); }));
   document.querySelectorAll("#themeq [data-cmp-open]").forEach(b => b.addEventListener("click", () => { cmpOpen = true; renderStances(); const f = document.querySelector("#themeq [data-cmp]"); if (f) f.focus(); }));

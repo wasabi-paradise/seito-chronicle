@@ -1,16 +1,5 @@
 /* ---- 情報設計の見直し（2026-11-23） ---- */
 /* 入口 */
-.intro-go button { grid-template-columns: 28px minmax(0, 1fr); column-gap: 10px; align-items: start; }
-.intro-go button > .ico { grid-row: span 2; width: 26px; height: 26px; color: var(--accent); margin-top: 2px; }
-.intro-next { display: block; margin-top: 6px; font-size: 13.5px; color: var(--muted); }
-.intro.mini { padding: 8px 10px 8px 14px; gap: 8px; grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
-.intro.mini .intro-close { position: static; }
-.intro.mini .intro-lead { display: none; }
-.intro.mini .intro-go { display: flex; flex-wrap: wrap; gap: 6px; }
-.intro.mini .intro-go button { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; min-height: 36px; }
-.intro.mini .intro-go button > .ico { width: 18px; height: 18px; margin: 0; }
-.intro.mini .intro-go b { font-size: 13.5px; }
-.intro.mini .intro-go span { display: none; }
 
 /* トップへ戻る */
 h1 a.home { color: inherit; text-decoration: none; }
@@ -106,14 +95,6 @@ body.chgonly .cell:not(.chgd), body.chgonly .mrow:not(.chgd) { opacity: .28; }
 [data-sd] { scroll-margin-top: 12px; }
 
 @media (max-width: 720px) {
-  .intro-go { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
-  .intro-go button { grid-template-columns: minmax(0, 1fr); padding: 10px; }
-  .intro-go button > .ico { grid-row: auto; width: 22px; height: 22px; }
-  .intro-go b { font-size: 14px; }
-  .intro-go span { font-size: 12px; }
-  .intro.mini .intro-go { display: flex; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
-  .intro.mini .intro-go button { flex: none; }
-  .intro-lead { font-size: 14px; }
   .rp-list { grid-auto-columns: 78%; }
   .recprev { padding: 12px; }
   .cellhint { padding: 0 10px 4px; }
@@ -126,3 +107,10 @@ body.chgonly .cell:not(.chgd), body.chgonly .mrow:not(.chgd) { opacity: .28; }
   .tohome, .sitelinks, .acts, .rshare, .cellhint, .matrix-foot, .recprev, .pm-play, .setoc, .backall-top { display: none !important; }
   .cell .go, .mrow .go { display: none; }
 }
+
+/* 見ている内容から次の画面へ */
+.xlinks { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; font-size: 13px; margin: 6px 0 0; }
+.xlinks a.linkbtn { text-decoration: underline; }
+.xbox h3 { margin-bottom: 6px; }
+.xbox a.ibtn { text-decoration: none; }
+@media print { .xlinks, .xbox { display: none !important; } }

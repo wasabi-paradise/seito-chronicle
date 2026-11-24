@@ -120,6 +120,7 @@ function renderDetail(p) {
     <div class="period">${fmt(p.start)}${p.startType === "rebuild" ? "（戦後の再建）" : ""} 〜 ${p.end ? fmt(p.end) : "現在（存続）"}</div></div>
     ${p.note ? `<p>${esc(p.note)}</p>` : ""}
     ${isMobile() ? miniLineage(p.id) : ""}
+    ${keifuPolicyHTML(p.id)}
     <div><h3>政権との関わり ${tip("info", "与党期間の見方", TIPS.gov)}</h3>${govRunsHTML(p.id)}</div>
     ${partySeatsHTML(p.id)}
     <div><h3>前身</h3>${relList(inL[p.id] || [], "in")}</div>

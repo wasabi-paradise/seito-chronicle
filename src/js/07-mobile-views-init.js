@@ -87,13 +87,12 @@ function showView(v) {
   }
 }
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
-  document.getElementById("intro").hidden = true;
   showView(t.dataset.view);
   if (t.dataset.view === "seisaku") setHash(seisakuHash()); else if (t.dataset.view === "giseki") setHash(seHash()); else setHash(current || "keifu");
 }));
 
 // ---- init ----
-document.getElementById("asof").textContent = `${fmt(DATA.asOf)}時点`;
+document.getElementById("asof").textContent = `${fmt(DATA.asOf)}時点・党の資料などの出典つき`;
 document.querySelector('[data-tipslot="about"]').outerHTML = tip("info", "このサイトについて", TIPS.about);
 document.querySelector('[data-tipslot="chart"]').outerHTML = '<span class="hint">' + tip("info", "系譜図の見方", TIPS.keifu) + "</span>";
 // 党の色は図の右端の党名でも分かるため、凡例ではたたんでおく
@@ -117,32 +116,11 @@ dt.checked = showDetail;
 const co = document.getElementById("chgOnly");
 co.addEventListener("change", () => document.body.classList.toggle("chgonly", co.checked));
 dt.addEventListener("change", () => { showDetail = dt.checked; document.body.classList.toggle("simple", !showDetail); try { localStorage.setItem("showDetail", showDetail ? "1" : "0"); } catch (e) {} });
-let introHidden = false, introSeen = false;
-try { introHidden = localStorage.getItem("introClosed") === "1"; introSeen = localStorage.getItem("introSeen") === "1"; localStorage.setItem("introSeen", "1"); } catch (e) {}
-// 2回目からは案内を1行に縮める
-if (introSeen) document.getElementById("intro").classList.add("mini");
-function hideIntro(remember) {
-  document.getElementById("intro").hidden = true;
-  if (remember) { try { localStorage.setItem("introClosed", "1"); } catch (e) {} }
-}
-document.getElementById("introClose").addEventListener("click", () => hideIntro(true));
-document.querySelectorAll("#intro [data-go]").forEach(b => b.addEventListener("click", () => {
-  const g = b.dataset.go;
-  hideIntro(false);
-  if (g === "keifu") { showView("keifu"); setHash(current || "keifu"); return; }
-  if (g === "giseki") { goSeats(0, "lo"); return; }
-  curAxis = g === "party" ? "party" : "theme"; curCell = null; oFilter = null; pFilter = null;
-  if (g === "records") curTheme = "all";
-  if (curAxis === "theme" && !ST.themes.some(t => t.id === curTheme) && curTheme !== "all") curTheme = ST.themes[0].id;
-  renderStances(); showView("seisaku"); setHash(seisakuHash());
-  if (g === "records") requestAnimationFrame(() => document.getElementById("recTitle").scrollIntoView({ block: "start" }));
-}));
 // トップ画面：政策の立場（最初のテーマの「いまの構図」）と案内。サイト名・フッターのリンクから戻れる
 function goHome(push) {
   stopPm(); pmElection = null;
   curAxis = "theme"; curTheme = ST.themes[0].id; curCell = null; curParty2 = null; cmpOpen = false; oFilter = null; pFilter = null;
   document.getElementById("rsearch").value = "";
-  const intro = document.getElementById("intro"); intro.hidden = false; intro.classList.add("mini");
   renderStances(); showView("seisaku");
   if (push) setHash("");
 }
@@ -201,7 +179,6 @@ function openRecord(id) {
   return true;
 }
 function start() {
-  if (introHidden || location.hash.length > 1) document.getElementById("intro").hidden = true;
   render();
   renderEvents();
   renderMobileList();

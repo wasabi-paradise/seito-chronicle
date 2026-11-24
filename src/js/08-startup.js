@@ -4,7 +4,7 @@
   document.getElementById("sameName").innerHTML = Object.entries(by).filter(([, v]) => v.length > 1).map(([n, v]) => `${esc(n)}（${v.slice().sort((x, y) => x.start < y.start ? -1 : 1).map(p => `<button type="button" class="linkbtn" data-goto="${p.id}">${yr(p.start)}〜${p.end ? yr(p.end) : "現在"}</button>`).join("・")}）`).join("、");
   const ab = new Map(); [...HSE.lo, ...HSE.up].forEach(e => e.rows.forEach(r => { if (r.party && P[r.party] && r.label !== P[r.party].name) { const k = r.label + "=" + r.party; if (!ab.has(k)) ab.set(k, r); } }));
   document.getElementById("abbrList").innerHTML = [...ab.values()].map(r => `${esc(r.label)}＝<button type="button" class="linkbtn" data-goto="${r.party}">${esc(P[r.party].name)}（${yr(P[r.party].start)}〜${P[r.party].end ? yr(P[r.party].end) : "現在"}）</button>`).join("、");
-  document.getElementById("glossary").querySelectorAll("[data-goto]").forEach(b => b.addEventListener("click", () => { document.getElementById("intro").hidden = true; showView("keifu"); select(b.dataset.goto); scrollToParty(b.dataset.goto); setHash(b.dataset.goto); }));
+  document.getElementById("glossary").querySelectorAll("[data-goto]").forEach(b => b.addEventListener("click", () => { showView("keifu"); select(b.dataset.goto); scrollToParty(b.dataset.goto); setHash(b.dataset.goto); }));
 })();
 window.addEventListener("beforeprint", () => { GA.ev("print", { page_location: location.href }); const n = document.getElementById("printnote"); if (n) n.textContent = `印刷元：${location.href}（${fmt(DATA.asOf)}時点のデータ）。内容は政党クロニクル（運営：Michisus）、CC BY 4.0。`; });
 (() => { const w = document.getElementById("matrix").parentElement, mh = document.getElementById("mhint");
