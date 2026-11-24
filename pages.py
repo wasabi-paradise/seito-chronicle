@@ -49,8 +49,8 @@ b.addEventListener("click",function(){try{localStorage.setItem("gaOptOut",off()?
 
 
 class Ctx:
-    def __init__(self, site_url, dist, data, gov, st, seats, records, ga_id=""):
-        self.U, self.dist, self.ga = site_url, dist, ga_id
+    def __init__(self, site_url, dist, data, gov, st, seats, records, ga_id="", og_url=None):
+        self.U, self.dist, self.ga, self.og_url = site_url, dist, ga_id, og_url
         self.data, self.gov, self.st, self.seats, self.rec = data, gov, st, seats, records
         self.P = {p["id"]: p for p in data["parties"]}
         self.SP = {p["id"]: p for p in st["parties"]}
@@ -69,7 +69,7 @@ class Ctx:
                "isPartOf": {"@id": f"{self.U}/#website"}, "publisher": {"@id": f"{self.U}/#org"}}]
         if ld_extra:
             ld.append(ld_extra)
-        img = f"{self.U}/og/{image}.png"
+        img = self.og_url(image) if self.og_url else f"{self.U}/og/{image}.png"
         alt = alt or title
         doc = f"""<!DOCTYPE html>
 <html lang="ja">
@@ -354,8 +354,8 @@ class Ctx:
                   [("データ", f"{self.U}/data/")], body, None, image="data", alt=f"データのダウンロード ｜ {SITE}", ld_extra=ds)
 
 
-def build(site_url, dist, data, gov, st, seats, records, ga_id=""):
-    c = Ctx(site_url, dist, data, gov, st, seats, records, ga_id)
+def build(site_url, dist, data, gov, st, seats, records, ga_id="", og_url=None):
+    c = Ctx(site_url, dist, data, gov, st, seats, records, ga_id, og_url)
     c.themes()
     c.parties()
     c.elections()

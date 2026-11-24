@@ -7,7 +7,7 @@
 - src/js/*.js        : プログラム（ファイル名の順に連結）
 - data/<名前>/index.json : データの目次。{"$parts": [...]} は分けたファイルを連結（配列はつなぎ、
                         オブジェクトは合わせる）、{"$items": [...]} は1ファイル1要素の配列を表す
-- public/            : そのまま dist/ にコピー（_headers・404.html・og/ の画像）
+- public/            : そのまま dist/ にコピー（_headers・404.html・og/ の画像。og/ の画像は中身の印を付けた名前の写しも作り、OGP はそちらを指す）
 
 出力：
 - dist/index.html   : サイト本体（1ファイル）
@@ -89,15 +89,26 @@ out = out.replace("<!--@LINKS-->", _links)
 if dist.exists():
     shutil.rmtree(dist)
 dist.mkdir()
-(dist / "index.html").write_text(out, encoding="utf-8")
-
 pub = root / "public"
 if pub.exists():
     shutil.copytree(pub, dist, dirs_exist_ok=True)
 
+# 共有用画像は、中身から作った短い印をファイル名に付けた写しも置き、OGP ではそちらを指す
+# （SNS は画像を長く保存するため、画像を作り直したらURLも変わるようにする。元の名前のファイルも残す）
+import hashlib  # noqa: E402
+OG = {}
+for f in sorted((dist / "og").glob("*.png")) if (dist / "og").exists() else []:
+    h = hashlib.sha256(f.read_bytes()).hexdigest()[:8]
+    shutil.copyfile(f, f.with_name(f"{f.stem}.{h}.png"))
+    OG[f.stem] = f"og/{f.stem}.{h}.png"
+og_url = lambda name: f"{SITE_URL}/" + OG.get(name, f"og/{name}.png")
+assert out.count(f"{SITE_URL}/og/default.png") == 1
+out = out.replace(f"{SITE_URL}/og/default.png", og_url("default"))
+(dist / "index.html").write_text(out, encoding="utf-8")
+
 import pages  # noqa: E402  検索とSNS共有のための静的ページ
 
-urls = [f"{SITE_URL}/"] + pages.build(SITE_URL, dist, data, gov, st, seats, records, GA_ID)
+urls = [f"{SITE_URL}/"] + pages.build(SITE_URL, dist, data, gov, st, seats, records, GA_ID, og_url)
 
 sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 sm += [f"  <url><loc>{html.escape(u)}</loc><lastmod>{data['asOf']}</lastmod></url>" for u in urls]
