@@ -6,6 +6,7 @@ function shareURL(hash) {
     let m;
     if ((m = /^seisaku-([a-z0-9]+)$/.exec(hash || ""))) return location.origin + "/theme/" + m[1] + "/";
     if ((m = /^seito-([a-z0-9]+)$/.exec(hash || ""))) return location.origin + "/party/" + m[1] + "/";
+    if ((m = /^rec-([a-z0-9-]+)$/.exec(hash || ""))) return location.origin + "/record/" + m[1] + "/";
     if ((m = /^(giseki|sangiin)-(\d+)$/.exec(hash || ""))) return location.origin + "/election/" + (m[1] === "giseki" ? "shugiin" : "sangiin") + "-" + m[2] + "/";
   }
   return pageURL(hash);

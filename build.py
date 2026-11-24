@@ -82,7 +82,7 @@ _links = ('<p><b>テーマ別</b>：' + "・".join(f'<a href="/theme/{t["id"]}/"
           '<p><b>選挙別</b>：<a href="/election/">戦後の衆院選・参院選の一覧</a>（直近：' + "・".join(
               f'<a href="/election/{k}-{e["n"]}/">{e["date"][:4]}年{lab}</a>' for k, lab, e in sorted(
                   [("shugiin", "衆院選", x) for x in seats["elections"][-2:]] + [("sangiin", "参院選", x) for x in seats["upper"]["elections"][-2:]],
-                  key=lambda z: z[2]["date"], reverse=True)) + '）・<a href="/data/">データのダウンロード</a></p>')
+                  key=lambda z: z[2]["date"], reverse=True)) + '）・<a href="/record/">表明とその後の記録</a>・<a href="/data/">データのダウンロード</a></p>')
 assert out.count("<!--@LINKS-->") == 1
 out = out.replace("<!--@LINKS-->", _links)
 

@@ -108,7 +108,7 @@ class Ctx:
 <footer>
 <p>{SITE}（運営：Michisus）。{ymd(self.asof)}時点のデータ。記述は出典に書かれている範囲にとどめ、推測や評価は加えていません。立場の区分・結果の区分は、サイトで公開している基準による整理です。</p>
 <p>文章とデータは <a href="{LICENSE}" rel="license">CC BY 4.0</a>（引用している党の資料・会議録などの文言は、それぞれの著作権者の権利のまま）。<a href="/data/">データのダウンロード</a>・<a href="https://github.com/wasabi-paradise/seito-chronicle/issues">誤りの報告</a></p>
-<p><a href="/theme/">テーマの一覧</a>・<a href="/party/">政党の一覧</a>・<a href="/election/">選挙の一覧</a></p>
+<p><a href="/theme/">テーマの一覧</a>・<a href="/party/">政党の一覧</a>・<a href="/election/">選挙の一覧</a>・<a href="/record/">表明とその後の一覧</a></p>
 {f'<p>このページでは Google アナリティクスで閲覧の状況を計測しています（送信される情報・利用目的は、<a href="/">トップページ</a>の下の「アクセス解析（利用者情報の外部送信）について」に記載）。<span id="gaStatus"></span> <button type="button" id="gaToggle" hidden>計測を停止する</button></p><script>{GA_FOOT_JS}</script>' if self.ga else ""}
 </footer>
 </div></body>
@@ -150,13 +150,52 @@ class Ctx:
             rows.append(f'<tr id="{rid}"><th>{E(e["name"])}</th><td class="pos">{E(lab)}{as_}</td><td>{self.quote(s.get("wording") or "")}{note}</td><td>{srcs}</td></tr>')
         return rows
 
+    def current(self, pid, theme):
+        """その党がそのテーマで、いちばん新しい国政選挙で掲げた立場（区分・選挙）。アプリの「いまの構図」と同じ考え方。"""
+        st = self.st
+        for e in reversed(st["elections"]):
+            s_ = next((x for x in st["stances"] if x["party"] == pid and x["theme"] == theme["id"] and x["election"] == e["id"]), None)
+            if s_:
+                return next(x["label"] for x in theme["scale"] if x["id"] == s_["position"]), e, s_
+        return None, None, None
+
+    def now_note(self):
+        return ('<p class="note">各党が直近の国政選挙で掲げた立場を、党の資料（公約・公式資料・党が回答したアンケート）にもとづいて、このサイトの基準で区分したものです。'
+                f'党によって直近の選挙が違う場合は、かっこ内に選挙を示しています。{ymd(self.asof)}時点。</p>')
+
+    def theme_now(self, t):
+        last = self.st["elections"][-1]["id"]
+        by, none = {}, []
+        for p in [x for x in self.st["parties"] if x.get("active")]:
+            lab, e, _ = self.current(p["id"], t)
+            if lab:
+                by.setdefault(lab, []).append(E(p["name"]) + ("" if e["id"] == last else f"（{E(e['name'])}）"))
+            else:
+                none.append(E(p["name"]))
+        li = "".join(f"<li><b>{E(x['label'])}</b>：{'、'.join(by[x['label']])}</li>" for x in t["scale"] if x["label"] in by)
+        merged = [p for p in self.st["parties"] if (p.get("mergedInto") or {}).get(last)]
+        mnote = ""
+        if merged:
+            to = self.SP[merged[0]["mergedInto"][last]]["name"]
+            mnote = f'<p class="note">{E(self.st["elections"][-1]["name"])}に{E(to)}として臨んだ党：' + "・".join(E(p["name"]) for p in merged) + "（かっこ内の選挙の立場を表示）</p>"
+        return (f'<h2 id="now">いまの構図：{E(t["name"])}について各党が掲げている立場</h2><ul>{li}</ul>'
+                + (f'<p class="note">党の資料で立場を確認できていない党：{"、".join(none)}</p>' if none else "") + mnote + self.now_note())
+
+    def party_now(self, p):
+        last = self.st["elections"][-1]["id"]
+        li = ""
+        for t in self.st["themes"]:
+            lab, e, _ = self.current(p["id"], t)
+            li += f'<li><a href="/theme/{t["id"]}/">{E(t["name"])}</a>：' + (f"<b>{E(lab)}</b>" + ("" if e["id"] == last else f"（{E(e['name'])}）") if lab else "党の資料で確認できず・未調査") + "</li>"
+        return f'<h2 id="now">いまの立場：{E(p["name"])}がテーマごとに掲げている立場</h2><ul>{li}</ul>' + self.now_note()
+
     def table(self, rows):
         return '<table class="st"><thead><tr><th>選挙</th><th>区分</th><th>党の資料の文言（引用）</th><th>出典</th></tr></thead><tbody>' + "".join(rows) + "</tbody></table>"
 
     def records_for(self, pred):
         out = [r for r in self.rec["records"] if pred(r)]
         O = {o["id"]: o["label"] for o in self.rec["outcomes"]}
-        return "".join(f'<li><a href="/#rec-{E(r["id"])}">{E(r["title"])}</a>（{E(O.get(r["outcome"], ""))}）</li>' for r in out)
+        return "".join(f'<li><a href="/record/{E(r["id"])}/">{E(r["title"])}</a>（{E(O.get(r["outcome"], ""))}）</li>' for r in out)
 
     def themes(self):
         st = self.st
@@ -165,6 +204,7 @@ class Ctx:
                      "<h2>区分</h2><ul>" + "".join(f"<li>{E(x['label'])}</li>" for x in t["scale"]) + "</ul>"]
             if t.get("note"):
                 parts.append(f'<p class="note">区分の決め方：{E(t["note"])}</p>')
+            parts.insert(1, self.theme_now(t))
             for p in st["parties"]:
                 parts.append(f'<h2 id="{p["id"]}">{E(p["name"])}</h2><p class="note"><a href="/party/{p["id"]}/">{E(p["name"])}の全テーマの立場</a></p>' + self.table(self.stance_rows(p["id"], t)))
             rl = self.records_for(lambda r: r["theme"] == t["id"])
@@ -190,6 +230,7 @@ class Ctx:
                              f'。<a href="/#{g["id"]}">系譜図で見る</a></p>')
             if len(lin) > 1:
                 parts.append(f'<p class="note">この表と記録に含めた党：{"・".join(E(self.P[x]["name"]) for x in lin)}</p>')
+            parts.append(self.party_now(p))
             for t in st["themes"]:
                 parts.append(f'<h2 id="{t["id"]}">{E(t["name"])}</h2><p class="note">問い：{E(t["question"])}（<a href="/theme/{t["id"]}/">全党で比べる</a>）</p>' + self.table(self.stance_rows(p["id"], t)))
             seat = []
@@ -211,6 +252,68 @@ class Ctx:
         li = "".join(f'<li><a href="/party/{p["id"]}/">{E(p["name"])}</a></li>' for p in st["parties"])
         self.page("party/", "政党の一覧", "いまの主な政党の、テーマごとの立場の移り変わりを、党の資料の文言と出典つきでたどれます。",
                   [("政党", f"{self.U}/party/")], f'<ul class="links">{li}</ul><p><a href="/#keifu">戦後のすべての政党の系譜図</a></p>', "/#keifu")
+
+    # ---- 表明とその後の記録 ----
+    def rsrc(self, ids):
+        S = self.rec["sources"]
+        return "<br>".join(self.src(S[i]) for i in ids if i in S)
+
+    def theme_name(self, tid):
+        t = next((x for x in self.st["themes"] + self.rec.get("extraThemes", []) if x["id"] == tid), None)
+        return t["name"] if t else tid
+
+    def records(self):
+        R, O = self.rec, {o["id"]: o for o in self.rec["outcomes"]}
+        recs = sorted(R["records"], key=lambda r: r["date"])
+        for r in recs:
+            o, st_ = O[r["outcome"]], r["statement"]
+            who = (E(self.P[r["fromParty"]]["name"]) + " → " if r.get("fromParty") else "") + E(self.P[r["party"]]["name"])
+            tid = r["theme"] if any(t["id"] == r["theme"] for t in self.st["themes"]) else None
+            ck = r.get("check") or {}
+            lvl = {"full": "一次資料で照合済み", "partial": f'一部（{ck.get("of")}項目中{ck.get("n")}項目）を一次資料で照合'}.get(ck.get("level"), "一次資料との照合前（未確認）")
+            steps = "".join(f'<li><b>{ymd(x["date"])}　{E(x["label"])}</b><br>{E(x["text"])}<br><span class="note">出典：{self.rsrc(x["sources"])}</span></li>' for x in r["steps"])
+            body = (f'<p class="lead">{who}／テーマ：{E(self.theme_name(r["theme"]))}／{E(R["commitKinds"].get(r["commit"], ""))}（{ymd(st_["date"])}）</p>'
+                    f'<p><b>結果の区分：{E(o["label"])}</b>（{E(o["desc"])}）。結果の区分は、このサイトの基準による整理です。</p>'
+                    f'<h2>最初の表明（{ymd(st_["date"])}）</h2><blockquote>{E(st_["text"])}</blockquote><p class="note">出典：{self.rsrc(st_["sources"])}</p>'
+                    + (f'<h2>{"結果" if r.get("compare") == "action" else "背景"}</h2><p>{E(r["summary"])}</p>' if r.get("summary") else "")
+                    + (f'<p class="note">注記：{E(r["note"])}</p>' if r.get("note") else "")
+                    + f'<h2>その後</h2><ol>{steps}</ol>'
+                    + f'<p class="note">照合：{lvl}' + (f'（{ymd(ck["on"])}）：{E(ck.get("text", ""))}' if ck.get("on") else "") + '</p>'
+                    + '<p class="note">「表明とその後」は、選んだ事例を集めたもので、すべての公約を判定したものではありません。評価の言葉は使わず、前後の事実を日付と出典つきで並べています。</p>'
+                    + '<h2>関連</h2><ul>' + (f'<li><a href="/theme/{tid}/">{E(self.theme_name(tid))}：各党の立場</a></li>' if tid else "")
+                    + "".join(f'<li><a href="/party/{x["id"]}/">{E(x["name"])}の政策の立場</a></li>' for x in self.st["parties"] if r["party"] in (x.get("lineage") or [x["genealogy"]]) or (r.get("fromParty") and r["fromParty"] in (x.get("lineage") or [x["genealogy"]])))
+                    + '<li><a href="/record/">表明とその後の記録の一覧</a></li></ul>')
+            desc = f'{r["title"]}。最初の表明（{ymd(st_["date"])}）と、その後の出来事を、日付と出典つきで並べた記録。結果の区分：{o["label"]}（サイトの基準による整理）。'
+            self.page(f"record/{r['id']}/", r["title"], desc,
+                      [("表明とその後", f"{self.U}/record/"), (r["title"], f"{self.U}/record/{r['id']}/")], body,
+                      f"/#rec-{r['id']}", f"theme-{tid}" if tid else "default", f"{r['title']} ｜ {SITE}")
+        li = "".join(f'<li><a href="/record/{E(r["id"])}/">{E(r["title"])}</a>（{E(O[r["outcome"]]["label"])}）</li>' for r in recs)
+        self.page("record/", "表明とその後の記録の一覧", f"政党が掲げた公約や表明が、その後どうなったかを、日付と出典つきで並べた記録{len(recs)}件の一覧です。",
+                  [("表明とその後", f"{self.U}/record/")],
+                  f'<p class="lead">政党が掲げた公約や表明が、その後どうなったかの記録です（{len(recs)}件、古い順）。選んだ事例を集めたもので、すべての公約を判定したものではありません。結果の区分はこのサイトの基準による整理です。</p><ul>{li}</ul>',
+                  "/#seisaku-all")
+
+    # ---- AI・検索向けの案内（llms.txt） ----
+    def llms(self):
+        st, U = self.st, self.U
+        lines = [f"# {SITE}", "",
+                 f"> 戦後日本の政党の系譜、2016〜2026年の国政選挙での各党の政策の立場（党の資料の文言と出典つき）、公約のその後の記録、戦後すべての衆院選・参院選の党派別当選人数をまとめた、中立の資料サイト。運営：Michisus。{ymd(self.asof)}時点のデータ。", "",
+                 "## 方針",
+                 "- 各党の立場は、党の公約・公式資料・党が回答したアンケートだけを根拠にし、根拠の文言をそのまま引用しています。報道やまとめ記事、Wikipedia は立場の根拠に使っていません。",
+                 "- 記述は出典に書かれている範囲にとどめ、推測や評価を加えていません。立場の区分・記録の結果の区分は、このサイトの基準による整理です。引用するときはその旨も添えてください。",
+                 "- 党の資料で確認できない項目は「党の資料で確認できず」、調べていない項目は「未調査」としています。",
+                 "- 議席は総務省の結果調の党派別当選人数（参院選は改選分）です。",
+                 f"- 文章とデータは CC BY 4.0（{LICENSE}）。引用の例：政党クロニクル（運営：Michisus）{ymd(self.asof)}時点、{U}/", "",
+                 "## テーマごとの各党の立場"]
+        lines += [f"- [{t['name']}：各党の立場]({U}/theme/{t['id']}/): 問い：{t['question']}" for t in st["themes"]]
+        lines += ["", "## 政党ごとの立場"] + [f"- [{p['name']}の政策の立場]({U}/party/{p['id']}/)" for p in st["parties"]]
+        lines += ["", "## 選挙", f"- [選挙の一覧]({U}/election/): 戦後すべての衆院選・参院選の党派別当選人数。1993年以降は選挙の背景・研究者の分析・有権者の調査も"]
+        lo, up = self.seats["elections"][-1], self.seats["upper"]["elections"][-1]
+        lines += [f"- [直近の衆院選（第{lo['n']}回、{ymd(lo['date'])}）]({U}/election/shugiin-{lo['n']}/)", f"- [直近の参院選（第{up['n']}回、{ymd(up['date'])}）]({U}/election/sangiin-{up['n']}/)"]
+        lines += ["", "## 表明とその後", f"- [記録の一覧]({U}/record/): 公約や表明のその後を日付と出典つきで並べた事例集（すべての公約を判定したものではありません）"]
+        lines += ["", "## データ", f"- [データのダウンロード]({U}/data/)", f"- [各党の立場の一覧（CSV）]({U}/data/stances.csv)", f"- [表明とその後の記録（CSV）]({U}/data/records.csv)", f"- [党派別当選人数（CSV）]({U}/data/seats.csv)", f"- [すべてのデータ（JSON）]({U}/data/all.json)"]
+        lines += ["", "## その他", f"- [サイト本体（図と表）]({U}/): JavaScript で動く画面。内容は上の各ページと同じデータです", "- 誤りの報告：https://github.com/wasabi-paradise/seito-chronicle/issues", ""]
+        (self.dist / "llms.txt").write_text("\n".join(lines), encoding="utf-8")
 
     # ---- 選挙 ----
     def gov_at(self, d):
@@ -359,5 +462,7 @@ def build(site_url, dist, data, gov, st, seats, records, ga_id="", og_url=None):
     c.themes()
     c.parties()
     c.elections()
+    c.records()
     c.data_files()
+    c.llms()
     return c.urls

@@ -107,7 +107,7 @@ function renderRecords() {
   document.querySelectorAll("#obar [data-o]").forEach(b => b.addEventListener("click", () => { oFilter = oFilter === b.dataset.o ? null : b.dataset.o; renderRecords(); }));
   document.querySelectorAll("#pbar [data-p]").forEach(b => b.addEventListener("click", () => { pFilter = b.dataset.p || null; renderRecords(); }));
   document.querySelectorAll("#records [data-keifu]").forEach(b => b.addEventListener("click", () => { showView("keifu"); select(b.dataset.keifu); scrollToParty(b.dataset.keifu); }));
-  document.querySelectorAll("#records [data-rec-share]").forEach(b => b.addEventListener("click", () => { const r = allRecords().find(x => x.id === b.dataset.recShare); shareLink(pageURL(b.dataset.recShare), (r ? r.title + " ｜ " : "") + "政党クロニクル", b.parentElement.querySelector("[data-act-msg]")); }));
+  document.querySelectorAll("#records [data-rec-share]").forEach(b => b.addEventListener("click", () => { const r = allRecords().find(x => x.id === b.dataset.recShare); shareLink(shareURL(b.dataset.recShare), (r ? r.title + " ｜ " : "") + "政党クロニクル", b.parentElement.querySelector("[data-act-msg]")); }));
 }
 document.getElementById("rsearch").addEventListener("input", () => { oFilter = null; pFilter = null; renderRecords(); });
 function renderCriteria() {
